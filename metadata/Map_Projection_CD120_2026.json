@@ -1,0 +1,15 @@
+{
+  "projection": "D3 standard geoAlbersUsa composite parameters",
+  "viewBox": [
+    0.0,
+    0.0,
+    960.0,
+    510.0
+  ],
+  "district_path_count": 435,
+  "state_outline_count": 50,
+  "alaska_path_chars": 377863,
+  "hawaii_path_chars": 11364,
+  "michigan_path_chars": 49283,
+  "path_json_gzip_bytes": 979084
+}

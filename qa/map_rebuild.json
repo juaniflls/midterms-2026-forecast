@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "districts": 435,
+  "states": 50,
+  "tolerance_degrees": 0.0025,
+  "source_gdb_sha256": "6708d7052ac4c07c32c241f341685572fdf5c38d57a0c3144fab4751e702cfbc",
+  "shoreline_sha256": "9cbfe171dad1555e11770c981d8f4db9e687a65c86f5bdae684eeb487e2e9b80",
+  "geojson_sha256": "05dc6e367e96059ec6f11f5e3d750a52901aa076d59cab4b41996ab8c09fb850",
+  "paths_sha256": "cd0c01239022760c8ad5b0d85d8868eaee97ee7c8e1c4f6c24e2ade113cd576e"
+}

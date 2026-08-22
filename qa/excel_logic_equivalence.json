@@ -1,0 +1,179 @@
+{
+  "source": "upload/Model(20260822-182029).xlsx",
+  "styled": "outputs/04ce17eda2ba/Model.xlsx",
+  "sheet_order_equal": true,
+  "defined_names_equal": true,
+  "sheets": [
+    {
+      "name": "Model",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 804,
+      "styled_nonempty_cells": 804,
+      "source_formula_count": 51,
+      "styled_formula_count": 51,
+      "differences_sample": []
+    },
+    {
+      "name": "Senate Parser",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 377,
+      "styled_nonempty_cells": 377,
+      "source_formula_count": 83,
+      "styled_formula_count": 83,
+      "differences_sample": []
+    },
+    {
+      "name": "Senate Historic",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 257,
+      "styled_nonempty_cells": 257,
+      "source_formula_count": 0,
+      "styled_formula_count": 0,
+      "differences_sample": []
+    },
+    {
+      "name": "House Parser",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 82,
+      "styled_nonempty_cells": 82,
+      "source_formula_count": 25,
+      "styled_formula_count": 25,
+      "differences_sample": []
+    },
+    {
+      "name": "General Data Parser",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 29,
+      "styled_nonempty_cells": 29,
+      "source_formula_count": 0,
+      "styled_formula_count": 0,
+      "differences_sample": []
+    },
+    {
+      "name": "Right Wrong Parser",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 19,
+      "styled_nonempty_cells": 19,
+      "source_formula_count": 2,
+      "styled_formula_count": 2,
+      "differences_sample": []
+    },
+    {
+      "name": "Generic Ballot Parser",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 27,
+      "styled_nonempty_cells": 27,
+      "source_formula_count": 2,
+      "styled_formula_count": 2,
+      "differences_sample": []
+    },
+    {
+      "name": "Approval Parser",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 47,
+      "styled_nonempty_cells": 47,
+      "source_formula_count": 2,
+      "styled_formula_count": 2,
+      "differences_sample": []
+    },
+    {
+      "name": "Party Favorability Parser",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 60,
+      "styled_nonempty_cells": 60,
+      "source_formula_count": 14,
+      "styled_formula_count": 14,
+      "differences_sample": []
+    },
+    {
+      "name": "House Control",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 176,
+      "styled_nonempty_cells": 176,
+      "source_formula_count": 0,
+      "styled_formula_count": 0,
+      "differences_sample": []
+    },
+    {
+      "name": "House 2026 Input",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 2314,
+      "styled_nonempty_cells": 2314,
+      "source_formula_count": 0,
+      "styled_formula_count": 0,
+      "differences_sample": []
+    },
+    {
+      "name": "House 2006",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 48522,
+      "styled_nonempty_cells": 48522,
+      "source_formula_count": 0,
+      "styled_formula_count": 0,
+      "differences_sample": []
+    },
+    {
+      "name": "House 2010",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 53642,
+      "styled_nonempty_cells": 53642,
+      "source_formula_count": 0,
+      "styled_formula_count": 0,
+      "differences_sample": []
+    },
+    {
+      "name": "House 2014",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 51512,
+      "styled_nonempty_cells": 51512,
+      "source_formula_count": 0,
+      "styled_formula_count": 0,
+      "differences_sample": []
+    },
+    {
+      "name": "House 2018",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 52559,
+      "styled_nonempty_cells": 52559,
+      "source_formula_count": 0,
+      "styled_formula_count": 0,
+      "differences_sample": []
+    },
+    {
+      "name": "House 2022",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 55087,
+      "styled_nonempty_cells": 55087,
+      "source_formula_count": 0,
+      "styled_formula_count": 0,
+      "differences_sample": []
+    },
+    {
+      "name": "House 2026",
+      "values_and_formulas_equal": true,
+      "merged_ranges_equal": true,
+      "source_nonempty_cells": 52143,
+      "styled_nonempty_cells": 52143,
+      "source_formula_count": 21315,
+      "styled_formula_count": 21315,
+      "differences_sample": []
+    }
+  ],
+  "logic_and_structure_equal": true
+}
