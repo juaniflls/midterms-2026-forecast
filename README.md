@@ -116,32 +116,53 @@ Monte Carlo simulation converts deterministic inputs and modeled uncertainty int
 
 The dashboard is a single self-contained HTML file: it does not need a server, a map folder, or an internet connection after generation. JavaScript, styles, tabular data, the Núcleo 42 identity, and processed map paths are embedded in the output.
 
+> [!NOTE]
+> Every image below was captured from the current v17 dashboard included in this repository. The screenshots document the interface and analytical layers of the public release; the forecast values themselves remain data-dependent and may change when the canonical workbook is updated and the pipeline is rerun.
+
 ### National and chamber overview
 
 ![National and chamber overview](assets/readme/dashboard-overview.png)
 
-### Official House geographic forecast
+### House forecast: chamber control, geography, and all 435 races
 
 ![Official House geographic forecast](assets/readme/house-geographic-forecast.png)
 
-### House race explorer
-
-![House race explorer](assets/readme/house-race-explorer.png)
-
-### Senate probability and transition views
-
 <table>
   <tr>
-    <td width="50%"><img src="assets/readme/senate-win-probability.png" alt="Senate win probability view"></td>
-    <td width="50%"><img src="assets/readme/senate-holds-and-flips.png" alt="Senate holds and flips view"></td>
+    <td width="50%"><img src="assets/readme/house-district-cartogram.png" alt="House district cartogram"></td>
+    <td width="50%"><img src="assets/readme/house-race-explorer.png" alt="House race explorer"></td>
   </tr>
   <tr>
-    <td align="center"><sub>Win probability</sub></td>
-    <td align="center"><sub>Holds and flips</sub></td>
+    <td align="center"><sub>435-district cartogram</sub></td>
+    <td align="center"><sub>Searchable race explorer and district records</sub></td>
   </tr>
 </table>
 
-Screenshots are illustrative snapshots of a particular run. The current values are always determined by the latest data and execution.
+### Senate forecast: control, race ratings, and projected margins
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/readme/senate-forecast.png" alt="Senate control forecast and state map"></td>
+    <td width="50%"><img src="assets/readme/senate-projected-margin.png" alt="Senate projected-margin view with party-aware tooltip"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Control probability and all 35 scheduled elections</sub></td>
+    <td align="center"><sub>Projected two-party margin and interactive race detail</sub></td>
+  </tr>
+</table>
+
+### Uncertainty, simulation, and historical validation
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/readme/control-probability-simulation.png" alt="House and Senate control probabilities and Monte Carlo seat distribution"></td>
+    <td width="50%"><img src="assets/readme/historical-validation.png" alt="Time-machine historical validation dashboard"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Control probabilities and Monte Carlo seat distributions</sub></td>
+    <td align="center"><sub>Sealed outer-election tests and time-machine diagnostics</sub></td>
+  </tr>
+</table>
 
 ## Data and provenance
 
@@ -314,7 +335,11 @@ This repository is an independently developed technical project. Participation i
 
 ## License and responsible use
 
-No open-source license has yet been assigned. The repository is public for technical review, reproducibility, and collaboration; permission for reuse, redistribution, or derivative publication should be obtained from the author until a license is selected. Third-party source data remain subject to their respective terms and attribution requirements.
+The original software and documentation authored for this project are licensed under the [MIT License](LICENSE), Copyright © 2026 Juan Ignacio Garbanzo Fallas.
+
+The MIT License does not relicense third-party datasets, U.S. Census Bureau materials, software dependencies, institutional names or marks, or other external resources. Those materials remain subject to their original terms and attribution requirements.
+
+Forecasts are probabilistic research outputs provided without warranty. Scholarly, journalistic, or public use should cite the specific release, preserve the methodological context, and must not imply endorsement by CIEP-UCR, the Observatorio de los Estados Unidos, or any other institution.
 
 ---
 
