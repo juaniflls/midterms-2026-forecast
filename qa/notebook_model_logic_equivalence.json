@@ -1,7 +1,0 @@
-{
-  "status": "passed",
-  "reference": "Modelo_Midterms_2026_v17_House_Official_CD120_Map.ipynb",
-  "compared_cells": "all model and exporter cells through Block 7 (indices 2-20)",
-  "unchanged": true,
-  "changed_scope": "introductory documentation and Block 8 dashboard presentation only"
-}

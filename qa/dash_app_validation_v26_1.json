@@ -1,0 +1,29 @@
+{
+  "release": "v26.1.0",
+  "status": "passed",
+  "check_setup_status": "OK",
+  "source_snapshot_sha_match": true,
+  "report": "Election_Model_Final_Report_v26.xlsx",
+  "html": "Election_Model_2026_Dashboard_v26.html",
+  "workbook_sheets": 114,
+  "house_rows": 435,
+  "senate_monitored_races": 11,
+  "senate_safe_structural_baselines": 24,
+  "senate_elections": 35,
+  "scenario_inputs": 31,
+  "intervention_units": 14,
+  "baseline_input_identity_max_delta": 0.0,
+  "baseline_target_identity_max_delta": 1.1102230246251565e-16,
+  "baseline_house": {"D": 224, "R": 211},
+  "baseline_senate": {"D": 48, "R": 52},
+  "senate_d55_uniform_d_r_swing_threshold_pp": 8.44,
+  "unwired_controls": [],
+  "geographic_direction_reversals": [],
+  "forbidden_dash_copies": [],
+  "http": {
+    "/": 200,
+    "/_dash-layout": 200,
+    "/_dash-dependencies": 200,
+    "/assets/dash_v2.css": 200
+  }
+}

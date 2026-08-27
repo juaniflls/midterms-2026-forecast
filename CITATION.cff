@@ -1,14 +1,14 @@
 cff-version: 1.2.0
-message: "If you use or discuss this project, please cite the tagged release."
+message: "If you use or discuss this project, please cite this versioned snapshot."
 title: "Midterms 2026 Forecast Model"
 type: software
-version: 17.0.0
-date-released: 2026-08-22
+version: 26.1.0
+date-released: 2026-08-27
 authors:
   - family-names: "Garbanzo Fallas"
     given-names: "Juan Ignacio"
 repository-code: "https://github.com/juaniflls/midterms-2026-forecast"
-url: "https://github.com/juaniflls/midterms-2026-forecast/releases/tag/v17.0.0"
+url: "https://github.com/juaniflls/midterms-2026-forecast"
 abstract: >-
   A reproducible electoral data science system for forecasting the 2026
   United States midterm elections across national conditions, House
@@ -21,3 +21,5 @@ keywords:
   - Monte Carlo simulation
   - House of Representatives
   - Senate
+  - counterfactual analysis
+  - Scenario Lab

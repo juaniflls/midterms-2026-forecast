@@ -1,9 +1,9 @@
 {
-  "notebook": "Modelo_Midterms_2026_v17.ipynb",
-  "output": "Modelo_Midterms_2026_v17_EXECUTED.ipynb",
-  "elapsed_seconds": 62.844,
-  "execution_mode": "in-process",
-  "code_cells": 11,
-  "executed_code_cells": 11,
+  "notebook": "Modelo_Midterms_2026_v26_FINAL_EJECUTADO.ipynb",
+  "output": "Modelo_Midterms_2026_v26_FINAL_EJECUTADO.ipynb",
+  "execution_mode": "stored executed notebook audit",
+  "code_cells": 13,
+  "executed_code_cells": 13,
+  "stored_error_outputs": 0,
   "status": "passed"
 }

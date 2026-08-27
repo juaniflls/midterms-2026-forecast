@@ -43,17 +43,20 @@
   <rect x="52" y="52" width="1176" height="536" rx="34" fill="#FFFFFF" fill-opacity="0.72" stroke="#DCE4F0" filter="url(#shadow)"/>
   <rect x="52" y="52" width="8" height="536" rx="4" fill="url(#party)"/>
 
+  <image href="../branding/Midterms_2026_Logo.svg" x="92" y="176" width="288" height="288"/>
+
   <g font-family="Inter, Arial, sans-serif">
     <text x="456" y="154" fill="#7657F6" font-size="18" font-weight="700" letter-spacing="5">REPRODUCIBLE ELECTORAL DATA SCIENCE</text>
     <text x="452" y="250" fill="#101828" font-size="70" font-weight="800" letter-spacing="-2">MIDTERMS 2026</text>
     <text x="452" y="326" fill="#101828" font-size="70" font-weight="800" letter-spacing="-2">FORECAST MODEL</text>
     <rect x="456" y="362" width="650" height="5" rx="2.5" fill="url(#party)"/>
-    <text x="456" y="420" fill="#4E617E" font-size="26" font-weight="500">U.S. House · Senate · Chamber control · Uncertainty</text>
+    <text x="456" y="420" fill="#4E617E" font-size="26" font-weight="500">U.S. House · Senate · Scenario Lab · Uncertainty</text>
     <text x="456" y="480" fill="#101828" font-size="20" font-weight="700">42 national targets</text>
     <circle cx="669" cy="474" r="4" fill="#A7B4C8"/>
     <text x="690" y="480" fill="#101828" font-size="20" font-weight="700">435 House districts</text>
     <circle cx="918" cy="474" r="4" fill="#A7B4C8"/>
     <text x="939" y="480" fill="#101828" font-size="20" font-weight="700">35 Senate elections</text>
     <text x="456" y="535" fill="#64748B" font-size="18" font-weight="500">Juan Ignacio Garbanzo Fallas</text>
+    <text x="1088" y="535" text-anchor="end" fill="#7657F6" font-size="16" font-weight="700">MODEL v26 · DASH v26.1</text>
   </g>
 </svg>

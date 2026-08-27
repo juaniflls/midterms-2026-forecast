@@ -1,0 +1,26 @@
+{
+  "release": "v26.1.0",
+  "created": "2026-08-27",
+  "hash_algorithm": "SHA-256",
+  "artifacts": {
+    "README.md": "8d3922333927c267c50f3d2e7b5c08865059fc7f4bcba4d2f441bc77d2c29843",
+    "Model.xlsx": "fa0fbe475f7cffcef754a5d79df2726c402a3c4d2b5392cd364e3eb3540b10ce",
+    "Modelo_Midterms_2026_v26_FINAL_EJECUTADO.ipynb": "5a44bf25bd7c087447ea362ce6db51dba18b363a6f18ace2fe7d0d75fffe7807",
+    "Election_Model_2026_Dashboard_v26.html": "3b366a2fa98fbd6bf42fca4b94131f4aefddf2ea2493e2025aeba24f74bff415",
+    "outputs/Election_Model_Final_Report_v26.xlsx": "d3957c1856d5d6a3faf14696e8806f3e3236f2606d76b1b7ae03a390af8b56f5",
+    "outputs/Model_Sensitivity_Audit_v26.xlsx": "2f6c0a9a6fe2899c2e03ee55094586f5872f77b31aa669c0144d967d42d012da",
+    "outputs/scenario_state_engine_v26.py": "e3b7266274187e0894390bc9f64793e431a7edd3dd11319be516772a997e301a",
+    "assets/house_cd120_official.geojson.gz": "05dc6e367e96059ec6f11f5e3d750a52901aa076d59cab4b41996ab8c09fb850",
+    "assets/house_cd120_albers_paths.json.gz": "cd0c01239022760c8ad5b0d85d8868eaee97ee7c8e1c4f6c24e2ade113cd576e",
+    "assets/readme/forecast-tour.gif": "9aa7b9806baaebdbf4329650904e25723d8a97cd497004ddc05161fa0cc776d6",
+    "requirements.txt": "5b2d9b982e493b6910adbb004972245ef9c1a88e95e86c4a9b7fb7e18b51ce1a",
+    "dash_app/app.py": "80899570b15d8551733f695c10cf3fdd45151e0b87e662fe91d77e3378b44f18",
+    "dash_app/core.py": "930fc2fabeb0f6ac660153f2a98c345db5480b95d800e0a83bbaf2a5b0223a82",
+    "dash_app/figures.py": "36ad819a6e06c5ef2bb69a15e135ab092b4acd42d514fd45d329d3eb45931ced",
+    "dash_app/scenario_engine.py": "c45881ac8b7a0efe7f4b040faf5ba4af0bb7c7733b4796f5b0ca430cd7b1c9ed",
+    "dash_app/views.py": "1eed99ad4b9fd06a8fa8a5b88159b7d38767ad9ffdf6c52dc4427b650a6417ef",
+    "dash_app/check_setup.py": "dbf2ed7a9910602e0a331e59c896d380f5982e48fe4c5f063bf852f3445aee91",
+    "dash_app/assets/dash_v2.css": "f95b1179a5a84c326f95b77074ec8de1ed7a5689c15c33616993cd5aedda86af",
+    "dash_app/requirements.txt": "e4b18c1ac87a3d333fa0779d29ddeb59343cd57ac3298fb5a592375f56f23ed9"
+  }
+}

@@ -4,7 +4,7 @@ Raw source archives are not stored in Git history. The 2026 legislative geodatab
 
 Download these exact files into this directory:
 
-| File | Official source | SHA-256 used by v17.0.0 |
+| File | Official source | SHA-256 used by v26.1.0 |
 |---|---|---|
 | `tlgdb_2026_us_legislative.gdb.zip` | [Census 2026 legislative geodatabase](https://www2.census.gov/geo/tiger/TGRGDB26/tlgdb_2026_us_legislative.gdb.zip) | `6708d7052ac4c07c32c241f341685572fdf5c38d57a0c3144fab4751e702cfbc` |
 | `cb_2025_us_state_500k.zip` | [Census 2025 state cartographic boundaries](https://www2.census.gov/geo/tiger/GENZ2025/shp/cb_2025_us_state_500k.zip) | `9cbfe171dad1555e11770c981d8f4db9e687a65c86f5bdae684eeb487e2e9b80` |

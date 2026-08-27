@@ -1,11 +1,19 @@
 # Release assets
 
-Do not commit the complete reproducible ZIP to the repository itself. Attach it to the corresponding GitHub Release.
+Do not commit the distribution ZIP inside the repository. Upload it separately to the corresponding GitHub Release if a tagged release is created.
 
-For `v17.0.0`, upload:
+Current package:
 
 ```text
-Modelo_Midterms_2026_v17_Reproducible_Final.zip
+midterms-2026-forecast_v26.1.0_GITHUB_READY.zip
 ```
 
-The complete bundle includes raw Census archives, all generated output workbooks, checksums, and package-level QA records that are intentionally omitted from ordinary Git history.
+The repository package contains the v26 notebook, frozen workbook, v26 HTML, Dash v26.1, current generated outputs, processed geography, visual assets, documentation, and QA evidence. Raw Census source archives remain external because the legislative geodatabase exceeds GitHub’s regular per-file limit.
+
+Before publication, run:
+
+```bash
+python3 scripts/validate_repository.py
+cd dash_app
+python3 check_setup.py
+```
