@@ -122,7 +122,7 @@ def is_projected_flip(value: Any) -> bool:
 def house_hover(row: pd.Series, metric: str) -> str:
     district = safe_value(row.get("District Label"), safe_value(row.get("District ID")))
     rating = safe_value(row.get("Forecast Rating"))
-    consensus = safe_value(row.get("All Source Consensus Rating"))
+    consensus = safe_value(row.get("Source Consensus Rating"))
     dprob = _number(row.get("D Win Probability"), 50.0)
     rprob = _number(row.get("R Win Probability"), 100.0 - dprob)
     margin = _number(row.get("Projected Margin PP"), 0.0)
@@ -185,7 +185,7 @@ def district_color(row: pd.Series, metric: str) -> str:
     if metric == "margin":
         return _margin_color(row.get("Projected Margin PP"))
     if metric == "consensus":
-        return RATING_COLORS.get(safe_value(row.get("All Source Consensus Rating")), "#CBD5E1")
+        return RATING_COLORS.get(canonical_rating(safe_value(row.get("Source Consensus Rating"))), "#CBD5E1")
     if metric == "flips":
         winner = safe_value(row.get("Projected Winner"))
         return DEM if winner == "D" else REP if winner == "R" else "#CBD5E1"
@@ -465,7 +465,9 @@ def senate_race_figure(senate: pd.DataFrame) -> go.Figure:
     if senate.empty:
         return theme(go.Figure())
     d = senate.copy()
-    margin_col = "Adjusted Margin 2P" if "Adjusted Margin 2P" in d.columns else "Model Projected Margin 2P"
+    margin_col = "Central Forecast Margin 2P"
+    if margin_col not in d.columns:
+        raise KeyError("SenateRaceDetail is missing Central Forecast Margin 2P.")
     d[margin_col] = pd.to_numeric(d[margin_col], errors="coerce")
     d = d.sort_values(margin_col)
     colors = [DEM if v >= 0 else REP for v in d[margin_col].fillna(0)]
@@ -477,7 +479,7 @@ def senate_race_figure(senate: pd.DataFrame) -> go.Figure:
         hovertemplate="<b>%{y}</b><br>Model margin: %{x:+.2f} pp<extra></extra>",
     ))
     fig.add_vline(x=0, line_color=INK, line_width=1.3)
-    fig.update_layout(title="Monitored Senate races — model margins", showlegend=False)
+    fig.update_layout(title="Monitored Senate races — official central margins", showlegend=False)
     fig.update_xaxes(title="Democratic margin (pp)")
     fig.update_yaxes(title=None)
     return theme(fig, height=max(430, 45 * len(d) + 110), margin=dict(l=115, r=25, t=60, b=45))
@@ -733,12 +735,12 @@ def scenario_senate_summary(
             if isinstance(source, pd.DataFrame):
                 source = source.iloc[0]
             p = float(np.clip(_number(source.get("D Win Probability"), 50.0) / 100.0, 0.001, 0.999))
-            margin = _number(source.get("Adjusted Margin 2P"), _number(source.get("Model Projected Margin 2P"), 0.0))
-            z = nd.inv_cdf(p)
-            sigma = abs(margin / z) if abs(z) > .08 else 6.0
-            sigma = float(np.clip(sigma, 2.0, 20.0))
+            if pd.isna(source.get("Central Forecast Margin 2P")) or pd.isna(source.get("Central Forecast Sigma PP")):
+                raise ValueError(f"Missing v27.1 central Senate tuple for {state}")
+            margin = float(source.get("Central Forecast Margin 2P"))
+            sigma = float(np.clip(float(source.get("Central Forecast Sigma PP")), 2.0, 20.0))
             rating = safe_value(source.get("Forecast Rating"))
-            baseline_type = "Official monitored state model"
+            baseline_type = "Official modal-conditional central state forecast"
         else:
             p = float(np.clip(
                 _number(row.get("Scenario Baseline D Win Probability")) / 100.0,

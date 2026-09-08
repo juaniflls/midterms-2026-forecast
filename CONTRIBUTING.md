@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve the Midterms 2026 Forecast Model. Contributions are welcome when they make the project more accurate, reproducible, transparent, or understandable.
+Thank you for helping improve the NUCLEUS 42. Contributions are welcome when they make the project more accurate, reproducible, transparent, or understandable.
 
 ## Before opening an issue
 

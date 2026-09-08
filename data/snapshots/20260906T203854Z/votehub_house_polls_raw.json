@@ -1,0 +1,2523 @@
+[
+  {
+    "id": "us-202pubbb8b4b1e",
+    "poll_type": "us-representative",
+    "sample_size": 600,
+    "population": "lv",
+    "url": "https://hub.nationaljournal.com/new-maps-for-new-york-1?ecid=ACsprvtXCGX_y5aGgL4GVYyMV9Pj7_5mYOX-Ecv59TfcWhUAkRfvxk8ydNp1f2W6B11HWiXOKD8M&utm_campaign=36387909-%5BNJ%5D%202026%20Wake%20Up%20Call&utm_medium=email&_hsenc=p2ANqtz--ypdqFzjt6YlQeSvcQ2L6ur-f3dfrpC3LBhtrLZ4qbOePmR8uo6p_Cyj44MVGYrw4Q0nK8jceKiqibg_VZpQlb2qLJhFLgjXeX0K4fwp0NAbfnvxU&_hsmi=404722735&utm_content=404722735&utm_source=hs_email",
+    "created_at": "2026-04-27",
+    "start_date": "2026-02-11",
+    "end_date": "2026-02-12",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Nick Begich III",
+        "pct": 46.0
+      },
+      {
+        "choice": "Matt Schultz",
+        "pct": 39.0
+      }
+    ],
+    "seat_name": "AK-01",
+    "sponsors": [
+      "Bill Hill"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 AK-01"
+  },
+  {
+    "id": "us-202datdf44d5f6",
+    "poll_type": "us-representative",
+    "sample_size": 823,
+    "population": "rv",
+    "url": "https://www.filesforprogress.org/datasets/2025/10/dfp_ak_oct_2025_electoral_and_health.pdf#page=6",
+    "created_at": "2026-04-27",
+    "start_date": "2025-10-17",
+    "end_date": "2025-10-23",
+    "pollster": "Data for Progress",
+    "answers": [
+      {
+        "choice": "Nick Begich III",
+        "pct": 48.0
+      },
+      {
+        "choice": "Matt Schultz",
+        "pct": 37.0
+      }
+    ],
+    "seat_name": "AK-01",
+    "sponsors": [],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 AK-01"
+  },
+  {
+    "id": "us-202pub88aa45c1",
+    "poll_type": "us-representative",
+    "sample_size": 600,
+    "population": "lv",
+    "url": "https://hub.nationaljournal.com/new-maps-for-new-york-1?ecid=ACsprvtXCGX_y5aGgL4GVYyMV9Pj7_5mYOX-Ecv59TfcWhUAkRfvxk8ydNp1f2W6B11HWiXOKD8M&utm_campaign=36387909-%5BNJ%5D%202026%20Wake%20Up%20Call&utm_medium=email&_hsenc=p2ANqtz--ypdqFzjt6YlQeSvcQ2L6ur-f3dfrpC3LBhtrLZ4qbOePmR8uo6p_Cyj44MVGYrw4Q0nK8jceKiqibg_VZpQlb2qLJhFLgjXeX0K4fwp0NAbfnvxU&_hsmi=404722735&utm_content=404722735&utm_source=hs_email",
+    "created_at": "2026-04-27",
+    "start_date": "2026-02-11",
+    "end_date": "2026-02-12",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Nick Begich III",
+        "pct": 41.0
+      },
+      {
+        "choice": "Bill Hill",
+        "pct": 37.0
+      }
+    ],
+    "seat_name": "AK-01",
+    "sponsors": [
+      "Bill Hill"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 AK-01"
+  },
+  {
+    "id": "us-202pubc9e98776",
+    "poll_type": "us-representative",
+    "sample_size": 581,
+    "population": "lv",
+    "url": "https://www.politico.com/f/?id=00000199-fd60-dc69-abd9-fff2ed910000",
+    "created_at": "2026-04-27",
+    "start_date": "2025-10-14",
+    "end_date": "2025-10-15",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Juan Ciscomani",
+        "pct": 41.0
+      },
+      {
+        "choice": "JoAnna Mendoza",
+        "pct": 42.0
+      }
+    ],
+    "seat_name": "AZ-06",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 AZ-06"
+  },
+  {
+    "id": "us-202pubd70ec8a7",
+    "poll_type": "us-representative",
+    "sample_size": 547,
+    "population": "a",
+    "url": "https://www.the-downballot.com/p/morning-digest-maine-will-decide?open=false#%C2%A7ca",
+    "created_at": "2026-04-27",
+    "start_date": "2025-08-06",
+    "end_date": "2025-08-08",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "David Valadao",
+        "pct": 42.0
+      },
+      {
+        "choice": "Jasmeet Bains",
+        "pct": 42.0
+      }
+    ],
+    "seat_name": "CA-22",
+    "sponsors": [
+      "ASPIRE PAC",
+      "SEIU"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 CA-22"
+  },
+  {
+    "id": "us-202expe9bb28f8",
+    "poll_type": "us-representative",
+    "sample_size": 400,
+    "population": "lv",
+    "url": "https://www.politico.com/f/?id=0000019b-dcc2-d22e-a1db-dff7de8e0000",
+    "created_at": "2026-04-27",
+    "start_date": "2026-01-08",
+    "end_date": "2026-01-12",
+    "pollster": "Expedition Strategies",
+    "answers": [
+      {
+        "choice": "Jeff Hurd",
+        "pct": 48.0
+      },
+      {
+        "choice": "Alex Kelloff",
+        "pct": 39.0
+      }
+    ],
+    "seat_name": "CO-03",
+    "sponsors": [
+      "Alex Kelloff"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 CO-03"
+  },
+  {
+    "id": "us-202kap5c7b111b",
+    "poll_type": "us-representative",
+    "sample_size": 804,
+    "population": "lv",
+    "url": "https://floridapolitics.com/archives/750168-poll-daniella-levine-cava-poses-strong-threat-to-maria-elvira-salazar-in-cd-27/",
+    "created_at": "2026-04-27",
+    "start_date": "2025-07-01",
+    "end_date": "2025-07-01",
+    "pollster": "Kaplan Strategies",
+    "answers": [
+      {
+        "choice": "María Elvira Salazar",
+        "pct": 45.0
+      },
+      {
+        "choice": "Alex Fornino",
+        "pct": 35.0
+      }
+    ],
+    "seat_name": "FL-27",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 FL-27"
+  },
+  {
+    "id": "us-202blu35c04618",
+    "poll_type": "us-representative",
+    "sample_size": 451,
+    "population": "rv",
+    "url": "https://floridapolitics.com/archives/784817-__trashed-35/",
+    "created_at": "2026-04-27",
+    "start_date": "2026-03-06",
+    "end_date": "2026-03-08",
+    "pollster": "Blueprint Polling",
+    "answers": [
+      {
+        "choice": "María Elvira Salazar",
+        "pct": 47.0
+      },
+      {
+        "choice": "Robin Peguero",
+        "pct": 40.0
+      }
+    ],
+    "seat_name": "FL-27",
+    "sponsors": [],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 FL-27"
+  },
+  {
+    "id": "us-202blud3c43130",
+    "poll_type": "us-representative",
+    "sample_size": 451,
+    "population": "rv",
+    "url": "https://floridapolitics.com/archives/784817-__trashed-35/",
+    "created_at": "2026-04-27",
+    "start_date": "2026-03-06",
+    "end_date": "2026-03-08",
+    "pollster": "Blueprint Polling",
+    "answers": [
+      {
+        "choice": "María Elvira Salazar",
+        "pct": 46.0
+      },
+      {
+        "choice": "Eliott Rodriguez",
+        "pct": 43.0
+      }
+    ],
+    "seat_name": "FL-27",
+    "sponsors": [],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 FL-27"
+  },
+  {
+    "id": "us-202pub4897124c",
+    "poll_type": "us-representative",
+    "sample_size": 555,
+    "population": "a",
+    "url": "https://www.politico.com/newsletters/weekly-score/2025/06/23/recruiting-candidates-in-an-age-of-political-violence-00417469",
+    "created_at": "2026-04-27",
+    "start_date": "2025-06-18",
+    "end_date": "2025-06-19",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Mariannette Miller-Meeks",
+        "pct": 39.0
+      },
+      {
+        "choice": "Christina Bohannan",
+        "pct": 43.0
+      }
+    ],
+    "seat_name": "IA-01",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 IA-01"
+  },
+  {
+    "id": "us-202uni1e77eaee",
+    "poll_type": "us-representative",
+    "sample_size": 520,
+    "population": "lv",
+    "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1929&context=survey_center_polls",
+    "created_at": "2026-04-27",
+    "start_date": "2026-02-12",
+    "end_date": "2025-02-16",
+    "pollster": "University of New Hampshire",
+    "answers": [
+      {
+        "choice": "Joe Baldacci",
+        "pct": 47.0
+      },
+      {
+        "choice": "Paul LePage",
+        "pct": 48.0
+      }
+    ],
+    "seat_name": "ME-02",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 ME-02"
+  },
+  {
+    "id": "us-202pane2511ac9",
+    "poll_type": "us-representative",
+    "sample_size": 387,
+    "population": "lv",
+    "url": "https://punchbowl.news/article/campaigns/another-baldacci/",
+    "created_at": "2026-04-27",
+    "start_date": "2025-11-29",
+    "end_date": "2025-12-07",
+    "pollster": "Pan Atlantic Research",
+    "answers": [
+      {
+        "choice": "Joe Baldacci",
+        "pct": 43.0
+      },
+      {
+        "choice": "Paul LePage",
+        "pct": 44.0
+      }
+    ],
+    "seat_name": "ME-02",
+    "sponsors": [
+      "Joe Baldacci"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 ME-02"
+  },
+  {
+    "id": "us-202unia4e0a246",
+    "poll_type": "us-representative",
+    "sample_size": 521,
+    "population": "lv",
+    "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1929&context=survey_center_polls",
+    "created_at": "2026-04-27",
+    "start_date": "2026-02-12",
+    "end_date": "2026-02-16",
+    "pollster": "University of New Hampshire",
+    "answers": [
+      {
+        "choice": "Matt Dunlap",
+        "pct": 46.0
+      },
+      {
+        "choice": "Paul LePage",
+        "pct": 47.0
+      }
+    ],
+    "seat_name": "ME-02",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 ME-02"
+  },
+  {
+    "id": "us-202unifa33b54f",
+    "poll_type": "us-representative",
+    "sample_size": 521,
+    "population": "lv",
+    "url": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1929&context=survey_center_polls",
+    "created_at": "2026-04-27",
+    "start_date": "2026-02-12",
+    "end_date": "2026-02-16",
+    "pollster": "University of New Hampshire",
+    "answers": [
+      {
+        "choice": "Jordan Wood",
+        "pct": 44.0
+      },
+      {
+        "choice": "Paul LePage",
+        "pct": 48.0
+      }
+    ],
+    "seat_name": "ME-02",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 ME-02"
+  },
+  {
+    "id": "us-202pubb4a5637d",
+    "poll_type": "us-representative",
+    "sample_size": 559,
+    "population": "rv",
+    "url": "https://x.com/jamesd0wns/status/1996180114200043757",
+    "created_at": "2026-04-27",
+    "start_date": "2025-11-20",
+    "end_date": "2025-11-21",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Bill Huizenga",
+        "pct": 44.0
+      },
+      {
+        "choice": "Sean McCann",
+        "pct": 42.0
+      }
+    ],
+    "seat_name": "MI-04",
+    "sponsors": [],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 MI-04"
+  },
+  {
+    "id": "us-202pub34b08a80",
+    "poll_type": "us-representative",
+    "sample_size": 557,
+    "population": "rv",
+    "url": "https://www.newsweek.com/democrat-republican-swing-state-poll-michigan-10997147",
+    "created_at": "2026-04-27",
+    "start_date": "2025-10-27",
+    "end_date": "2025-10-28",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Tom Barrett",
+        "pct": 41.0
+      },
+      {
+        "choice": "Bridget Brink",
+        "pct": 45.0
+      }
+    ],
+    "seat_name": "MI-07",
+    "sponsors": [],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 MI-07"
+  },
+  {
+    "id": "us-202pub328ef142",
+    "poll_type": "us-representative",
+    "sample_size": 557,
+    "population": "rv",
+    "url": "https://www.newsweek.com/democrat-republican-swing-state-poll-michigan-10997147",
+    "created_at": "2026-04-27",
+    "start_date": "2025-10-27",
+    "end_date": "2025-10-28",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Tom Barrett",
+        "pct": 39.0
+      },
+      {
+        "choice": "Matt Maasdam",
+        "pct": 43.0
+      }
+    ],
+    "seat_name": "MI-07",
+    "sponsors": [],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 MI-07"
+  },
+  {
+    "id": "us-202pub8f0230b7",
+    "poll_type": "us-representative",
+    "sample_size": 579,
+    "population": "a",
+    "url": "https://www.thehousemajoritypac.com/news/new-hmp-polling-shows-nick-lalota-vulnerable-in-november",
+    "created_at": "2026-04-27",
+    "start_date": "2025-12-10",
+    "end_date": "2025-12-11",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Nick LaLota",
+        "pct": 41.0
+      },
+      {
+        "choice": "Chris Gallant",
+        "pct": 38.0
+      }
+    ],
+    "seat_name": "NY-01",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 NY-01"
+  },
+  {
+    "id": "us-202pub2bbbcb0d",
+    "poll_type": "us-representative",
+    "sample_size": 549,
+    "population": "rv",
+    "url": "https://www.pennlive.com/politics/2025/12/rep-perry-underwater-with-voters-on-job-approval-trails-democrat-who-wants-to-unseat-him-poll.html",
+    "created_at": "2026-04-27",
+    "start_date": "2025-11-18",
+    "end_date": "2025-11-19",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Scott Perry",
+        "pct": 44.0
+      },
+      {
+        "choice": "Janelle Stelson",
+        "pct": 48.0
+      }
+    ],
+    "seat_name": "PA-10",
+    "sponsors": [
+      "Republicans Against Perry"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 PA-10"
+  },
+  {
+    "id": "us-202pubb2f82ff6",
+    "poll_type": "us-representative",
+    "sample_size": 559,
+    "population": "a",
+    "url": "https://www.politico.com/f/?id=00000198-0716-dedb-a3ba-1f3fcb550000",
+    "created_at": "2026-04-27",
+    "start_date": "2025-07-10",
+    "end_date": "2025-07-11",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Scott Perry",
+        "pct": 43.0
+      },
+      {
+        "choice": "Janelle Stelson",
+        "pct": 46.0
+      }
+    ],
+    "seat_name": "PA-10",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 PA-10"
+  },
+  {
+    "id": "us-202pubf37f0aa3",
+    "poll_type": "us-representative",
+    "sample_size": 533,
+    "population": "lv",
+    "url": "https://www.documentcloud.org/documents/26100755-tx15results1/",
+    "created_at": "2026-04-27",
+    "start_date": "2025-09-10",
+    "end_date": "2025-09-11",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Monica De La Cruz",
+        "pct": 41.0
+      },
+      {
+        "choice": "Bobby Pulido",
+        "pct": 38.0
+      }
+    ],
+    "seat_name": "TX-15",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 TX-15"
+  },
+  {
+    "id": "us-202pub358c46e4",
+    "poll_type": "us-representative",
+    "sample_size": 521,
+    "population": "a",
+    "url": "https://www.texastribune.org/wp-content/uploads/2026/03/TX23-PPP-poll.pdf",
+    "created_at": "2026-04-27",
+    "start_date": "2026-03-10",
+    "end_date": "2026-03-11",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Brandon Herrera",
+        "pct": 42.0
+      },
+      {
+        "choice": "Katy Padilla Stout",
+        "pct": 40.0
+      }
+    ],
+    "seat_name": "TX-23",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 TX-23"
+  },
+  {
+    "id": "us-202pub57d326b1",
+    "poll_type": "us-representative",
+    "sample_size": 541,
+    "population": "rv",
+    "url": "https://www.the-downballot.com/p/morning-digest-kansas-republicans",
+    "created_at": "2026-04-27",
+    "start_date": "2025-08-08",
+    "end_date": "2025-08-09",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Shannon Taylor",
+        "pct": 40.0
+      },
+      {
+        "choice": "Rob Wittman",
+        "pct": 41.0
+      }
+    ],
+    "seat_name": "VA-01",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 VA-01"
+  },
+  {
+    "id": "us-202vot41d1f9d5",
+    "poll_type": "us-representative",
+    "sample_size": 0,
+    "population": "rv",
+    "url": "https://wagop.org/new-congressional-district-3-poll-shows-republicans-will-win/",
+    "created_at": "2026-04-27",
+    "start_date": "2025-08-01",
+    "end_date": "2025-08-01",
+    "pollster": "Voter Sciences",
+    "answers": [
+      {
+        "choice": "Marie Gluesenkamp Perez",
+        "pct": 41.29
+      },
+      {
+        "choice": "John Braun",
+        "pct": 47.55
+      }
+    ],
+    "seat_name": "WA-03",
+    "sponsors": [
+      "Washington State Republican Party"
+    ],
+    "internal": false,
+    "partisan": "REP",
+    "subject": "2026 WA-03"
+  },
+  {
+    "id": "us-202pubc2e16fe9",
+    "poll_type": "us-representative",
+    "sample_size": 609,
+    "population": "lv",
+    "url": "https://www.politico.com/f/?id=00000199-fd60-dc69-abd9-fff233550000",
+    "created_at": "2026-04-27",
+    "start_date": "2025-10-14",
+    "end_date": "2025-10-15",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Derrick Van Orden",
+        "pct": 42.0
+      },
+      {
+        "choice": "Rebecca Cooke",
+        "pct": 44.0
+      }
+    ],
+    "seat_name": "WI-03",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 WI-03"
+  },
+  {
+    "id": "us-202ups0e7ad4b1",
+    "poll_type": "us-representative",
+    "sample_size": 401,
+    "population": "lv",
+    "url": "https://x.com/PatrickSvitek/status/2054609849439199263?s=20",
+    "created_at": "2026-05-22",
+    "start_date": "2026-04-30",
+    "end_date": "2026-05-05",
+    "pollster": "Upswing Research",
+    "answers": [
+      {
+        "choice": "Matt Rains",
+        "pct": 43.0
+      },
+      {
+        "choice": "Aaron Flint",
+        "pct": 47.0
+      }
+    ],
+    "seat_name": "MT-01",
+    "sponsors": [
+      "314 Action"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 MT-01"
+  },
+  {
+    "id": "us-202ups539345cf",
+    "poll_type": "us-representative",
+    "sample_size": 401,
+    "population": "lv",
+    "url": "https://x.com/PatrickSvitek/status/2054609849439199263?s=20",
+    "created_at": "2026-05-22",
+    "start_date": "2026-04-30",
+    "end_date": "2026-05-05",
+    "pollster": "Upswing Research",
+    "answers": [
+      {
+        "choice": "Sam Forstag",
+        "pct": 43.0
+      },
+      {
+        "choice": "Aaron Flint",
+        "pct": 48.0
+      }
+    ],
+    "seat_name": "MT-01",
+    "sponsors": [
+      "314 Action"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 MT-01"
+  },
+  {
+    "id": "us-202pub59f4c740",
+    "poll_type": "us-representative",
+    "sample_size": 521,
+    "population": "rv",
+    "url": "https://www.texastribune.org/2026/03/12/brandon-herrera-democrats-texas-23rd-congressional-district-tony-gonzales/",
+    "created_at": "2026-05-22",
+    "start_date": "2026-03-10",
+    "end_date": "2026-03-11",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Brandon Herrera",
+        "pct": 42.0
+      },
+      {
+        "choice": "Katy Padilla Stout",
+        "pct": 40.0
+      }
+    ],
+    "seat_name": "TX-23",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 TX-23"
+  },
+  {
+    "id": "us-202impfabbd7e2",
+    "poll_type": "us-representative",
+    "sample_size": 500,
+    "population": "lv",
+    "url": "https://protectingamericanconsumers.org/wp-content/uploads/2026/02/IMPACT-NY-2026-Poll.pdf",
+    "created_at": "2026-05-22",
+    "start_date": "2026-02-09",
+    "end_date": "2026-02-17",
+    "pollster": "Impact Research",
+    "answers": [
+      {
+        "choice": "Rep",
+        "pct": 41.0
+      },
+      {
+        "choice": "Dem",
+        "pct": 46.0
+      }
+    ],
+    "seat_name": "NY-04",
+    "sponsors": [
+      "Protecting American Consumers Together"
+    ],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 NY-04"
+  },
+  {
+    "id": "us-202zen7a736ece",
+    "poll_type": "us-representative",
+    "sample_size": 371,
+    "population": "lv",
+    "url": "https://x.com/iapolls2022/status/2054973794658181516?s=46",
+    "created_at": "2026-05-22",
+    "start_date": "2026-05-08",
+    "end_date": "2026-05-11",
+    "pollster": "Zenith Research",
+    "answers": [
+      {
+        "choice": "Mike Flood",
+        "pct": 45.0
+      },
+      {
+        "choice": "Chris Backemeyer",
+        "pct": 38.0
+      }
+    ],
+    "seat_name": "NE-01",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 NE-01"
+  },
+  {
+    "id": "us-202nor9904baf8",
+    "poll_type": "us-representative",
+    "sample_size": 400,
+    "population": "rv",
+    "url": "https://drive.google.com/file/d/11neaUtpx0qrqgxAWe5Lqh9HPIvmnsLrn/view?usp=sharing",
+    "created_at": "2026-05-28",
+    "start_date": "2026-04-20",
+    "end_date": "2026-04-23",
+    "pollster": "Normington Petts & Associates",
+    "answers": [
+      {
+        "choice": "Janelle Stetson",
+        "pct": 51.0
+      },
+      {
+        "choice": "Scott Perry",
+        "pct": 45.0
+      }
+    ],
+    "seat_name": "PA-10",
+    "sponsors": [],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 PA-10"
+  },
+  {
+    "id": "us-202tav5bb85ce1",
+    "poll_type": "us-representative",
+    "sample_size": 1079,
+    "population": "lv",
+    "url": "https://242750075.fs1.hubspotusercontent-na2.net/hubfs/242750075/NE-01%20General%20Election%20-%20Toplines.pdf?utm_source=substack&utm_medium=email",
+    "created_at": "2026-05-28",
+    "start_date": "2026-05-16",
+    "end_date": "2026-05-19",
+    "pollster": "Tavern Research",
+    "answers": [
+      {
+        "choice": "Mike Flood",
+        "pct": 45.0
+      },
+      {
+        "choice": "Chris Backemeyer",
+        "pct": 43.0
+      }
+    ],
+    "seat_name": null,
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 NE-01"
+  },
+  {
+    "id": "us-202rag5df93f4a",
+    "poll_type": "us-representative",
+    "sample_size": 400,
+    "population": "lv",
+    "url": "https://punchbowl.news/article/campaigns/bad-gop-polls/",
+    "created_at": "2026-06-11",
+    "start_date": "2026-03-12",
+    "end_date": "2026-03-14",
+    "pollster": "Ragnar Research Partners",
+    "answers": [
+      {
+        "choice": "JoAnna Mendoza",
+        "pct": 47.0
+      },
+      {
+        "choice": "Juan Ciscomani",
+        "pct": 44.0
+      }
+    ],
+    "seat_name": "AZ-06",
+    "sponsors": [
+      "Conservatives for America"
+    ],
+    "internal": false,
+    "partisan": "REP",
+    "subject": "2026 AZ-06"
+  },
+  {
+    "id": "us-202mdwdd432a7f",
+    "poll_type": "us-representative",
+    "sample_size": 514,
+    "population": "lv",
+    "url": "https://floridapolitics.com/archives/788279-poll-shows-carlos-gimenezs-lead-narrowing-in-cd-28-amid-economic-policy-headwinds/",
+    "created_at": "2026-06-11",
+    "start_date": "2026-03-03",
+    "end_date": "2026-03-07",
+    "pollster": "MDW Communications",
+    "answers": [
+      {
+        "choice": "Carlos Giménez",
+        "pct": 46.0
+      },
+      {
+        "choice": "Hector Mujica",
+        "pct": 40.0
+      }
+    ],
+    "seat_name": "FL-28",
+    "sponsors": [
+      "EDGE Communications"
+    ],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 FL-28"
+  },
+  {
+    "id": "us-202z ta9b4f919",
+    "poll_type": "us-representative",
+    "sample_size": 430,
+    "population": "lv",
+    "url": "https://newjerseyglobe.com/polling/pro-shah-groups-poll-also-found-bennett-leading-kean/",
+    "created_at": "2026-06-11",
+    "start_date": "2026-05-24",
+    "end_date": "2026-05-26",
+    "pollster": "Z to A Research",
+    "answers": [
+      {
+        "choice": "Rebecca Bennett",
+        "pct": 47.0
+      },
+      {
+        "choice": "Tom Kean Jr.",
+        "pct": 43.0
+      }
+    ],
+    "seat_name": "NJ-07",
+    "sponsors": [
+      "314 Action"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 NJ-07"
+  },
+  {
+    "id": "us-202ragce672c6a",
+    "poll_type": "us-representative",
+    "sample_size": 400,
+    "population": "lv",
+    "url": "https://punchbowl.news/article/campaigns/bad-gop-polls/",
+    "created_at": "2026-06-11",
+    "start_date": "2026-03-12",
+    "end_date": "2026-03-14",
+    "pollster": "Ragnar Research Partners",
+    "answers": [
+      {
+        "choice": "Rep",
+        "pct": 42.0
+      },
+      {
+        "choice": "Dem",
+        "pct": 43.0
+      }
+    ],
+    "seat_name": "AZ-06",
+    "sponsors": [
+      "Conservatives for America"
+    ],
+    "internal": false,
+    "partisan": "REP",
+    "subject": "2026 AZ-06"
+  },
+  {
+    "id": "us-202mdw7112002f",
+    "poll_type": "us-representative",
+    "sample_size": 514,
+    "population": "lv",
+    "url": "https://floridapolitics.com/archives/788279-poll-shows-carlos-gimenezs-lead-narrowing-in-cd-28-amid-economic-policy-headwinds/",
+    "created_at": "2026-06-11",
+    "start_date": "2026-03-03",
+    "end_date": "2026-03-07",
+    "pollster": "MDW Communications",
+    "answers": [
+      {
+        "choice": "Rep",
+        "pct": 45.0
+      },
+      {
+        "choice": "Dem",
+        "pct": 41.0
+      }
+    ],
+    "seat_name": "FL-28",
+    "sponsors": [
+      "EDGE Communications"
+    ],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 FL-28"
+  },
+  {
+    "id": "us-202rag31cefeac",
+    "poll_type": "us-representative",
+    "sample_size": 400,
+    "population": "lv",
+    "url": "https://www.nytimes.com/interactive/polls/michigan-us-house-4-polls-2026.html",
+    "created_at": "2026-06-11",
+    "start_date": "2026-03-12",
+    "end_date": "2026-03-14",
+    "pollster": "Ragnar Research Partners",
+    "answers": [
+      {
+        "choice": "Rep",
+        "pct": 43.0
+      },
+      {
+        "choice": "Dem",
+        "pct": 42.0
+      }
+    ],
+    "seat_name": "MI-04",
+    "sponsors": [
+      "Conservatives for America"
+    ],
+    "internal": false,
+    "partisan": "REP",
+    "subject": "2026 MI-04"
+  },
+  {
+    "id": "us-202imp36a5f870",
+    "poll_type": "us-representative",
+    "sample_size": 500,
+    "population": "lv",
+    "url": "https://protectingamericanconsumers.org/wp-content/uploads/2026/02/IMPACT-NY-2026-Poll.pdf",
+    "created_at": "2026-06-11",
+    "start_date": "2026-02-09",
+    "end_date": "2026-02-17",
+    "pollster": "Impact Research",
+    "answers": [
+      {
+        "choice": "Rep",
+        "pct": 39.0
+      },
+      {
+        "choice": "Dem",
+        "pct": 44.0
+      }
+    ],
+    "seat_name": "NY-17",
+    "sponsors": [
+      "Protecting American Consumers Together"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 NY-17"
+  },
+  {
+    "id": "us-202imp51a744df",
+    "poll_type": "us-representative",
+    "sample_size": 500,
+    "population": "lv",
+    "url": "https://protectingamericanconsumers.org/wp-content/uploads/2026/02/IMPACT-NY-2026-Poll.pdf",
+    "created_at": "2026-06-11",
+    "start_date": "2026-02-09",
+    "end_date": "2026-02-17",
+    "pollster": "Impact Research",
+    "answers": [
+      {
+        "choice": "Rep",
+        "pct": 35.0
+      },
+      {
+        "choice": "Dem",
+        "pct": 42.0
+      }
+    ],
+    "seat_name": "NY-18",
+    "sponsors": [
+      "Protecting American Consumers Together"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 NY-18"
+  },
+  {
+    "id": "us-202pub97e481be",
+    "poll_type": "us-representative",
+    "sample_size": 521,
+    "population": "rv",
+    "url": "https://www.texastribune.org/wp-content/uploads/2026/03/TX23-PPP-poll.pdf",
+    "created_at": "2026-06-11",
+    "start_date": "2026-03-10",
+    "end_date": "2026-03-11",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Rep",
+        "pct": 47.0
+      },
+      {
+        "choice": "Dem",
+        "pct": 45.0
+      }
+    ],
+    "seat_name": "TX-23",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 TX-23"
+  },
+  {
+    "id": "us-202pub781e29d3",
+    "poll_type": "us-representative",
+    "sample_size": 541,
+    "population": "rv",
+    "url": "https://x.com/PollTracker2024/status/1965014578812842210/photo/1",
+    "created_at": "2026-06-11",
+    "start_date": "2025-08-08",
+    "end_date": "2025-08-09",
+    "pollster": "Public Policy Polling",
+    "answers": [
+      {
+        "choice": "Rep",
+        "pct": 47.0
+      },
+      {
+        "choice": "Dem",
+        "pct": 47.0
+      }
+    ],
+    "seat_name": "VA-01",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 VA-01"
+  },
+  {
+    "id": "us-202rage144569e",
+    "poll_type": "us-representative",
+    "sample_size": 400,
+    "population": "lv",
+    "url": "https://punchbowl.news/article/campaigns/bad-gop-polls/",
+    "created_at": "2026-06-11",
+    "start_date": "2026-03-10",
+    "end_date": "2026-03-12",
+    "pollster": "Ragnar Research Partners",
+    "answers": [
+      {
+        "choice": "Rep",
+        "pct": 42.0
+      },
+      {
+        "choice": "Dem",
+        "pct": 44.0
+      }
+    ],
+    "seat_name": "VA-01",
+    "sponsors": [
+      "Conservatives for America"
+    ],
+    "internal": false,
+    "partisan": "REP",
+    "subject": "2026 VA-01"
+  },
+  {
+    "id": "us-202co/80d6fc29",
+    "poll_type": "us-representative",
+    "sample_size": 918,
+    "population": "lv",
+    "url": "https://www.politico.com/news/2026/05/08/gop-polls-show-they-have-a-shot-at-flipping-house-dem-districts-trump-won-00910791",
+    "created_at": "2026-06-19",
+    "start_date": "2026-04-25",
+    "end_date": "2026-04-29",
+    "pollster": "co/efficient",
+    "answers": [
+      {
+        "choice": "Matt Dunlap",
+        "pct": 40.0
+      },
+      {
+        "choice": "Paul LePage",
+        "pct": 50.0
+      }
+    ],
+    "seat_name": "ME-02",
+    "sponsors": [
+      "NRCC"
+    ],
+    "internal": false,
+    "partisan": "REP",
+    "subject": "2026 ME-02"
+  },
+  {
+    "id": "us-202uni5cb95e03",
+    "poll_type": "us-representative",
+    "sample_size": 522,
+    "population": "lv",
+    "url": "https://scholars.unh.edu/survey_center_polls/930/",
+    "created_at": "2026-06-19",
+    "start_date": "2026-02-12",
+    "end_date": "2026-02-16",
+    "pollster": "University of New Hampshire",
+    "answers": [
+      {
+        "choice": "Matt Dunlap",
+        "pct": 46.0
+      },
+      {
+        "choice": "Paul LePage",
+        "pct": 47.0
+      }
+    ],
+    "seat_name": "ME-02",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 ME-02"
+  },
+  {
+    "id": "us-202nor8d5759fc",
+    "poll_type": "us-representative",
+    "sample_size": 500,
+    "population": "lv",
+    "url": "https://www.thehousemajoritypac.com/news/new-hmp-poll-joanna-mendoza-leads-juan-ciscomani-in-az-06",
+    "created_at": "2026-06-22",
+    "start_date": "2026-06-08",
+    "end_date": "2026-06-11",
+    "pollster": "Normington, Petts & Associates",
+    "answers": [
+      {
+        "choice": "JoAnna Mendoza",
+        "pct": 47.0
+      },
+      {
+        "choice": "Juan Ciscomani",
+        "pct": 45.0
+      }
+    ],
+    "seat_name": "AZ-06",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 AZ-06"
+  },
+  {
+    "id": "us-202lakb27dfb16",
+    "poll_type": "us-representative",
+    "sample_size": 400,
+    "population": "lv",
+    "url": "https://www.politico.com/newsletters/playbook/2026/06/26/wes-moores-vision-for-america-00977774",
+    "created_at": "2026-06-26",
+    "start_date": "2026-06-18",
+    "end_date": "2026-06-23",
+    "pollster": "Lake Research Partners",
+    "answers": [
+      {
+        "choice": "Paige Cognetti",
+        "pct": 47.0
+      },
+      {
+        "choice": "Rob Bresnahan",
+        "pct": 45.0
+      }
+    ],
+    "seat_name": "PA-08",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 PA-08"
+  },
+  {
+    "id": "us-202thef47fdc98",
+    "poll_type": "us-representative",
+    "sample_size": 593,
+    "population": "lv",
+    "url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-alaska-poll-crosstabs.html",
+    "created_at": "2026-07-01",
+    "start_date": "2026-06-15",
+    "end_date": "2026-06-29",
+    "pollster": "The New York Times/Siena University",
+    "answers": [
+      {
+        "choice": "Nick Begich",
+        "pct": 51.0
+      },
+      {
+        "choice": "Matt Schultz",
+        "pct": 39.0
+      }
+    ],
+    "seat_name": "AK-01",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 AK-01"
+  },
+  {
+    "id": "us-202saia8db86bb",
+    "poll_type": "us-representative",
+    "sample_size": 1614,
+    "population": "rv",
+    "url": "https://www.anselm.edu/about/anselmian-hub/news/saint-anselm-college-survey-center-june-poll-finds-democrats-expand-generic-ballot-lead",
+    "created_at": "2026-07-01",
+    "start_date": "2026-06-24",
+    "end_date": "2026-06-25",
+    "pollster": "Saint Anselm",
+    "answers": [
+      {
+        "choice": "Maggie Goodlander",
+        "pct": 50.0
+      },
+      {
+        "choice": "Lily Tang Williams",
+        "pct": 31.0
+      }
+    ],
+    "seat_name": "NH-02",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 NH-02"
+  },
+  {
+    "id": "us-202unib917f6dd",
+    "poll_type": "us-representative",
+    "sample_size": 237,
+    "population": "lv",
+    "url": "https://scholars.unh.edu/survey_center_polls/970/",
+    "created_at": "2026-07-01",
+    "start_date": "2026-06-18",
+    "end_date": "2026-06-23",
+    "pollster": "University of New Hampshire",
+    "answers": [
+      {
+        "choice": "Becca Balint",
+        "pct": 57.0
+      },
+      {
+        "choice": "Gerald Malloy",
+        "pct": 26.0
+      }
+    ],
+    "seat_name": "VT-01",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 VT-01"
+  },
+  {
+    "id": "us-202fm396e2170a",
+    "poll_type": "us-representative",
+    "sample_size": 535,
+    "population": "lv",
+    "url": "https://x.com/cjwarnke/status/2074099699020128352?s=20",
+    "created_at": "2026-07-06",
+    "start_date": "2026-06-20",
+    "end_date": "2026-06-25",
+    "pollster": "FM3 Research",
+    "answers": [
+      {
+        "choice": "Derrick Van Orden",
+        "pct": 46.0
+      },
+      {
+        "choice": "Rebecca Cooke",
+        "pct": 50.0
+      }
+    ],
+    "seat_name": "WI-03",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 WI-03"
+  },
+  {
+    "id": "us-202app872e2e5f",
+    "poll_type": "us-representative",
+    "sample_size": 802,
+    "population": "lv",
+    "url": "https://welcome.team/press-releases/Blog%20Post%20Title%20One-3zaa9-zlxng-67tfc-2sf8d",
+    "created_at": "2026-07-07",
+    "start_date": "2026-05-18",
+    "end_date": "2026-05-25",
+    "pollster": "Applecart",
+    "answers": [
+      {
+        "choice": "Bobby Pulido",
+        "pct": 48.0
+      },
+      {
+        "choice": "Monica De La Cruz",
+        "pct": 46.0
+      }
+    ],
+    "seat_name": "TX-15",
+    "sponsors": [
+      "WelcomePAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 TX-15"
+  },
+  {
+    "id": "us-202har2b87ea23",
+    "poll_type": "us-representative",
+    "sample_size": 550,
+    "population": "lv",
+    "url": "https://www.thehousemajoritypac.com/news/hmp-poll-don-leonard-within-striking-distance-of-mike-carey-in-oh-15",
+    "created_at": "2026-07-07",
+    "start_date": "2026-06-23",
+    "end_date": "2026-06-25",
+    "pollster": "Hart Research Associates",
+    "answers": [
+      {
+        "choice": "Mike Carey",
+        "pct": 45.0
+      },
+      {
+        "choice": "Don Leonard",
+        "pct": 40.0
+      },
+      {
+        "choice": "Brennan Barrington",
+        "pct": 3.0
+      }
+    ],
+    "seat_name": "OH-15",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 OH-15"
+  },
+  {
+    "id": "us-202fm3b695b2b8",
+    "poll_type": "us-representative",
+    "sample_size": 509,
+    "population": "lv",
+    "url": "https://www.politico.com/newsletters/playbook/2026/07/08/inside-the-battle-for-maine-00989731",
+    "created_at": "2026-07-08",
+    "start_date": "2026-06-27",
+    "end_date": "2026-07-01",
+    "pollster": "FM3 Research",
+    "answers": [
+      {
+        "choice": "Cait Conley",
+        "pct": 51.0
+      },
+      {
+        "choice": "Mike Lawler",
+        "pct": 45.0
+      }
+    ],
+    "seat_name": "NY-17",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 NY-17"
+  },
+  {
+    "id": "us-202gba3330ad74",
+    "poll_type": "us-representative",
+    "sample_size": 550,
+    "population": "lv",
+    "url": "https://x.com/cjwarnke/status/2075190984107872361?s=20",
+    "created_at": "2026-07-09",
+    "start_date": "2026-06-29",
+    "end_date": "2026-07-02",
+    "pollster": "GBAO Strategies",
+    "answers": [
+      {
+        "choice": "Ryan Mackenzie",
+        "pct": 43.0
+      },
+      {
+        "choice": "Bob Brooks",
+        "pct": 47.0
+      }
+    ],
+    "seat_name": "PA-07",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 PA-07"
+  },
+  {
+    "id": "us-202emeae4416eb",
+    "poll_type": "us-representative",
+    "sample_size": 500,
+    "population": "lv",
+    "url": "https://www.nwprogressive.org/weblog/2026/07/wa-03-is-still-washingtons-tossup-district-marie-gluesenkamp-perez-and-john-braun-are-tied-ahead-of-2026-top-two-election.html",
+    "created_at": "2026-07-14",
+    "start_date": "2026-07-08",
+    "end_date": "2026-07-10",
+    "pollster": "Emerson College",
+    "answers": [
+      {
+        "choice": "Marie Gluesenkamp Perez",
+        "pct": 44.0
+      },
+      {
+        "choice": "John Braun",
+        "pct": 45.0
+      }
+    ],
+    "seat_name": "WA-03",
+    "sponsors": [
+      "Northwest Progressive Institute"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 WA-03"
+  },
+  {
+    "id": "us-202tul5fdc419c",
+    "poll_type": "us-representative",
+    "sample_size": 800,
+    "population": "lv",
+    "url": "https://www.politico.com/newsletters/playbook/2026/07/21/trump-to-hill-im-not-that-into-you-01005915",
+    "created_at": "2026-07-21",
+    "start_date": "2026-06-15",
+    "end_date": "2026-06-21",
+    "pollster": "Tulchin Research",
+    "answers": [
+      {
+        "choice": "Randy Villegas",
+        "pct": 48.0
+      },
+      {
+        "choice": "David Valadao",
+        "pct": 44.0
+      }
+    ],
+    "seat_name": "CA-22",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 CA-22"
+  },
+  {
+    "id": "us-202co/cc143c95",
+    "poll_type": "us-representative",
+    "sample_size": 1292,
+    "population": "lv",
+    "url": "https://coefficient.org/b96b92b3.pdf",
+    "created_at": "2026-07-24",
+    "start_date": "2026-07-20",
+    "end_date": "2026-07-22",
+    "pollster": "co/efficient",
+    "answers": [
+      {
+        "choice": "Cait Conley",
+        "pct": 45.0
+      },
+      {
+        "choice": "Mike Lawler",
+        "pct": 50.0
+      }
+    ],
+    "seat_name": null,
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 NY-17"
+  },
+  {
+    "id": "us-202tul81b19549",
+    "poll_type": "us-representative",
+    "sample_size": 700,
+    "population": "lv",
+    "url": "https://www.politico.com/f/?id=0000019f-918b-d49c-ad9f-9fbb88d00000",
+    "created_at": "2026-07-24",
+    "start_date": "2026-07-09",
+    "end_date": "2026-07-13",
+    "pollster": "Tulchin Research",
+    "answers": [
+      {
+        "choice": "Elaine Luria",
+        "pct": 47.0
+      },
+      {
+        "choice": "Jen Kiggans",
+        "pct": 47.0
+      }
+    ],
+    "seat_name": "VA-02",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 VA-02"
+  },
+  {
+    "id": "us-202unibd16a6bb",
+    "poll_type": "us-representative",
+    "sample_size": 954,
+    "population": "lv",
+    "url": "https://scholars.unh.edu/survey_center_polls/982/",
+    "created_at": "2026-07-27",
+    "start_date": "2026-07-15",
+    "end_date": "2026-07-20",
+    "pollster": "University of New Hampshire",
+    "answers": [
+      {
+        "choice": "Becca Balint",
+        "pct": 63.0
+      },
+      {
+        "choice": "Gerald Malloy",
+        "pct": 25.0
+      },
+      {
+        "choice": "Adam Ortiz",
+        "pct": 2.0
+      }
+    ],
+    "seat_name": null,
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 VT-01"
+  },
+  {
+    "id": "us-202the9b589743",
+    "poll_type": "us-representative",
+    "sample_size": 546,
+    "population": "lv",
+    "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat",
+    "created_at": "2026-07-28",
+    "start_date": "2026-07-13",
+    "end_date": "2026-07-16",
+    "pollster": "The Bullfinch Group",
+    "answers": [
+      {
+        "choice": "Matt Schultz",
+        "pct": 32.0
+      },
+      {
+        "choice": "Bill Hill",
+        "pct": 20.0
+      },
+      {
+        "choice": "Nick Begich III",
+        "pct": 46.0
+      }
+    ],
+    "seat_name": null,
+    "sponsors": [
+      "The Independent Center"
+    ],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 AK-01"
+  },
+  {
+    "id": "us-202thed03f59fe",
+    "poll_type": "us-representative",
+    "sample_size": 741,
+    "population": "lv",
+    "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat",
+    "created_at": "2026-07-28",
+    "start_date": "2026-07-13",
+    "end_date": "2026-07-16",
+    "pollster": "The Bullfinch Group",
+    "answers": [
+      {
+        "choice": "Richard Pan",
+        "pct": 39.0
+      },
+      {
+        "choice": "Kevin Kiley",
+        "pct": 35.0
+      }
+    ],
+    "seat_name": "CA-06",
+    "sponsors": [
+      "The Independent Center"
+    ],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 CA-06"
+  },
+  {
+    "id": "us-202the20e70677",
+    "poll_type": "us-representative",
+    "sample_size": 705,
+    "population": "lv",
+    "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat",
+    "created_at": "2026-07-28",
+    "start_date": "2026-07-13",
+    "end_date": "2026-07-16",
+    "pollster": "The Bullfinch Group",
+    "answers": [
+      {
+        "choice": "Mariannette Miller-Meeks",
+        "pct": 35.0
+      },
+      {
+        "choice": "Christina Bohannan",
+        "pct": 40.0
+      },
+      {
+        "choice": "Michael Bridgford",
+        "pct": 11.0
+      }
+    ],
+    "seat_name": "IA-01",
+    "sponsors": [
+      "The Independent Center"
+    ],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 IA-01"
+  },
+  {
+    "id": "us-202unke3b76dc0",
+    "poll_type": "us-representative",
+    "sample_size": null,
+    "population": null,
+    "url": "https://x.com/IAPolls2022/status/2083970139574129144",
+    "created_at": "2026-08-02",
+    "start_date": "2026-07-29",
+    "end_date": "2026-07-30",
+    "pollster": "Unknown (Reported by NOTUS)",
+    "answers": [
+      {
+        "choice": "Max Miller",
+        "pct": 39.0
+      },
+      {
+        "choice": "Brian Poindexter",
+        "pct": 44.0
+      }
+    ],
+    "seat_name": "OH-07",
+    "sponsors": [],
+    "internal": false,
+    "partisan": "REP",
+    "subject": "2026 OH-07"
+  },
+  {
+    "id": "us-202gqrffccbb42",
+    "poll_type": "us-representative",
+    "sample_size": 400,
+    "population": "lv",
+    "url": "https://www.thehousemajoritypac.com/news/hmp-poll-nancy-lacore-has-a-clear-path-to-victory-in-sc-01",
+    "created_at": "2026-08-03",
+    "start_date": "2026-07-15",
+    "end_date": "2026-07-22",
+    "pollster": "GQR",
+    "answers": [
+      {
+        "choice": "Jenny Honeycutt",
+        "pct": 50.0
+      },
+      {
+        "choice": "Nancy Lacore",
+        "pct": 48.0
+      }
+    ],
+    "seat_name": "SC-01",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 SC-01"
+  },
+  {
+    "id": "us-202glob1380568",
+    "poll_type": "us-representative",
+    "sample_size": null,
+    "population": "lv",
+    "url": "https://static.notus.org/27/58/c93f2d1946c0814f583fa25c7a31/hmp-ia-02-poll.pdf",
+    "created_at": "2026-08-06",
+    "start_date": "2026-07-14",
+    "end_date": "2026-07-19",
+    "pollster": "Global Strategy Group",
+    "answers": [
+      {
+        "choice": "Joe Mitchell",
+        "pct": 45.0
+      },
+      {
+        "choice": "Lindsay James",
+        "pct": 46.0
+      }
+    ],
+    "seat_name": "IA-02",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 IA-02"
+  },
+  {
+    "id": "us-202the26d4530e",
+    "poll_type": "us-representative",
+    "sample_size": 653,
+    "population": "rv",
+    "url": "https://independentcentervoice.com/insights/july-2026-district-survey-illinoiss-4th-congressional-district",
+    "created_at": "2026-08-10",
+    "start_date": "2026-07-31",
+    "end_date": "2026-08-04",
+    "pollster": "The Bullfinch Group",
+    "answers": [
+      {
+        "choice": "Patty Garcia",
+        "pct": 34.0
+      },
+      {
+        "choice": "Lupe Castillo",
+        "pct": 15.0
+      },
+      {
+        "choice": "Chris Getty",
+        "pct": 9.0
+      },
+      {
+        "choice": "Ed Hershey",
+        "pct": 4.0
+      }
+    ],
+    "seat_name": "IL-04",
+    "sponsors": [
+      "The Independent Center"
+    ],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 IL-04"
+  },
+  {
+    "id": "us-202tavd2d23773",
+    "poll_type": "us-representative",
+    "sample_size": 560,
+    "population": "lv",
+    "url": "https://242750075.fs1.hubspotusercontent-na2.net/hubfs/242750075/Toplines%20-%20OH-07%20General%2008_03%20Cint.pdf",
+    "created_at": "2026-08-10",
+    "start_date": "2026-08-04",
+    "end_date": "2026-08-05",
+    "pollster": "Tavern Research",
+    "answers": [
+      {
+        "choice": "Max Miller",
+        "pct": 46.0
+      },
+      {
+        "choice": "Brian Poindexter",
+        "pct": 54.0
+      }
+    ],
+    "seat_name": null,
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 OH-07"
+  },
+  {
+    "id": "us-202beda3a16f8f",
+    "poll_type": "us-representative",
+    "sample_size": 866,
+    "population": "lv",
+    "url": "https://www.axios.com/2026/08/11/max-miller-ohio-brian-poindexter-democrats-2026",
+    "created_at": "2026-08-13",
+    "start_date": "2026-08-07",
+    "end_date": "2026-08-10",
+    "pollster": "Bedrock Polling",
+    "answers": [
+      {
+        "choice": "Max Miller",
+        "pct": 35.0
+      },
+      {
+        "choice": "Brian Poindexter",
+        "pct": 43.0
+      }
+    ],
+    "seat_name": "OH-07",
+    "sponsors": [
+      "The Next 50",
+      "Iron Workers International"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 OH-07"
+  },
+  {
+    "id": "us-202sur34bdca99",
+    "poll_type": "us-representative",
+    "sample_size": 800,
+    "population": "a",
+    "url": "https://results.surveyusa.com/client/PollReport.aspx?g=7dad7202-08be-4fe4-a687-b52480791639",
+    "created_at": "2026-08-14",
+    "start_date": "2026-08-04",
+    "end_date": "2026-08-08",
+    "pollster": "SurveyUSA",
+    "answers": [
+      {
+        "choice": "Anthony Constantino",
+        "pct": 39.0
+      },
+      {
+        "choice": "Blake Gendebien",
+        "pct": 43.0
+      },
+      {
+        "choice": "Chris Schmidt",
+        "pct": 5.0
+      }
+    ],
+    "seat_name": "NY-21",
+    "sponsors": [
+      "WNYT"
+    ],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 NY-21"
+  },
+  {
+    "id": "us-202alae739036c",
+    "poll_type": "us-representative",
+    "sample_size": 1371,
+    "population": "lv",
+    "url": "https://x.com/The_Real_ASR/status/2088053315502498055",
+    "created_at": "2026-08-15",
+    "start_date": "2026-08-02",
+    "end_date": "2026-08-05",
+    "pollster": "Alaska Survey Research",
+    "answers": [
+      {
+        "choice": "Eric Hafner",
+        "pct": 14.7
+      },
+      {
+        "choice": "Bill Hill",
+        "pct": 33.2
+      },
+      {
+        "choice": "Clay Strickland",
+        "pct": 4.2
+      },
+      {
+        "choice": "Nick Begich III",
+        "pct": 47.9
+      }
+    ],
+    "seat_name": null,
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 AK-01"
+  },
+  {
+    "id": "us-202alafabca8f1",
+    "poll_type": "us-representative",
+    "sample_size": 1371,
+    "population": "lv",
+    "url": "https://x.com/The_Real_ASR/status/2088053315502498055",
+    "created_at": "2026-08-15",
+    "start_date": "2026-08-02",
+    "end_date": "2026-08-05",
+    "pollster": "Alaska Survey Research",
+    "answers": [
+      {
+        "choice": "Bill Hill",
+        "pct": 34.4
+      },
+      {
+        "choice": "Eric Hafner",
+        "pct": 15.2
+      },
+      {
+        "choice": "Nick Begich III",
+        "pct": 50.4
+      }
+    ],
+    "seat_name": null,
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 AK-01"
+  },
+  {
+    "id": "us-202ala8a6a82c0",
+    "poll_type": "us-representative",
+    "sample_size": 1371,
+    "population": "lv",
+    "url": "https://x.com/The_Real_ASR/status/2088053315502498055",
+    "created_at": "2026-08-15",
+    "start_date": "2026-08-02",
+    "end_date": "2026-08-05",
+    "pollster": "Alaska Survey Research",
+    "answers": [
+      {
+        "choice": "Bill Hill",
+        "pct": 46.5
+      },
+      {
+        "choice": "Nick Begich III",
+        "pct": 53.5
+      }
+    ],
+    "seat_name": "AK-01",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 AK-01"
+  },
+  {
+    "id": "us-202fab5f214a8b",
+    "poll_type": "us-representative",
+    "sample_size": 400,
+    "population": "lv",
+    "url": "https://floridapolitics.com/archives/814114-anna-paulina-luna-leads-leela-gray-in-likely-general-election-matchup-clouding-dems-hope-for-a-flip/",
+    "created_at": "2026-08-15",
+    "start_date": "2026-07-21",
+    "end_date": "2026-07-22",
+    "pollster": "Fabrizio, Lee & Associates",
+    "answers": [
+      {
+        "choice": "Anna Paulina Luna",
+        "pct": 49.0
+      },
+      {
+        "choice": "Leela Gray",
+        "pct": 41.0
+      }
+    ],
+    "seat_name": null,
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 FL-13"
+  },
+  {
+    "id": "us-202j.lcde5bf32",
+    "poll_type": "us-representative",
+    "sample_size": 500,
+    "population": "lv",
+    "url": "https://jlpartners.com/new-york-21st-district-likely-voter-polling",
+    "created_at": "2026-08-20",
+    "start_date": "2026-08-15",
+    "end_date": "2026-08-17",
+    "pollster": "J.L. Partners",
+    "answers": [
+      {
+        "choice": "Anthony Constantino",
+        "pct": 53.0
+      },
+      {
+        "choice": "Blake Gendebien",
+        "pct": 40.0
+      }
+    ],
+    "seat_name": "NY-21",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 NY-21"
+  },
+  {
+    "id": "us-202glo69af5ff3",
+    "poll_type": "us-representative",
+    "sample_size": 500,
+    "population": "lv",
+    "url": "https://www.thehousemajoritypac.com/news/hmp-poll-william-lawrence-leads-tom-barrett-in-mi-07",
+    "created_at": "2026-08-20",
+    "start_date": "2026-08-11",
+    "end_date": "2026-08-13",
+    "pollster": "Global Strategy Group",
+    "answers": [
+      {
+        "choice": "William Lawrence",
+        "pct": 49.0
+      },
+      {
+        "choice": "Tom Barrett",
+        "pct": 47.0
+      }
+    ],
+    "seat_name": "MI-07",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 MI-07"
+  },
+  {
+    "id": "us-202tav1ccea6ab",
+    "poll_type": "us-representative",
+    "sample_size": 551,
+    "population": "lv",
+    "url": "https://242750075.fs1.hubspotusercontent-na2.net/hubfs/242750075/FL-22%20General%20Toplines%20%E2%80%94%20Aug%2019_NEW.pdf",
+    "created_at": "2026-08-20",
+    "start_date": "2026-08-10",
+    "end_date": "2026-08-12",
+    "pollster": "Tavern Research",
+    "answers": [
+      {
+        "choice": "Casey Askar",
+        "pct": 50.0
+      },
+      {
+        "choice": "Pia Dandiya",
+        "pct": 50.0
+      }
+    ],
+    "seat_name": "FL-22",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 FL-22"
+  },
+  {
+    "id": "us-202saibb1156ba",
+    "poll_type": "us-representative",
+    "sample_size": 701,
+    "population": "lv",
+    "url": "https://www.anselm.edu/about/anselmian-hub/news/new-saint-anselm-college-poll-finds-republicans-facing-midterm-headwinds-democratic-lead-widens",
+    "created_at": "2026-08-26",
+    "start_date": "2026-08-17",
+    "end_date": "2026-08-18",
+    "pollster": "Saint Anselm College Survey Center",
+    "answers": [
+      {
+        "choice": "Maggie Goodlander",
+        "pct": 50.0
+      },
+      {
+        "choice": "Lily Tang Williams",
+        "pct": 35.0
+      }
+    ],
+    "seat_name": "NH-02",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 NH-02"
+  },
+  {
+    "id": "us-202hen3c891586",
+    "poll_type": "us-representative",
+    "sample_size": 1112,
+    "population": "lv",
+    "url": "https://talkbusiness.net/2026/08/poll-similar-trends-in-cd2-show-tight-race-between-hill-jones",
+    "created_at": "2026-08-26",
+    "start_date": "2026-08-12",
+    "end_date": "2026-08-13",
+    "pollster": "Hendrix College",
+    "answers": [
+      {
+        "choice": "Chris Jones",
+        "pct": 48.0
+      },
+      {
+        "choice": "French Hill",
+        "pct": 44.0
+      }
+    ],
+    "seat_name": "AR-02",
+    "sponsors": [
+      "Talk Business & Politics"
+    ],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 AR-02"
+  },
+  {
+    "id": "us-202tex35ec19da",
+    "poll_type": "us-representative",
+    "sample_size": 600,
+    "population": "lv",
+    "url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a8debe648e3721adb0534b6/1787685864204/SouthTexasCDs2026.pdf",
+    "created_at": "2026-08-26",
+    "start_date": "2026-07-27",
+    "end_date": "2026-07-30",
+    "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
+    "answers": [
+      {
+        "choice": "Henry Cuellar",
+        "pct": 45.0
+      },
+      {
+        "choice": "Tano Tijerina",
+        "pct": 34.0
+      },
+      {
+        "choice": "Marlón Durán",
+        "pct": 6.0
+      }
+    ],
+    "seat_name": "TX-28",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 TX-28"
+  },
+  {
+    "id": "us-202tex909ea2d7",
+    "poll_type": "us-representative",
+    "sample_size": 700,
+    "population": "lv",
+    "url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a8debe648e3721adb0534b6/1787685864204/SouthTexasCDs2026.pdf",
+    "created_at": "2026-08-26",
+    "start_date": "2026-07-27",
+    "end_date": "2026-07-30",
+    "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
+    "answers": [
+      {
+        "choice": "Vicente Gonzalez",
+        "pct": 45.0
+      },
+      {
+        "choice": "Eric Flores",
+        "pct": 42.0
+      },
+      {
+        "choice": "Eddie Espinoza",
+        "pct": 3.0
+      },
+      {
+        "choice": "Chris Royal",
+        "pct": 2.0
+      }
+    ],
+    "seat_name": "TX-34",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 TX-34"
+  },
+  {
+    "id": "us-202texe83b516f",
+    "poll_type": "us-representative",
+    "sample_size": 700,
+    "population": "lv",
+    "url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a8debe648e3721adb0534b6/1787685864204/SouthTexasCDs2026.pdf",
+    "created_at": "2026-08-26",
+    "start_date": "2026-07-27",
+    "end_date": "2026-07-30",
+    "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
+    "answers": [
+      {
+        "choice": "Bobby Pulido",
+        "pct": 50.0
+      },
+      {
+        "choice": "Monica De La Cruz",
+        "pct": 45.0
+      }
+    ],
+    "seat_name": "TX-15",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 TX-15"
+  },
+  {
+    "id": "us-202quad5474d87",
+    "poll_type": "us-representative",
+    "sample_size": 509,
+    "population": "lv",
+    "url": "https://quantusinsights.org/polling/f/new-quantus-insights-survey-ohio%E2%80%99s-1st-district-is-up-for-grabs",
+    "created_at": "2026-08-27",
+    "start_date": "2026-08-21",
+    "end_date": "2026-08-24",
+    "pollster": "Quantus Insights",
+    "answers": [
+      {
+        "choice": "Greg Landsman",
+        "pct": 47.9
+      },
+      {
+        "choice": "Eric Conroy",
+        "pct": 44.6
+      }
+    ],
+    "seat_name": "OH-01",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 OH-01"
+  },
+  {
+    "id": "us-202ala08564c87",
+    "poll_type": "us-representative",
+    "sample_size": 1872,
+    "population": "lv",
+    "url": "https://x.com/The_Real_ASR/status/2093483993954144564?s=20",
+    "created_at": "2026-08-29",
+    "start_date": "2026-08-20",
+    "end_date": "2026-08-23",
+    "pollster": "Alaska Survey Research",
+    "answers": [
+      {
+        "choice": "Nick Begich",
+        "pct": 50.6
+      },
+      {
+        "choice": "Bill Hill",
+        "pct": 39.1
+      },
+      {
+        "choice": "Eric Hafner",
+        "pct": 4.6
+      },
+      {
+        "choice": "John Williams",
+        "pct": 5.7
+      }
+    ],
+    "seat_name": "AK-01",
+    "sponsors": [],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 AK-01"
+  },
+  {
+    "id": "us-202glo6fc3cf65",
+    "poll_type": "us-representative",
+    "sample_size": 600,
+    "population": "lv",
+    "url": "https://hub.nationaljournal.com/welcome-to-the-trump-midterms",
+    "created_at": "2026-08-31",
+    "start_date": "2026-08-10",
+    "end_date": "2026-08-13",
+    "pollster": "Global Strategy Group",
+    "answers": [
+      {
+        "choice": "Christina Hines",
+        "pct": 45.0
+      },
+      {
+        "choice": "Michael Bouchard",
+        "pct": 45.0
+      }
+    ],
+    "seat_name": "MI-10",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 MI-10"
+  },
+  {
+    "id": "us-202gqr8c1f3d93",
+    "poll_type": "us-representative",
+    "sample_size": 400,
+    "population": "lv",
+    "url": "https://x.com/cjwarnke/status/2094396860207088039?s=20",
+    "created_at": "2026-08-31",
+    "start_date": "2026-08-19",
+    "end_date": "2026-08-23",
+    "pollster": "GQR",
+    "answers": [
+      {
+        "choice": "Bob Harvie",
+        "pct": 48.0
+      },
+      {
+        "choice": "Brian Fitzpatrick",
+        "pct": 49.0
+      }
+    ],
+    "seat_name": "PA-01",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 PA-01"
+  },
+  {
+    "id": "us-202har548dbd3f",
+    "poll_type": "us-representative",
+    "sample_size": 500,
+    "population": "lv",
+    "url": "https://www.thehousemajoritypac.com/news/hmp-poll-leela-gray-leads-anna-paulina-luna-in-fl-13",
+    "created_at": "2026-09-01",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "pollster": "Hart Research Associates",
+    "answers": [
+      {
+        "choice": "Anna Paulina Luna",
+        "pct": 43.0
+      },
+      {
+        "choice": "Leela Gray",
+        "pct": 44.0
+      },
+      {
+        "choice": "Tony D'Arrigo",
+        "pct": 7.0
+      }
+    ],
+    "seat_name": "FL-13",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 FL-13"
+  },
+  {
+    "id": "us-202norf7bc03a2",
+    "poll_type": "us-representative",
+    "sample_size": 500,
+    "population": "lv",
+    "url": "https://fiftyplusone.news/latest-polls#:~:text=Normington%2C%20Petts%20%26%20Associates",
+    "created_at": "2026-09-02",
+    "start_date": "2026-08-27",
+    "end_date": "2026-08-31",
+    "pollster": "Normington, Petts & Associates",
+    "answers": [
+      {
+        "choice": "Johnny Garcia",
+        "pct": 44.0
+      },
+      {
+        "choice": "Carlos De La Cruz",
+        "pct": 45.0
+      }
+    ],
+    "seat_name": "TX-35",
+    "sponsors": [
+      "House Majority PAC"
+    ],
+    "internal": false,
+    "partisan": "DEM",
+    "subject": "2026 TX-35"
+  },
+  {
+    "id": "us-202sur44bc5f16",
+    "poll_type": "us-representative",
+    "sample_size": 554,
+    "population": "lv",
+    "url": "https://results.surveyusa.com/client/PollReport.aspx?g=28ed3f59-8986-4e1f-a5d1-a2e7fc8fff01",
+    "created_at": "2026-09-04",
+    "start_date": "2026-08-28",
+    "end_date": "2026-09-02",
+    "pollster": "SurveyUSA",
+    "answers": [
+      {
+        "choice": "Gabe Vasquez",
+        "pct": 46.0
+      },
+      {
+        "choice": "Greg Cunningham",
+        "pct": 43.0
+      }
+    ],
+    "seat_name": "NM-02",
+    "sponsors": [
+      "KOB-TV (Albuquerque)"
+    ],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 NM-02"
+  },
+  {
+    "id": "us-202surf8843a2d",
+    "poll_type": "us-representative",
+    "sample_size": 522,
+    "population": "lv",
+    "url": "https://results.surveyusa.com/client/PollReport.aspx?g=0877c725-6e44-47fe-9856-dcf799865671",
+    "created_at": "2026-09-04",
+    "start_date": "2026-08-27",
+    "end_date": "2026-09-01",
+    "pollster": "SurveyUSA",
+    "answers": [
+      {
+        "choice": "Marni von Wilpert",
+        "pct": 45.0
+      },
+      {
+        "choice": "Jim Desmond",
+        "pct": 42.0
+      }
+    ],
+    "seat_name": "CA-48",
+    "sponsors": [
+      "KGTV (San Diego)",
+      "The San Diego Union Tribune"
+    ],
+    "internal": false,
+    "partisan": null,
+    "subject": "2026 CA-48"
+  }
+]

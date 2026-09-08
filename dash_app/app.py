@@ -5,8 +5,9 @@ import base64
 
 import pandas as pd
 from dash import ALL, Dash, Input, Output, State, ctx, dcc, html, no_update
+from flask import send_file
 
-from core import BRAND_LOGO_PATH, DASH_DIR, MODEL_PATH, load_bundle, load_senate_map, project_signature, safe_value, status_payload
+from core import BRAND_LOGO_PATH, DASH_DIR, MODEL_PATH, latest_html_path, load_bundle, load_senate_map, project_signature, safe_value, status_payload
 from figures import (
     PLOTLY_CONFIG,
     house_map_figure,
@@ -34,6 +35,18 @@ app = Dash(
 )
 server = app.server
 
+
+@server.route("/forecast-html")
+def forecast_html():
+    """Serve the notebook-authored standalone HTML without copying it into Dash."""
+    path = latest_html_path()
+    if path is None:
+        return "Notebook forecast HTML not found. Run Block 8 of v27.1.", 404
+    response = send_file(path, mimetype="text/html", conditional=True, max_age=0)
+    response.headers["Cache-Control"] = "no-store, max-age=0"
+    return response
+
+
 INITIAL_SIGNATURE = project_signature()
 
 
@@ -48,7 +61,7 @@ def source_chip(signature: str):
     try:
         st = status_payload(signature)
         version = st.get("report_version")
-        label = f"v{version}" if isinstance(version, int) and version >= 0 else "latest"
+        label = f"v{version}" if version not in {None, "", "latest"} else "latest"
         return [html.Span(className="live-dot"), f"Model {label} · auto-sync"]
     except Exception:
         return [html.Span(className="live-dot warning-dot"), "Waiting for model output"]
@@ -73,8 +86,8 @@ app.layout = html.Div([
         html.Div([
             html.Img(src=brand_logo_src(), className="brand-logo"),
             html.Div([
-                html.Div("2026 Forecast Desk", className="brand-name"),
-                html.Div("Observatorio de los Estados Unidos · CIEP-UCR", className="brand-sub"),
+                html.Div("Nucleus 42", className="brand-name"),
+                html.Div("Independent U.S. Election Forecasting System", className="brand-sub"),
             ]),
         ], className="brand"),
         html.Div(id="source-status", className="live-chip", children=source_chip(INITIAL_SIGNATURE)),
@@ -89,28 +102,29 @@ app.layout = html.Div([
     html.Div([
         dcc.Tabs(
             id="main-tabs",
-            value="overview",
+            value="forecast",
             persistence=True,
             persistence_type="session",
             className="tab-container",
             children=[
+            dcc.Tab(label="All-in-One", value="forecast", className="tab", selected_className="tab--selected"),
             dcc.Tab(label="Overview", value="overview", className="tab", selected_className="tab--selected"),
-            dcc.Tab(label="House", value="house", className="tab", selected_className="tab--selected"),
-            dcc.Tab(label="Senate", value="senate", className="tab", selected_className="tab--selected"),
+            dcc.Tab(label="Explore House", value="house", className="tab", selected_className="tab--selected"),
+            dcc.Tab(label="Explore Senate", value="senate", className="tab", selected_className="tab--selected"),
             dcc.Tab(label="Probability", value="probability", className="tab", selected_className="tab--selected"),
             dcc.Tab(label="Simulation", value="simulation", className="tab", selected_className="tab--selected"),
-            dcc.Tab(label="Context", value="context", className="tab", selected_className="tab--selected"),
+            dcc.Tab(label="Methodology", value="context", className="tab", selected_className="tab--selected"),
             dcc.Tab(label="Validation", value="validation", className="tab", selected_className="tab--selected"),
             dcc.Tab(label="Scenario Lab", value="scenario", className="tab", selected_className="tab--selected"),
             ],
         ),
     ], className="tabs-wrap tabs-wide"),
 
-    html.Main(id="tab-content", children=render_tab("overview", INITIAL_SIGNATURE)),
+    html.Main(id="tab-content", children=render_tab("forecast", INITIAL_SIGNATURE)),
 
     html.Footer([
         html.Div("Interactive presentation layer · reads audited model outputs · does not mutate Model.xlsx"),
-        html.Div("Forecast model by Juan Ignacio Garbanzo Fallas · Observatorio de los Estados Unidos · CIEP-UCR"),
+        html.Div("Forecast model by Juan Ignacio Garbanzo Fallas · Nucleus 42 · Independent U.S. Election Forecasting System"),
     ], className="footer"),
 ])
 
@@ -415,7 +429,8 @@ def senate_detail_component(row: pd.Series, metric: str = "forecast"):
     )
     dprob = float(row.get("D Win Probability")) if pd.notna(row.get("D Win Probability")) else 50
     rprob = float(row.get("R Win Probability")) if pd.notna(row.get("R Win Probability")) else 50
-    margin = float(row.get("Adjusted Margin 2P")) if pd.notna(row.get("Adjusted Margin 2P")) else 0
+    central_margin_value = row.get("Central Forecast Margin 2P")
+    margin = float(central_margin_value) if pd.notna(central_margin_value) else 0
     info = [
         ("Incumbent", safe_value(row.get("INCUMBENT"))),
         ("Consensus rating", safe_value(row.get("Consensus Rating"))),
@@ -425,7 +440,8 @@ def senate_detail_component(row: pd.Series, metric: str = "forecast"):
         ("Projected D 2P", f"{float(row.get('Projected D 2P')):.2f}%" if pd.notna(row.get('Projected D 2P')) else "—"),
         ("Projected R 2P", f"{float(row.get('Projected R 2P')):.2f}%" if pd.notna(row.get('Projected R 2P')) else "—"),
         ("Vulnerability", safe_value(row.get("Vulnerability Score"))),
-        ("Forecast sigma", f"{float(row.get('Forecast Sigma PP')):.2f} pp" if pd.notna(row.get('Forecast Sigma PP')) else "—"),
+        ("Central forecast sigma", f"{float(row.get('Central Forecast Sigma PP')):.2f} pp" if pd.notna(row.get('Central Forecast Sigma PP')) else "—"),
+        ("Marginal D win probability · audit", f"{float(row.get('Marginal D Win Probability')):.1f}%" if pd.notna(row.get('Marginal D Win Probability')) else "—"),
         ("Historic MAE", f"{float(row.get('Historic MAE PP')):.2f} pp" if pd.notna(row.get('Historic MAE PP')) else "—"),
     ]
     if metric == "probability":
@@ -654,12 +670,12 @@ def update_scenario(direct_overrides, signature):
     senate_geo_expected_delta = float(senate_summary["Expected D seats"] - base_senate_summary["Expected D seats"])
     senate_bucket_diagnostic = senate_model_expected_delta - senate_geo_expected_delta
 
-    # The Scenario headline must share the official baseline identity. House's
-    # production headline is the expected-seat projection rounded to whole seats;
-    # median-winner remains a separate diagnostic displayed below.
-    house_projected_d = int(round(float(house_summary["Expected D seats"])))
+    # The visible Scenario headline is owned by the same 435 district winners
+    # painted on the map. Expected seat mass remains an uncertainty diagnostic;
+    # it must never become a second chamber forecast or break Reset identity.
+    house_projected_d = int(round(float(house_summary["D seats by median winner"])))
     house_projected_r = 435 - house_projected_d
-    base_house_projected_d = int(round(float(base_house_summary["Expected D seats"])))
+    base_house_projected_d = int(round(float(base_house_summary["D seats by median winner"])))
     base_house_projected_r = 435 - base_house_projected_d
     scenario_headline = {
         **current,
@@ -687,7 +703,7 @@ def update_scenario(direct_overrides, signature):
     national_cards = [
         html.Div([html.Div("D popular vote · scenario", className="mini-label"), html.Div(f"{current['D Popular Vote (%)']:.2f}%", className="mini-value dem"), html.Div(f"D–R swing {popular_margin_swing:+.2f} pp", className="mini-note")], className="mini-card"),
         html.Div([html.Div("R popular vote · scenario", className="mini-label"), html.Div(f"{current['R Popular Vote (%)']:.2f}%", className="mini-value rep"), html.Div(f"Other / unallocated {pop_components.get('Other / unallocated (%)', 0.0):.2f}%", className="mini-note")], className="mini-card"),
-        html.Div([html.Div("House projected seats · expected-rounded", className="mini-label"), html.Div([html.Span(f"D {scenario_headline['D House Seats']:.0f}", className="dem"), " – ", html.Span(f"R {scenario_headline['R House Seats']:.0f}", className="rep")], className="mini-value"), html.Div(f"Vs official forecast: D gains {house_d_gains} · R gains {house_r_gains}", className="mini-note")], className="mini-card"),
+        html.Div([html.Div("House seats · district winners", className="mini-label"), html.Div([html.Span(f"D {scenario_headline['D House Seats']:.0f}", className="dem"), " – ", html.Span(f"R {scenario_headline['R House Seats']:.0f}", className="rep")], className="mini-value"), html.Div(f"Vs official forecast: D gains {house_d_gains} · R gains {house_r_gains}", className="mini-note")], className="mini-card"),
         html.Div([html.Div("Senate race-winner seats", className="mini-label"), html.Div([html.Span(f"D {scenario_headline['D Senate Seats']:.0f}", className="dem"), " – ", html.Span(f"R {scenario_headline['R Senate Seats']:.0f}", className="rep")], className="mini-value"), html.Div(f"Vs official forecast: D gains {senate_d_gains} · R gains {senate_r_gains}", className="mini-note")], className="mini-card"),
     ]
 
@@ -709,15 +725,15 @@ def update_scenario(direct_overrides, signature):
 
     house_cards = [
         html.Div([html.Div("D two-party vote change",className="mini-label"),html.Div(f"{popular_share_swing:+.2f} pp",className="mini-value")],className="mini-card"),
-        html.Div([html.Div("Median-winner seats",className="mini-label"),html.Div([html.Span(f"D {house_summary['D seats by median winner']:.0f}",className="dem"), " · ", html.Span(f"R {house_summary['R seats by median winner']:.0f}",className="rep")],className="mini-value")],className="mini-card"),
-        html.Div([html.Div("Expected D seats",className="mini-label"),html.Div(f"{house_summary['Expected D seats']:.1f}",className="mini-value dem")],className="mini-card"),
-        html.Div([html.Div("Expected R seats",className="mini-label"),html.Div(f"{house_summary['Expected R seats']:.1f}",className="mini-value rep")],className="mini-card"),
+        html.Div([html.Div("District-winner seats",className="mini-label"),html.Div([html.Span(f"D {house_summary['D seats by median winner']:.0f}",className="dem"), " · ", html.Span(f"R {house_summary['R seats by median winner']:.0f}",className="rep")],className="mini-value")],className="mini-card"),
+        html.Div([html.Div("Expected D seat mass · diagnostic",className="mini-label"),html.Div(f"{house_summary['Expected D seats']:.1f}",className="mini-value dem")],className="mini-card"),
+        html.Div([html.Div("Expected R seat mass · diagnostic",className="mini-label"),html.Div(f"{house_summary['Expected R seats']:.1f}",className="mini-value rep")],className="mini-card"),
     ]
     senate_cards = [
         html.Div([html.Div("D–R two-party margin change",className="mini-label"),html.Div(f"{popular_margin_swing:+.2f} pp",className="mini-value")],className="mini-card"),
         html.Div([html.Div("Race-winner seats",className="mini-label"),html.Div([html.Span(f"D {senate_summary['D seats by race winner']:.0f}",className="dem"), " · ", html.Span(f"R {senate_summary['R seats by race winner']:.0f}",className="rep")],className="mini-value")],className="mini-card"),
-        html.Div([html.Div("Expected D seats",className="mini-label"),html.Div(f"{senate_summary['Expected D seats']:.1f}",className="mini-value dem")],className="mini-card"),
-        html.Div([html.Div("Expected R seats",className="mini-label"),html.Div(f"{senate_summary['Expected R seats']:.1f}",className="mini-value rep"),html.Div("24 Safe races use scenario-only structural proxies",className="mini-note")],className="mini-card"),
+        html.Div([html.Div("Expected D seat mass · diagnostic",className="mini-label"),html.Div(f"{senate_summary['Expected D seats']:.1f}",className="mini-value dem")],className="mini-card"),
+        html.Div([html.Div("Expected R seat mass · diagnostic",className="mini-label"),html.Div(f"{senate_summary['Expected R seats']:.1f}",className="mini-value rep"),html.Div("24 Safe races use scenario-only structural proxies",className="mini-note")],className="mini-card"),
     ]
 
     # Update the shared 50-state Senate tile renderer without replacing the component.
@@ -848,7 +864,7 @@ def update_scenario(direct_overrides, signature):
             try: d55_threshold = float(d55_row.iloc[0]["Value"])
             except Exception: d55_threshold = None
     model_status = [
-        html.Span("v26 · fourteen-unit premodel · official snapshot preserved", className="method-chip"),
+        html.Span("v27.1 · fourteen-unit premodel · modal-conditional baseline preserved", className="method-chip"),
         html.Span(f"Counterfactual displacement {coherence.get('Mahalanobis distance', 0.0):.2f} · {coherence.get('Coherence status','')}", className="method-chip"),
         html.Span(f"Propagation caps {len(caps)} control(s)", className="method-chip warning" if len(caps) else "method-chip ok"),
         html.Span(f"Direct {direct_count} · hard-adjusted {hard_count} · propagated {propagated_count}", className="method-chip"),

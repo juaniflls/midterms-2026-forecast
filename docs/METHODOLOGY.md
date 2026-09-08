@@ -1,90 +1,55 @@
-# Technical methodology
+# NUCLEUS 42 · Technical Methodology · v27.1
 
-This document describes the operational architecture of the v26 forecast. It is a methodological guide, not a substitute for the executed notebook, the generated audit workbooks, or the frozen input data.
+This document describes the frozen September 8, 2026 release. Exact implementation details live in the executed notebook and generated audit workbooks.
 
-## Design principles
+## Production philosophy
+NUCLEUS 42 separates four objects:
+1. individual race estimates;
+2. one official central chamber forecast;
+3. full-distribution uncertainty; and
+4. Scenario Lab counterfactuals.
 
-1. **Temporal honesty.** A held-out election cannot influence model selection, tuning, fitting, or feature construction inside its historical test.
-2. **Production/validation separation.** Historical fold forecasts measure transportability; they are never reused as synthetic production observations.
-3. **Directional architecture.** National outputs feed House and Senate modules. District and state results do not rewrite the national production fit.
-4. **Post-estimation coherence.** Algebraic electoral identities and totals are applied after statistical estimation.
-5. **Presentation/model separation.** HTML and Dash read model outputs. They do not mutate the workbook, notebook, report, or scenario runtime.
-6. **Explicit uncertainty.** Projected vote, projected margin, win probability, ratings, and stability are distinct quantities.
+Historical validation informs architecture selection, but outer-fold predictions never become production training rows.
 
-## Inputs and target structure
+## National layer
+The national engine produces 42 learned targets from historical and current-cycle inputs. Model families and benchmarks are compared under nested temporal validation, then the 2026 production specification is fitted on legitimate historical observations only.
 
-`Model.xlsx` is the frozen input snapshot for this release. The live Google Sheet is maintained separately and must be exported under the same filename and schema before a future run.
+## House
+All 435 districts are modeled individually from district fundamentals, current-cycle PVI/rank, incumbency/open-seat status, candidate history, ratings/source consensus, polling where available, and frozen national context.
 
-The national architecture estimates 42 targets. They include the popular-vote environment and the chamber/rating structures consumed by downstream modules. Candidate specifications are compared under temporal validation, after which an independent production model is fit on the legitimate historical observations available for the 2026 forecast.
+2024 baseline: D215 / R220.
 
-## Nested temporal validation
+Official v27.1 central: D230 / R205.  
+Control probability: D92.2%.  
+Flips: 23 R→D, 8 D→R, net D+15.
 
-Five completed midterms are treated as sealed future elections: 2006, 2010, 2014, 2018, and 2022.
+Every Monte Carlo row contains all 435 district outcomes. The public central House map is coherent with the modal chamber total.
 
-For every outer test:
+## Senate
+All 35 scheduled elections are displayed. Eleven monitored races receive numerical state-model outputs; 24 Safe races remain categorical officially.
 
-1. the test election is removed;
-2. model family and hyperparameters are selected using only the remaining historical training set;
-3. the selected specification forecasts the excluded election; and
-4. the prediction is compared with the actual result only after the forecast is complete.
+Official v27.1 central: D50 / R50.  
+Republican control probability: 57.0%.  
+Exact 50–50 probability: 20.2%.  
+Central D flips: North Carolina, Ohio, Maine.
 
-This creates genuinely out-of-sample time-machine tests. The architecture also reports 2026 stability under historical exclusions, but those diagnostic predictions do not enter the production fit.
+Within the modal chamber total, the most-supported exact monitored-state pattern is selected. The public margin/probability/winner/rating tuple is reconciled to that same central state.
 
-## National production model
+## Monte Carlo
+50,000 complete-election simulations generate seat distributions, control probabilities, close-race risk, uncertainty intervals, and central-pattern support. House and Senate random streams are independent.
 
-The official forecast consumes the observed 2026 snapshot exactly as supplied. It does not predict or rewrite the national inputs before producing the baseline forecast.
+## Historical validation
+Sealed time-machine elections: 2006, 2010, 2014, 2018, 2022. Each held-out election stays unseen during its own model-selection and tuning process.
 
-The model evaluates candidate approaches, including historical benchmarks, regularized linear models, tree ensembles, and an expected-vote anchor for the popular-vote component. Regularization is necessary because the number of completed midterms is small relative to the number of candidate predictors and targets.
-
-After estimation, constrained allocation preserves valid totals across the House and Senate target families. These transformations enforce electoral identities; they do not add new historical information.
-
-## House model
-
-The House layer translates the frozen national environment and district-level inputs into forecasts for all 435 voting districts.
-
-Its outputs include projected Democratic and Republican two-party vote, projected D–R margin, win probabilities, model rating, source consensus, district winner, incumbent information, and projected holds and flips.
-
-The official display uses Census 2026 CD120 boundaries. The source geometry is converted into a standard composite Albers USA layout with Alaska and Hawaiʻi insets. No congressional boundary is drawn manually.
-
-## Senate model
-
-The Senate layer runs after the national output is frozen and covers all 35 scheduled 2026 regular and special elections.
-
-Eleven monitored races expose numerical state-model outputs. Twenty-four unmonitored Safe races remain categorical in the official forecast because the model does not have an official numerical estimate for those contests. Scenario Lab can move those races through explicitly labeled structural sensitivity anchors, but those anchors are not presented as official margins or probabilities.
-
-For monitored contests, the model keeps separate raw polling margin, normalized two-party polling margin, historical polling-error correction, projected vote and margin, win probability, ratings, and hold/flip status.
-
-## Simulation and uncertainty
-
-The production dashboard stores 50,000 Monte Carlo simulations. They produce seat distributions, chamber-control probabilities, Senate 50–50 probability, close-race risk, and related uncertainty summaries.
-
-Simulation does not alter the fitted model. It propagates the model’s estimated uncertainty into electoral outcomes.
-
-## Scenario authority
-
-The 42 national targets execute for every Scenario Lab intervention and remain available for audit. Under extreme counterfactuals, some national chamber-bucket responses can be less coherent than the geographic vote pathway because the historical sample is small and extrapolation is difficult.
-
-For that reason, final scenario House and Senate seat counts are governed by the district and state geographic layers. National chamber buckets remain diagnostics and cannot reverse the direction of the reconciled popular-vote signal.
-
-No partisan sign is imposed manually. A future replacement for the central model should be adopted only if it improves historical validation, baseline identity, sensitivity coherence, and geographic consistency together.
+## Presentation boundary
+HTML and Dash consume audited outputs and never write back into Model.xlsx or the central forecast.
 
 ## Reproducibility artifacts
-
-- `Modelo_Midterms_2026_v26_FINAL_EJECUTADO.ipynb`: complete executed pipeline.
-- `Model.xlsx`: frozen input snapshot.
-- `outputs/Election_Model_Final_Report_v26.xlsx`: consolidated report.
-- `outputs/Model_Sensitivity_Audit_v26.xlsx`: sensitivity audit.
-- `outputs/scenario_state_engine_v26.py`: generated counterfactual runtime.
-- `Election_Model_2026_Dashboard_v26.html`: autonomous presentation.
-- `dash_app/`: live read-only presentation layer.
-- `qa/`: machine-readable validation evidence.
-
-## Limitations
-
-- Five historical midterms provide limited degrees of freedom.
-- Relationships between national indicators are associational, not necessarily causal.
-- Electoral coalitions and institutional conditions can change between cycles.
-- District and state outcomes are correlated.
-- Safe-race structural anchors are Scenario Lab sensitivity devices, not official numerical forecasts.
-- Extreme counterfactuals can leave historical support.
-- Forecasts are conditional on the frozen snapshot and become stale as new evidence arrives.
+- Modelo_Midterms_2026_v27.1_NUCLEUS42_FINAL.ipynb
+- Model.xlsx
+- Election_Model_v27_1_Coherence_Audit.html
+- outputs/Election_Model_Final_Report_v27_1.xlsx
+- outputs/Model_Sensitivity_Audit_v27.xlsx
+- outputs/scenario_state_engine_v27.py
+- dash_app/
+- qa/

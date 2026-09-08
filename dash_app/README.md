@@ -1,118 +1,78 @@
-# 2026 Midterm Forecast — Dash v26.1 presentation
+# Midterms 2026 Forecast — Dash v27.1 FINAL
 
-Dash v26.1 is the interactive presentation layer for the notebook-generated
-forecast. It does not train an independent model and does not read an older
-dashboard as a data source.
+This folder is the downstream interactive presentation layer for the **frozen v27.1 model**. It does not contain private copies of `Model.xlsx`, reports, notebook code, scenario runtime, or the standalone HTML. Those remain at repository root / `outputs/` and are discovered dynamically.
 
-The underlying notebook, report, Scenario runtime, and model remain v26. This
-presentation update changes layout, labels, map color logic, tooltips, and the
-display calculation that classifies Senate holds and flips; it does not change
-any forecast probability, vote share, margin, seat estimate, or model weight.
+## Tabs
 
-## Presentation changes in v26.1
+- **Forecast** — serves the exact notebook-generated standalone HTML 1:1 from repository root. This guarantees visual parity with the final audited HTML, including the House geographic map and cartogram, 435-race explorer, House flips, Senate race desk, control probability, Monte Carlo distributions, national context, validation, Model Quality, Electoral Risk, and final uncertainty.
+- **Overview / House / Senate / Probability / Simulation / Context / Validation** — native Dash drill-down views backed by the same audited report.
+- **Scenario Lab** — counterfactual layer. It has 31 controls organized into 14 intervention units (12 constrained composition batteries + 2 independent macro controls), preserves the 42-target engine, and translates the reconciled national state to all 435 House districts and all 35 scheduled Senate races. It never overwrites the official forecast.
 
-- Scenario Lab places the four headline outcomes first, followed by a compact
-  horizontal grid of the fourteen intervention units and then the full House
-  and Senate maps.
-- The Scenario House map defaults to projected two-party vote and uses only the
-  Democratic/Republican margin scale; close races are no longer yellow.
-- Scenario Senate tiles expose a structured hover with projected D/R vote,
-  winner, margin, probability, official rating, hold/flip status, and change
-  from the official forecast.
-- The central House and Senate views include chamber-control probability panels
-  above their filters and maps.
-- Central Senate `Forecast` and `Holds & flips` classify outcomes by comparing
-  the projected winner with the incumbent party.
-- Input constraints and technical diagnostics remain available in collapsed
-  sections below the Scenario maps.
+## Critical baseline contract
 
-## Methodological contract
+Scenario Lab reset is read dynamically from the current audited report. The visible House seat headline is the count of the **435 district winners shown on the scenario map**, not rounded expected seat mass. Expected seat mass remains diagnostic-only. Senate reset similarly uses race winners.
 
-The official forecast uses the observed 2026 snapshot exactly as supplied.
-Scenario Lab starts from that same snapshot and adds a counterfactual pipeline:
+## Run
 
-1. apply the mathematical constraint of the edited response battery;
-2. reconcile fourteen intervention units with regularised historical
-   associations;
-3. construct a coherent 31-control counterfactual snapshot;
-4. execute the same central 42-target model;
-5. translate the reconciled popular-vote swing through the House district and
-   Senate state layers.
-
-Twelve units are mutually exclusive response batteries whose components may
-sum below, but never above, 100%. Unemployment and inflation are independent
-macroeconomic units. Learned propagation is permitted only between units.
-Components inside one battery move relative to each other solely because of the
-hard composition constraint.
-
-When direct requests in the same battery conflict, the most recently edited
-control receives priority. Compatible interventions in other batteries remain
-active. Slider callbacks run on mouse release; the battery projection is shown
-immediately and the premodel/42-target/geographic pipeline then updates the full
-Scenario Lab state.
-
-The relationship system is associational rather than causal. It uses
-Ledoit–Wolf shrinkage, leave-one-election-year-out sign reliability and a
-contraction bound. Unsupported relationships may have zero weight. Political
-perceptions cannot rewrite unemployment, inflation or the previous presidential
-result.
-
-## Authoritative outputs
-
-- The notebook owns the official forecast, report, HTML and Scenario runtime.
-- The 42 national targets execute for every scenario and remain available for
-  audit.
-- House district and Senate state models own the final scenario seat counts.
-  National chamber buckets are diagnostic and cannot reverse the geographic
-  popular-vote pathway.
-- The 24 unmonitored Safe Senate races have no official numerical probability,
-  margin or vote share. Scenario Lab uses clearly labelled structural
-  sensitivity anchors only; no artificial 60–40 default is used.
-
-## Required files
-
-When `dash_app/` is directly inside the repository root, it reads:
-
-- `../outputs/Election_Model_Final_Report_v26.xlsx`;
-- `../Election_Model_2026_Dashboard_v26.html`;
-- `../Model.xlsx`;
-- `../outputs/scenario_state_engine_v26.py`;
-- `../assets/house_cd120_albers_paths.json.gz`;
-- `../assets/branding/Midterms_2026_Logo.svg`.
-
-The report SHA-256 must match the current `Model.xlsx`. Dash is read-only with
-respect to these sources.
-
-## Run on macOS or VS Code
-
-Run the v26 notebook first from the repository root. Then:
+From repository root, keep this directory named `dash_app/` and run:
 
 ```bash
 cd dash_app
-python3 -m venv .venv
-source .venv/bin/activate
-python3 -m pip install -r requirements.txt
-python3 check_setup.py
+python3 check_setup.py --deep
 python3 app.py
 ```
 
-Open `http://127.0.0.1:8050`. If the port is occupied:
+If dependencies are missing:
 
 ```bash
-DASH_PORT=8051 python3 app.py
+pip install -r requirements.txt
 ```
 
-## Release regression contracts
+The app expects sibling repository assets:
 
-- Zero intervention reproduces the official 31-input state, all 42 targets,
-  popular vote, House 224–211 and Senate 48–52 exactly.
-- Twelve composition batteries remain at or below 100%.
-- The most recent same-battery edit wins; cross-battery direct edits persist.
-- The relationship exports contain 182 directed 14-unit pairs and 930 directed
-  31-control pairs, with all within-battery statistical weights equal to zero.
-- Geographic response never reverses the sign of the reconciled popular-vote
-  swing.
-- With the current 35 Senate anchors, D55 requires approximately +8.44 points
-  of uniform D–R margin swing and seven additional flips. D55 at baseline is a
-  regression failure.
-- The Dash package contains no workbook, runtime, HTML, geometry or cache copy.
+- `../Model.xlsx`
+- `../outputs/Election_Model_Final_Report_v27_1.xlsx` (or newer matching v27.x report)
+- `../outputs/scenario_state_engine_v27.py`
+- `../Election_Model_v27_1_Coherence_Audit.html` (or supported notebook HTML name)
+- `../assets/house_cd120_albers_paths.json.gz`
+- `../assets/branding/Midterms_2026_Logo.svg`
+
+## Update workflow
+
+1. Update the canonical source workbook.
+2. Run the frozen v27.1 notebook completely.
+3. Confirm the report, runtime, and standalone HTML were regenerated.
+4. Dash detects the new audited outputs automatically.
+
+Do not edit forecast constants in Dash.
+
+
+## v27.1 Final UI navigation
+
+The native Dash edition now separates the roles of each surface:
+
+- **All-in-One** — exact notebook-authored HTML, served 1:1.
+- **Overview** — concise national snapshot.
+- **Explore House** — interactive 435-district map, source consensus, flips/net change and district desk.
+- **Explore Senate** — interactive 50-state/35-election map, monitored source consensus, flips/net change and race desk.
+- **Probability** — control odds, close-race risk and uncertainty intervals.
+- **Simulation** — cross-variable Monte Carlo explorer and chamber distributions.
+- **Methodology** — readable production pipeline plus collapsible technical contracts.
+- **Validation** — historical performance first, deep technical audits collapsed below.
+- **Scenario Lab** — unchanged counterfactual engine; official forecast remains frozen.
+
+The final v27.1 report currently exposes House source consensus through `Core3 Consensus Rating`; Dash aliases that field downstream as `Source Consensus Rating` without altering the workbook or forecast.
+
+
+## Nucleus 42
+
+Public identity: **Nucleus 42 — Independent U.S. Election Forecasting System**.
+
+The final Dash remains downstream of the frozen v27.1 notebook/report/HTML.
+
+Important final display rules:
+- House source consensus is exactly the same 435-district v27 consensus used by notebook Block 8.
+- Senate does not display a source-consensus layer because the final HTML does not define one.
+- House/Senate flip cards use party colors and net-change color follows the direction of the net.
+- Probability, Simulation, Methodology and Validation use stable containers intended to prevent Plotly/table overlap.
+- Scenario Lab is unchanged.

@@ -1,9 +1,10 @@
-"""Thin Scenario-Lab runtime loader for Modelo Midterms 2026 v26.
+"""Thin Scenario-Lab runtime loader for Modelo Midterms 2026 v27.1.
 
-The notebook owns the relationship engine and exports it to
-``outputs/scenario_state_engine_v26.py``. Dash is strictly downstream. Before
-loading the runtime, this wrapper verifies that the latest v26 report was built
-from the same ``Model.xlsx`` snapshot currently present at repository root.
+The production notebook owns the forecast, modal-conditional chamber centralizer,
+and counterfactual relationship engine. Dash is strictly downstream. Before
+loading the runtime, this wrapper verifies that the latest audited v27.1 report
+was built from the same ``Model.xlsx`` snapshot currently present at repository
+root.
 """
 from __future__ import annotations
 
@@ -20,17 +21,22 @@ DASH_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = DASH_DIR.parent
 OUTPUTS_DIR = PROJECT_ROOT / "outputs"
 MODEL_PATH = PROJECT_ROOT / "Model.xlsx"
-RUNTIME_PATH = OUTPUTS_DIR / "scenario_state_engine_v26.py"
+RUNTIME_PATH = OUTPUTS_DIR / "scenario_state_engine_v27.py"
+REPORT_RE = re.compile(r"Election_Model_Final_Report_v(\d+)(?:[_\.](\d+))?\.xlsx$", re.I)
+
+
+def _report_key(path: Path):
+    m = REPORT_RE.search(path.name)
+    major = int(m.group(1)) if m else -1
+    minor = int(m.group(2) or 0) if m else -1
+    return major, minor, path.stat().st_mtime_ns
 
 
 def _latest_report() -> Path:
     reports = list(OUTPUTS_DIR.glob("Election_Model_Final_Report_v*.xlsx"))
     if not reports:
-        raise FileNotFoundError("No audited model report found. Run the v26 notebook first.")
-    def key(path: Path):
-        m = re.search(r"_v(\d+)\.xlsx$", path.name, re.I)
-        return (int(m.group(1)) if m else -1, path.stat().st_mtime_ns)
-    return max(reports, key=key)
+        raise FileNotFoundError("No audited model report found. Run the v27.1 notebook first.")
+    return max(reports, key=_report_key)
 
 
 def _assert_snapshot_sync() -> None:
@@ -46,26 +52,27 @@ def _assert_snapshot_sync() -> None:
     current_sha = hashlib.sha256(MODEL_PATH.read_bytes()).hexdigest()
     if not source_sha or source_sha != current_sha:
         raise RuntimeError(
-            "Model.xlsx no longer matches the notebook-generated report. "
-            "Run the v26 notebook before starting Scenario Lab."
+            "Model.xlsx no longer matches the notebook-generated v27.1 report. "
+            "Run the v27.1 notebook before starting Scenario Lab."
         )
 
 
 if not RUNTIME_PATH.exists():
     raise FileNotFoundError(
         f"Missing notebook-exported Scenario Lab runtime: {RUNTIME_PATH}. "
-        "Run the v26 notebook before starting Dash."
+        "Run the v27.1 notebook before starting Dash."
     )
 _assert_snapshot_sync()
 
-_spec = importlib.util.spec_from_file_location("midterms_v26_scenario_runtime", RUNTIME_PATH)
+_spec = importlib.util.spec_from_file_location("midterms_v27_scenario_runtime", RUNTIME_PATH)
 if _spec is None or _spec.loader is None:
     raise ImportError(f"Unable to load Scenario Lab runtime from {RUNTIME_PATH}")
 _runtime = importlib.util.module_from_spec(_spec)
 sys.modules[_spec.name] = _runtime
 _spec.loader.exec_module(_runtime)
 
-ENGINE_VERSION = getattr(_runtime, "ENGINE_VERSION", "v26")
+ENGINE_VERSION = getattr(_runtime, "ENGINE_VERSION", "v27")
+OFFICIAL_BASELINE_HEADLINE = getattr(_runtime, "OFFICIAL_BASELINE_HEADLINE", {})
 INPUT_GROUPS = _runtime.INPUT_GROUPS
 LABELS = _runtime.LABELS
 COMPOSITION_BATTERIES = _runtime.COMPOSITION_BATTERIES

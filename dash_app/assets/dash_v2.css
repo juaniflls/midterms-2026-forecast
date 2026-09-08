@@ -90,7 +90,7 @@ body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Robo
   .scenario-house-graph{height:540px;min-height:540px}
 }
 
-/* v26.1 presentation release — outcome-first Scenario Lab and control heroes. */
+/* v27.1 presentation release — outcome-first Scenario Lab and control heroes. */
 .control-hero{position:relative;overflow:hidden;margin:0 0 20px;padding:28px 32px;border:1px solid var(--border);border-radius:28px;background:linear-gradient(110deg,#edf5ff 0%,#fff 49%,#fff0f1 100%);box-shadow:var(--shadow)}
 .control-hero:before{content:"";position:absolute;inset:0 auto 0 0;width:7px;background:var(--purple)}
 .control-hero-dem:before{background:var(--dem)}
@@ -157,4 +157,136 @@ body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Robo
   .control-distribution-row{grid-template-columns:1fr}
   .control-distribution-legend{grid-column:1}
   .state-rich-tooltip{width:260px}
+}
+
+
+/* v27.1 final: exact notebook forecast surface */
+.forecast-shell{width:100%;padding:0 18px 24px;box-sizing:border-box}
+.forecast-frame-bar{max-width:1480px;margin:18px auto 10px;display:flex;align-items:end;justify-content:space-between;gap:18px;padding:0 2px}
+.forecast-frame-title{font-size:18px;font-weight:900;color:#101828;letter-spacing:-.02em}
+.forecast-frame-source{font-size:11px;color:#667085;font-weight:700;text-align:right;overflow-wrap:anywhere}
+.forecast-iframe{display:block;width:100%;max-width:1600px;height:88vh;min-height:760px;margin:0 auto;border:1px solid #E2E8F0;border-radius:20px;background:#fff;box-shadow:0 18px 55px rgba(15,23,42,.08)}
+@media(max-width:760px){.forecast-shell{padding:0 8px 16px}.forecast-frame-bar{display:block}.forecast-frame-source{text-align:left;margin-top:4px}.forecast-iframe{height:84vh;min-height:680px;border-radius:14px}}
+
+
+/* v27.1 FINAL UI — native exploration + methodology/validation polish */
+.panel-copy{margin:4px 0 12px;color:#64748b;font-size:11px;line-height:1.55;font-weight:650}
+.one{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.seat-change-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:-4px 0 18px}
+.change-card{padding:14px 16px;border:1px solid #dfe7f0;border-radius:16px;background:rgba(255,255,255,.92);box-shadow:0 7px 18px rgba(15,23,42,.045)}
+.change-label{color:#61718b;font-size:8px;font-weight:950;letter-spacing:.11em;text-transform:uppercase}
+.change-value{margin-top:6px;color:#111827;font-size:27px;font-weight:1000;letter-spacing:-.045em}
+.change-baseline{margin-top:7px;color:#111827;font-size:18px;font-weight:950;letter-spacing:-.025em}
+.change-note{margin-top:3px;color:#8a98aa;font-size:9px;font-weight:800}
+.change-note.strong{color:#4b5b70}
+.control-distribution-missing{font-size:9px}
+
+.probability-hero,.simulation-hero,.validation-hero,.methodology-hero{grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:18px}
+.probability-main,.simulation-main{padding:20px 22px}
+.reading-rules{display:grid;gap:10px;margin-top:10px}
+.reading-rule{display:grid;gap:3px;padding:11px 12px;border:1px solid #e4eaf2;border-radius:12px;background:#f8fbff}
+.reading-rule b{font-size:10px;color:#172033}
+.reading-rule span{font-size:10px;line-height:1.45;color:#66758a}
+
+.audit-details{margin:0 0 12px;border:1px solid #dfe7f0;border-radius:16px;background:#fff;box-shadow:0 6px 16px rgba(15,23,42,.035);overflow:hidden}
+.audit-details>summary{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:15px 18px;cursor:pointer;list-style:none;color:#233047;font-size:11px;font-weight:950}
+.audit-details>summary::-webkit-details-marker{display:none}
+.audit-details>summary:after{content:"＋";color:#8b5cf6;font-size:17px;font-weight:900}
+.audit-details[open]>summary:after{content:"−"}
+.audit-details[open]>summary{border-bottom:1px solid #e7edf4;background:#fbfcfe}
+.audit-details-action{color:#8b5cf6;font-size:8px;font-weight:950;letter-spacing:.08em;text-transform:uppercase}
+.audit-details-copy{margin:13px 18px 0;color:#64748b;font-size:10px;line-height:1.5}
+.audit-details-body{padding:14px 16px 16px;overflow-x:auto}
+.details-stack{display:grid;gap:0;margin-top:16px}
+
+.methodology-flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:0 0 18px}
+.flow-step{position:relative;min-height:174px;padding:18px 16px 16px;border:1px solid #dfe7f0;border-radius:18px;background:linear-gradient(145deg,#fff,#f8fbff);box-shadow:0 8px 20px rgba(15,23,42,.045)}
+.flow-step-number{display:flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:#ede9fe;color:#6d28d9;font-size:11px;font-weight:1000}
+.flow-step h3{margin:13px 0 7px;color:#121a2b;font-size:16px;line-height:1.1;letter-spacing:-.025em}
+.flow-step p{margin:0;color:#68778c;font-size:10px;line-height:1.5;font-weight:650}
+.methodology-key{align-items:start}
+
+.tabs-wide .tab{white-space:nowrap}
+.forecast-frame-title:before{content:"All-in-One · ";color:#8b5cf6}
+
+@media(max-width:1180px){
+  .seat-change-strip,.probability-hero,.simulation-hero,.validation-hero,.methodology-hero{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .methodology-flow{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  .seat-change-strip,.probability-hero,.simulation-hero,.validation-hero,.methodology-hero,.methodology-flow{grid-template-columns:1fr}
+  .change-card{padding:13px 14px}
+  .flow-step{min-height:0}
+}
+
+
+/* ==========================================================
+   NUCLEUS 42 FINAL UI — stable native analytical views
+   ========================================================== */
+:root{
+  --n42-blue:#0B5CAB;
+  --n42-red:#C1121F;
+  --n42-purple:#8B5CF6;
+}
+.brand-name{letter-spacing:.08em}
+.brand-sub{max-width:360px}
+
+/* Exact flip/net color language */
+.change-card{position:relative;overflow:hidden}
+.change-card:before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:#CBD5E1}
+.change-card.change-dem:before{background:var(--dem)}
+.change-card.change-rep:before{background:var(--rep)}
+.change-card.change-neutral:before{background:#94A3B8}
+.change-card.change-baseline-card:before{background:linear-gradient(90deg,var(--dem) 0 50%,var(--rep) 50% 100%)}
+.change-card.change-dem{background:linear-gradient(180deg,rgba(11,92,171,.035),rgba(255,255,255,.97) 34%)}
+.change-card.change-rep{background:linear-gradient(180deg,rgba(193,18,31,.035),rgba(255,255,255,.97) 34%)}
+
+/* Prevent Plotly from collapsing into title-only strips */
+.stable-grid{align-items:stretch}
+.stable-grid>.panel{min-width:0}
+.stable-graph-panel{overflow:hidden;min-width:0}
+.graph-shell{position:relative;width:100%;min-height:340px}
+.graph-shell-lg{min-height:450px}
+.graph-shell>.dash-graph,
+.graph-shell>.js-plotly-plot,
+.graph-shell .plot-container,
+.graph-shell .svg-container{width:100%!important}
+.stable-table-panel{overflow:hidden;min-width:0}
+.stable-table-panel .dash-table-container{width:100%;overflow-x:auto}
+
+/* Probability */
+.probability-odds-panel{padding:20px 22px}
+.odds-row{display:grid;grid-template-columns:minmax(160px,.55fr) minmax(0,1.45fr);gap:20px;align-items:center;padding:16px 4px;border-top:1px solid #E7EDF4}
+.odds-row:first-of-type{border-top:0}
+.odds-label{font-size:13px;font-weight:950;color:#172033}
+.odds-note{margin-top:4px;font-size:10px;line-height:1.45;color:#7A889C}
+.odds-bar-row{display:grid;grid-template-columns:74px minmax(0,1fr) 74px;gap:10px;align-items:center}
+.odds-number{font-size:13px;font-weight:1000}
+.odds-number.dem{text-align:right}
+.odds-number.rep{text-align:left}
+.odds-track{display:flex;height:22px;border-radius:999px;overflow:hidden;background:#E2E8F0;box-shadow:inset 0 0 0 1px rgba(15,23,42,.05)}
+.odds-dem{background:linear-gradient(90deg,#0B4D91,#1769AA)}
+.odds-rep{background:linear-gradient(90deg,#D92635,#96020D)}
+
+/* Methodology: readable 4x2 flow, no giant exposed raw contracts */
+.methodology-flow-eight{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.methodology-flow-eight .flow-step{min-height:188px}
+.method-card-title{margin:4px 0 10px;font-size:22px;line-height:1.08;letter-spacing:-.03em;color:#111827}
+.method-card-copy{margin:0;color:#64748B;font-size:12px;line-height:1.65;font-weight:650}
+.method-explainer{min-height:190px}
+
+/* Tables/details */
+.audit-details{contain:layout paint}
+.audit-details-body{max-width:100%;overflow:auto}
+.details-stack{margin-top:16px}
+
+/* Slightly stronger responsive rules */
+@media(max-width:1100px){
+  .methodology-flow-eight{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:780px){
+  .odds-row{grid-template-columns:1fr}
+  .odds-bar-row{grid-template-columns:64px minmax(0,1fr) 64px}
+  .methodology-flow-eight{grid-template-columns:1fr}
+  .graph-shell{min-height:320px}
 }

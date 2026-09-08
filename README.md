@@ -1,411 +1,415 @@
 <p align="center">
-  <img src="assets/social/social-preview.png" alt="Midterms 2026 Forecast Model" width="100%">
+  <img src="assets/readme/nucleus42-v27-hero.png" alt="NUCLEUS 42 — Midterms 2026 Forecast Model v27.1" width="100%">
 </p>
 
 <p align="center">
-  <img alt="Model v26" src="https://img.shields.io/badge/model-v26-7657F6?style=flat-square">
-  <img alt="Dash v26.1" src="https://img.shields.io/badge/Dash-v26.1-9B4DCA?style=flat-square">
+  <img alt="NUCLEUS 42" src="https://img.shields.io/badge/NUCLEUS%2042-independent%20forecasting-111827?style=flat-square">
+  <img alt="Model v27.1" src="https://img.shields.io/badge/model-v27.1-7C3AED?style=flat-square">
+  <img alt="Monte Carlo 50k" src="https://img.shields.io/badge/Monte%20Carlo-50%2C000-8B5CF6?style=flat-square">
+  <img alt="House 435" src="https://img.shields.io/badge/House-435%20districts-0B5CAB?style=flat-square">
+  <img alt="Senate 35" src="https://img.shields.io/badge/Senate-35%20elections-C1121F?style=flat-square">
   <img alt="Python 3.12" src="https://img.shields.io/badge/Python-3.12-1593FF?style=flat-square&logo=python&logoColor=white">
-  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-reproducible-F37626?style=flat-square&logo=jupyter&logoColor=white">
-  <img alt="QA" src="https://img.shields.io/badge/QA-validated-13A879?style=flat-square">
   <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-111827?style=flat-square">
 </p>
 
-<h1 align="center">2026 Midterm Forecast</h1>
+<h1 align="center">NUCLEUS 42 · 2026 U.S. Midterm Forecast</h1>
 
 <p align="center">
-  A reproducible political data science system for forecasting the 2026 United States midterm elections—from the national environment to all 435 House districts, all 35 scheduled Senate elections, chamber control, uncertainty, and model-driven counterfactuals.
+  <strong>Independent U.S. Election Forecasting System</strong><br>
+  Reproducible electoral data science for the national environment, all 435 House districts, all 35 scheduled Senate elections, uncertainty, validation, and interactive counterfactuals.
 </p>
 
 <p align="center">
   <strong>Forecast model by Juan Ignacio Garbanzo Fallas</strong><br>
-  <sub>Observatorio de los Estados Unidos · CIEP-UCR</sub>
+  <sub>NUCLEUS 42 · evidence · independence · transparency · better conversations</sub>
 </p>
 
 ---
 
-## Forecast snapshot
+## Forecast snapshot · v27.1
 
-The repository contains the audited model snapshot generated on **August 26, 2026**. These are model outputs, not guarantees or institutional endorsements.
+Frozen production snapshot: **September 8, 2026**.
 
-| National result | Current forecast |
+| Measure | Official v27.1 output |
 |---|---:|
-| Democratic popular vote | **50.93%** |
-| Republican popular vote | **46.15%** |
-| House | **D 224 · R 211** |
-| House control probability | **D 74.6%** |
-| Senate | **D 48 · R 52** |
-| Senate control probability | **R 77.5%** |
-| Senate 50–50 probability | **16.1%** |
-| Diagnostic stability | **64.0 / 100** |
+| Democratic popular vote | **52.07%** |
+| Republican popular vote | **45.01%** |
+| Other / unallocated | **2.92%** |
+| House | **D 230 · R 205** |
+| House control probability | **D 92.2%** |
+| House flips | **23 R→D · 8 D→R · net D +15** |
+| Senate | **D 50 · R 50** |
+| Senate control probability | **R 57.0%** |
+| Senate 50–50 probability | **20.2%** |
+| Senate flips | **3 R→D · 0 D→R · net D +3** |
+| Monte Carlo | **50,000 complete election simulations** |
+| National outputs | **42 targets** |
+| Diagnostic stability | **70.0/100** *(heuristic sensitivity index, not a win probability)* |
 
-> [!NOTE]
-> `64.0 / 100` is a heuristic sensitivity index, not a probability of winning. The official forecast remains the frozen baseline; Scenario Lab never overwrites it.
+> [!IMPORTANT]
+> **There is one official central forecast per chamber.** House and Senate are built from individual race engines, complete-election simulations, a modal chamber total, and one coherent central map within that total. Control probability and interval summaries come from the full distribution and never replace the central forecast.
 
-## See the system in motion
+## See NUCLEUS 42 in motion
 
 <p align="center">
-  <img src="assets/readme/forecast-tour.gif" alt="Animated tour of the Midterms 2026 Dash and Scenario Lab" width="100%">
+  <img src="assets/readme/forecast-tour.gif" alt="NUCLEUS 42 v27.1 Dash and Scenario Lab tour" width="100%">
 </p>
 
-The tour moves through the national dashboard, House and Senate forecasts, and the new Scenario Lab. Every frame comes from the v26/v26.1 files included here.
+---
 
 ## Start here
 
 | Resource | What it provides |
 |---|---|
-| **[Executed notebook v26](Modelo_Midterms_2026_v26_FINAL_EJECUTADO.ipynb)** | The complete 13-code-cell modeling pipeline with stored outputs and no notebook errors. |
-| **[Interactive HTML v26](Election_Model_2026_Dashboard_v26.html)** | A self-contained, offline forecast desk. Download it and open it in a modern browser. |
-| **[Dash application v26.1](dash_app/)** | The live interactive presentation layer, including Scenario Lab, responsive controls, maps, hovers, holds, and flips. |
-| **[Consolidated report v26](outputs/Election_Model_Final_Report_v26.xlsx)** | The principal machine-generated audit workbook used by Dash. |
-| **[Frozen model workbook](Model.xlsx)** | The versioned input snapshot required to reproduce this release. |
-| **[Live canonical data](https://docs.google.com/spreadsheets/d/1xw1BG083q41GgdWCJ_oAbqqXQEoec5aqejzXknVqYtg/edit?usp=sharing)** | The continuously maintained Google Sheet. Export it as `Model.xlsx` before a future model run. |
-| **[Scenario Lab methodology](docs/SCENARIO_LAB.md)** | Hard constraints, learned cross-unit reconciliation, baseline identity, geographic translation, and limitations. |
-| **[Technical methodology](docs/METHODOLOGY.md)** | Temporal validation, national model, House, Senate, uncertainty, and audit design. |
-| **[Publishing guide](docs/PUBLISHING.md)** | Safe replacement, validation, commit, push, and automated GitHub checks. |
+| **[Executed notebook v27.1](Modelo_Midterms_2026_v27.1_NUCLEUS42_FINAL.ipynb)** | Complete 13-code-cell production pipeline with stored outputs and no notebook errors. |
+| **[Self-contained HTML](Election_Model_v27_1_Coherence_Audit.html)** | Offline NUCLEUS 42 forecast desk generated by Block 8. |
+| **[Dash application](dash_app/)** | All-in-One, Overview, Explore House, Explore Senate, Probability, Simulation, Methodology, Validation, and Scenario Lab. |
+| **[Consolidated report](outputs/Election_Model_Final_Report_v27_1.xlsx)** | Primary machine-generated audit workbook and Dash data contract. |
+| **[Frozen model workbook](Model.xlsx)** | Exact workbook snapshot used by this release. |
+| **[Live canonical Model sheet](https://docs.google.com/spreadsheets/d/1NC80MaJh8vyxrbQsi__HSR2StaSo8mgAJ3iSdilqEj0/edit?usp=sharing)** | Maintained Google Sheet. Export as `Model.xlsx` before a future production run. |
+| **[Methodology](docs/METHODOLOGY.md)** | Central forecast contract, House, Senate, simulation, validation, and reproducibility. |
+| **[Scenario Lab](docs/SCENARIO_LAB.md)** | Counterfactual controls, constraints, historical reconciliation, geography, and limits. |
+| **[Model card](MODEL_CARD.md)** | Intended use, outputs, validation design, limitations, and interpretation. |
+| **[Publishing guide](docs/PUBLISHING.md)** | Replace, validate, commit, push, and release checklist. |
 
-> [!IMPORTANT]
-> `Model.xlsx`, the v26 report, the v26 runtime, and the v26 HTML belong to one frozen snapshot. Do not mix them with files from another model run. `dash_app/check_setup.py` verifies that contract before launch.
+> [!WARNING]
+> `Model.xlsx`, the executed notebook, final HTML, final report, and scenario runtime belong to **one frozen snapshot**. Do not mix artifacts from different runs.
 
-## What is new in v26.1
+---
 
-Version 26 introduces the fourteen-unit counterfactual premodel. Version 26.1 preserves that exact model and upgrades only the Dash presentation layer.
+## What is new in v27.1
 
-- **Outcome-first Scenario Lab:** national vote and seat results appear first, followed by compact horizontal intervention batteries and full-width House and Senate maps.
-- **Fourteen intervention units:** twelve mutually exclusive response batteries plus unemployment and inflation as independent macroeconomic controls.
-- **Thirty-one reconciled national controls:** edits propagate across units through regularized historical associations, not partisan intuition.
-- **Same 42-target model:** every released intervention reruns the central model and both geographic translators.
-- **Exact baseline identity:** reset reproduces D 50.93% / R 46.15%, House 224–211, and Senate 48–52.
-- **Projected vote maps:** the Scenario House map uses projected two-party vote and a blue-to-red margin scale—no yellow close-race layer.
-- **Correct holds and flips:** Senate outcomes compare the projected winner with the incumbent party; Maine, Michigan, and North Carolina are no longer mislabeled as universal holds.
-- **Structured Senate hover:** projected vote, margin, probability, rating, incumbent party, hold/flip status, and change from the official forecast are available in the live Dash.
-- **No artificial Safe margin:** the 24 unmonitored Safe Senate races remain categorical in the official forecast. Structural proxies are used only inside Scenario Lab and are labeled accordingly.
-- **Presentation/model separation:** v26.1 changes layout, labels, color logic, tooltips, and display classification; it does not change a model coefficient, forecast probability, vote share, or official seat total.
+### House · all 435 districts
 
-See [`CHANGELOG.md`](CHANGELOG.md) and [`RELEASE_NOTES_v26.1.0.md`](RELEASE_NOTES_v26.1.0.md) for the release record.
+- Correct 2024 baseline: **D215 · R220**.
+- 2024→2026 district lineage / crosswalk auditing.
+- Every Monte Carlo draw simulates all **435 districts individually**.
+- Official central House: **D230 · R205**.
+- Exact seat changes: **23 R→D**, **8 D→R**, **net D +15**.
+- Canonical v27 source consensus for all 435 districts.
+- Geographic forecast map, equal-seat cartogram, searchable race explorer, PVI/rank audit, ratings, margins, probabilities, and holds/flips.
+- Cook PVI 2026 and 2026 Rank are current-cycle structural information, not synthetic historical rows.
 
-## Scenario Lab
+### Senate · one coherent central forecast
 
-Scenario Lab is a counterfactual interface over the same audited forecast—not a second forecast and not a collection of independent sliders.
+- All **35 scheduled 2026 elections** are displayed.
+- **11 monitored races** receive numerical state-model outputs; **24 Safe races** remain categorical officially.
+- Each Monte Carlo draw simulates all 11 monitored races before fixed/Safe seats are added.
+- Official central Senate: **D50 · R50**.
+- Central D flips: **North Carolina, Ohio, Maine**.
+- Full-distribution Republican control probability: **57.0%**.
+- Exact 50–50 probability: **20.2%**.
+- Public monitored-race margin, probability, winner, vote share, and rating are reconciled to the same central state.
 
-```mermaid
-flowchart TD
-    A["Observed 2026 snapshot"] --> B["14 intervention units"]
-    B --> C["Hard battery constraints"]
-    C --> D["31-control reconciliation"]
-    D --> E["Same 42-target model"]
-    E --> F["House: 435 districts"]
-    E --> G["Senate: 35 elections"]
-    F --> H["Scenario results"]
-    G --> H
+### Central-forecast coherence
+
+The public system separates:
+
+1. race-level forecasts;
+2. one official central chamber composition;
+3. full Monte Carlo uncertainty diagnostics; and
+4. Scenario Lab counterfactuals.
+
+House and Senate random streams are independent. A central row in one chamber is never paired to the other chamber by shared simulation index.
+
+### Scenario Lab
+
+Scenario Lab remains a **separate counterfactual engine**, not a second forecast.
+
+- **31 controls**
+- **14 intervention units**
+- **12 constrained composition batteries**
+- **42 downstream national targets**
+- **435 House districts**
+- **35 Senate elections**
+- exact reset identity to the official v27.1 forecast
+- latest-edit priority inside incompatible batteries
+- compatible cross-battery interventions preserved
+- regularized historical cross-unit reconciliation
+
+Reset returns exactly:
+
+```text
+Popular vote: D 52.07% · R 45.01% · Other 2.92%
+House:        D 230 · R 205
+Senate:       D 50  · R 50
 ```
 
-When all sliders remain at their observed values, Scenario Lab is exactly equal to the official forecast. When the user edits a control:
-
-1. the edited response battery is projected into its mathematically feasible region;
-2. the latest direct edit receives priority if same-battery requests conflict;
-3. cross-unit relationships reconcile the other national controls;
-4. the same central 42-target model runs again; and
-5. the reconciled national signal moves through the House district and Senate state layers.
-
-The learned relationship system uses Ledoit–Wolf shrinkage, leave-one-election-year-out sign reliability, and bounded propagation. Statistical influence inside a battery is zero by design; components move together only because of the hard composition constraint. The system is **associational and non-causal**.
-
-<p align="center">
-  <img src="assets/readme/scenario-lab-controls-top.png" alt="Scenario Lab baseline and intervention controls" width="100%">
-</p>
-
-<table>
-  <tr>
-    <td width="50%"><img src="assets/readme/scenario-lab-counterfactual.png" alt="Scenario Lab counterfactual with changed national outcomes"></td>
-    <td width="50%"><img src="assets/readme/scenario-lab-house-map.png" alt="Scenario Lab House projected two-party vote map"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>A live counterfactual with changed vote and seats</sub></td>
-    <td align="center"><sub>All 435 districts translated through the geographic layer</sub></td>
-  </tr>
-</table>
+---
 
 ## Forecast architecture
 
 ```mermaid
 flowchart TD
     A["Historical + current inputs"] --> B["Nested temporal validation"]
-    B --> C["Independent 2026 production fit"]
-    C --> D["Constraints + electoral identities"]
-    D --> E["National 42-target output"]
-    E --> F["House district model"]
-    E --> G["Senate state model"]
-    F --> H["Simulation + audit"]
-    G --> H
-    H --> I["HTML + Dash + reports"]
+    B --> C["42-target national engine"]
+    C --> D["Frozen national environment"]
+    D --> E["House race engine · 435 districts"]
+    D --> F["Senate race engine · 11 monitored races"]
+    E --> G["50,000 complete House simulations"]
+    F --> H["50,000 complete Senate simulations"]
+    G --> I["Modal total + coherent House map"]
+    H --> J["Modal total + best-supported Senate pattern"]
+    I --> K["One official central forecast"]
+    J --> K
+    K --> L["HTML + Dash + audit workbooks"]
+    D --> M["Scenario Lab · separate counterfactual engine"]
+    M --> N["42 targets + 435 House + 35 Senate scenario geography"]
 ```
 
-The production design is directional. Historical tests evaluate the architecture but never become synthetic training observations. National estimates are frozen before the House and Senate modules run. The presentation layers consume outputs and never write back to `Model.xlsx`, the notebook, or the forecast report.
-
-### National layer
-
-- 42 national targets spanning popular vote and the chamber/rating structures required downstream.
-- Competing model families and benchmarks selected under nested temporal validation.
-- Independent 2026 production fit trained only on legitimate historical observations.
-- Electoral identities and constraints applied after estimation.
-
-### House layer
-
-- All **435 voting districts** using official CD120 geography.
-- Geographic forecast and district cartogram.
-- Forecast, rating, projected margin, win probability, and holds/flips views.
-- Searchable district-level race explorer and chamber-control simulation.
-
-### Senate layer
-
-- All **35 scheduled regular and special elections** in 2026.
-- Eleven monitored races with numerical state-model estimates.
-- Twenty-four unmonitored Safe races retained as categorical official ratings.
-- Separate projected two-party vote, projected margin, win probability, rating, and hold/flip concepts.
-
-### Uncertainty and validation
-
-- **50,000 Monte Carlo simulations** for chamber-control distributions.
-- Five sealed time-machine elections: 2006, 2010, 2014, 2018, and 2022.
-- Nested model selection inside each historical training set.
-- Stability, sensitivity, close-race risk, and consistency audits.
-
-## Historical validation design
-
-| Stage | Purpose | Information allowed |
-|---|---|---|
-| Outer election test | Measures time-machine performance | All eligible cycles except the held-out election |
-| Inner selection | Selects model family and hyperparameters | Only the outer training data |
-| Outer prediction | Forecasts the excluded historical election | No observed outcome from the held-out cycle |
-| Stability analysis | Tests 2026 sensitivity to historical exclusions | Diagnostic forecasts only |
-| Production fit | Generates the operational 2026 snapshot | Real historical observations only |
-
-This separates two different questions: how well the architecture travels through time, and what it forecasts when all legitimate historical information is available.
-
-## Visual tour
-
-### Autonomous HTML forecast desk
-
-![National and chamber overview](assets/readme/html-overview.png)
-
-<table>
-  <tr>
-    <td width="50%"><img src="assets/readme/html-house-geographic.png" alt="HTML House geographic forecast"></td>
-    <td width="50%"><img src="assets/readme/html-house-race-explorer.png" alt="HTML House race explorer"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>House control and official CD120 geography</sub></td>
-    <td align="center"><sub>Searchable records for all 435 races</sub></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="50%"><img src="assets/readme/html-senate-forecast.png" alt="HTML Senate control forecast"></td>
-    <td width="50%"><img src="assets/readme/html-senate-race-table.png" alt="HTML Senate race forecast table"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>Control probability and all 35 scheduled elections</sub></td>
-    <td align="center"><sub>Projected vote, margins, probability, and diagnostics</sub></td>
-  </tr>
-</table>
-
-### Live Dash presentation
-
-![Dash national overview](assets/readme/dash-overview.png)
-
-<table>
-  <tr>
-    <td width="50%"><img src="assets/readme/dash-house-holds-flips.png" alt="Dash House holds and flips"></td>
-    <td width="50%"><img src="assets/readme/dash-senate-forecast.png" alt="Dash Senate forecast"></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>House holds and flips with district detail</sub></td>
-    <td align="center"><sub>Senate control, vote, margin, and race detail</sub></td>
-  </tr>
-</table>
-
-<details>
-<summary><strong>Open the complete fourteen-image release gallery</strong></summary>
-
-#### HTML: national context
-
-![National context indicators](assets/readme/html-national-context.png)
-
-#### HTML: time-machine validation
-
-![Historical validation](assets/readme/html-historical-validation.png)
-
-#### Scenario Lab: complete control grid
-
-![Scenario Lab lower control grid](assets/readme/scenario-lab-controls-bottom.png)
-
-The remaining eleven release images appear in the main sections above. All fourteen original captures are preserved in [`assets/readme/`](assets/readme/).
-
-</details>
-
-## Run the project
-
-### Option A — open the autonomous HTML
-
-Download [`Election_Model_2026_Dashboard_v26.html`](Election_Model_2026_Dashboard_v26.html) and open it in Safari, Chrome, Firefox, or Edge. It is self-contained and does not require a server after generation.
-
-### Option B — run the live Dash app
-
-From the repository root:
-
-```bash
-cd dash_app
-python3 -m venv .venv
-source .venv/bin/activate
-python3 -m pip install --upgrade pip
-python3 -m pip install --no-cache-dir -r requirements.txt
-python3 check_setup.py
-python3 app.py
-```
-
-Open `http://127.0.0.1:8050`. Stop the server with `Control + C`. If port 8050 is occupied:
-
-```bash
-DASH_PORT=8051 python3 app.py
-```
-
-> [!TIP]
-> If a folder was replaced while Terminal was still inside it, first run `cd /`, then `cd` into the new repository path. This prevents a stale working-directory error on macOS.
-
-### Option C — reproduce the full notebook
-
-The model environment and Dash environment are intentionally separate because the executed notebook preserves its own pinned scientific stack while Dash uses a newer interactive stack.
-
-```bash
-python3.12 -m venv .venv-model
-source .venv-model/bin/activate
-python3 -m pip install --upgrade pip
-python3 -m pip install -r requirements.txt
-jupyter lab Modelo_Midterms_2026_v26_FINAL_EJECUTADO.ipynb
-```
-
-Choose **Restart Kernel and Run All Cells**. The notebook reads `Model.xlsx`, regenerates the v26 report and scenario runtime under `outputs/`, and rewrites the self-contained v26 HTML.
-
-To execute from Terminal and write a separate verification copy:
-
-```bash
-python3 scripts/execute_notebook.py \
-  Modelo_Midterms_2026_v26_FINAL_EJECUTADO.ipynb \
-  Modelo_Midterms_2026_v26_VERIFIED.ipynb
-```
-
-## Repository layout
-
-```text
-.
-├── README.md
-├── Model.xlsx
-├── Modelo_Midterms_2026_v26_FINAL_EJECUTADO.ipynb
-├── Election_Model_2026_Dashboard_v26.html
-├── dash_app/
-│   ├── app.py
-│   ├── core.py
-│   ├── figures.py
-│   ├── scenario_engine.py
-│   ├── views.py
-│   ├── check_setup.py
-│   └── assets/dash_v2.css
-├── outputs/
-│   ├── Election_Model_Final_Report_v26.xlsx
-│   ├── Model_Sensitivity_Audit_v26.xlsx
-│   ├── scenario_state_engine_v26.py
-│   └── block-level audit workbooks
-├── assets/
-│   ├── branding/
-│   ├── readme/
-│   ├── social/
-│   ├── house_cd120_official.geojson.gz
-│   └── house_cd120_albers_paths.json.gz
-├── docs/
-├── metadata/
-├── qa/
-├── scripts/
-├── requirements.txt
-└── environment.yml
-```
-
-## Data and cartographic provenance
-
-| Source | Repository role |
-|---|---|
-| [Live model workbook](https://docs.google.com/spreadsheets/d/1xw1BG083q41GgdWCJ_oAbqqXQEoec5aqejzXknVqYtg/edit?usp=sharing) | Maintained historical and current electoral inputs |
-| `Model.xlsx` | Frozen release snapshot and notebook input |
-| [Census 2026 legislative geodatabase](https://www2.census.gov/geo/tiger/TGRGDB26/tlgdb_2026_us_legislative.gdb.zip) | Official congressional-district geometry for the 120th Congress |
-| [Census 2025 state cartographic boundaries](https://www2.census.gov/geo/tiger/GENZ2025/shp/cb_2025_us_state_500k.zip) | Independent shoreline mask for presentation |
-| `assets/house_cd120_official.geojson.gz` | Processed auditable CD120 display geometry |
-| `assets/house_cd120_albers_paths.json.gz` | 435 projected district paths and 50 state outlines |
-
-Raw Census archives exceed normal GitHub file-size limits and are not committed. They remain available from Census; checksums and transformation metadata are preserved in [`metadata/`](metadata/) and [`qa/`](qa/).
-
-## Validation contracts
-
-Run the repository and Dash checks before committing a new model snapshot:
-
-```bash
-python3 scripts/validate_repository.py
-cd dash_app
-python3 check_setup.py
-```
-
-The current package verifies:
-
-- 13 executed notebook code cells and zero stored notebook errors;
-- 435 unique House district paths and 50 state outlines;
-- 50 Senate tiles representing 35 scheduled elections;
-- exact Scenario Lab baseline identity;
-- 14 intervention units, 12 composition batteries, and 31 controls;
-- 182 directed unit relationships and 930 directed control relationships;
-- zero within-battery statistical weights;
-- House 224–211 and Senate 48–52 at reset;
-- corrected Senate hold/flip classification;
-- no cache, environment, checkpoint, macOS metadata, or embedded Git history in the public package; and
-- no tracked file above GitHub’s 100 MiB limit.
-
-Automated repository and Dash validation also runs on pushes and pull requests through GitHub Actions.
-
-## Interpretation and limitations
-
-This is a probabilistic research model. Results depend on the quality, timing, definitions, and availability of the input data. Historical midterm elections are few, coalitions can change, districts and states are not independent, and late events may fall outside historical support.
-
-- **Projected vote** is an expected two-party vote share.
-- **Projected margin** is the difference between the projected D and R vote shares.
-- **Win probability** is the simulated chance that a party finishes ahead.
-- **Rating** is a categorical communication layer.
-- **Stability** measures sensitivity; it is not a win probability.
-- **Scenario Lab** explores conditional counterfactuals; it does not make causal claims.
-- **Extreme slider values** are extrapolations and should be interpreted with extra caution.
-- **National chamber buckets** remain available as 42-target diagnostics, while final scenario seat totals are governed by the district and state geographic layers.
-- **A snapshot** describes one execution and will change when the canonical data are updated and the pipeline is rerun.
-
-## Citation
-
-Please cite the specific release so the frozen data and outputs remain identifiable:
-
-> Garbanzo Fallas, J. I. (2026). *Midterms 2026 Forecast Model* (Version 26.1.0) [Computer software]. GitHub. https://github.com/juaniflls/midterms-2026-forecast
-
-Machine-readable metadata is provided in [`CITATION.cff`](CITATION.cff).
-
-## Author and institutional context
-
-Developed by **Juan Ignacio Garbanzo Fallas**, a member of the Observatorio de los Estados Unidos at CIEP-UCR, with work spanning political science, economics, electoral analysis, and data science.
-
-This is an independently developed technical project. Participation in the Observatory provides academic context but does not imply formal institutional adoption or endorsement unless explicitly announced by the institution.
-
-## License and responsible use
-
-Original software and documentation are licensed under the [MIT License](LICENSE), Copyright © 2026 Juan Ignacio Garbanzo Fallas.
-
-The MIT License does not relicense third-party datasets, Census materials, software dependencies, institutional names or marks, or other external resources. Forecasts are provided without warranty. Scholarly, journalistic, or public use should preserve the methodological context and must not imply endorsement by CIEP-UCR, the Observatorio de los Estados Unidos, or any other institution.
+Presentation is downstream and read-only.
 
 ---
 
+## House · district by district
+
 <p align="center">
-  <img src="assets/branding/favicon.png" alt="Midterms 2026 Forecast identity" width="42"><br>
-  <sub>Midterms 2026 Forecast · Political data science · Model v26 · Dash v26.1</sub>
+  <img src="assets/readme/html-house-forecast.png" alt="House probabilistic forecast" width="100%">
+</p>
+
+<table>
+<tr>
+<td width="50%"><img src="assets/readme/html-house-geographic.png" alt="House geographic forecast map"></td>
+<td width="50%"><img src="assets/readme/html-house-cartogram.png" alt="House district cartogram"></td>
+</tr>
+<tr>
+<td align="center"><sub>Official CD120 geographic forecast</sub></td>
+<td align="center"><sub>Equal-seat cartogram</sub></td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="assets/readme/html-house-race-explorer.png" alt="Explore all 435 House forecasts" width="100%">
+</p>
+
+Every voting district has its own central margin, discrete winner, probability, model rating, source consensus, 2024 baseline, and hold/flip classification.
+
+---
+
+## Senate · race by race
+
+<table>
+<tr>
+<td width="50%"><img src="assets/readme/html-senate-forecast.png" alt="Senate forecast"></td>
+<td width="50%"><img src="assets/readme/html-senate-race-table.png" alt="Senate race table"></td>
+</tr>
+<tr>
+<td align="center"><sub>Central 50–50 Senate forecast and map</sub></td>
+<td align="center"><sub>Monitored margins, probabilities, and winners</sub></td>
+</tr>
+</table>
+
+The Senate public surface distinguishes the official central map from full-distribution uncertainty.
+
+---
+
+## Monte Carlo & uncertainty
+
+<p align="center">
+  <img src="assets/readme/html-monte-carlo.png" alt="House and Senate Monte Carlo distributions" width="100%">
+</p>
+
+The production run uses **50,000 complete election simulations** to generate seat distributions, control probabilities, close-race risk, uncertainty intervals, Senate 50–50 probability, and central-pattern support.
+
+Monte Carlo propagates uncertainty. It does not refit the model.
+
+---
+
+## Interactive Dash
+
+<table>
+<tr>
+<td width="50%"><img src="assets/readme/dash-overview.png" alt="Dash Overview"></td>
+<td width="50%"><img src="assets/readme/dash-explore-house.png" alt="Dash Explore House"></td>
+</tr>
+<tr>
+<td align="center"><sub>Overview · national picture and balance of power</sub></td>
+<td align="center"><sub>Explore House · map, filters, source consensus, flips, district detail</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/readme/dash-explore-senate.png" alt="Dash Explore Senate"></td>
+<td width="50%"><img src="assets/readme/dash-probability.png" alt="Dash Probability"></td>
+</tr>
+<tr>
+<td align="center"><sub>Explore Senate · all 35 elections + monitored race detail</sub></td>
+<td align="center"><sub>Probability · control odds, risk, and intervals</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/readme/dash-simulation.png" alt="Dash Simulation"></td>
+<td width="50%"><img src="assets/readme/dash-methodology.png" alt="Dash Methodology"></td>
+</tr>
+<tr>
+<td align="center"><sub>Simulation · cross-variable election-world explorer</sub></td>
+<td align="center"><sub>Methodology · one-way production pipeline</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/readme/dash-validation.png" alt="Dash Validation"></td>
+<td width="50%"><img src="assets/readme/dash-scenario-lab.png" alt="Dash Scenario Lab"></td>
+</tr>
+<tr>
+<td align="center"><sub>Validation · historical performance and diagnostics</sub></td>
+<td align="center"><sub>Scenario Lab · counterfactual national controls</sub></td>
+</tr>
+</table>
+
+---
+
+## Scenario Lab
+
+Scenario Lab asks how the **same** forecast responds when selected national conditions change coherently.
+
+```mermaid
+flowchart LR
+    A["Observed snapshot"] --> B["31 user controls"]
+    B --> C["Hard battery constraints"]
+    C --> D["14-unit historical reconciliation"]
+    D --> E["Same 42-target engine"]
+    E --> F["435 House districts"]
+    E --> G["35 Senate elections"]
+    F --> H["Scenario geography"]
+    G --> H
+```
+
+<p align="center">
+  <img src="assets/readme/dash-scenario-maps.png" alt="Scenario Lab House and Senate maps" width="100%">
+</p>
+
+Scenario Lab is associational, not causal. See [the full contract](docs/SCENARIO_LAB.md).
+
+---
+
+## Historical validation
+
+NUCLEUS 42 uses sealed modern midterms as time-machine tests:
+
+**2006 · 2010 · 2014 · 2018 · 2022**
+
+Model selection and tuning are nested inside each historical training set. The held-out election remains unseen until scoring. Historical OOF outputs remain diagnostics and are never promoted to production training rows.
+
+The v27.1 release includes House OOF calibration, Senate validation, target stability, leakage checks, sensitivity audits, a **65/65 final consistency audit**, and a **10/10 central forecast contract**.
+
+---
+
+## Reproduce the release
+
+### Model environment
+
+```bash
+git clone https://github.com/juaniflls/midterms-2026-forecast.git
+cd midterms-2026-forecast
+
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python scripts/validate_repository.py
+```
+
+### Re-run the notebook
+
+```bash
+jupyter lab Modelo_Midterms_2026_v27.1_NUCLEUS42_FINAL.ipynb
+```
+
+Choose **Restart Kernel and Run All Cells**.
+
+### Launch Dash
+
+```bash
+cd dash_app
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python check_setup.py --deep
+python app.py
+```
+
+---
+
+## Data contract
+
+### Frozen release input
+[`Model.xlsx`](Model.xlsx) is the exact workbook consumed by this release.
+
+### Live canonical sheet
+[Open the maintained Google Sheet](https://docs.google.com/spreadsheets/d/1NC80MaJh8vyxrbQsi__HSR2StaSo8mgAJ3iSdilqEj0/edit?usp=sharing)
+
+A future release should export the maintained sheet, refresh approved current-cycle sources, execute the notebook end-to-end, validate the report/HTML/Dash contracts, and only then replace the frozen public artifacts.
+
+See [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md).
+
+---
+
+## Repository structure
+
+```text
+midterms-2026-forecast/
+├── Modelo_Midterms_2026_v27.1_NUCLEUS42_FINAL.ipynb
+├── Election_Model_v27_1_Coherence_Audit.html
+├── Model.xlsx
+├── README.md
+├── MODEL_CARD.md
+├── CHANGELOG.md
+├── RELEASE_NOTES_v27.1.0.md
+├── CITATION.cff
+├── LICENSE
+├── dash_app/
+├── outputs/
+├── assets/
+├── data/
+├── metadata/
+├── docs/
+├── qa/
+├── scripts/
+└── .github/
+```
+
+---
+
+## Key methodological rules
+
+- No future election information enters a historical training fold.
+- Outer-fold predictions never become production training observations.
+- National context is frozen before final House and Senate outputs.
+- House and Senate are simulated race by race before chamber totals are computed.
+- House and Senate Monte Carlo streams are independent.
+- The central chamber total and displayed central map must agree exactly.
+- Control probability comes from the full simulation distribution.
+- Scenario Lab never rewrites the official forecast.
+- Safe Senate structural anchors are scenario-only.
+- Dash/HTML are read-only presentation layers.
+
+---
+
+## Limitations
+
+- Five completed modern midterms provide limited degrees of freedom.
+- Political relationships are associational and can change by cycle.
+- District and state outcomes are correlated.
+- House polling is sparse in many districts.
+- Some Senate races remain categorical rather than numerically modeled.
+- Extreme counterfactuals can leave historical support.
+- Forecasts are conditional on the frozen snapshot and become stale as evidence changes.
+
+---
+
+## Citation
+
+> Garbanzo Fallas, Juan Ignacio. (2026). *NUCLEUS 42: 2026 U.S. Midterm Forecast Model* (Version 27.1.0) [Computer software]. GitHub. https://github.com/juaniflls/midterms-2026-forecast
+
+Machine-readable metadata: [`CITATION.cff`](CITATION.cff).
+
+---
+
+## License & independence
+
+Code and original project documentation are released under the **MIT License**. Third-party datasets, ratings, government geography, and externally authored materials remain subject to their own terms.
+
+**NUCLEUS 42 is an independent forecasting project.** It is not an official forecast, endorsement, or publication of any university, research center, campaign, political party, data provider, or government institution.
+
+<p align="center">
+  <strong>NUCLEUS 42</strong><br>
+  <sub>Data · models · probabilities · insights · for a more informed democracy</sub><br><br>
+  <sub>Same questions. Better answers.</sub>
 </p>

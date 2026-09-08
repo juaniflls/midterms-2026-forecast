@@ -2,11 +2,12 @@ from __future__ import annotations
 
 from datetime import datetime
 from typing import Any, Optional
+from urllib.parse import quote
 
 import pandas as pd
 from dash import dash_table, dcc, html
 
-from core import MODEL_PATH, load_bundle, load_senate_map, safe_value
+from core import MODEL_PATH, latest_html_path, load_bundle, load_senate_map, safe_value
 from figures import (
     PLOTLY_CONFIG,
     RATING_COLORS,
@@ -113,6 +114,73 @@ def table_component(
     return dash_table.DataTable(**table_kwargs)
 
 
+def details_table(title: str, df: pd.DataFrame, *, page_size: int = 12, max_rows: int = 1000, copy: str = ""):
+    return html.Details([
+        html.Summary([
+            html.Span(title, className="audit-details-title"),
+            html.Span("Open table", className="audit-details-action"),
+        ]),
+        html.P(copy, className="audit-details-copy") if copy else None,
+        html.Div(table_component(df, page_size=page_size, max_rows=max_rows, compact=True), className="audit-details-body"),
+    ], className="audit-details")
+
+
+def _metric_lookup(df: pd.DataFrame) -> dict[str, Any]:
+    if df is None or df.empty or df.shape[1] < 2:
+        return {}
+    return dict(zip(df.iloc[:, 0].astype(str), df.iloc[:, 1]))
+
+
+def seat_change_strip(bundle: dict[str, Any], chamber: str):
+    s = bundle["sheets"]
+    if chamber == "House":
+        account = _metric_lookup(s.get("HouseSeatAccounting", pd.DataFrame()))
+        d_flips = int(float(account.get("Democratic flips (R→D)", 0)))
+        r_flips = int(float(account.get("Republican flips (D→R)", 0)))
+        net_d = int(float(account.get("Net Democratic gain", d_flips - r_flips)))
+        before_d = int(float(account.get("2024 Baseline Democratic seats", 0)))
+        before_r = int(float(account.get("2024 Baseline Republican seats", 0)))
+        after_d = int(float(account.get("Official central Democratic seats", 0)))
+        after_r = int(float(account.get("Official central Republican seats", 0)))
+        baseline_label = "2024 baseline → central"
+    else:
+        account = _metric_lookup(s.get("SenateSeatAccounting", pd.DataFrame()))
+        d_flips = int(float(account.get("Democratic flips (R→D)", 0)))
+        r_flips = int(float(account.get("Republican flips (D→R)", 0)))
+        net_d = int(float(account.get("Net Democratic gain", d_flips - r_flips)))
+        before_d = int(float(account.get("Pre-2026 Democratic seats", 0)))
+        before_r = int(float(account.get("Pre-2026 Republican seats", 0)))
+        after_d = int(float(account.get("Official central Democratic seats", 0)))
+        after_r = int(float(account.get("Official central Republican seats", 0)))
+        baseline_label = "Pre-2026 → central"
+
+    net_class = "change-dem" if net_d > 0 else "change-rep" if net_d < 0 else "change-neutral"
+    net_party = "D" if net_d > 0 else "R" if net_d < 0 else "EVEN"
+    net_value = f"{net_party} +{abs(net_d)}" if net_d else "0"
+    return html.Div([
+        html.Div([
+            html.Div("Democratic flips", className="change-label"),
+            html.Div(str(d_flips), className="change-value dem"),
+            html.Div("R → D", className="change-note"),
+        ], className="change-card change-dem"),
+        html.Div([
+            html.Div("Republican flips", className="change-label"),
+            html.Div(str(r_flips), className="change-value rep"),
+            html.Div("D → R", className="change-note"),
+        ], className="change-card change-rep"),
+        html.Div([
+            html.Div("Net seat change", className="change-label"),
+            html.Div(net_value, className=f"change-value {'dem' if net_d > 0 else 'rep' if net_d < 0 else ''}"),
+            html.Div("Central map vs baseline", className="change-note"),
+        ], className=f"change-card {net_class}"),
+        html.Div([
+            html.Div(baseline_label, className="change-label"),
+            html.Div(f"D {before_d}–R {before_r}", className="change-baseline"),
+            html.Div(f"→ D {after_d}–R {after_r}", className="change-note strong"),
+        ], className="change-card change-baseline-card"),
+    ], className="seat-change-strip")
+
+
 def balance_card(final_projection: pd.DataFrame, chamber: str):
     if final_projection.empty or "Chamber" not in final_projection.columns:
         return html.Div(className="power-card")
@@ -140,6 +208,44 @@ def balance_card(final_projection: pd.DataFrame, chamber: str):
         ], className="balance-track"),
         html.Div([html.Span(f"D {dseats}"), html.Span(f"Majority: {'218' if chamber == 'House' else '51'}"), html.Span(f"R {rseats}")], className="balance-foot"),
     ], className="power-card")
+
+
+
+def forecast_view(signature: str):
+    """Render the exact notebook-authored standalone forecast inside Dash.
+
+    This is intentionally a presentation bridge, not a second implementation of
+    the central forecast. The HTML stays at repository root and remains the
+    notebook's audited source of truth; Dash serves it locally without duplicating
+    the file inside dash_app/.
+    """
+    html_path = latest_html_path()
+    if html_path is None:
+        return html.Div([
+            html.Section([
+                section_header(
+                    "OFFICIAL FORECAST",
+                    "Notebook forecast HTML not found",
+                    "Run Block 8 of the stable v27.1 notebook. Dash will detect the new HTML automatically.",
+                ),
+                html.Div("Native audited views remain available in the tabs above.", className="empty-state"),
+            ], className="section"),
+            overview_view(signature),
+        ])
+    return html.Div([
+        html.Div([
+            html.Div([
+                html.Div("ALL-IN-ONE FORECAST", className="section-kicker"),
+                html.Div("Complete audited notebook forecast · one compact surface", className="forecast-frame-title"),
+            ]),
+            html.Div(html_path.name, className="forecast-frame-source"),
+        ], className="forecast-frame-bar"),
+        html.Iframe(
+            src=f"/forecast-html?sig={quote(signature, safe='')}",
+            className="forecast-iframe",
+            title="Official v27.1 Midterms 2026 forecast",
+        ),
+    ], className="forecast-shell")
 
 
 def overview_view(signature: str):
@@ -174,7 +280,11 @@ def overview_view(signature: str):
             ], className="two"),
         ], className="section"),
         html.Section([
-            section_header("Audit snapshot", "Final uncertainty", "The same final uncertainty export that feeds the static HTML report."),
+            section_header("Central forecast contract", "One forecast, one coherent map", "The v27.1 centralizer is audited after the race-by-race Monte Carlo: modal chamber total, supported central configuration, and coherent race-level public tuples."),
+            html.Div(table_component(s.get("CentralForecastContract", pd.DataFrame()), page_size=12, max_rows=50), className="panel"),
+        ], className="section"),
+        html.Section([
+            section_header("Audit snapshot", "Final uncertainty", "The same final uncertainty export that feeds the audited report."),
             html.Div(table_component(s["FinalUncertainty"], page_size=18, max_rows=100), className="panel"),
         ], className="section"),
     ])
@@ -189,8 +299,8 @@ def _rating_counts(values: pd.Series) -> dict[str, int]:
     return counts
 
 
-def _distribution_row(label: str, counts: dict[str, int]):
-    total = max(1, sum(counts.values()))
+def _distribution_row(label: str, counts: dict[str, int], unknown_count: int = 0, unknown_label: str = "No source consensus"):
+    total = max(1, sum(counts.values()) + int(unknown_count))
     segments = []
     legend = []
     for rating in RATING_ORDER:
@@ -207,6 +317,17 @@ def _distribution_row(label: str, counts: dict[str, int]):
         legend.append(html.Span([
             html.I(style={"background": color}),
             f"{rating} {count}",
+        ]))
+    if unknown_count:
+        segments.append(html.Div(
+            str(int(unknown_count)),
+            className="control-distribution-segment control-distribution-missing",
+            style={"width": f"{100.0 * int(unknown_count) / total:.5f}%", "background": "#D9E1EA", "color": "#526174", "textShadow": "none"},
+            title=f"{unknown_label}: {int(unknown_count)}",
+        ))
+        legend.append(html.Span([
+            html.I(style={"background": "#D9E1EA"}),
+            f"{unknown_label} {int(unknown_count)}",
         ]))
     return html.Div([
         html.Div(label, className="control-distribution-label"),
@@ -227,19 +348,28 @@ def chamber_control_hero(bundle: dict[str, Any], chamber: str):
 
     if chamber_key == "House":
         house = bundle["house"]
+        source_consensus = house["Source Consensus Rating"]
         rows = [
-            _distribution_row("Model forecast", _rating_counts(house.get("Forecast Rating", pd.Series(dtype=str)))),
-            _distribution_row("Source consensus", _rating_counts(house.get("All Source Consensus Rating", pd.Series(dtype=str)))),
+            _distribution_row(
+                "Model forecast",
+                _rating_counts(house.get("Forecast Rating", pd.Series(dtype=str))),
+            ),
+            _distribution_row(
+                "Source consensus",
+                _rating_counts(source_consensus),
+            ),
         ]
-        subtitle = f"Simulation median D {dem_seats} · R {rep_seats} · 435 districts"
+        subtitle = f"Official central forecast D {dem_seats} · R {rep_seats} · 435 district-level forecasts"
     else:
         senate_map = load_senate_map(bundle["signature"])
         scheduled = senate_map.loc[senate_map["Tier"].ne("None")]
-        rows = [_distribution_row(
-            "2026 Senate races",
-            _rating_counts(scheduled.get("Forecast Rating Key", pd.Series(dtype=str))),
-        )]
-        subtitle = f"Simulation median D {dem_seats} · R {rep_seats} · all 35 scheduled elections"
+        rows = [
+            _distribution_row(
+                "2026 Senate races",
+                _rating_counts(scheduled.get("Forecast Rating Key", pd.Series(dtype=str))),
+            )
+        ]
+        subtitle = f"Official central forecast D {dem_seats} · R {rep_seats} · 11 monitored races + fixed/safe seats"
 
     return html.Div([
         html.Div(f"Probabilistic {chamber_key} forecast", className="control-hero-kicker"),
@@ -255,19 +385,20 @@ def chamber_control_hero(bundle: dict[str, Any], chamber: str):
 
 
 def house_view(signature: str):
-    b = load_bundle(signature); h = b["house"]
+    b = load_bundle(signature); s = b["sheets"]; h = b["house"]
     states = sorted(h["State"].dropna().astype(str).unique()) if not h.empty else []
     ratings = [r for r in ["Safe D","Likely D","Lean D","Tilt D","Toss-Up","Tilt R","Lean R","Likely R","Safe R"] if r in set(h.get("Forecast Rating", []))]
     return html.Div([
         html.Section([
-            section_header("435 districts", "House forecast explorer", "Geographic explorer uses the same standard composite Albers district paths packaged with the notebook. Change the map metric, filter races, and open district-level diagnostics."),
+            section_header("435 districts", "Explore the House", "Interactive district desk for the same official central forecast. Filter the map, compare the model with the same 435-seat source consensus used by the notebook HTML, inspect flips, and open any district-level forecast."),
             chamber_control_hero(b, "House"),
+            seat_change_strip(b, "House"),
             html.Div([
                 html.Div([html.Label("State", className="filter-label"), dcc.Dropdown(id="house-state", options=[{"label":"All states","value":"ALL"}]+[{"label":x,"value":x} for x in states], value="ALL", clearable=False, **PERSISTENCE)], className="filter-block"),
                 html.Div([html.Label("Forecast rating", className="filter-label"), dcc.Dropdown(id="house-rating", options=[{"label":"All ratings","value":"ALL"}]+[{"label":x,"value":x} for x in ratings], value="ALL", clearable=False, **PERSISTENCE)], className="filter-block"),
                 html.Div([html.Label("Map metric", className="filter-label"), dcc.Dropdown(id="house-metric", options=[
                     {"label":"Projected two-party vote","value":"margin"}, {"label":"Win probability","value":"probability"},
-                    {"label":"Forecast rating","value":"rating"}, {"label":"All-source consensus","value":"consensus"},
+                    {"label":"Forecast rating","value":"rating"}, {"label":"Source consensus","value":"consensus"},
                     {"label":"Holds & flips","value":"flips"}], value="margin", clearable=False, **PERSISTENCE)], className="filter-block"),
                 html.Div([html.Label("Race set", className="filter-label"), dcc.Checklist(id="house-flags", options=[
                     {"label":" Competitive only","value":"competitive"}, {"label":" Projected flips only","value":"flips"},
@@ -280,6 +411,11 @@ def house_view(signature: str):
                 html.Div(id="house-detail", className="detail-card"),
             ], className="house-grid"),
             html.Div([html.Div("Filtered district table", className="panel-title"), html.Div(id="house-table-wrap")], className="panel"),
+            html.Div([
+                html.Div("House flips — auditable district by district", className="panel-title"),
+                html.P("Exact central seat changes versus the canonical 2024 numbered-district baseline.", className="scenario-copy"),
+                table_component(s.get("HouseFlipAudit", pd.DataFrame()), page_size=12, max_rows=435, compact=True),
+            ], className="panel"),
         ], className="section"),
     ])
 
@@ -337,8 +473,9 @@ def senate_view(signature: str):
     states = senate.sort_values("D Win Probability", key=lambda x:(x-50).abs())["STATE"].astype(str).tolist() if not senate.empty else []
     return html.Div([
         html.Section([
-            section_header("Senate battlefield", "The Senate, race by race", "All scheduled states are shown. The 11 monitored races expose state-model probabilities, margins, and vote shares. The 24 unmonitored Safe races retain only a categorical official rating; their numeric views are intentionally blank."),
+            section_header("Senate battlefield", "Explore the Senate, race by race", "Interactive state desk for the official v27.1 central pattern. Explore the 11 monitored state models, holds/flips and all 35 scheduled elections without changing the forecast."),
             chamber_control_hero(b, "Senate"),
+            seat_change_strip(b, "Senate"),
             html.Div([
                 html.Div([html.Label("Senate map view", className="filter-label"), dcc.Dropdown(id="senate-map-metric", options=[
                     {"label":"Forecast","value":"forecast"}, {"label":"Win probability","value":"probability"},
@@ -361,124 +498,301 @@ def senate_view(signature: str):
                 html.Div(dcc.Graph(figure=senate_race_figure(senate), config=PLOTLY_CONFIG), className="panel"),
                 html.Div([html.Div("Competitive / monitored race table", className="panel-title"), table_component(senate, page_size=11, max_rows=100)], className="panel"),
             ], className="two senate-bottom"),
+            html.Div([
+                html.Div([html.Div("Official Senate central accounting", className="panel-title"), table_component(s.get("SenateSeatAccounting", pd.DataFrame()), page_size=22, max_rows=50)], className="panel"),
+                html.Div([html.Div("Exact-pattern support", className="panel-title"), table_component(s.get("SenateCentralPatterns", pd.DataFrame()), page_size=12, max_rows=50)], className="panel"),
+            ], className="two senate-bottom"),
+            html.Div([
+                html.Div("Senate flips — official central pattern", className="panel-title"),
+                table_component(s.get("SenateModelFlips", pd.DataFrame()), page_size=11, max_rows=35, compact=True),
+            ], className="panel"),
         ], className="section"),
     ])
 
 
 def probability_view(signature: str):
-    s = load_bundle(signature)["sheets"]
+    b = load_bundle(signature); s = b["sheets"]; d = b["dashboard"]
+    house_d = float(d.get("House Democratic Control Probability", 0.0))
+    house_r = float(d.get("House Republican Control Probability", 0.0))
+    senate_d = float(d.get("Senate Democratic Control Probability", 0.0))
+    senate_r = float(d.get("Senate Republican Control Probability", 0.0))
+    senate_5050 = float(d.get("Senate 50-50 Probability", 0.0))
+    runs = int(float(d.get("Monte Carlo Simulations", 0)))
+
+    def odds_row(label, dem_p, rep_p, note=""):
+        total = max(dem_p + rep_p, 1e-9)
+        dem_w = 100.0 * dem_p / total
+        rep_w = 100.0 * rep_p / total
+        return html.Div([
+            html.Div([
+                html.Div(label, className="odds-label"),
+                html.Div(note, className="odds-note"),
+            ], className="odds-copy"),
+            html.Div([
+                html.Div(f"D {dem_p:.1f}%", className="odds-number dem"),
+                html.Div([
+                    html.Div(style={"width": f"{dem_w:.4f}%"}, className="odds-dem"),
+                    html.Div(style={"width": f"{rep_w:.4f}%"}, className="odds-rep"),
+                ], className="odds-track"),
+                html.Div(f"R {rep_p:.1f}%", className="odds-number rep"),
+            ], className="odds-bar-row"),
+        ], className="odds-row")
+
     return html.Div([
         html.Section([
-            section_header("Control odds", "Probability", "Control probabilities, close-race risk, chamber margins, and final uncertainty exports."),
+            section_header(
+                "Probability & risk",
+                "How uncertain is the forecast?",
+                "One official central map, with the full Monte Carlo uncertainty shown around it. Control odds and intervals are distribution diagnostics — not competing forecasts.",
+            ),
             html.Div([
-                html.Div(dcc.Graph(figure=control_probability_figure(s["ControlProbability"]), config=PLOTLY_CONFIG), className="panel"),
-                html.Div([html.Div("Close-race risk", className="panel-title"), table_component(s["CloseRaceRisk"], page_size=10)], className="panel"),
-            ], className="two"),
+                metric_card("House · D control", f"{house_d:.1f}%", "Probability across all simulations", "dem"),
+                metric_card("Senate · R control", f"{senate_r:.1f}%", "50–50 counts as Republican control under the modeled VP assumption", "rep"),
+                metric_card("Senate · exact 50–50", f"{senate_5050:.1f}%", "Scenario probability, not a second central forecast", "purple"),
+                metric_card("Monte Carlo", f"{runs:,}", "Complete election simulations", "purple"),
+            ], className="hero probability-hero"),
+
             html.Div([
-                html.Div([html.Div("Prediction intervals", className="panel-title"), table_component(s["PredictionIntervals"], page_size=10)], className="panel"),
-                html.Div([html.Div("Margin summary", className="panel-title"), table_component(s["MarginSummary"], page_size=8)], className="panel"),
-            ], className="two"),
-            html.Div([html.Div("Final uncertainty snapshot", className="panel-title"), table_component(s["FinalUncertainty"], page_size=18)], className="panel"),
+                html.Div("Control odds", className="panel-title"),
+                html.P("Direct probability bars avoid mixing the chamber-control distribution with the official central point forecast.", className="panel-copy"),
+                odds_row("House control", house_d, house_r, "218 seats required for a House majority"),
+                odds_row("Senate control", senate_d, senate_r, "A 50–50 Senate is Republican control under the modeled 2026 VP assumption"),
+            ], className="panel probability-odds-panel"),
+
+            html.Div([
+                html.Div([
+                    html.Div("Close-race risk", className="panel-title"),
+                    html.P("How often simulations finish near the chamber-control threshold.", className="panel-copy"),
+                    table_component(s["CloseRaceRisk"], page_size=10, compact=True),
+                ], className="panel stable-table-panel"),
+                html.Div([
+                    html.Div("Official forecast & intervals", className="panel-title"),
+                    html.P("Central point forecast beside the 90% and 95% Monte Carlo ranges.", className="panel-copy"),
+                    table_component(s["PredictionIntervals"], page_size=10, compact=True),
+                ], className="panel stable-table-panel"),
+            ], className="two stable-grid"),
+
+            html.Div([
+                html.Div([
+                    html.Div("Chamber margin summary", className="panel-title"),
+                    table_component(s["MarginSummary"], page_size=8, compact=True),
+                ], className="panel stable-table-panel"),
+                html.Div([
+                    html.Div("How to read this page", className="panel-title"),
+                    html.Div([
+                        html.Div([html.B("Central forecast"), html.Span("One coherent official map.")], className="reading-rule"),
+                        html.Div([html.B("Control probability"), html.Span("Frequency of control across all simulated elections.")], className="reading-rule"),
+                        html.Div([html.B("Intervals"), html.Span("Ranges of possible outcomes, not alternate official forecasts.")], className="reading-rule"),
+                    ], className="reading-rules"),
+                ], className="panel"),
+            ], className="two stable-grid"),
+            details_table("Final uncertainty snapshot · full audit table", s["FinalUncertainty"], page_size=18, max_rows=100),
         ], className="section"),
     ])
 
 
 def simulation_view(signature: str):
-    s = load_bundle(signature)["sheets"]; sims = s["MonteCarloSample"]
+    b = load_bundle(signature); s = b["sheets"]; sims = s["MonteCarloSample"]; d = b["dashboard"]
     numeric = sims.select_dtypes("number").columns.tolist() if not sims.empty else []
     categorical = [c for c in sims.columns if c not in numeric] if not sims.empty else []
     x0 = "DPP" if "DPP" in numeric else (numeric[0] if numeric else None)
     y0 = "D House Seats" if "D House Seats" in numeric else (numeric[1] if len(numeric)>1 else x0)
+    house_account = _metric_lookup(s.get("HouseSeatAccounting", pd.DataFrame()))
+    senate_account = _metric_lookup(s.get("SenateSeatAccounting", pd.DataFrame()))
     return html.Div([
         html.Section([
-            section_header("Simulation", "Monte Carlo explorer", "Interact with the stored cross-variable simulation sample while preserving the audited 50,000-run headline outputs."),
+            section_header(
+                "Monte Carlo",
+                "Explore simulated election worlds",
+                "The full production run contains 50,000 complete elections. This page explores the stored simulation sample; the official central map remains a separate v27.1 modal-conditional object.",
+            ),
+            html.Div([
+                metric_card("Production simulations", f"{int(float(d.get('Monte Carlo Simulations', 0))):,}", "Full audited run", "purple"),
+                metric_card("House modal total", f"D {int(float(house_account.get('Official central Democratic seats', 0)))}", f"{int(float(house_account.get('Modal-total simulations', 0))):,} simulations at the modal total", "dem"),
+                metric_card("Senate modal total", f"D {int(float(senate_account.get('Official central Democratic seats', 0)))}", f"{float(senate_account.get('50-50 probability (%)', 0)):.1f}% exact 50–50 probability", "rep"),
+                metric_card("Stored explorer rows", f"{len(sims):,}", "Cross-variable sample available to this interactive view", "purple"),
+            ], className="hero simulation-hero"),
+
             html.Div([
                 html.Div([html.Label("X variable", className="filter-label"), dcc.Dropdown(id="sim-x", options=numeric, value=x0, clearable=False, **PERSISTENCE)], className="filter-block"),
                 html.Div([html.Label("Y variable", className="filter-label"), dcc.Dropdown(id="sim-y", options=numeric, value=y0, clearable=False, **PERSISTENCE)], className="filter-block"),
                 html.Div([html.Label("Color", className="filter-label"), dcc.Dropdown(id="sim-color", options=[{"label":"None","value":"NONE"}]+[{"label":c,"value":c} for c in categorical], value="House Control" if "House Control" in categorical else "NONE", clearable=False, **PERSISTENCE)], className="filter-block"),
             ], className="filter-grid sim-filter-grid"),
-            html.Div(dcc.Graph(id="simulation-scatter", config=PLOTLY_CONFIG), className="panel"),
+
             html.Div([
-                html.Div(dcc.Graph(figure=seats_histogram(sims, "House"), config=PLOTLY_CONFIG), className="panel"),
-                html.Div(dcc.Graph(figure=seats_histogram(sims, "Senate"), config=PLOTLY_CONFIG), className="panel"),
-            ], className="two"),
-            html.Div([html.Div("Monte Carlo summary", className="panel-title"), table_component(s["MonteCarloSummary"], page_size=10)], className="panel"),
+                html.Div("Cross-variable simulation explorer", className="panel-title"),
+                html.P("Change X, Y and color to inspect how national vote, seats and chamber control co-move.", className="panel-copy"),
+                html.Div(
+                    dcc.Graph(id="simulation-scatter", config=PLOTLY_CONFIG, style={"height":"500px","width":"100%"}),
+                    className="graph-shell graph-shell-lg",
+                ),
+            ], className="panel simulation-main stable-graph-panel"),
+
+            html.Div([
+                html.Div([
+                    html.Div("House seat distribution", className="panel-title"),
+                    html.Div(dcc.Graph(figure=seats_histogram(sims, "House"), config=PLOTLY_CONFIG, style={"height":"360px"}), className="graph-shell"),
+                ], className="panel stable-graph-panel"),
+                html.Div([
+                    html.Div("Senate seat distribution", className="panel-title"),
+                    html.Div(dcc.Graph(figure=seats_histogram(sims, "Senate"), config=PLOTLY_CONFIG, style={"height":"360px"}), className="graph-shell"),
+                ], className="panel stable-graph-panel"),
+            ], className="two stable-grid"),
+            details_table("Monte Carlo summary · distribution diagnostics", s["MonteCarloSummary"], page_size=10, max_rows=100),
         ], className="section"),
     ])
 
 
 def context_view(signature: str):
-    s = load_bundle(signature)["sheets"]
+    b = load_bundle(signature); s = b["sheets"]
+    central = s.get("CentralForecastContract", pd.DataFrame())
+    central_pass = int(central["Passed"].astype(bool).sum()) if (not central.empty and "Passed" in central.columns) else 0
+    central_total = len(central)
+
+    stages = [
+        ("1", "National inputs", "Current national conditions and the five historical midterm cycles enter the frozen national model."),
+        ("2", "42-target national engine", "The selected production pipeline creates the learned national environment and popular-vote projection."),
+        ("3", "House race engine", "All 435 districts are modeled individually from district fundamentals, ratings, polling where available and national context."),
+        ("4", "Senate race engine", "The 11 monitored races receive state-level margins, probabilities and uncertainty; 24 Safe races remain categorical officially."),
+        ("5", "Joint Monte Carlo", "50,000 complete election worlds preserve common national sensitivity and race-specific uncertainty."),
+        ("6", "One central forecast", "The modal chamber total and the most supported coherent map within that total define the single published forecast."),
+        ("7", "Probability layer", "Control odds and intervals are calculated from the entire simulation distribution and never overwrite the central map."),
+        ("8", "Scenario Lab", "A separate counterfactual engine changes user-controlled inputs, reconciles related variables and reruns downstream geography."),
+    ]
     return html.Div([
         html.Section([
-            section_header("Context & architecture", "How the forecast is assembled", "Official forecast strategy, popular-vote bridge, module boundaries, and target-level output context."),
+            section_header(
+                "Methodology",
+                "How the forecast is assembled",
+                "The production model is a one-way pipeline: national context feeds race engines, complete elections are simulated, and one coherent central map is selected. Scenario Lab remains separate.",
+            ),
+
             html.Div([
-                html.Div([html.Div("Popular vote bridge", className="panel-title"), table_component(s["PopularVoteBridge"], page_size=5)], className="panel"),
-                html.Div([html.Div("Architecture contract", className="panel-title"), table_component(s["ArchitectureContract"], page_size=10)], className="panel"),
-            ], className="two"),
-            html.Div([html.Div("National forecast — all exported targets", className="panel-title"), table_component(s["NationalForecast"], page_size=15, max_rows=500)], className="panel"),
+                html.Div([
+                    html.Div(n, className="flow-step-number"),
+                    html.H3(title),
+                    html.P(copy),
+                ], className="flow-step")
+                for n, title, copy in stages
+            ], className="methodology-flow methodology-flow-eight"),
+
             html.Div([
-                html.Div([html.Div("Module contract", className="panel-title"), table_component(s["ModuleContract"], page_size=8)], className="panel"),
-                html.Div([html.Div("Module isolation audit", className="panel-title"), table_component(s["ModuleIsolation"], page_size=8)], className="panel"),
-            ], className="two"),
+                metric_card("Central contract", f"{central_pass}/{central_total} PASS" if central_total else "—", "Race-level and chamber-level coherence", "purple"),
+                metric_card("National targets", "42", "Learned production outputs", "dem"),
+                metric_card("House races", "435", "District-level forecasts", "dem"),
+                metric_card("Senate 2026", "35", "11 monitored + 24 Safe categorical races", "rep"),
+            ], className="hero methodology-hero"),
+
+            html.Div([
+                html.Div([
+                    html.Div("Production rule", className="panel-title"),
+                    html.H3("Forecast first. Diagnostics second.", className="method-card-title"),
+                    html.P("The official House and Senate maps are downstream outputs of the race engines and Monte Carlo centralizer. Expected seats, medians, modes of other summaries and validation diagnostics never become competing public forecasts.", className="method-card-copy"),
+                ], className="panel method-explainer"),
+                html.Div([
+                    html.Div("Isolation rule", className="panel-title"),
+                    html.H3("No downstream feedback into the model.", className="method-card-title"),
+                    html.P("Dash only reads audited outputs. House and Senate final results do not retrain national inputs, and Scenario Lab counterfactuals do not rewrite the frozen official forecast.", className="method-card-copy"),
+                ], className="panel method-explainer"),
+            ], className="two stable-grid"),
+
+            html.Div([
+                details_table("Popular-vote bridge", s["PopularVoteBridge"], page_size=5, max_rows=50, copy="National vote anchor feeding the production environment."),
+                details_table("Architecture contract", s["ArchitectureContract"], page_size=10, max_rows=100, copy="One-way module boundaries: what each stage consumes, produces and may feed."),
+                details_table("National forecast · all 42 exported targets", s["NationalForecast"], page_size=15, max_rows=500),
+                details_table("Module contract", s["ModuleContract"], page_size=10, max_rows=200),
+                details_table("Module isolation audit", s["ModuleIsolation"], page_size=10, max_rows=200),
+            ], className="details-stack"),
         ], className="section"),
     ])
 
 
 def validation_view(signature: str):
-    s = load_bundle(signature)["sheets"]
+    b = load_bundle(signature); s = b["sheets"]; d = b["dashboard"]
+    consistency = s.get("ConsistencyAudit", pd.DataFrame())
+    if not consistency.empty and "Passed" in consistency.columns:
+        consistency_pass = int(consistency["Passed"].astype(bool).sum())
+        consistency_total = len(consistency)
+    else:
+        consistency_pass = consistency_total = 0
+
     return html.Div([
         html.Section([
-            section_header("Validation", "Historical performance & diagnostics", "Time-Machine election tests, district probability calibration, model quality, leakage audits, and Senate state-model validation."),
+            section_header(
+                "Validation",
+                "Historical performance & model diagnostics",
+                "Historical tests and publication-level integrity checks are shown first. Deep technical audits remain available below without overwhelming the page.",
+            ),
             html.Div([
-                html.Div(dcc.Graph(figure=time_machine_house_figure(s["TimeMachineScorecard"]), config=PLOTLY_CONFIG), className="panel"),
-                html.Div(dcc.Graph(figure=model_quality_figure(s["ModelQuality"]), config=PLOTLY_CONFIG), className="panel"),
-            ], className="two"),
+                metric_card("Consistency audit", f"{consistency_pass}/{consistency_total} PASS" if consistency_total else "—", "Final report integrity checks", "purple"),
+                metric_card("House stability", safe_value(d.get("House Diagnostic Stability")), "Diagnostic stability score", "dem"),
+                metric_card("Senate stability", safe_value(d.get("Senate Diagnostic Stability")), "Diagnostic stability score", "rep"),
+                metric_card("Popular-vote stability", safe_value(d.get("Popular Vote Diagnostic Stability")), "Diagnostic stability score", "purple"),
+            ], className="hero validation-hero"),
+
             html.Div([
-                html.Div(dcc.Graph(figure=validation_scatter(s["HouseValidationOOF"]), config=PLOTLY_CONFIG), className="panel"),
-                html.Div([html.Div("House validation summary", className="panel-title"), table_component(s["HouseValidationSummary"], page_size=12)], className="panel"),
-            ], className="two"),
+                html.Div([
+                    html.Div("Time-Machine · House", className="panel-title"),
+                    html.P("Held-out historical elections: forecast versus realized House seats.", className="panel-copy"),
+                    html.Div(dcc.Graph(figure=time_machine_house_figure(s["TimeMachineScorecard"]), config=PLOTLY_CONFIG, style={"height":"340px"}), className="graph-shell"),
+                ], className="panel stable-graph-panel"),
+                html.Div([
+                    html.Div("Model quality", className="panel-title"),
+                    html.P("Production stability, tree disagreement, constraint impact and nested OOF error.", className="panel-copy"),
+                    html.Div(dcc.Graph(figure=model_quality_figure(s["ModelQuality"]), config=PLOTLY_CONFIG, style={"height":"340px"}), className="graph-shell"),
+                ], className="panel stable-graph-panel"),
+            ], className="two stable-grid"),
+
             html.Div([
-                html.Div([html.Div("Senate validation", className="panel-title"), table_component(s["SenateValidation"], page_size=15)], className="panel"),
-                html.Div([html.Div("House leakage audit", className="panel-title"), table_component(s["HouseLeakageAudit"], page_size=15)], className="panel"),
-            ], className="two"),
-            html.Div([html.Div("Time-Machine scorecard", className="panel-title"), table_component(s["TimeMachineScorecard"], page_size=12, max_rows=500)], className="panel"),
-            html.Div([html.Div("All 42 held-out targets", className="panel-title"), table_component(s["TimeMachine42Targets"], page_size=15, max_rows=1000)], className="panel"),
+                html.Div([
+                    html.Div("House district validation", className="panel-title"),
+                    html.Div(dcc.Graph(figure=validation_scatter(s["HouseValidationOOF"]), config=PLOTLY_CONFIG, style={"height":"450px"}), className="graph-shell graph-shell-lg"),
+                ], className="panel stable-graph-panel"),
+                html.Div([
+                    html.Div("House validation summary", className="panel-title"),
+                    html.P("Held-out district performance and production calibration summary.", className="panel-copy"),
+                    table_component(s["HouseValidationSummary"], page_size=12, compact=True),
+                ], className="panel stable-table-panel"),
+            ], className="two stable-grid"),
+
             html.Div([
-                html.Div([html.Div("Target-level Time-Machine summary", className="panel-title"), table_component(s["TimeMachineTargetSummary"], page_size=12, max_rows=500)], className="panel"),
-                html.Div([html.Div("2026 fold stability", className="panel-title"), table_component(s["TargetStability2026"], page_size=12, max_rows=500)], className="panel"),
-            ], className="two"),
+                html.Div([
+                    html.Div("Senate state-model validation", className="panel-title"),
+                    table_component(s["SenateValidation"], page_size=12, compact=True),
+                ], className="panel stable-table-panel"),
+                html.Div([
+                    html.Div("Popular-vote validation", className="panel-title"),
+                    table_component(s["PopularVoteValidation"], page_size=10, max_rows=500, compact=True),
+                ], className="panel stable-table-panel"),
+            ], className="two stable-grid"),
+
             html.Div([
-                html.Div([html.Div("Popular-vote validation", className="panel-title"), table_component(s["PopularVoteValidation"], page_size=12, max_rows=500)], className="panel"),
-                html.Div([html.Div("Senate specification summary", className="panel-title"), table_component(s["SenateSpecSummary"], page_size=12, max_rows=500)], className="panel"),
-            ], className="two"),
-            html.Div([
-                html.Div([html.Div("Full-pipeline sensitivity contract", className="panel-title"), table_component(s["SensitivityContract"], page_size=10, max_rows=100)], className="panel"),
-                html.Div([html.Div("Popular-vote method challenge", className="panel-title"), table_component(s["PopularMethodAudit"], page_size=12, max_rows=100)], className="panel"),
-            ], className="two"),
-            html.Div([html.Div("Named full-pipeline stress tests", className="panel-title"), table_component(s["SensitivityScenarios"], page_size=10, max_rows=100)], className="panel"),
-            html.Div([html.Div("One-at-a-time sensitivity · all 71 model features", className="panel-title"), table_component(s["SensitivityOAT"], page_size=15, max_rows=250)], className="panel"),
-            html.Div([
-                html.Div([html.Div("71-feature contract", className="panel-title"), table_component(s["FeatureContract71"], page_size=15, max_rows=100)], className="panel"),
-                html.Div([html.Div("0–100 stress endpoints · 31 controls", className="panel-title"), table_component(s["ScenarioExtremes31"], page_size=15, max_rows=100)], className="panel"),
-            ], className="two"),
-            html.Div([
-                html.Div([html.Div("Senate race stability", className="panel-title"), table_component(s["SenateRaceStability"], page_size=12, max_rows=500)], className="panel"),
-                html.Div([html.Div("Pipeline stages", className="panel-title"), table_component(s["PipelineStageSummary"], page_size=12, max_rows=500)], className="panel"),
-            ], className="two"),
-            html.Div([html.Div("Validation contract", className="panel-title"), table_component(s["ValidationStages"], page_size=12, max_rows=500)], className="panel"),
-            html.Div([
-                html.Div([html.Div("v26 snapshot/Scenario contract", className="panel-title"), table_component(s["NationalPremodelContract"], page_size=10, max_rows=50)], className="panel"),
-                html.Div([html.Div("v26 relationship regularization", className="panel-title"), table_component(s["NationalPremodelTuning"], page_size=12, max_rows=50)], className="panel"),
-            ], className="two"),
-            html.Div([html.Div("v26 relational engine · within-support sensitivity (31 × min/max)", className="panel-title"), table_component(s["NationalPremodelSupport31"], page_size=15, max_rows=100)], className="panel"),
-            html.Div([html.Div("v26 relational engine · 0–100 stress sensitivity", className="panel-title"), table_component(s["NationalPremodelOAT31"], page_size=15, max_rows=100)], className="panel"),
-            html.Div([html.Div("v26 relational engine · combined scenarios", className="panel-title"), table_component(s["NationalPremodelCombined"], page_size=15, max_rows=100)], className="panel"),
-            html.Div([html.Div("v26 · 14×14 inter-unit relationship audit", className="panel-title"), table_component(s.get("NationalRelationships14", pd.DataFrame()), page_size=15, max_rows=182)], className="panel"),
-            html.Div([html.Div("v26 · 31×31 control-level relationship audit", className="panel-title"), table_component(s.get("NationalRelationships31", pd.DataFrame()), page_size=15, max_rows=930)], className="panel"),
-            html.Div([html.Div("v26 · 42-target counterfactual coherence audit", className="panel-title"), table_component(s.get("Scenario42Coherence", pd.DataFrame()), page_size=15, max_rows=100)], className="panel"),
-            html.Div([html.Div("v26 · Senate D55 regression contract", className="panel-title"), table_component(s.get("ScenarioSenateRegression", pd.DataFrame()), page_size=10, max_rows=30)], className="panel"),
-            html.Div([html.Div("v26 · Senate flip thresholds from 35 local anchors", className="panel-title"), table_component(s.get("ScenarioSenateFlipOrder", pd.DataFrame()), page_size=20, max_rows=40)], className="panel"),
+                details_table("Final consistency audit", consistency, page_size=18, max_rows=200),
+                details_table("Time-Machine scorecard", s["TimeMachineScorecard"], page_size=12, max_rows=500),
+                details_table("All 42 held-out targets", s["TimeMachine42Targets"], page_size=15, max_rows=1000),
+                details_table("Target-level Time-Machine summary", s["TimeMachineTargetSummary"], page_size=12, max_rows=500),
+                details_table("2026 fold stability", s["TargetStability2026"], page_size=12, max_rows=500),
+                details_table("House leakage audit", s["HouseLeakageAudit"], page_size=15, max_rows=500),
+                details_table("Senate specification summary", s["SenateSpecSummary"], page_size=12, max_rows=500),
+                details_table("Full-pipeline sensitivity contract", s["SensitivityContract"], page_size=10, max_rows=100),
+                details_table("Named full-pipeline stress tests", s["SensitivityScenarios"], page_size=10, max_rows=100),
+                details_table("One-at-a-time sensitivity · 71 features", s["SensitivityOAT"], page_size=15, max_rows=250),
+                details_table("71-feature contract", s["FeatureContract71"], page_size=15, max_rows=100),
+                details_table("0–100 stress endpoints · 31 controls", s["ScenarioExtremes31"], page_size=15, max_rows=100),
+                details_table("Senate race stability", s["SenateRaceStability"], page_size=12, max_rows=500),
+                details_table("Pipeline stages", s["PipelineStageSummary"], page_size=12, max_rows=500),
+                details_table("Validation contract", s["ValidationStages"], page_size=12, max_rows=500),
+                details_table("v27.1 snapshot / Scenario contract", s["NationalPremodelContract"], page_size=10, max_rows=50),
+                details_table("v27 relationship regularization", s["NationalPremodelTuning"], page_size=12, max_rows=50),
+                details_table("v27 relational engine · within-support sensitivity", s["NationalPremodelSupport31"], page_size=15, max_rows=100),
+                details_table("v27 relational engine · 0–100 stress sensitivity", s["NationalPremodelOAT31"], page_size=15, max_rows=100),
+                details_table("v27 relational engine · combined scenarios", s["NationalPremodelCombined"], page_size=15, max_rows=100),
+                details_table("v27 · 14×14 inter-unit relationship audit", s.get("NationalRelationships14", pd.DataFrame()), page_size=15, max_rows=182),
+                details_table("v27 · 31×31 control-level relationship audit", s.get("NationalRelationships31", pd.DataFrame()), page_size=15, max_rows=930),
+                details_table("v27 · 42-target counterfactual coherence audit", s.get("Scenario42Coherence", pd.DataFrame()), page_size=15, max_rows=100),
+                details_table("v27 · Senate D55 regression contract", s.get("ScenarioSenateRegression", pd.DataFrame()), page_size=10, max_rows=30),
+                details_table("v27 · Senate flip thresholds from 35 local anchors", s.get("ScenarioSenateFlipOrder", pd.DataFrame()), page_size=20, max_rows=40),
+            ], className="details-stack"),
         ], className="section"),
     ])
 
@@ -495,6 +809,11 @@ def scenario_view(signature: str):
     )
     baseline_senate_lookup = baseline_senate_data.set_index("STATE") if not baseline_senate_data.empty else pd.DataFrame()
     specifications = {spec.name: spec for spec in engine.input_specs}
+    dashboard = bundle["dashboard"]
+    official_house_d = int(float(dashboard["Democratic House Seats"]))
+    official_house_r = int(float(dashboard["Republican House Seats"]))
+    official_senate_d = int(float(dashboard["Democratic Senate Seats"]))
+    official_senate_r = int(float(dashboard["Republican Senate Seats"]))
 
     def control_card(spec):
         return html.Div([
@@ -543,9 +862,9 @@ def scenario_view(signature: str):
     return html.Div([
         html.Section([
             section_header(
-                "MODEL-DRIVEN COUNTERFACTUAL",
+                "COUNTERFACTUAL DATA LAB",
                 "Scenario Lab",
-                "Adjust the national snapshot, release the slider, and inspect how the same forecast responds across popular vote, all 435 House districts, and all 35 scheduled Senate elections.",
+                f"Adjust the observed national snapshot, release the slider, and rerun the same v27 counterfactual pipeline across the 42 national targets, all 435 House districts, and all 35 scheduled Senate elections. Reset is exactly the current official central forecast: House D{official_house_d}–R{official_house_r} · Senate D{official_senate_d}–R{official_senate_r}.",
             ),
             html.Div([
                 html.Div("SCENARIO · NEVER OVERWRITES THE OFFICIAL FORECAST", className="scenario-warning"),
@@ -608,6 +927,10 @@ def scenario_view(signature: str):
                 ], className="scenario-diagnostic-block"),
                 html.Div(id="scenario-model-status", className="scenario-method-row"),
                 html.Div([
+                    html.Div("Scenario engine baseline / coherence contract", className="panel-title"),
+                    table_component(bundle["sheets"].get("ScenarioEngineContract", pd.DataFrame()), page_size=14, max_rows=60, compact=True),
+                ], className="scenario-diagnostic-block"),
+                html.Div([
                     html.Div([html.Div("House translator diagnostics", className="panel-title"), html.Div(id="scenario-summary", className="scenario-metrics scenario-map-metrics")]),
                     html.Div([html.Div("Senate translator diagnostics", className="panel-title"), html.Div(id="scenario-senate-summary", className="scenario-metrics scenario-map-metrics")]),
                 ], className="two"),
@@ -630,6 +953,7 @@ def scenario_view(signature: str):
 
 def render_tab(tab: str, signature: str):
     return {
+        "forecast": forecast_view,
         "overview": overview_view,
         "house": house_view,
         "senate": senate_view,

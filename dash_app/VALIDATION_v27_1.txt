@@ -1,0 +1,53 @@
+Dash v27.1 setup check
+----------------------
+Report: Election_Model_Final_Report_v27_1.xlsx
+Report version: 27.1
+Scenario runtime: scenario_state_engine_v27.py · v27
+Source snapshot SHA match: True
+House central: D230-R205
+Senate central: D50-R50
+House rows: 435
+Senate monitored / Safe: 11 / 24
+Scenario reset House D: 230
+Scenario reset Senate D: 50
+Selected Senate central patterns: 1
+Final HTML: Election_Model_v27_1_Coherence_Audit.html
+Scenario controls / units / batteries / targets: 31 / 14 / 12 / 42
+Deep OAT runs: 62 failures: none
+Forbidden private copies: none
+
+Checks
+[PASS] v27.1 audited report detected
+[PASS] Model.xlsx exists
+[PASS] Report source SHA matches Model.xlsx
+[PASS] v27 Scenario runtime exists
+[PASS] House geometry asset exists
+[PASS] Brand asset exists
+[PASS] Required v27.1 sheets present
+[PASS] HouseRaceDetail has 435 districts
+[PASS] SenateRaceDetail has 11 monitored races
+[PASS] SenateSafeBaselines has 24 scenario-only safe races
+[PASS] Senate map has 50 states / 35 scheduled elections
+[PASS] CentralForecastContract all PASS
+[PASS] House official headline equals Monte Carlo mode
+[PASS] Senate official headline equals modal accounting / one selected pattern
+[PASS] Senate public central tuple is coherent
+[PASS] Runtime official baseline headline equals report
+[PASS] Scenario engine zero-intervention national headline equals report
+[PASS] Scenario House geographic reset equals official forecast
+[PASS] Scenario Senate geographic reset equals official forecast
+[PASS] Dash source references v27 central Senate tuple/runtime
+[PASS] Final notebook HTML detected
+[PASS] Final HTML exposes all required v27.1 visual sections
+[PASS] Final HTML contains current House central totals
+[PASS] Final HTML contains current Senate central totals
+[PASS] Scenario Lab has 31 controls / 14 units / 12 batteries / 42 targets
+[PASS] Scenario Lab latest-edit battery priority works
+[PASS] Scenario Lab compatible cross-battery edits persist
+[PASS] Scenario visible House headline is district-winner based
+[PASS] Forecast tab serves exact notebook HTML
+[PASS] Scenario Lab tab name restored
+[PASS] Deep 31-control endpoint geography/coherence audit
+[PASS] Dash package contains no duplicated model/report/runtime/html assets
+
+STATUS: OK

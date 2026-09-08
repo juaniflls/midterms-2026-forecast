@@ -1,0 +1,21 @@
+{
+  "release": "27.1.0",
+  "identity": "NUCLEUS 42",
+  "generated": "2026-09-08",
+  "artifacts": {
+    "Modelo_Midterms_2026_v27.1_NUCLEUS42_FINAL.ipynb": "9d39dc82a5da4a0f4ac09e10586498a0381928e96cb53761c54885bc4cc63c61",
+    "Election_Model_v27_1_Coherence_Audit.html": "67f530b632e29b393d00b2be136c50f91571f5fce170a70d9a8ca18675113a1d",
+    "Model.xlsx": "c9c5d72b219d25164b33698f68c78d34e60373e20096d0179e5ded3a6ce92093",
+    "outputs/Election_Model_Final_Report_v27_1.xlsx": "917e2bc414fc8b14ea119529a999bdb9e629669f1e8bd53e6c7addd607a0c427",
+    "outputs/Model_Sensitivity_Audit_v27.xlsx": "0e6a7481245c4f1c168d391048a2f98987db2e81cfc5c0f3dfc7f3343b908bad",
+    "outputs/scenario_state_engine_v27.py": "8b03aab13f896d8b11a9dbf95cef54467368ea7de387aa76db7616cbec2c5960",
+    "dash_app/app.py": "d73d715b260528f2ac885169811514ace528be90de318f6f25a3f51699298344",
+    "dash_app/core.py": "971b72c93b983d7d8d072e1c9de078f8cd4092fca871bb0c240d2d6e3388ad32",
+    "dash_app/figures.py": "ce7fe0b7a2433096433d1b7d92eb12ddeada0e641ed2ecfecff6b860c8712000",
+    "dash_app/views.py": "33b3d8a0b9333d1326e5d81a03a1096632d4c1135a7d9781b01af0bac7d3c558",
+    "dash_app/scenario_engine.py": "bef497048e9411b8aedaa65a2e71a9da576071b238f1aff3e4b431fc450d2bcb",
+    "README.md": "3adbd06556defec791c22c43d47078ac0476486cbc55df43c2c9b11b0cf11f7c",
+    "MODEL_CARD.md": "c1dbbc98332b9ade5eec90dc1315ccb18e1e5f1b05bd74cb1015ae31e2cd7258",
+    "assets/readme/nucleus42-v27-hero.png": "0093f8a97ceee79be97ad64ee1c321279b053271e1a035ef5cea760ca2d9dc1c"
+  }
+}

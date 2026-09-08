@@ -8,6 +8,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any, Optional
 
+import numpy as np
 import pandas as pd
 
 DASH_DIR = Path(__file__).resolve().parent
@@ -21,8 +22,8 @@ HOUSE_PATHS_PATH = SHARED_ASSETS_DIR / "house_cd120_albers_paths.json.gz"
 HOUSE_GEOJSON_PATH = SHARED_ASSETS_DIR / "house_cd120_official.geojson.gz"
 BRAND_LOGO_PATH = SHARED_ASSETS_DIR / "branding" / "Midterms_2026_Logo.svg"
 
-REPORT_RE = re.compile(r"Election_Model_Final_Report_v(\d+)\.xlsx$", re.I)
-HTML_RE = re.compile(r"Election_Model_2026_Dashboard_v(\d+)\.html$", re.I)
+REPORT_RE = re.compile(r"Election_Model_Final_Report_v(\d+)(?:[_\.](\d+))?\.xlsx$", re.I)
+HTML_RE = re.compile(r"Election_Model(?:_2026_Dashboard)?_v(\d+)(?:[_\.](\d+))?(?:_[^.]+)?\.html$", re.I)
 
 # Stable 50-state tile geometry. The Senate map is built from this structural
 # table plus workbook sheets; it never scrapes another HTML dashboard.
@@ -55,14 +56,22 @@ SENATE_STATE_GRID = [
 ]
 
 
-def _version_key(path: Path, regex: re.Pattern[str]) -> tuple[int, int]:
+def _version_key(path: Path, regex: re.Pattern[str]) -> tuple[int, int, int]:
     m = regex.search(path.name)
-    version = int(m.group(1)) if m else -1
+    major = int(m.group(1)) if m else -1
+    minor = int(m.group(2) or 0) if m else -1
     try:
         mtime = path.stat().st_mtime_ns
     except FileNotFoundError:
         mtime = 0
-    return version, mtime
+    return major, minor, mtime
+
+
+def _display_version(path: Path, regex: re.Pattern[str]) -> str:
+    major, minor, _ = _version_key(path, regex)
+    if major < 0:
+        return "latest"
+    return f"{major}.{minor}" if minor else str(major)
 
 
 def latest_report_path() -> Path:
@@ -76,10 +85,16 @@ def latest_report_path() -> Path:
 
 
 def latest_html_path() -> Optional[Path]:
-    candidates = list(PROJECT_ROOT.glob("Election_Model_2026_Dashboard_v*.html"))
+    # The v27.1 notebook publishes Election_Model_v27_1_Coherence_Audit.html;
+    # older releases used Election_Model_2026_Dashboard_vXX.html. Support both
+    # without copying either deliverable inside dash_app/.
+    candidates = [
+        path for path in PROJECT_ROOT.glob("Election_Model*.html")
+        if HTML_RE.search(path.name)
+    ]
     if not candidates:
         return None
-    return max(candidates, key=lambda p: _version_key(p, HTML_RE))
+    return max(candidates, key=lambda path: _version_key(path, HTML_RE))
 
 
 def project_signature() -> str:
@@ -89,8 +104,14 @@ def project_signature() -> str:
         parts.append(f"report:{rp.name}:{rp.stat().st_mtime_ns}:{rp.stat().st_size}")
     except Exception as exc:
         parts.append(f"report:missing:{type(exc).__name__}")
-    # The static HTML is a sibling deliverable, not a Dash data source. Excluding
-    # it from the signature prevents needless tab rebuilds and map flicker.
+    # The audited standalone HTML is now an explicit Forecast-tab data source.
+    # Include only its actual mtime/size so a Block-8 rerender refreshes the iframe
+    # once, while the 5-second watcher still avoids needless tab rebuilds.
+    hp = latest_html_path()
+    if hp is not None:
+        parts.append(f"html:{hp.name}:{hp.stat().st_mtime_ns}:{hp.stat().st_size}")
+    else:
+        parts.append("html:missing")
     # Model.xlsx is an upstream input, not a rendered Dash data source. Editing it
     # must not invalidate the UI before the production notebook has generated a
     # new audited report. Its presence is still exposed by status_payload().
@@ -144,10 +165,13 @@ def load_bundle(signature: Optional[str] = None) -> dict[str, Any]:
     report = latest_report_path()
     sheets: dict[str, pd.DataFrame] = {}
     wanted = [
-        "Dashboard_Data", "RunMetadata", "ExecutiveSummary", "FinalProjection",
+        "Dashboard_Data", "RunMetadata", "ConsistencyAudit", "ExecutiveSummary", "FinalProjection",
         "FinalSnapshot", "ModelQuality", "ElectionSnapshot", "PopularVote",
+        "CentralForecastContract", "HouseCentralScenario", "HouseSimulationSummary",
+        "HouseSeatAccounting", "HouseFlipAudit", "HouseBaselineContract", "House2024to2026",
+        "SenateSeatAccounting", "SenateCentralPatterns",
         "ControlSummary", "HouseDistribution", "SenateDistribution",
-        "SenateAttribution", "SenateModelFlips", "SenateCompetitive",
+        "SenateAttribution", "SenateModelFlips", "SenateFlipAudit", "SenateCompetitive",
         "SenateRaceDetail", "SenateSafeBaselines", "SenateHistoricSummary", "SenateRaceSimulation",
         "SenateStateModelCV", "SenateStateModel", "SenateValidation",
         "SenateNestedFolds", "SenateCycleValidation", "SenateSpecSummary",
@@ -192,14 +216,69 @@ def load_bundle(signature: Optional[str] = None) -> dict[str, Any]:
             "Core3 Signed Median", "District Number", "State FIPS", "GEOID",
         ])
 
+        # Canonical v27 House source consensus — identical to notebook Block 8.
+        # Never substitute Core3 / partial legacy coverage for the 435-seat display.
+        def _v27_consensus_rating_from_score(value):
+            try:
+                x = float(value)
+            except (TypeError, ValueError):
+                x = np.nan
+            if not np.isfinite(x) or abs(x) < 0.5:
+                return "Toss-Up"
+            party = "D" if x > 0 else "R"
+            a = abs(x)
+            if a < 1.5:
+                return f"Tilt {party}"
+            if a < 2.5:
+                return f"Lean {party}"
+            if a < 3.5:
+                return f"Likely {party}"
+            return f"Safe {party}"
+
+        if "v27 Rating Consensus Rating" in house.columns:
+            house["Source Consensus Rating"] = house["v27 Rating Consensus Rating"]
+            house["Source Consensus Field"] = "v27 Rating Consensus Rating"
+        elif "v27 Rating Consensus Score" in house.columns:
+            house["Source Consensus Rating"] = (
+                house["v27 Rating Consensus Score"].map(_v27_consensus_rating_from_score)
+            )
+            house["Source Consensus Field"] = "v27 Rating Consensus Score"
+        else:
+            raise RuntimeError(
+                "HouseRaceDetail lacks the canonical v27 source-consensus fields "
+                "used by notebook Block 8."
+            )
+        if len(house) != 435 or house["Source Consensus Rating"].isna().any():
+            raise RuntimeError(
+                "Dash House source consensus must match notebook Block 8: "
+                "exactly 435 classified districts."
+            )
+        house["Source Consensus Count"] = pd.to_numeric(
+            house.get("v27 Rating Source Count", np.nan), errors="coerce"
+        )
+
     senate = sheets["SenateRaceDetail"].copy()
     if not senate.empty:
+        _required_central_senate = {
+            "Central Forecast Margin 2P", "Central Forecast Sigma PP",
+            "D Win Probability", "R Win Probability", "Projected Winner",
+            "Forecast Rating", "Projected D 2P", "Projected R 2P",
+            "Marginal D Win Probability", "Marginal R Win Probability",
+        }
+        _missing_central_senate = sorted(_required_central_senate - set(senate.columns))
+        if _missing_central_senate:
+            raise RuntimeError(
+                "The v27.1 report is missing required Senate central-forecast columns: "
+                + ", ".join(_missing_central_senate)
+            )
         senate = _coerce_num(senate, [
             "D Poll 2P", "R Poll 2P", "Poll Margin 2P",
             "Raw Predicted Polling Error PP", "Error-Corrected Candidate Margin 2P",
             "Fundamentals Margin 2P", "Projected D 2P", "Projected R 2P",
             "Model Polling Error Correction PP", "Model Projected Margin 2P",
-            "Adjusted Margin 2P", "D Win Probability", "R Win Probability",
+            "Adjusted Margin 2P", "Central Forecast Margin 2P", "Central Forecast Sigma PP",
+            "D Win Probability", "R Win Probability",
+            "Marginal D Win Probability", "Marginal R Win Probability",
             "Vulnerability Score", "Forecast Sigma PP", "Historic MAE PP",
         ])
 
@@ -221,7 +300,7 @@ def load_bundle(signature: Optional[str] = None) -> dict[str, Any]:
     return {
         "signature": signature,
         "report_path": report,
-        "report_version": _version_key(report, REPORT_RE)[0],
+        "report_version": _display_version(report, REPORT_RE),
         "sheet_names": sheet_names,
         "sheets": sheets,
         "dashboard": dashboard,
@@ -316,7 +395,7 @@ def load_senate_map(signature: str) -> pd.DataFrame:
                 continue
             src = lookup.loc[state]
             senate_map.at[idx, "D Win Probability"] = src.get("D Win Probability")
-            senate_map.at[idx, "Projected Margin"] = src.get("Adjusted Margin 2P")
+            senate_map.at[idx, "Projected Margin"] = src.get("Central Forecast Margin 2P")
             senate_map.at[idx, "Projected D 2P"] = src.get("Projected D 2P")
             senate_map.at[idx, "Projected R 2P"] = src.get("Projected R 2P")
             senate_map.at[idx, "Forecast Rating"] = src.get("Forecast Rating")

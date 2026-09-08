@@ -1,25 +1,20 @@
 cff-version: 1.2.0
-message: "If you use or discuss this project, please cite this versioned snapshot."
-title: "Midterms 2026 Forecast Model"
+message: "If you use NUCLEUS 42, please cite this release."
+title: "NUCLEUS 42: 2026 U.S. Midterm Forecast Model"
+version: 27.1.0
+date-released: 2026-09-08
 type: software
-version: 26.1.0
-date-released: 2026-08-27
 authors:
   - family-names: "Garbanzo Fallas"
     given-names: "Juan Ignacio"
 repository-code: "https://github.com/juaniflls/midterms-2026-forecast"
 url: "https://github.com/juaniflls/midterms-2026-forecast"
-abstract: >-
-  A reproducible electoral data science system for forecasting the 2026
-  United States midterm elections across national conditions, House
-  districts, Senate races, chamber control, and uncertainty.
+license: MIT
 keywords:
   - election forecasting
-  - United States midterm elections
   - political data science
-  - temporal validation
-  - Monte Carlo simulation
-  - House of Representatives
-  - Senate
+  - U.S. midterms
+  - U.S. House
+  - U.S. Senate
+  - Monte Carlo
   - counterfactual analysis
-  - Scenario Lab

@@ -1,0 +1,7 @@
+{
+  "project": "NUCLEUS 42",
+  "release": "27.1.0",
+  "live_google_sheet": "https://docs.google.com/spreadsheets/d/1NC80MaJh8vyxrbQsi__HSR2StaSo8mgAJ3iSdilqEj0/edit?usp=sharing",
+  "frozen_release_input": "Model.xlsx",
+  "note": "The live sheet is maintained separately; Model.xlsx is the frozen reproducibility snapshot."
+}
