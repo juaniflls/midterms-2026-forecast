@@ -1,0 +1,17 @@
+# NUCLEUS 42 — zero-cost first web deployment
+# Important: keep the repository root as the Render root directory.
+# Dash needs access to Model.xlsx, outputs/, assets/, and the final HTML.
+
+services:
+  - type: web
+    name: nucleus42
+    runtime: python
+    plan: free
+    branch: main
+    buildCommand: python -m pip install --upgrade pip && pip install -r dash_app/requirements.txt
+    startCommand: gunicorn --chdir dash_app app:server --bind 0.0.0.0:$PORT --workers 1 --threads 2 --timeout 180 --access-logfile -
+    healthCheckPath: /
+    autoDeployTrigger: off
+    envVars:
+      - key: DASH_FILE_WATCH_MS
+        value: "60000"
