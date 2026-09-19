@@ -1,0 +1,22 @@
+{
+  "version": 26,
+  "production_snapshot_rewritten": false,
+  "intervention_units": 14,
+  "composition_batteries": 12,
+  "scenario_baseline_input_identity_max_abs_pp": 0.0,
+  "scenario_baseline_target_identity_max_abs": 5.551115123125783e-17,
+  "official_popular_vote_D": 52.356783651710344,
+  "official_popular_vote_R": 44.72321634828965,
+  "scenario_controls": 31,
+  "unit_relationship_rows": 182,
+  "control_relationship_rows": 930,
+  "oat_rows": 62,
+  "support_rows": 62,
+  "senate_baseline_D": 51,
+  "senate_baseline_R": 49,
+  "senate_D55_uniform_swing_threshold_pp": 5.0,
+  "raw_house_sign_misalignment_tests": 9,
+  "raw_senate_sign_misalignment_tests": 10,
+  "final_chamber_authority": "geographic layers",
+  "runtime_sha256": "f32a4e63359ff539b4dc1e2a7ebe13dfbd74dd3198373c28739b711b09a1b7da"
+}
