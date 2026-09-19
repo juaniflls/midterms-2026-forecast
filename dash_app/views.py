@@ -339,12 +339,30 @@ def _distribution_row(label: str, counts: dict[str, int], unknown_count: int = 0
 def chamber_control_hero(bundle: dict[str, Any], chamber: str):
     dashboard = bundle["dashboard"]
     chamber_key = chamber.title()
-    controller = safe_value(dashboard.get(f"{chamber_key} Control"))
-    control_party = "Democratic" if controller == "Democratic" else "Republican"
-    probability = float(dashboard.get(f"{chamber_key} {control_party} Control Probability", 0.0))
+
+    # Keep two distinct concepts visible and auditable:
+    #   1) the single official central composition, and
+    #   2) full-distribution chamber-control probability.
+    # The party that wins the central map need not be the party with the higher
+    # control probability (most importantly in a Senate where a 50-50 outcome
+    # is assigned according to the modeled VP assumption).
+    dem_probability = float(
+        dashboard.get(f"{chamber_key} Democratic Control Probability", 0.0)
+    )
+    rep_probability = float(
+        dashboard.get(f"{chamber_key} Republican Control Probability", 0.0)
+    )
+    if dem_probability >= rep_probability:
+        probability = dem_probability
+        party_noun = "Democrats"
+        party_class = "dem"
+    else:
+        probability = rep_probability
+        party_noun = "Republicans"
+        party_class = "rep"
+
     dem_seats = int(float(dashboard.get(f"Democratic {chamber_key} Seats", 0)))
     rep_seats = int(float(dashboard.get(f"Republican {chamber_key} Seats", 0)))
-    party_class = "dem" if control_party == "Democratic" else "rep"
 
     if chamber_key == "House":
         house = bundle["house"]
@@ -359,7 +377,8 @@ def chamber_control_hero(bundle: dict[str, Any], chamber: str):
                 _rating_counts(source_consensus),
             ),
         ]
-        subtitle = f"Official central forecast D {dem_seats} · R {rep_seats} · 435 district-level forecasts"
+        subtitle = "435 district-level forecasts · one coherent official central map"
+        probability_note = "Control odds use the full 50,000-simulation distribution; the central composition remains the single official point forecast."
     else:
         senate_map = load_senate_map(bundle["signature"])
         scheduled = senate_map.loc[senate_map["Tier"].ne("None")]
@@ -369,17 +388,27 @@ def chamber_control_hero(bundle: dict[str, Any], chamber: str):
                 _rating_counts(scheduled.get("Forecast Rating Key", pd.Series(dtype=str))),
             )
         ]
-        subtitle = f"Official central forecast D {dem_seats} · R {rep_seats} · 11 monitored races + fixed/safe seats"
+        subtitle = "11 monitored races + fixed/safe seats · one coherent official central pattern"
+        probability_note = "Control odds use the full 50,000-simulation distribution. A 50–50 Senate counts as Republican control under the modeled vice-presidential tie-break assumption."
 
     return html.Div([
         html.Div(f"Probabilistic {chamber_key} forecast", className="control-hero-kicker"),
         html.Div([
-            html.Span(f"{control_party}s ", className=party_class),
+            html.Span(f"{party_noun} ", className=party_class),
             "have a ",
             html.Span(f"{probability:.1f}% chance", className=party_class),
             f" of controlling the {chamber_key}.",
         ], className="control-hero-title"),
+        html.Div([
+            html.Span("Official central forecast", className="control-central-label"),
+            html.Div([
+                html.Span(f"D {dem_seats}", className="control-central-seat dem"),
+                html.Span("–", className="control-central-separator"),
+                html.Span(f"R {rep_seats}", className="control-central-seat rep"),
+            ], className="control-central-score"),
+        ], className="control-central-composition"),
         html.Div(subtitle, className="control-hero-subtitle"),
+        html.Div(probability_note, className="control-hero-probability-note"),
         html.Div(rows, className="control-distribution-grid"),
     ], className=f"control-hero control-hero-{party_class}")
 

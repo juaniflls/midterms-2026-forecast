@@ -290,3 +290,16 @@ body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Robo
   .methodology-flow-eight{grid-template-columns:1fr}
   .graph-shell{min-height:320px}
 }
+
+/* v27.1 Render correction — separate central composition from control odds. */
+.control-central-composition{display:flex;align-items:center;justify-content:center;gap:14px;margin:12px auto 7px;flex-wrap:wrap}
+.control-central-label{color:#64748b;font-size:10px;font-weight:950;letter-spacing:.12em;text-transform:uppercase}
+.control-central-score{display:inline-flex;align-items:baseline;gap:9px;padding:7px 14px;border:1px solid rgba(203,213,225,.95);border-radius:999px;background:rgba(255,255,255,.84);box-shadow:0 5px 14px rgba(15,23,42,.045)}
+.control-central-seat{font-size:20px;font-weight:1000;letter-spacing:-.035em}
+.control-central-separator{color:#94a3b8;font-size:16px;font-weight:900}
+@media(max-width:760px){
+  .control-central-composition{gap:8px;margin-top:10px}
+  .control-central-label{width:100%;text-align:center}
+  .control-central-seat{font-size:18px}
+}
+.control-hero-probability-note{max-width:860px;margin:6px auto 0;text-align:center;color:#8a98aa;font-size:10px;font-weight:700;line-height:1.45}
