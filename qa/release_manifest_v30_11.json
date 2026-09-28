@@ -1,11 +1,11 @@
 {
-  "release": "30.11.0",
-  "release_date": "2026-09-27",
+  "release": "30.11.1",
+  "release_date": "2026-09-28",
   "model": "Nucleus 42",
-  "scenario_engine": "v30.7-directed-causal-race-first",
+  "scenario_engine": "v30.8-reciprocal-standing-race-first",
   "immutable_artifacts": {
-    "NUCLEUS42_v30_11_FINAL_PUBLICATION_RELEASE.ipynb": "9c25325575ecb7664b5c11861ab2e538ef2129eb8fd2c5302af399ce69fc90bf",
-    "Election_Model_v30_11_Final_Publication.html": "1fa8d5c2fd0984186afd6f0d9023a47620c033db0f3e3e131aede7ae9cc45a11",
+    "NUCLEUS42_v30_11_FINAL_PUBLICATION_RELEASE.ipynb": "1ececba4f905296aebcda99798945a990c4bdcce2ee9a825d34d3858d8936e63",
+    "Election_Model_v30_11_Final_Publication.html": "3cc630f2fc59fd2e7ca88a36af7225e0a9c45e3b875897fa3ecf1a8e8b5edb6f",
     "Model.xlsx": "8418fc64c09ac2c61c25c88442bd8565f4a58d2bf9d1e56cde3da42496d17e12"
   },
   "contracts": {
@@ -19,17 +19,8 @@
     "notebook_error_outputs": 0
   },
   "web_architecture": {
-    "all_in_one": "Canonical autonomous v30.11 HTML",
-    "native_tabs": [
-      "Overview",
-      "Explore House",
-      "Explore Senate",
-      "Probability",
-      "Simulation",
-      "Methodology",
-      "Validation",
-      "Scenario Lab"
-    ],
+    "application": "Canonical autonomous v30.11 HTML served directly at /",
+    "native_tabs": [],
     "scenario_source": "Serialized canonical HTML payload"
   }
 }

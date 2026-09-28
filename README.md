@@ -49,7 +49,7 @@ The repository documents the model in general. Numbers visible in screenshots ar
 | [Autonomous forecast HTML](Election_Model_v30_11_Final_Publication.html) | Self-contained interactive publication; no server required |
 | [Canonical input workbook](Model.xlsx) | Versioned source snapshot for the included model run |
 | [v30 consolidated report](outputs/Election_Model_Final_Report_v30.xlsx) | Structured outputs, contracts, audits, and race detail |
-| [Render application](dash_app/) | Native analytical tabs plus the canonical All-in-One publication |
+| [Render application](dash_app/) | Thin Flask server for the canonical autonomous HTML publication |
 | [Methodology](docs/METHODOLOGY.md) | Model architecture, validation, uncertainty, and contracts |
 | [Scenario Lab guide](docs/SCENARIO_LAB.md) | Counterfactual engine, constraints, interpretation, and limits |
 | [Model card](MODEL_CARD.md) | Intended uses, non-uses, validation, and limitations |
@@ -60,7 +60,7 @@ The repository documents the model in general. Numbers visible in screenshots ar
 
 ## One release contract, two coordinated surfaces
 
-The notebook generates the authoritative report and autonomous HTML. The Render application preserves its native analytical tabs while the **All-in-One** tab embeds that exact HTML. Its independent **Scenario Lab** tab reads the serialized v30.7 contract from the same publication, so it does not fall back to the old v27 engine.
+The notebook generates the authoritative report and autonomous HTML. Render serves that exact HTML as the complete application: one interface, one Scenario Lab engine, and no duplicate Dash navigation or branding shell.
 
 ```mermaid
 flowchart TD
@@ -70,23 +70,22 @@ flowchart TD
     C --> E["35 Senate races"]
     D --> F["50,000-election uncertainty"]
     E --> F
-    B --> G["v30.7 Scenario Lab"]
+    B --> G["v30.8 Scenario Lab"]
     F --> H["Autonomous HTML"]
     G --> H
     H --> I["Local browser"]
-    H --> J["Dash · All-in-One"]
-    F --> K["Native Dash tabs"]
-    G --> K
+    H --> J["Render · full application"]
 ```
 
-This design keeps the publication coherent without removing the richer Dash navigation:
+This design keeps the publication coherent with a single presentation layer:
 
-- **All-in-One** is the exact autonomous HTML;
-- Overview, Explore House, Explore Senate, Probability, Simulation, Methodology, and Validation remain native Dash views sourced from the v30 report;
-- the native Scenario Lab loads the same `v30.7-directed-causal-race-first` payload as the HTML;
+- Render serves the exact autonomous HTML at `/`;
+- the HTML retains Overview, House, Senate, Probability, Simulation, Context, Validation and Scenario Lab;
+- Scenario Lab uses the `v30.8-reciprocal-standing-race-first` engine;
+- presidential approval and direction of country reconcile in both directions through one bounded, historically regularized bridge;
 - reset returns to the exact official race-first baseline;
 - House and Senate maps, hovers, tables, filters, and data exploration remain available in their dedicated views;
-- Dash never rewrites the workbook, notebook, report, or forecast.
+- the web server never rewrites the workbook, notebook, report, or forecast.
 
 ## Product tour
 
@@ -154,7 +153,7 @@ python dash_app/check_setup.py
 python dash_app/app.py
 ```
 
-Open `http://127.0.0.1:8050`. **All-in-One** automatically selects the newest file matching `Election_Model*.html`; the other tabs remain native Dash views of the same v30 report.
+Open `http://127.0.0.1:8050`. The autonomous publication HTML is the complete application.
 
 ## Reproduce the model
 

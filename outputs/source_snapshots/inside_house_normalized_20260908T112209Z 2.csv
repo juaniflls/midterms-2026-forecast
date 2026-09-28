@@ -1,0 +1,436 @@
+District ID,Rating Raw,Rating Standardized,Rating Numeric,Rating Signed v27,Date,Previous Rating Raw,Previous Rating Standardized,Shift,Incumbent,Party,Open,Special,Note,Retrieved At
+TX-35,Lean Republican,Lean R,8,-2.0,2026-09-03T14:29:41-05:00,Likely Republican,Likely R,left,Greg Casar,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+MN-01,Likely Republican,Likely R,9,-3.0,2026-09-03T14:18:46-05:00,Solid Republican,Safe R,left,Brad Finstad,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-14,Tilt Republican,Tilt R,7,-1.0,2026-09-03T14:15:18-05:00,Lean Republican,Lean R,left,Kathy Castor,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-15,Tilt Republican,Tilt R,7,-1.0,2026-08-20T13:25:00-05:00,Lean Republican,Lean R,left,Monica De La Cruz,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+SC-01,Likely Republican,Likely R,9,-3.0,2026-08-20T13:24:00-05:00,Solid Republican,Safe R,left,Nancy Mace,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+NV-02,Likely Republican,Likely R,9,-3.0,2026-08-20T13:23:00-05:00,Solid Republican,Safe R,left,Mark Amodei,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+KY-06,Likely Republican,Likely R,9,-3.0,2026-08-20T13:22:00-05:00,Solid Republican,Safe R,left,Andy Barr,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+NJ-09,Likely Democrat,Likely D,1,3.0,2026-08-20T13:22:00-05:00,Lean Democrat,Lean D,left,Nelida Pou,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CO-05,Lean Republican,Lean R,8,-2.0,2026-08-20T13:21:00-05:00,Likely Republican,Likely R,left,Jeff Crank,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-21,Solid Democrat,Safe D,0,4.0,2026-08-20T13:20:00-05:00,Likely Democrat,Likely D,left,Jim Costa,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-45,Lean Democrat,Lean D,2,2.0,2026-08-20T13:20:00-05:00,Tilt Democrat,Tilt D,left,Derek Tran,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-07,Toss-up,Tossup,5,0.0,2026-08-10T19:27:42-05:00,Lean Republican,Lean R,left,Max Miller,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IA-02,Lean Republican,Lean R,8,-2.0,2026-08-06T13:20:00-05:00,Likely Republican,Likely R,left,Ashley Hinson,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+IA-03,Toss-up,Tossup,5,0.0,2026-08-06T13:20:00-05:00,Tilt Republican,Tilt R,left,Zach Nunn,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MI-08,Solid Democrat,Safe D,0,4.0,2026-08-06T13:20:00-05:00,Likely Democrat,Likely D,left,Kristen McDonald Rivet,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-17,Solid Democrat,Safe D,0,4.0,2026-06-12T13:55:04-05:00,Likely Democrat,Likely D,left,Deluzio,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+IN-01,Likely Democrat,Likely D,1,3.0,2026-06-12T13:52:16-05:00,Lean Democrat,Lean D,left,Mrvan,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-11,Lean Republican,Lean R,8,-2.0,2026-06-12T13:48:16-05:00,Likely Republican,Likely R,left,Edwards,Republican,True,False,Edwards withdrew following a House Ethics Committee investigation.,2026-09-08T11:21:44.007813+00:00
+CA-06,Lean Democrat,Lean D,2,2.0,2026-06-12T13:47:11-05:00,Likely Democrat,Likely D,right,Amerish Bera; Kevin Kiley,Independent,True,False,,2026-09-08T11:21:44.007813+00:00
+OH-01,Tilt Democrat,Tilt D,3,1.0,2026-06-12T13:45:12-05:00,Toss-up,Tossup,left,Landsman,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NJ-07,Tilt Democrat,Tilt D,3,1.0,2026-06-12T13:44:04-05:00,Toss-up,Tossup,left,Kean,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+WI-03,Toss-up,Tossup,5,0.0,2026-06-12T13:42:12-05:00,Tilt Republican,Tilt R,left,Van Orden,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-08,Toss-up,Tossup,5,0.0,2026-06-12T13:41:01-05:00,Tilt Republican,Tilt R,left,Bresnahan,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AL-02,Likely Republican,Likely R,9,-3.0,2026-06-04T09:36:05-05:00,Solid Democrat,Safe D,right,Figures,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+LA-06,Solid Republican,Safe R,10,-4.0,2026-06-04T09:33:58-05:00,Solid Democrat,Safe D,right,Fields,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+VA-07,Likely Democrat,Likely D,1,3.0,2026-05-21T21:00:34-05:00,Lean Democrat,Lean D,left,Eugene Vindman,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-10,Toss-up,Tossup,5,0.0,2026-05-21T20:58:39-05:00,Tilt Republican,Tilt R,left,Perry,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+WA-03,Toss-up,Tossup,5,0.0,2026-05-21T20:56:46-05:00,Tilt Democrat,Tilt D,right,Gluesenkamp Perez,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-01,Solid Democrat,Safe D,0,4.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,no-change,Gallagher,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-03,Solid Democrat,Safe D,0,4.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,no-change,Kevin Kiley; Amerish Bera,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+CA-14,Solid Democrat,Safe D,0,4.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,no-change,Aisha Wahab,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-25,Solid Democrat,Safe D,0,4.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,no-change,Ruiz,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-26,Solid Democrat,Safe D,0,4.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,no-change,Brownley,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+CA-47,Solid Democrat,Safe D,0,4.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,no-change,Min,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-48,Tilt Democrat,Tilt D,3,1.0,2026-05-08T00:00:00-05:00,Tilt Democrat,Tilt D,no-change,Issa,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+CO-03,Likely Republican,Likely R,9,-3.0,2026-05-08T00:00:00-05:00,Likely Republican,Likely R,no-change,Hurd,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-09,Likely Republican,Likely R,9,-3.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,right,Soto,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-11,Solid Republican,Safe R,10,-4.0,2026-05-08T00:00:00-05:00,Solid Republican,Safe R,no-change,Webster,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+FL-22,Tilt Republican,Tilt R,7,-1.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,right,Lois Frankel,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+FL-23,Solid Democrat,Safe D,0,4.0,2026-05-08T00:00:00-05:00,Lean Democrat,Lean D,left,Jared Moskowitz; Lois Frankel,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+FL-25,Toss-up,Tossup,5,0.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,right,Debbie Wasserman Schultz; Jared Moskowitz,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+FL-27,Likely Republican,Likely R,9,-3.0,2026-05-08T00:00:00-05:00,Likely Republican,Likely R,no-change,Salazar,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+GA-14,Solid Republican,Safe R,10,-4.0,2026-05-08T00:00:00-05:00,Solid Republican,Safe R,no-change,Fuller,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MI-03,Likely Democrat,Likely D,1,3.0,2026-05-08T00:00:00-05:00,Likely Democrat,Likely D,no-change,Scholten,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MO-06,Solid Republican,Safe R,10,-4.0,2026-05-08T00:00:00-05:00,Solid Republican,Safe R,no-change,S. Graves,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+MT-01,Likely Republican,Likely R,9,-3.0,2026-05-08T00:00:00-05:00,Likely Republican,Likely R,no-change,Zinke,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+NY-21,Solid Republican,Safe R,10,-4.0,2026-05-08T00:00:00-05:00,Solid Republican,Safe R,no-change,Stefanik,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+NC-01,Lean Republican,Lean R,8,-2.0,2026-05-08T00:00:00-05:00,Lean Republican,Lean R,no-change,Davis,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-13,Solid Democrat,Safe D,0,4.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,no-change,Sykes,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+OK-01,Solid Republican,Safe R,10,-4.0,2026-05-08T00:00:00-05:00,Solid Republican,Safe R,no-change,Hern,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+TN-05,Solid Republican,Safe R,10,-4.0,2026-05-08T00:00:00-05:00,Likely Republican,Likely R,right,Ogles,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+TN-09,Solid Republican,Safe R,10,-4.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,right,Cohen,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+TX-02,Solid Republican,Safe R,10,-4.0,2026-05-08T00:00:00-05:00,Solid Republican,Safe R,no-change,Crenshaw,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+TX-23,Likely Republican,Likely R,9,-3.0,2026-05-08T00:00:00-05:00,Likely Republican,Likely R,no-change,VACANT,Republican,False,True,,2026-09-08T11:21:44.007813+00:00
+UT-01,Solid Democrat,Safe D,0,4.0,2026-05-08T00:00:00-05:00,Solid Democrat,Safe D,no-change,Moore,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+UT-02,Solid Republican,Safe R,10,-4.0,2026-05-08T00:00:00-05:00,Solid Republican,Safe R,no-change,Celeste Maloy; Blake Moore,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+UT-03,Solid Republican,Safe R,10,-4.0,2026-05-08T00:00:00-05:00,Solid Republican,Safe R,no-change,Mike Kennedy; Celeste Maloy,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+UT-04,Solid Republican,Safe R,10,-4.0,2026-05-08T00:00:00-05:00,Solid Republican,Safe R,no-change,Burgess Owens; Mike Kennedy,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+WI-01,Solid Republican,Safe R,10,-4.0,2026-03-12T16:14:51-05:00,Likely Republican,Likely R,right,Steil,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-02,Solid Republican,Safe R,10,-4.0,2026-02-05T05:55:48-05:00,Solid Republican,Safe R,no-change,Dunn,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+FL-16,Solid Republican,Safe R,10,-4.0,2026-02-05T05:55:48-05:00,Solid Republican,Safe R,no-change,Buchanan,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+GA-10,Solid Republican,Safe R,10,-4.0,2026-02-05T05:55:48-05:00,Solid Republican,Safe R,no-change,Collins,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+GA-11,Solid Republican,Safe R,10,-4.0,2026-02-05T05:55:48-05:00,Solid Republican,Safe R,no-change,Loudermilk,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+LA-05,Solid Republican,Safe R,10,-4.0,2026-02-05T05:55:48-05:00,Solid Republican,Safe R,no-change,Letlow,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+MD-05,Solid Democrat,Safe D,0,4.0,2026-02-05T05:55:48-05:00,Solid Democrat,Safe D,no-change,Hoyer,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+NJ-11,Solid Democrat,Safe D,0,4.0,2026-02-05T05:55:48-05:00,Solid Democrat,Safe D,no-change,Mejia,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+SC-05,Solid Republican,Safe R,10,-4.0,2026-02-05T05:55:48-05:00,Solid Republican,Safe R,no-change,Norman,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+TX-18,Solid Democrat,Safe D,0,4.0,2026-02-05T05:55:48-05:00,Solid Democrat,Safe D,no-change,Menefee,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-38,Solid Republican,Safe R,10,-4.0,2026-02-05T05:55:48-05:00,Solid Republican,Safe R,no-change,Wesley Hunt,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+WY-AL,Solid Republican,Safe R,10,-4.0,2026-02-05T05:55:48-05:00,Solid Republican,Safe R,no-change,Harriet Hageman,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+AL-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Moore,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+AL-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,M. Rogers,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AL-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Aderholt,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AL-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Strong,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AL-06,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Palmer,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AL-07,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Sewell,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+AK-AL,Likely Republican,Likely R,9,-3.0,2025-12-05T00:00:00-05:00,Likely Republican,Likely R,no-change,Begich,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AZ-01,Toss-up,Tossup,5,0.0,2025-12-05T00:00:00-05:00,Toss-up,Tossup,no-change,Schweikert,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+AZ-02,Likely Republican,Likely R,9,-3.0,2025-12-05T00:00:00-05:00,Likely Republican,Likely R,no-change,Crane,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AZ-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Ansari,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+AZ-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Stanton,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+AZ-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Biggs,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+AZ-06,Toss-up,Tossup,5,0.0,2025-12-05T00:00:00-05:00,Toss-up,Tossup,no-change,Ciscomani,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AZ-07,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Grijalva,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+AZ-08,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Hamadeh,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AR-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Crawford,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AR-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Hill,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AR-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Womack,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AR-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Westerman,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Huffman,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Thompson,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,McClintock,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-07,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Matsui,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-08,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Garamendi,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-09,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Harder,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-10,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,DeSaulnier,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-11,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Pelosi,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+CA-12,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Simon,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-13,Tilt Democrat,Tilt D,3,1.0,2025-12-05T00:00:00-05:00,Tilt Democrat,Tilt D,no-change,Gray,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-15,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Mullin,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-16,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Liccardo,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-17,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Khanna,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-18,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Lofgren,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-19,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Panetta,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-20,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Fong,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-22,Tilt Republican,Tilt R,7,-1.0,2025-12-05T00:00:00-05:00,Tilt Republican,Tilt R,no-change,Valadao,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-23,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Obernolte,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-24,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Carbajal,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-27,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Whitesides,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-28,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Chu,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-29,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Rivas,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-30,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Friedman,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-31,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Cisneros,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-32,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Sherman,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-33,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Aguilar,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-34,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Gomez,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-35,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Torres,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-36,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Lieu,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-37,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Kamlager-Dove,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-38,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Sanchez,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+CA-39,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Takano,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-40,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Young Kim; Ken Calvert,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-41,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Ken Calvert; Linda Sanchez,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+CA-42,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,R. Garcia,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-43,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Waters,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-44,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Barragan,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-46,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Correa,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-49,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Levin,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-50,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Peters,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-51,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Jacobs,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CA-52,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Vargas,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CO-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,DeGette,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CO-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Neguse,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CO-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Boebert,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+CO-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Crow,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CO-07,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Pettersen,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CT-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Larson,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+CT-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Courtney,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CT-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,DeLauro,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CT-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Himes,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CT-05,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Hayes,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+DE-AL,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,McBride,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Patronis,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Cammack,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Bean,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Rutherford,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-06,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Fine,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-07,Likely Republican,Likely R,9,-3.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,left,Mills,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+FL-08,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Haridopolos,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-10,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Frost,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-12,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Bilirakis,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-13,Likely Republican,Likely R,9,-3.0,2025-12-05T00:00:00-05:00,Likely Republican,Likely R,no-change,Luna,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-15,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Lee,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-17,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Steube,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-18,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Franklin,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-19,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Donalds,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+FL-20,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,VACANT,Democrat,False,True,,2026-09-08T11:21:44.007813+00:00
+FL-21,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Mast,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-24,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Wilson,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+GA-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,B. Carter,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+GA-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,S. Bishop,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+GA-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Jack,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+GA-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,H. Johnson,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+GA-05,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,N. Williams,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+GA-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,McBath,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+GA-07,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,McCormick,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+GA-08,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,A. Scott,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+GA-09,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Clyde,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+GA-12,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Allen,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+GA-13,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Everton Blair,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+HI-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Case,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+HI-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Tokuda,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+ID-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Fulcher,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+ID-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Simpson,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Jackson,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,R. Kelly,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+IL-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Ramirez,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,J. Garcia,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+IL-05,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Quigley,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Casten,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-07,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,D. Davis,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+IL-08,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Krishnamoorthi,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+IL-09,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Schakowsky,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+IL-10,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Schneider,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-11,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Foster,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-12,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Bost,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-13,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Budzinski,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-14,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Underwood,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-15,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Miller,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-16,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,LaHood,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IL-17,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Likely Democrat,Likely D,left,Sorensen,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+IN-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Yakym,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IN-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Stutzman,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IN-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Baird,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IN-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Spartz,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IN-06,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Shreve,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IN-07,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Carson,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+IN-08,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Messmer,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IN-09,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Houchin,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IA-01,Toss-up,Tossup,5,0.0,2025-12-05T00:00:00-05:00,Toss-up,Tossup,no-change,Miller-Meeks,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+IA-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Feenstra,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+KS-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Mann,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+KS-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Derek Schmidt,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+KS-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Davids,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+KS-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Estes,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+KY-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Comer,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+KY-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Guthrie,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+KY-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,McGarvey,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+KY-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Massie,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+KY-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,H. Rogers,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+LA-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Scalise,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+LA-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,T. Carter,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+LA-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Higgins,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+LA-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,M. Johnson,Republican,False,False,Speaker of the House,2026-09-08T11:21:44.007813+00:00
+ME-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Pingree,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+ME-02,Likely Republican,Likely R,9,-3.0,2025-12-05T00:00:00-05:00,Likely Republican,Likely R,no-change,Golden,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+MD-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Harris,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MD-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Olszewski,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MD-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Elfreth,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MD-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Ivey,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MD-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,McClain Delaney,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MD-07,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Mfume,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MD-08,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Raskin,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MA-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Likely Democrat,Likely D,left,Neal,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MA-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,McGovern,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MA-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Trahan,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MA-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Auchincloss,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MA-05,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Clark,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MA-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Moulton,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+MA-07,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Pressley,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MA-08,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Lynch,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MA-09,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Keating,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MI-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Bergman,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MI-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Moolenar,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MI-04,Lean Republican,Lean R,8,-2.0,2025-12-05T00:00:00-05:00,Likely Republican,Likely R,left,Huizenga,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MI-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Walberg,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MI-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Dingell,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MI-07,Toss-up,Tossup,5,0.0,2025-12-05T00:00:00-05:00,Toss-up,Tossup,no-change,Barrett,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MI-09,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,McClain,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MI-10,Tilt Republican,Tilt R,7,-1.0,2025-12-05T00:00:00-05:00,Tilt Republican,Tilt R,no-change,James,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+MI-11,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Stevens,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+MI-12,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Tlaib,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MI-13,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Thanedar,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+MN-02,Likely Democrat,Likely D,1,3.0,2025-12-05T00:00:00-05:00,Lean Democrat,Lean D,left,Craig,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+MN-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Morrison,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MN-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,McCollum,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MN-05,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Omar,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MN-06,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Emmer,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MN-07,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Fischbach,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MN-08,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Stauber,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MS-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,T. Kelly,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MS-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Thompson,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MS-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Guest,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MS-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Ezell,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MO-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Bell,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MO-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Wagner,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MO-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Onder,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MO-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Alford,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MO-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Cleaver,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+MO-07,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Burlison,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+MO-08,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,J. Smith,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NE-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Flood,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NE-02,Tilt Democrat,Tilt D,3,1.0,2025-12-05T00:00:00-05:00,Toss-up,Tossup,left,Donald Bacon,Republican,True,False,Not seeking reelection in 2026,2026-09-08T11:21:44.007813+00:00
+NE-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,A. Smith,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NV-01,Lean Democrat,Lean D,2,2.0,2025-12-05T00:00:00-05:00,Lean Democrat,Lean D,no-change,Titus,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NV-03,Lean Democrat,Lean D,2,2.0,2025-12-05T00:00:00-05:00,Lean Democrat,Lean D,no-change,S. Lee,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NH-01,Lean Democrat,Lean D,2,2.0,2025-12-05T00:00:00-05:00,Lean Democrat,Lean D,no-change,Pappas,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+NH-02,Likely Democrat,Likely D,1,3.0,2025-12-05T00:00:00-05:00,Likely Democrat,Likely D,no-change,Goodlander,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NJ-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Norcross,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NJ-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Van Drew,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NJ-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Conaway,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NJ-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,C. Smith,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NJ-05,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Gottheimer,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NJ-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Pallone,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NJ-08,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Menendez,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NJ-10,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,McIver,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NJ-12,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Watson Coleman,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+NM-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Stansbury,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NM-02,Tilt Democrat,Tilt D,3,1.0,2025-12-05T00:00:00-05:00,Tilt Democrat,Tilt D,no-change,Vasquez,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NM-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Leger Fernandez,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,LaLota,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Garbarino,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-03,Lean Democrat,Lean D,2,2.0,2025-12-05T00:00:00-05:00,Lean Democrat,Lean D,no-change,Suozzi,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-04,Tilt Democrat,Tilt D,3,1.0,2025-12-05T00:00:00-05:00,Tilt Democrat,Tilt D,no-change,Gillen,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-05,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Meeks,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Meng,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-07,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Velazquez,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+NY-08,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Jeffries,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-09,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Clarke,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-10,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Goldman,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+NY-11,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Malliotakis,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-12,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Nadler,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+NY-13,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Espaillat,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+NY-14,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Ocasio-Cortez,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-15,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Torres,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-16,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Latimer,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-17,Toss-up,Tossup,5,0.0,2025-12-05T00:00:00-05:00,Toss-up,Tossup,no-change,Lawler,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-18,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Likely Democrat,Likely D,left,Ryan,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-19,Lean Democrat,Lean D,2,2.0,2025-12-05T00:00:00-05:00,Lean Democrat,Lean D,no-change,Riley,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-20,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Tonko,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-22,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Likely Democrat,Likely D,left,Mannion,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-23,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Langworthy,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-24,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Tenney,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-25,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Morelle,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NY-26,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Kennedy,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Ross,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Murphy,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Foushee,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Foxx,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-06,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,McDowell,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-07,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Rouzer,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-08,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Harris,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-09,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Hudson,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-10,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Harrigan,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-12,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Adams,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-13,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Knott,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+ND-AL,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Fedorchak,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Taylor,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Beatty,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Jordan,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Latta,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-06,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Rulli,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-08,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Davidson,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-09,Tilt Republican,Tilt R,7,-1.0,2025-12-05T00:00:00-05:00,Tilt Republican,Tilt R,no-change,Kaptur,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-10,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Turner,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-11,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Brown,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-12,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Balderson,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-14,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,D. Joyce,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OH-15,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Carey,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OK-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Brecheen,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OK-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Lucas,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OK-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Cole,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OK-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Bice,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OR-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Bonamici,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+OR-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Bentz,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OR-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Dexter,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+OR-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Hoyle,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+OR-05,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Likely Democrat,Likely D,left,Bynum,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-01,Lean Republican,Lean R,8,-2.0,2025-12-05T00:00:00-05:00,Likely Republican,Likely R,left,Fitzpatrick,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Boyle,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Evans,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+PA-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Dean,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-05,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Scanlon,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Houlahan,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-07,Toss-up,Tossup,5,0.0,2025-12-05T00:00:00-05:00,Toss-up,Tossup,no-change,Mackenzie,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-09,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Meuser,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-11,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Smucker,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-12,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Lee,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-13,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Joyce,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-14,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Reschenthaler,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-15,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Thompson,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+PA-16,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,M. Kelly,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+RI-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Amo,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+RI-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Magaziner,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+SC-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Wilson,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+SC-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Biggs,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+SC-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Timmons,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+SC-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Clyburn,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+SD-AL,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,D. Johnson,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+TN-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Harshbarger,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TN-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Burchett,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TN-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Fleischmann,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TN-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,DesJarlais,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TN-06,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,J. Rose,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+TN-07,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Lean Republican,Lean R,right,Van Epps,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TN-08,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Kustoff,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Moran,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-03,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Self,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Fallon,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Gooden,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-06,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Ellzey,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-07,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Fletcher,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-08,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Luttrell,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+TX-09,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,A. Green,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+TX-10,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,McCaul,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+TX-11,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Pfluger,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-12,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Goldman,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-13,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Jackson,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-14,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Weber,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-16,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Escobar,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-17,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Sessions,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-19,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Arrington,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+TX-20,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Castro,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-21,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Roy,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+TX-24,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Van Duyne,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-25,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Williams,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-26,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Gill,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-27,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Cloud,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-28,Tilt Democrat,Tilt D,3,1.0,2025-12-05T00:00:00-05:00,Tilt Democrat,Tilt D,no-change,Cuellar,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-29,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,S. Garcia,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-30,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Crockett,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+TX-31,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,J. Carter,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-32,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Julie Johnson,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+VT-AL,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Balint,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+VA-01,Lean Republican,Lean R,8,-2.0,2025-12-05T00:00:00-05:00,Likely Republican,Likely R,left,Wittman,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+VA-02,Toss-up,Tossup,5,0.0,2025-12-05T00:00:00-05:00,Toss-up,Tossup,no-change,Kiggans,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+VA-03,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Scott,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+VA-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,McClellan,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+VA-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,McGuire,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+VA-06,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Cline,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+VA-08,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Beyer,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+VA-09,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Griffith,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+VA-10,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Subramanyam,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+VA-11,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Walkinshaw,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+WA-01,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,DelBene,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+WA-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Larsen,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+WA-04,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Newhouse,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+WA-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Baumgartner,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+WA-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Randall,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+WA-07,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Jayapal,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+WA-08,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Schrier,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+WA-09,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,A. Smith,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+WV-01,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Miller,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+WV-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Moore,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+WI-02,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Pocan,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+WI-04,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Moore,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+WI-05,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Fitzgerald,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+WI-06,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Grothman,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+WI-07,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Tiffany,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+WI-08,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Wied,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-22,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Nehls,Republican,True,False,,2026-09-08T11:21:44.007813+00:00
+SC-07,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Fry,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NV-04,Likely Democrat,Likely D,1,3.0,2025-12-05T00:00:00-05:00,Lean Democrat,Lean D,left,Horsford,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-33,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Veasey,Democrat,True,False,,2026-09-08T11:21:44.007813+00:00
+TX-34,Toss-up,Tossup,5,0.0,2025-12-05T00:00:00-05:00,Toss-up,Tossup,no-change,V. Gonzalez,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-36,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Babin,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+AZ-09,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Gosar,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-26,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Diaz-Balart,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+WA-10,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Strickland,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+CO-08,Toss-up,Tossup,5,0.0,2025-12-05T00:00:00-05:00,Toss-up,Tossup,no-change,Evans,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+OR-06,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,Salinas,Democrat,False,False,,2026-09-08T11:21:44.007813+00:00
+TX-37,Solid Democrat,Safe D,0,4.0,2025-12-05T00:00:00-05:00,Solid Democrat,Safe D,no-change,"Casar, Doggett",Democrat,True,False,Not seeking re-election as a result of the 2025 Texas redistricting.,2026-09-08T11:21:44.007813+00:00
+MT-02,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Downing,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+NC-14,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Moore,Republican,False,False,,2026-09-08T11:21:44.007813+00:00
+FL-28,Solid Republican,Safe R,10,-4.0,2025-12-05T00:00:00-05:00,Solid Republican,Safe R,no-change,Gimenez,Republican,False,False,,2026-09-08T11:21:44.007813+00:00

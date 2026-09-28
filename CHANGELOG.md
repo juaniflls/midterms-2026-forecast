@@ -1,5 +1,14 @@
 # Changelog
 
+## 30.11.1 — 2026-09-28
+
+Focused web and Scenario Lab patch; official forecast outputs are unchanged.
+
+- Added a bounded reciprocal bridge between Presidential approval and Direction of country.
+- Preserved direct-edit priority and avoided iterative feedback.
+- Made the autonomous publication HTML the complete Render application.
+- Removed the duplicate Dash navigation and branding shell from the deployed path.
+
 ## 30.11.0 — 2026-09-27
 
 Final v30 publication release.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the immutable v30.11 publication contract and web package."""
+"""Validate the v30.11.1 publication contract and web package."""
 from __future__ import annotations
 
 import hashlib
@@ -17,8 +17,8 @@ HTML = ROOT / "Election_Model_v30_11_Final_Publication.html"
 MODEL = ROOT / "Model.xlsx"
 REPORT = ROOT / "outputs" / "Election_Model_Final_Report_v30.xlsx"
 EXPECTED_SHA256 = {
-    NOTEBOOK.name: "9c25325575ecb7664b5c11861ab2e538ef2129eb8fd2c5302af399ce69fc90bf",
-    HTML.name: "1fa8d5c2fd0984186afd6f0d9023a47620c033db0f3e3e131aede7ae9cc45a11",
+    NOTEBOOK.name: "1ececba4f905296aebcda99798945a990c4bdcce2ee9a825d34d3858d8936e63",
+    HTML.name: "3cc630f2fc59fd2e7ca88a36af7225e0a9c45e3b875897fa3ecf1a8e8b5edb6f",
     MODEL.name: "8418fc64c09ac2c61c25c88442bd8565f4a58d2bf9d1e56cde3da42496d17e12",
 }
 
@@ -51,7 +51,14 @@ if NOTEBOOK.is_file():
 
 if HTML.is_file():
     text = HTML.read_text(encoding="utf-8", errors="ignore")
-    checks["HTML engine v30.7"] = "v30.7-directed-causal-race-first" in text
+    checks["HTML engine v30.8"] = "v30.8-reciprocal-standing-race-first" in text
+    checks["HTML reciprocal standing bridge"] = all(
+        marker in text
+        for marker in (
+            "directionTouched&&!approvalTouched",
+            "conditional_transpose",
+        )
+    )
     for anchor in ("overview", "house", "senate", "probability", "simulation", "context", "validation", "scenario-lab"):
         checks[f"HTML anchor #{anchor}"] = bool(re.search(rf"\bid=[\"']{re.escape(anchor)}[\"']", text, re.I))
 
@@ -80,7 +87,7 @@ if REPORT.is_file():
         checks["report/model provenance identity"] = False
 
 for relative in (
-    "README.md", "MODEL_CARD.md", "RELEASE_NOTES_v30.11.0.md", "render.yaml",
+    "README.md", "MODEL_CARD.md", "RELEASE_NOTES_v30.11.1.md", "render.yaml",
     "docs/METHODOLOGY.md", "docs/SCENARIO_LAB.md", "docs/DATA_SOURCES.md",
     "docs/WEB_DEPLOYMENT_ZERO_COST.md", "docs/PUBLISHING.md",
     "assets/readme/nucleus42-v30-banner.jpg",
@@ -89,7 +96,7 @@ for relative in (
     checks[f"package file: {relative}"] = (ROOT / relative).is_file()
 
 failed = [name for name, passed in checks.items() if not passed]
-print("NUCLEUS 42 v30.11 repository validation")
+print("NUCLEUS 42 v30.11.1 repository validation")
 for name, passed in checks.items():
     print(f"[{'PASS' if passed else 'FAIL'}] {name}")
 if failed:

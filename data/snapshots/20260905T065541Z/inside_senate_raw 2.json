@@ -1,0 +1,2908 @@
+{
+  "office": "Senate",
+  "total": 100,
+  "last_updated": "2026-09-03T14:05:51-05:00",
+  "generated_at": "2026-09-03T19:11:35+00:00",
+  "ratings": [
+    {
+      "district": "AK",
+      "state": "ak",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2026-09-03T14:05:51-05:00",
+      "rating": "Tilt Republican",
+      "rating_numeric": 7,
+      "shift": "left",
+      "previous_rating": "Lean Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Sullivan",
+          "first_name": "Dan",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "KS",
+      "state": "ks",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2026-09-03T14:04:05-05:00",
+      "rating": "Likely Republican",
+      "rating_numeric": 9,
+      "shift": "left",
+      "previous_rating": "Solid Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Marshall",
+          "first_name": "Roger",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "OH",
+      "state": "oh",
+      "election_year": "2026",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2026-09-03T14:01:48-05:00",
+      "rating": "Toss-up",
+      "rating_numeric": 5,
+      "shift": "left",
+      "previous_rating": "Tilt Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Husted",
+          "first_name": "Jon",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NH",
+      "state": "nh",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2026-09-03T14:01:06-05:00",
+      "rating": "Toss-up",
+      "rating_numeric": 5,
+      "shift": "right",
+      "previous_rating": "Tilt Democrat",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Shaheen",
+          "first_name": "Jeanne",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NC",
+      "state": "nc",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2026-08-06T13:20:00-05:00",
+      "rating": "Tilt Democrat",
+      "rating_numeric": 3,
+      "shift": "left",
+      "previous_rating": "Toss-up",
+      "flipped": true,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Tillis",
+          "first_name": "Thom",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "GA",
+      "state": "ga",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2026-08-06T13:20:00-05:00",
+      "rating": "Tilt Democrat",
+      "rating_numeric": 3,
+      "shift": "left",
+      "previous_rating": "Toss-up",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Ossoff",
+          "first_name": "Jon",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "TX",
+      "state": "tx",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2026-08-06T13:20:00-05:00",
+      "rating": "Lean Republican",
+      "rating_numeric": 8,
+      "shift": "left",
+      "previous_rating": "Likely Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Cornyn",
+          "first_name": "John",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "IA",
+      "state": "ia",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2026-08-06T13:20:00-05:00",
+      "rating": "Tilt Republican",
+      "rating_numeric": 7,
+      "shift": "left",
+      "previous_rating": "Lean Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Ernst",
+          "first_name": "Joni",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "SC",
+      "state": "sc",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2026-07-12T09:45:59-05:00",
+      "rating": "Likely Republican",
+      "rating_numeric": 9,
+      "shift": "no-change",
+      "previous_rating": "Likely Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Graham",
+          "first_name": "Darlene",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": "Sen. Lindsey Graham died on July 11, 2026. Gov. Henry McMaster appointed his sister Darline Graham to serve the remainder of his term."
+    },
+    {
+      "district": "MT",
+      "state": "mt",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2026-06-25T11:49:57-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": "right",
+      "previous_rating": "Likely Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Daines",
+          "first_name": "Steve",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "AK",
+      "state": "ak",
+      "election_year": "2026",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2026-05-28T15:32:19-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Murkowski",
+          "first_name": "Lisa",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "OK",
+      "state": "ok",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2026-04-23T21:14:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": "no-change",
+      "previous_rating": "Solid Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Armstrong",
+          "first_name": "Alan",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": "Alan Armstrong appointed by Governor Stitt"
+    },
+    {
+      "district": "NE",
+      "state": "ne",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2026-04-23T21:07:00-05:00",
+      "rating": "Likely Republican",
+      "rating_numeric": 9,
+      "shift": "left",
+      "previous_rating": "Solid Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Ricketts",
+          "first_name": "Pete",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "CA",
+      "state": "ca",
+      "election_year": "2026",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2026-03-01T19:59:57-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Padilla",
+          "first_name": "Alex",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "GA",
+      "state": "ga",
+      "election_year": "2026",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2026-02-20T10:40:57-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Warnock",
+          "first_name": "Raphael",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NY",
+      "state": "ny",
+      "election_year": "2026",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2026-02-20T05:01:19-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Schumer",
+          "first_name": "Charles",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "WY",
+      "state": "wy",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-12-19T00:00:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": "no-change",
+      "previous_rating": "Solid Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Lummis",
+          "first_name": "Cynthia",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MN",
+      "state": "mn",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-07-24T12:00:00-05:00",
+      "rating": "Likely Democrat",
+      "rating_numeric": 1,
+      "shift": "left",
+      "previous_rating": "Battleground Democrat",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Smith",
+          "first_name": "Tina",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "ME",
+      "state": "me",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-07-24T00:00:00-05:00",
+      "rating": "Tilt Republican",
+      "rating_numeric": 7,
+      "shift": "right",
+      "previous_rating": "Battleground Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Collins",
+          "first_name": "Susan",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MI",
+      "state": "mi",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-07-24T00:00:00-05:00",
+      "rating": "Toss-up",
+      "rating_numeric": 5,
+      "shift": "no-change",
+      "previous_rating": "Toss-up",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Peters",
+          "first_name": "Gary",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "AL",
+      "state": "al",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-06-05T00:00:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": "no-change",
+      "previous_rating": "Solid Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Tuberville",
+          "first_name": "Thomas",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": "Tommy Tuberville announced his run for governor of Alabama on Tuesday, May 27, 2025"
+    },
+    {
+      "district": "IL",
+      "state": "il",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-04-23T00:00:00-05:00",
+      "rating": "Solid Democrat",
+      "rating_numeric": 0,
+      "shift": "no-change",
+      "previous_rating": "Solid Democrat",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Durbin",
+          "first_name": "Dick",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": "On April 23, 2025, Durbin announced he will not seek re-election to a sixth term in 2026, marking the end of his over four-decade career in Congress."
+    },
+    {
+      "district": "KY",
+      "state": "ky",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-02-20T00:00:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": "no-change",
+      "previous_rating": "Solid Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "McConnell",
+          "first_name": "Mitch",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": "Not seeking re-election at the end of term"
+    },
+    {
+      "district": "FL",
+      "state": "fl",
+      "election_year": "2026",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2025-01-17T00:00:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": "no-change",
+      "previous_rating": "Solid Republican",
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Moody",
+          "first_name": "Ashley",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "DE",
+      "state": "de",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T01:15:00-05:00",
+      "rating": "Solid Democrat",
+      "rating_numeric": 0,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Coons",
+          "first_name": "Christopher",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NV",
+      "state": "nv",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Rosen",
+          "first_name": "Jacky",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "AR",
+      "state": "ar",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Cotton",
+          "first_name": "Thomas",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "CO",
+      "state": "co",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Democrat",
+      "rating_numeric": 0,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Hickenlooper",
+          "first_name": "John",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "ID",
+      "state": "id",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Risch",
+          "first_name": "James",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "LA",
+      "state": "la",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Cassidy",
+          "first_name": "Bill",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": true,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MA",
+      "state": "ma",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Democrat",
+      "rating_numeric": 0,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Markey",
+          "first_name": "Edward",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MS",
+      "state": "ms",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Hyde-Smith",
+          "first_name": "Cindy",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NJ",
+      "state": "nj",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Democrat",
+      "rating_numeric": 0,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Booker",
+          "first_name": "Cory",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NM",
+      "state": "nm",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Democrat",
+      "rating_numeric": 0,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Lujan",
+          "first_name": "Ben",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "OR",
+      "state": "or",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Democrat",
+      "rating_numeric": 0,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Merkley",
+          "first_name": "Jeffrey",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "RI",
+      "state": "ri",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Democrat",
+      "rating_numeric": 0,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Reed",
+          "first_name": "John",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "SD",
+      "state": "sd",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Rounds",
+          "first_name": "Mike",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "TN",
+      "state": "tn",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Hagerty",
+          "first_name": "Bill",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "VA",
+      "state": "va",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Democrat",
+      "rating_numeric": 0,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Warner",
+          "first_name": "Mark",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "WV",
+      "state": "wv",
+      "election_year": "2026",
+      "office": "II",
+      "office_slug": "ii",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Solid Republican",
+      "rating_numeric": 10,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Capito",
+          "first_name": "Shelley",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "AZ",
+      "state": "az",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Gallego",
+          "first_name": "Ruben",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "CA",
+      "state": "ca",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Schiff",
+          "first_name": "Adam",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "CT",
+      "state": "ct",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Murphy",
+          "first_name": "Christopher",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "DE",
+      "state": "de",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Blunt Rochester",
+          "first_name": "Lisa",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "FL",
+      "state": "fl",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Scott",
+          "first_name": "Rick",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "HI",
+      "state": "hi",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Hirono",
+          "first_name": "Mazie",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "IN",
+      "state": "in",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Banks",
+          "first_name": "James",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "ME",
+      "state": "me",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "King",
+          "first_name": "Angus",
+          "party": "I"
+        }
+      ],
+      "party": {
+        "name": "Independent",
+        "slug": "independent"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MD",
+      "state": "md",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Alsobrooks",
+          "first_name": "Angela",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MA",
+      "state": "ma",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Warren",
+          "first_name": "Elizabeth",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MI",
+      "state": "mi",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Slotkin",
+          "first_name": "Elissa",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MN",
+      "state": "mn",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Klobuchar",
+          "first_name": "Amy",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MS",
+      "state": "ms",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Wicker",
+          "first_name": "Roger",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MO",
+      "state": "mo",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Hawley",
+          "first_name": "Joshua",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MT",
+      "state": "mt",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Sheehy",
+          "first_name": "Tim",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NE",
+      "state": "ne",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Fischer",
+          "first_name": "Debra",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NJ",
+      "state": "nj",
+      "election_year": "2024",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Kim",
+          "first_name": "Andy",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NM",
+      "state": "nm",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Heinrich",
+          "first_name": "Martin",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NY",
+      "state": "ny",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Gillibrand",
+          "first_name": "Kirsten",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "ND",
+      "state": "nd",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Cramer",
+          "first_name": "Kevin",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "OH",
+      "state": "oh",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Moreno",
+          "first_name": "Bernie",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "PA",
+      "state": "pa",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "McCormick",
+          "first_name": "Dave",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "RI",
+      "state": "ri",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Whitehouse",
+          "first_name": "Sheldon",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "TN",
+      "state": "tn",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Blackburn",
+          "first_name": "Marsha",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "TX",
+      "state": "tx",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Cruz",
+          "first_name": "Ted",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "UT",
+      "state": "ut",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Curtis",
+          "first_name": "John",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "VT",
+      "state": "vt",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Sanders",
+          "first_name": "Bernard",
+          "party": "I"
+        }
+      ],
+      "party": {
+        "name": "Independent",
+        "slug": "independent"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "VA",
+      "state": "va",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Kaine",
+          "first_name": "Timothy",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "WA",
+      "state": "wa",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Cantwell",
+          "first_name": "Maria",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "WV",
+      "state": "wv",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Justice",
+          "first_name": "James",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "WI",
+      "state": "wi",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Baldwin",
+          "first_name": "Tammy",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "WY",
+      "state": "wy",
+      "election_year": "2026",
+      "office": "I",
+      "office_slug": "i",
+      "date": "2025-01-09T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Barrasso",
+          "first_name": "John",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MD",
+      "state": "md",
+      "election_year": "2026",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2025-01-01T23:33:58-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Van Hollen",
+          "first_name": "Chris",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "WA",
+      "state": "wa",
+      "election_year": "2026",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2025-01-01T05:31:57-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Murray",
+          "first_name": "Patty",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "HI",
+      "state": "hi",
+      "election_year": "2026",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2025-01-01T03:49:28-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Schatz",
+          "first_name": "Brian",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "AL",
+      "state": "al",
+      "election_year": "2026",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2025-01-01T03:34:09-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Britt",
+          "first_name": "Katie",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "AZ",
+      "state": "az",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Kelly",
+          "first_name": "Mark",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "AR",
+      "state": "ar",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Boozman",
+          "first_name": "John",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "CO",
+      "state": "co",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Bennet",
+          "first_name": "Michael",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "CT",
+      "state": "ct",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Blumenthal",
+          "first_name": "Richard",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "ID",
+      "state": "id",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Crapo",
+          "first_name": "Michael",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "IL",
+      "state": "il",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Duckworth",
+          "first_name": "Tammy",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "IN",
+      "state": "in",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Young",
+          "first_name": "Todd",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "IA",
+      "state": "ia",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Grassley",
+          "first_name": "Charles",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "KS",
+      "state": "ks",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Moran",
+          "first_name": "Jerry",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "KY",
+      "state": "ky",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Paul",
+          "first_name": "Rand",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "LA",
+      "state": "la",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Kennedy",
+          "first_name": "John",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "MO",
+      "state": "mo",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Schmitt",
+          "first_name": "Eric",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NV",
+      "state": "nv",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Cortez Masto",
+          "first_name": "Catherine",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NH",
+      "state": "nh",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Hassan",
+          "first_name": "Margaret",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "NC",
+      "state": "nc",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Budd",
+          "first_name": "Theodore",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "ND",
+      "state": "nd",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Hoeven",
+          "first_name": "John",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "OK",
+      "state": "ok",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Lankford",
+          "first_name": "James",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "OR",
+      "state": "or",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Wyden",
+          "first_name": "Ronald",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "PA",
+      "state": "pa",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Fetterman",
+          "first_name": "John",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "SC",
+      "state": "sc",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Scott",
+          "first_name": "Timothy",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "SD",
+      "state": "sd",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Thune",
+          "first_name": "John",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "UT",
+      "state": "ut",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Lee",
+          "first_name": "Mike",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "VT",
+      "state": "vt",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Welch",
+          "first_name": "Peter",
+          "party": "D"
+        }
+      ],
+      "party": {
+        "name": "Democrat",
+        "slug": "democrat"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    },
+    {
+      "district": "WI",
+      "state": "wi",
+      "election_year": "2024",
+      "office": "III",
+      "office_slug": "iii",
+      "date": "2023-01-06T00:00:00-05:00",
+      "rating": "Not Up This Cycle",
+      "rating_numeric": null,
+      "shift": null,
+      "previous_rating": null,
+      "flipped": false,
+      "incumbent_name": "",
+      "incumbent": [
+        {
+          "name": "Johnson",
+          "first_name": "Ron",
+          "party": "R"
+        }
+      ],
+      "party": {
+        "name": "Republican",
+        "slug": "republican"
+      },
+      "open": false,
+      "special": false,
+      "electoral_votes": null,
+      "note": ""
+    }
+  ]
+}

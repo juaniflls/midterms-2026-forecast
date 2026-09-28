@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.1",
+  "pipeline": "Nucleo42 live data layer",
+  "generated_at_utc": "2026-09-05T06:58:04.774252+00:00",
+  "network_requested": true,
+  "sources": {
+    "inside_house": {
+      "url": "https://insideelections.com/wp-json/ratings/v1/latest/house/clean",
+      "sha256": "c66c10b381ae9bba815ce6f4c443f3d40c3a7c726a8b3f2f35b5a4989ae2b65c",
+      "rows": 435,
+      "live": true,
+      "last_updated": "2026-08-20T13:25:00-05:00"
+    },
+    "inside_senate": {
+      "url": "https://insideelections.com/wp-json/ratings/v1/latest/senate/clean",
+      "sha256": "63d90168bfc753996eef0fd9027c35669472f56248054735095e7ea66f4718b9",
+      "rows_raw": 100,
+      "rows_active_unambiguous": 35,
+      "live": true,
+      "last_updated": "2026-09-03T14:05:51-05:00"
+    },
+    "votehub_subjects": {
+      "url": "https://api.votehub.com/subjects",
+      "sha256": "4a6ff6c4d2f7ac3161fb45fdb69caf185b5741053a5c3b371339b29068517fa4",
+      "rows": 134,
+      "live": true
+    }
+  },
+  "fallbacks": [
+    "VoteHub -> current Model.xlsx polling anchors / no House polling overlay"
+  ],
+  "warnings": [
+    "'list' object has no attribute 'get'"
+  ],
+  "votehub_house_subjects": 81,
+  "votehub_senate_subjects": 31,
+  "house_candidate_registry_districts": 435,
+  "senate_candidate_registry_states": 35,
+  "house_inside_rows": 435,
+  "house_poll_rows": 0,
+  "house_poll_districts": 0,
+  "senate_poll_rows": 0,
+  "senate_poll_states": 0,
+  "senate_model_states": 11,
+  "senate_live_poll_states": 0,
+  "house_model_contract": "v26 structural probability model preserved; live Inside replaces the current-cycle Inside/Rothenberg source and recomputes the same consensus; VoteHub House polling is applied only as a bounded current-cycle post-model margin overlay whose weight is driven by poll coverage/effective count/diversity, while zero-poll districts remain exactly structural",
+  "senate_model_contract": "v26 state model unchanged; Senate Parser poll/rating inputs replaced by live API where usable, per-state fallback otherwise"
+}

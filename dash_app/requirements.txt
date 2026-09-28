@@ -1,6 +1,2 @@
-dash==4.4.1
-pandas==2.2.3
-numpy==2.3.5
-plotly==7.1.0
-openpyxl==3.1.5
+Flask==3.1.2
 gunicorn==23.0.0

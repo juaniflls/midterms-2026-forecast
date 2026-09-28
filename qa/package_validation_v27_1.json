@@ -1,0 +1,33 @@
+{
+  "release": "27.1.0",
+  "identity": "NUCLEUS 42",
+  "snapshot_date": "2026-09-08",
+  "popular_vote": {
+    "D": 52.07,
+    "R": 45.01,
+    "Other": 2.92
+  },
+  "house": {
+    "D": 230,
+    "R": 205,
+    "D_control_probability": 92.2,
+    "D_flips": 23,
+    "R_flips": 8
+  },
+  "senate": {
+    "D": 50,
+    "R": 50,
+    "R_control_probability": 57.0,
+    "probability_50_50": 20.2,
+    "D_flips": 3,
+    "R_flips": 0
+  },
+  "monte_carlo": 50000,
+  "national_targets": 42,
+  "scenario_lab": {
+    "controls": 31,
+    "units": 14,
+    "batteries": 12
+  },
+  "status": "PASS"
+}

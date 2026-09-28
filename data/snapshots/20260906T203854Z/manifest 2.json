@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.1",
+  "pipeline": "Nucleo42 live data layer",
+  "generated_at_utc": "2026-09-06T20:38:54.360493+00:00",
+  "network_requested": true,
+  "sources": {
+    "inside_house": {
+      "url": "https://insideelections.com/wp-json/ratings/v1/latest/house/clean",
+      "sha256": "c66c10b381ae9bba815ce6f4c443f3d40c3a7c726a8b3f2f35b5a4989ae2b65c",
+      "rows": 435,
+      "live": true,
+      "last_updated": "2026-08-20T13:25:00-05:00"
+    },
+    "inside_senate": {
+      "url": "https://insideelections.com/wp-json/ratings/v1/latest/senate/clean",
+      "sha256": "63d90168bfc753996eef0fd9027c35669472f56248054735095e7ea66f4718b9",
+      "rows_raw": 100,
+      "rows_active_unambiguous": 35,
+      "live": true,
+      "last_updated": "2026-09-03T14:05:51-05:00"
+    },
+    "votehub_subjects": {
+      "url": "https://api.votehub.com/subjects",
+      "sha256": "4a6ff6c4d2f7ac3161fb45fdb69caf185b5741053a5c3b371339b29068517fa4",
+      "rows": 134,
+      "live": true
+    },
+    "votehub_house_polls": {
+      "url": "https://api.votehub.com/polls?poll_type=us-representative",
+      "sha256": "53a1227326270994c4e68238f502280abd34612d22a58e977d02a2560a660fea",
+      "rows": 90,
+      "payload_type": "list",
+      "live": true
+    },
+    "votehub_senate_polls": {
+      "url": "https://api.votehub.com/polls?poll_type=us-senator",
+      "sha256": "56555b4fd0ab78f598ffce46456bf94f29c64a827ca7d8024f915f2e2db243b0",
+      "rows": 369,
+      "payload_type": "list",
+      "live": true
+    }
+  },
+  "fallbacks": [],
+  "warnings": [],
+  "votehub_house_subjects": 81,
+  "votehub_senate_subjects": 31,
+  "house_candidate_registry_districts": 435,
+  "senate_candidate_registry_states": 35,
+  "house_inside_rows": 435,
+  "house_poll_rows": 90,
+  "house_poll_districts": 46,
+  "senate_poll_rows": 309,
+  "senate_poll_states": 22,
+  "senate_model_states": 11,
+  "senate_live_poll_states": 5,
+  "house_model_contract": "v29 production requires 435/435 live Inside Elections ratings. House polls are ingested as raw VoteHub evidence and Block 1B applies a fresh <=30-day current polling snapshot with recency and pollster balancing. No current House rating fallback to Model.xlsx is permitted.",
+  "senate_model_contract": "v29 production Senate polling remains the manual current snapshot in Model.xlsx Senate Parser. VoteHub/Inside Senate data written here are QA-only and cannot replace production inputs. The Senate race model later predicts final two-party race margin directly.",
+  "generic_ballot_contract": "v29 national production keeps the Model.xlsx generic-ballot snapshot; VoteHub generic-ballot is audit-only in Block 1B."
+}

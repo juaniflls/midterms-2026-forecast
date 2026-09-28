@@ -4,10 +4,10 @@ The repository includes `render.yaml` for a single free-plan web service.
 
 ## Architecture
 
-- **All-in-One** serves the exact autonomous HTML produced by the notebook.
-- Overview, Explore House, Explore Senate, Probability, Simulation, Methodology and Validation are native Dash views sourced from the consolidated v30 report.
-- The native Scenario Lab reads the v30.7 payload embedded in the autonomous HTML.
-- `/healthz` verifies that the report and publication sources can be resolved.
+- `/` serves the exact autonomous HTML produced by the notebook as the complete application.
+- The HTML itself contains Overview, House, Senate, Probability, Simulation, Context, Validation and Scenario Lab.
+- Scenario Lab reads the embedded v30.8 payload; there is no second native implementation to drift out of sync.
+- `/healthz` verifies that the publication HTML is available.
 
 ## Deploy
 
@@ -24,4 +24,4 @@ python dash_app/check_setup.py
 python scripts/validate_repository.py
 ```
 
-The free service may sleep when idle; that affects startup time, not model outputs.
+The free service may sleep when idle; that affects startup time, not model outputs. The Flask process is only a file server and does not calculate forecasts.

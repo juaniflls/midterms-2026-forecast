@@ -1,6 +1,7 @@
 # Nucleus 42 v30 — Render deployment
-# Keep the repository root as Render's root directory. The Dash wrapper serves
-# the newest Election_Model*.html file directly and never recalculates forecasts.
+# Keep the repository root as Render's root directory. Flask serves the
+# canonical autonomous HTML as the complete application and never recalculates
+# forecasts or adds a duplicate navigation/header shell.
 
 services:
   - type: web
@@ -12,6 +13,3 @@ services:
     startCommand: gunicorn --chdir dash_app app:server --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 180 --access-logfile -
     healthCheckPath: /healthz
     autoDeployTrigger: commit
-    envVars:
-      - key: DASH_FILE_WATCH_MS
-        value: "60000"

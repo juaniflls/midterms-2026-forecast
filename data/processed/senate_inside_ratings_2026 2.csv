@@ -1,0 +1,36 @@
+DISTRICT,STATE_ABBR,STATE,ELECTION_YEAR,CLASS_OR_OFFICE,RATING,RATING_NUMERIC,RATING_SIGNED,PREVIOUS_RATING,SHIFT,FLIPPED,RATING_DATE,INCUMBENT_NAME,INCUMBENT_PARTY,OPEN,SPECIAL,NOTE
+AL,AL,Alabama,2026,II,Solid Republican,10.0,-4.0,Solid Republican,no-change,False,2025-06-05T00:00:00-05:00,Thomas Tuberville,R,True,False,"Tommy Tuberville announced his run for governor of Alabama on Tuesday, May 27, 2025"
+AK,AK,Alaska,2026,II,Tilt Republican,7.0,-1.0,Lean Republican,left,False,2026-09-03T14:05:51-05:00,Dan Sullivan,R,False,False,
+AR,AR,Arkansas,2026,II,Solid Republican,10.0,-4.0,,,False,2025-01-09T00:00:00-05:00,Thomas Cotton,R,False,False,
+CO,CO,Colorado,2026,II,Solid Democrat,0.0,4.0,,,False,2025-01-09T00:00:00-05:00,John Hickenlooper,D,False,False,
+DE,DE,Delaware,2026,II,Solid Democrat,0.0,4.0,,,False,2025-01-09T01:15:00-05:00,Christopher Coons,D,False,False,
+FL,FL,Florida,2026,III,Solid Republican,10.0,-4.0,Solid Republican,no-change,False,2025-01-17T00:00:00-05:00,Ashley Moody,R,False,False,
+GA,GA,Georgia,2026,II,Tilt Democrat,3.0,1.0,Toss-up,left,False,2026-08-06T13:20:00-05:00,Jon Ossoff,D,False,False,
+ID,ID,Idaho,2026,II,Solid Republican,10.0,-4.0,,,False,2025-01-09T00:00:00-05:00,James Risch,R,False,False,
+IL,IL,Illinois,2026,II,Solid Democrat,0.0,4.0,Solid Democrat,no-change,False,2025-04-23T00:00:00-05:00,Dick Durbin,D,True,False,"On April 23, 2025, Durbin announced he will not seek re-election to a sixth term in 2026, marking the end of his over four-decade career in Congress."
+IA,IA,Iowa,2026,II,Tilt Republican,7.0,-1.0,Lean Republican,left,False,2026-08-06T13:20:00-05:00,Joni Ernst,R,True,False,
+KS,KS,Kansas,2026,II,Likely Republican,9.0,-3.0,Solid Republican,left,False,2026-09-03T14:04:05-05:00,Roger Marshall,R,False,False,
+KY,KY,Kentucky,2026,II,Solid Republican,10.0,-4.0,Solid Republican,no-change,False,2025-02-20T00:00:00-05:00,Mitch McConnell,R,True,False,Not seeking re-election at the end of term
+LA,LA,Louisiana,2026,II,Solid Republican,10.0,-4.0,,,False,2025-01-09T00:00:00-05:00,Bill Cassidy,R,True,False,
+ME,ME,Maine,2026,II,Tilt Republican,7.0,-1.0,Battleground Republican,right,False,2025-07-24T00:00:00-05:00,Susan Collins,R,False,False,
+MA,MA,Massachusetts,2026,II,Solid Democrat,0.0,4.0,,,False,2025-01-09T00:00:00-05:00,Edward Markey,D,False,False,
+MI,MI,Michigan,2026,II,Toss-up,5.0,0.0,Toss-up,no-change,False,2025-07-24T00:00:00-05:00,Gary Peters,D,True,False,
+MN,MN,Minnesota,2026,II,Likely Democrat,1.0,3.0,Battleground Democrat,left,False,2025-07-24T12:00:00-05:00,Tina Smith,D,True,False,
+MS,MS,Mississippi,2026,II,Solid Republican,10.0,-4.0,,,False,2025-01-09T00:00:00-05:00,Cindy Hyde-Smith,R,False,False,
+MT,MT,Montana,2026,II,Solid Republican,10.0,-4.0,Likely Republican,right,False,2026-06-25T11:49:57-05:00,Steve Daines,R,True,False,
+NE,NE,Nebraska,2026,II,Likely Republican,9.0,-3.0,Solid Republican,left,False,2026-04-23T21:07:00-05:00,Pete Ricketts,R,False,False,
+NH,NH,New Hampshire,2026,II,Toss-up,5.0,0.0,Tilt Democrat,right,False,2026-09-03T14:01:06-05:00,Jeanne Shaheen,D,True,False,
+NJ,NJ,New Jersey,2026,II,Solid Democrat,0.0,4.0,,,False,2025-01-09T00:00:00-05:00,Cory Booker,D,False,False,
+NM,NM,New Mexico,2026,II,Solid Democrat,0.0,4.0,,,False,2025-01-09T00:00:00-05:00,Ben Lujan,D,False,False,
+NC,NC,North Carolina,2026,II,Tilt Democrat,3.0,1.0,Toss-up,left,True,2026-08-06T13:20:00-05:00,Thom Tillis,R,True,False,
+OH,OH,Ohio,2026,III,Toss-up,5.0,0.0,Tilt Republican,left,False,2026-09-03T14:01:48-05:00,Jon Husted,R,False,False,
+OK,OK,Oklahoma,2026,II,Solid Republican,10.0,-4.0,Solid Republican,no-change,False,2026-04-23T21:14:00-05:00,Alan Armstrong,R,True,False,Alan Armstrong appointed by Governor Stitt
+OR,OR,Oregon,2026,II,Solid Democrat,0.0,4.0,,,False,2025-01-09T00:00:00-05:00,Jeffrey Merkley,D,False,False,
+RI,RI,Rhode Island,2026,II,Solid Democrat,0.0,4.0,,,False,2025-01-09T00:00:00-05:00,John Reed,D,False,False,
+SC,SC,South Carolina,2026,II,Likely Republican,9.0,-3.0,Likely Republican,no-change,False,2026-07-12T09:45:59-05:00,Darlene Graham,R,False,False,"Sen. Lindsey Graham died on July 11, 2026. Gov. Henry McMaster appointed his sister Darline Graham to serve the remainder of his term."
+SD,SD,South Dakota,2026,II,Solid Republican,10.0,-4.0,,,False,2025-01-09T00:00:00-05:00,Mike Rounds,R,False,False,
+TN,TN,Tennessee,2026,II,Solid Republican,10.0,-4.0,,,False,2025-01-09T00:00:00-05:00,Bill Hagerty,R,False,False,
+TX,TX,Texas,2026,II,Lean Republican,8.0,-2.0,Likely Republican,left,False,2026-08-06T13:20:00-05:00,John Cornyn,R,True,False,
+VA,VA,Virginia,2026,II,Solid Democrat,0.0,4.0,,,False,2025-01-09T00:00:00-05:00,Mark Warner,D,False,False,
+WV,WV,West Virginia,2026,II,Solid Republican,10.0,-4.0,,,False,2025-01-09T00:00:00-05:00,Shelley Capito,R,False,False,
+WY,WY,Wyoming,2026,II,Solid Republican,10.0,-4.0,Solid Republican,no-change,False,2025-12-19T00:00:00-05:00,Cynthia Lummis,R,True,False,

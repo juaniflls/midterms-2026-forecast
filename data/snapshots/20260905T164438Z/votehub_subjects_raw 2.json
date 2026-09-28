@@ -1,0 +1,830 @@
+[
+  {
+    "subject": "2026 OH-15",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 FL-08",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 SC-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 TN-05",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 VA-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 IA-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 VA-05",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 PA-10",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 CA-22",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Arizona",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 NC-14",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 OH-10",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 New Mexico",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 California",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 NY-18",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 PA-08",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Maryland",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 MN-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 FL-16",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 WA-03",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "Congress",
+    "poll_types": [
+      "approval"
+    ]
+  },
+  {
+    "subject": "2026 North Carolina",
+    "poll_types": [
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 NE-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Alabama",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 Iowa",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 FL-22",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 FL-25",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 VT-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 NM-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Nevada",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 AR-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 NV-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Texas Democratic",
+    "poll_types": [
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 FL-07",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "Donald Trump",
+    "poll_types": [
+      "favorability",
+      "approval"
+    ]
+  },
+  {
+    "subject": "2026 CA-48",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 CO-03",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Wisconsin",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 FL-11",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 PA-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 FL-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Pennsylvania",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 AL-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 IA-03",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 FL-14",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 TX-34",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Georgia",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 MN-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 NH-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 NC-03",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 South Dakota",
+    "poll_types": [
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 NC-11",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 AK-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 MD-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Oregon",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 CA-06",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 WI-03",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Louisiana",
+    "poll_types": [
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 Virginia",
+    "poll_types": [
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "JD Vance",
+    "poll_types": [
+      "favorability",
+      "approval"
+    ]
+  },
+  {
+    "subject": "2026 New York",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 NJ-07",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 AZ-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2025 New Jersey",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 MI-04",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 CO-05",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Massachusetts",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2028 Democratic",
+    "poll_types": [
+      "presidential-primary"
+    ]
+  },
+  {
+    "subject": "2026 KY-06",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 MI-07",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 PA-07",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 FL-09",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Nebraska",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 Illinois Republican",
+    "poll_types": [
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 MI-10",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2028 Republican",
+    "poll_types": [
+      "presidential-primary"
+    ]
+  },
+  {
+    "subject": "Supreme Court",
+    "poll_types": [
+      "favorability",
+      "approval"
+    ]
+  },
+  {
+    "subject": "2026 IL-04",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 ID-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2025 California",
+    "poll_types": [
+      "proposition-50"
+    ]
+  },
+  {
+    "subject": "2026 FL-28",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 IA-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Illinois Democratic",
+    "poll_types": [
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 Michigan",
+    "poll_types": [
+      "us-senator",
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 NY-21",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Rhode Island",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026",
+    "poll_types": [
+      "generic-ballot"
+    ]
+  },
+  {
+    "subject": "2026 Texas",
+    "poll_types": [
+      "us-senator",
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 MO-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 FL-27",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 NY-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 NC-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Arkansas",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 MT-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 NC-07",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Minnesota",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 FL-13",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 NY-17",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 FL-12",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 VA-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 NC-10",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Kansas",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 OH-07",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Kentucky",
+    "poll_types": [
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 OH-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 TX-28",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 NY-04",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Montana",
+    "poll_types": [
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 CA-40",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Illinois",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 South Carolina",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 Alaska",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 ME-02",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 TX-15",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Idaho",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 Mississippi",
+    "poll_types": [
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 Maine",
+    "poll_types": [
+      "us-senator",
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 OH-09",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Ohio",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2025 Virginia",
+    "poll_types": [
+      "attorney-general",
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 SC-07",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 TX-23",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 CA-03",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 WI-01",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Tennessee",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 Texas Republican",
+    "poll_types": [
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 New Hampshire",
+    "poll_types": [
+      "governor",
+      "us-senator"
+    ]
+  },
+  {
+    "subject": "2026 Connecticut",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 AZ-06",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Florida",
+    "poll_types": [
+      "us-senator",
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 IN-05",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2026 Vermont",
+    "poll_types": [
+      "governor"
+    ]
+  },
+  {
+    "subject": "2026 TX-35",
+    "poll_types": [
+      "us-representative"
+    ]
+  },
+  {
+    "subject": "2025 New York City",
+    "poll_types": [
+      "mayor"
+    ]
+  }
+]

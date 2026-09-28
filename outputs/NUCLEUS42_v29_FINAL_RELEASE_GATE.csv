@@ -1,0 +1,13 @@
+Gate,Passed,Detail
+Canonical Model schema = 42 predictors + 2 direct + 8 derived outputs,True,"X=42; learned=['DPP', 'RPP']; Model outputs=10"
+Popular vote preserves v28 ExpectedVoteAnchor path,True,strategy=ExpectedVoteAnchor; D=52.3568; R=44.7232; Other=2.9200
+House central is sum of 435 race-first winners,True,D226-R209
+House correlated MC preserves calibrated marginal mass,True,analytic expected D=236.3150; MC mean D=236.3150
+House v28 covariance incumbent preserved,True,dep=8.0; sim=2.0; bw=1.5
+Senate official production remains 5B incumbent + fixed seats,True,D52-R48; 5B specification=PooledPollStructure
+Senate-24 House-electorate audit covers all unpolled races,True,validation gate=False; promoted=False
+Senate-35 review table covers all up races,True,audit composition D52-R48
+Experimental Senate-24 engine did not silently enter production,True,Explicit approval required after review of validation + 24 margins
+Required live-source audit passed,True,"HOUSE_INSIDE_API=OK; HOUSE_VOTEHUB_POLLS=OK; HOUSE_SPLIT_TICKET=OK | transport=HOUSE_INSIDE_API:chrome-headed, HOUSE_SPLIT_TICKET:requests, HOUSE_VOTEHUB_POLLS:requests"
+Final Report physically generated,False,/Users/juani/Documents/GitHub/midterms-2026-forecast/outputs/Election_Model_Final_Report_v29.xlsx (0 bytes)
+Autonomous HTML physically generated with v29 identity,False,/Users/juani/Documents/GitHub/midterms-2026-forecast/Election_Model_v29_Coherence_Audit.html (0 bytes); identity=False; version=False

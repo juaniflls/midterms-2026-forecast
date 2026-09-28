@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use Nucleus 42, please cite this software."
 title: "Nucleus 42: 2026 U.S. Midterm Forecast"
-version: "30.11.0"
+version: "30.11.1"
 date-released: 2026-09-27
 type: software
 authors:
@@ -21,4 +21,3 @@ abstract: >-
   A reproducible system for forecasting the 2026 U.S. midterm elections,
   covering the national environment, all 435 House districts, all 35
   scheduled Senate elections, uncertainty, validation, and counterfactuals.
-
