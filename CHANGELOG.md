@@ -1,40 +1,20 @@
 # Changelog
 
-## [27.1.0] — 2026-09-08
+## 30.11.0 — 2026-09-27
 
-### Identity
-- Published under the independent NUCLEUS 42 identity.
-- Added current v27.1 hero, screenshot gallery, and release documentation.
+Final v30 publication release.
 
-### Forecast coherence
-- One official central forecast per chamber.
-- Modal complete-election chamber totals with coherent central maps.
-- Full-distribution control probability remains a separate uncertainty statistic.
+- Established one unified 35-race Senate architecture: 12 monitored races and 23 structural races.
+- Preserved the validated national popular-vote and House race-first architecture.
+- Added explicit Montana independent-share handling.
+- Promoted Scenario Lab to `v30.7-directed-causal-race-first`.
+- Added incumbent-aware directional effects, protected exogenous variables, constrained battery reconciliation, sensitivity diagnostics, and synchronized national/race swing.
+- Added complete House geographic and cartogram scenario views plus the Senate race-first scenario map.
+- Completed race desks, category tabs, hovers, holds/flips, CSV exports, and publication-grade image capture.
+- Consolidated the autonomous HTML as the canonical web publication.
+- Rebuilt the Render/Dash layer with the canonical HTML in All-in-One, retained every native analytical tab, and connected the native Scenario Lab to the same serialized v30.7 contract.
+- Refreshed repository branding, README, model card, documentation, validation, CI, social preview asset, and GitHub Linguist rules.
 
-### House
-- Canonical 2024 baseline D215/R220.
-- Official central D230/R205.
-- 23 R→D flips, 8 D→R flips, net D+15.
-- Canonical 435-district v27 source consensus.
-- Current geography, cartogram, race desk, PVI/rank audit, and exact flip accounting.
+## Historical development
 
-### Senate
-- Official central D50/R50.
-- Republican control probability 57.0%.
-- Exact 50–50 probability 20.2%.
-- Central D flips: North Carolina, Ohio, Maine.
-- Coherent monitored-race central tuple.
-
-### Scenario Lab
-- Reset synchronized to v27.1.
-- 31 controls, 14 units, 12 batteries, 42 targets.
-- House scenario headline based on district winners.
-- Senate reset uses the official coherent central tuple.
-
-### Presentation
-- Final HTML and NUCLEUS 42 Dash.
-- Native House/Senate explorers, probability, simulation, methodology, validation, and Scenario Lab.
-
-## [26.1.0] — 2026-08-27
-- Fourteen-unit counterfactual premodel and 31-control reconciliation.
-- Outcome-first Scenario Lab and read-only Dash presentation.
+Earlier releases iterated on the national model, House uncertainty, Senate polling, visual presentation, and Scenario Lab. They remain part of repository history, but v30.11 is the current public contract.

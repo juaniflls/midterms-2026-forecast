@@ -1,39 +1,59 @@
-# NUCLEUS 42 · Model Card
+# Nucleus 42 v30 — Model Card
 
-## Identity
-**NUCLEUS 42 — Independent U.S. Election Forecasting System**
+## Summary
 
-**Release:** v27.1.0  
-**Snapshot:** September 8, 2026  
-**Author:** Juan Ignacio Garbanzo Fallas
+Nucleus 42 is a reproducible forecasting system for the 2026 U.S. midterm elections. It estimates the national political environment, all 435 voting House districts, and all 35 scheduled Senate elections; it also produces uncertainty distributions, validation artifacts, and an exploratory Scenario Lab.
 
-## Intended use
-Electoral analysis, political science research, reproducible forecasting, uncertainty communication, model auditing, and structured counterfactual exploration.
+**Developer:** Juan Ignacio Garbanzo Fallas  
+**Release:** 30.11.0  
+**Publication date:** 2026-09-27  
+**License:** MIT
 
-Not intended for voter targeting, individual persuasion, or deterministic claims.
+## Intended uses
 
-## v27.1 outputs
-- Popular vote: D 52.07% · R 45.01% · Other 2.92%
-- House: D230 · R205 · D control 92.2%
-- Senate: D50 · R50 · R control 57.0%
-- Senate exact 50–50: 20.2%
-- 50,000 complete-election simulations
-- 42 national targets
-- 435 House district forecasts
-- 35 Senate elections displayed
-- 11 monitored Senate numerical race models
-- 24 Safe Senate categorical official races
+- Research and public communication about election forecasting.
+- Exploration of race-level margins, ratings, holds, flips, and chamber uncertainty.
+- Reproducible comparison of model outputs across workbook snapshots.
+- Counterfactual exploration of coherent national conditions through Scenario Lab.
+- Methodological review, teaching, and audit.
 
-## Central forecast contract
-Race engines produce individual distributions. Complete elections are simulated. A modal chamber total is identified. A coherent map within that total becomes the single public central forecast. Full-distribution control probability remains a separate uncertainty statistic.
+## Out-of-scope uses
+
+- Individual voting advice or voter targeting.
+- Claims of deterministic election outcomes.
+- Treating Scenario Lab output as a newly validated official forecast.
+- Inferring individual behavior from aggregate data.
+- Replacing official election administration or certified results.
+
+## Inputs and architecture
+
+The versioned `Model.xlsx` workbook contains current-cycle, historical, rating, polling, candidate, and control data. The executed notebook performs schema and provenance checks; national forecasting and nested temporal validation; constraint and sensitivity analysis; House and Senate race-level forecasting; complete-election Monte Carlo simulation; Scenario Lab serialization; report and HTML publication; and post-publication release gating.
 
 ## Validation
-The national architecture is evaluated through sealed midterm tests for 2006, 2010, 2014, 2018, and 2022. Model selection/tuning occur inside each historical training set. Held-out outcomes are used only for evaluation.
+
+National and race-level components use time-aware historical evaluation. The release contains out-of-fold diagnostics, probability scores, calibration summaries, feature and leakage contracts, covariance checks, central-forecast contracts, and a final publication gate.
+
+The package validator confirms the expected v30 artifacts, 18 code cells, 435 House rows, 35 Senate rows, HTML anchors, embedded Scenario Lab version, and provenance identity between `Model.xlsx` and the consolidated report.
 
 ## Scenario Lab
-31 controls in 14 intervention units, including 12 hard composition batteries. Untouched controls are reconciled through regularized historical relationships before the same downstream national and geographic layers are rerun.
 
-Scenario Lab is associational, not causal.
+Scenario Lab contains 31 controls organized into 14 intervention units. It preserves the exact official baseline at zero intervention. Composition batteries are constrained, protected exogenous variables do not receive reverse feedback, and the reconciled national state is translated into a common two-party swing before race-level winners are recomputed.
+
+It is a counterfactual presentation/runtime layer. It does not overwrite the official forecast and does not rerun the full Monte Carlo distribution for every slider movement.
+
+## Important distinctions
+
+- Point forecast is not control probability.
+- Projected two-party vote is not win probability.
+- Diagnostic stability is not a probability.
+- National popular vote is independently modeled; it is not derived from chamber seat totals.
+- Central maps are race-first; they are not adjusted to a chamber quota.
 
 ## Limitations
-Limited historical sample, structural change across cycles, correlated geographic errors, sparse House polling, categorical treatment of some Safe Senate races, extrapolation risk in extreme counterfactuals, and staleness as the frozen snapshot ages.
+
+Forecasts are conditional on available inputs and modeling assumptions. Error may arise from source staleness, candidate changes, polling nonresponse, correlated geographic shocks, turnout, redistricting, third-party candidacies, structural breaks, and limited historical cycles. Senate races with sparse polling depend more heavily on structural information. Counterfactual relationships are historically informed but cannot represent every possible political regime.
+
+## Human oversight
+
+Source refreshes, mapping overrides, data exclusions, method promotion, and publication remain subject to documented human review. The model supports judgment; it does not eliminate it.
+

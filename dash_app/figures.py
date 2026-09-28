@@ -427,7 +427,9 @@ def popular_vote_figure(df: pd.DataFrame) -> go.Figure:
     if df.empty:
         return theme(go.Figure())
     d = df.copy()
-    ycol = "Share (%)" if "Share (%)" in d.columns else "Share"
+    ycol = next((c for c in ["Projected Share", "Share (%)", "Share"] if c in d.columns), None)
+    if ycol is None:
+        return theme(go.Figure())
     vals = pd.to_numeric(d[ycol], errors="coerce")
     if vals.max() <= 1.5:
         vals = vals * 100
@@ -489,7 +491,24 @@ def model_quality_figure(df: pd.DataFrame) -> go.Figure:
     if df.empty:
         return theme(go.Figure())
     d = df.copy()
-    y = "Diagnostic Stability (0-100)" if "Diagnostic Stability (0-100)" in d.columns else d.select_dtypes("number").columns[0]
+    if {"Group", "Model", "MAE"}.issubset(d.columns):
+        preferred = d.loc[d["Group"].astype(str).eq("Popular Vote Margin (pp)")].copy()
+        if preferred.empty:
+            preferred = d.copy()
+        preferred["MAE"] = pd.to_numeric(preferred["MAE"], errors="coerce")
+        preferred = preferred.dropna(subset=["MAE"])
+        fig = go.Figure(go.Bar(
+            x=preferred["Model"], y=preferred["MAE"],
+            marker_color=[DEM, PURPLE, REP, "#10B981"][:len(preferred)],
+            text=[f"{v:.2f}" for v in preferred["MAE"]], textposition="outside",
+        ))
+        fig.update_layout(title="Held-out national-margin error", showlegend=False)
+        fig.update_yaxes(title="Mean absolute error (pp)", rangemode="tozero")
+        return theme(fig)
+    numeric = d.select_dtypes("number").columns.tolist()
+    if "Group" not in d.columns or not numeric:
+        return theme(go.Figure())
+    y = "Diagnostic Stability (0-100)" if "Diagnostic Stability (0-100)" in d.columns else numeric[0]
     fig = go.Figure(go.Bar(x=d["Group"], y=d[y], marker_color=[DEM, PURPLE, REP][:len(d)], text=[f"{v:.1f}" for v in d[y]], textposition="outside"))
     fig.update_layout(title="Diagnostic stability by model component", showlegend=False)
     fig.update_yaxes(title="Stability (0–100)", range=[0, 100])

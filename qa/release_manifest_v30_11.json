@@ -1,0 +1,35 @@
+{
+  "release": "30.11.0",
+  "release_date": "2026-09-27",
+  "model": "Nucleus 42",
+  "scenario_engine": "v30.7-directed-causal-race-first",
+  "immutable_artifacts": {
+    "NUCLEUS42_v30_11_FINAL_PUBLICATION_RELEASE.ipynb": "9c25325575ecb7664b5c11861ab2e538ef2129eb8fd2c5302af399ce69fc90bf",
+    "Election_Model_v30_11_Final_Publication.html": "1fa8d5c2fd0984186afd6f0d9023a47620c033db0f3e3e131aede7ae9cc45a11",
+    "Model.xlsx": "8418fc64c09ac2c61c25c88442bd8565f4a58d2bf9d1e56cde3da42496d17e12"
+  },
+  "contracts": {
+    "house_races": 435,
+    "senate_races": 35,
+    "senate_monitored": 12,
+    "monte_carlo_elections": 50000,
+    "scenario_controls": 31,
+    "scenario_units": 14,
+    "notebook_code_cells": 18,
+    "notebook_error_outputs": 0
+  },
+  "web_architecture": {
+    "all_in_one": "Canonical autonomous v30.11 HTML",
+    "native_tabs": [
+      "Overview",
+      "Explore House",
+      "Explore Senate",
+      "Probability",
+      "Simulation",
+      "Methodology",
+      "Validation",
+      "Scenario Lab"
+    ],
+    "scenario_source": "Serialized canonical HTML payload"
+  }
+}

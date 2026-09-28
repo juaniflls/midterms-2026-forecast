@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "If you use NUCLEUS 42, please cite this release."
-title: "NUCLEUS 42: 2026 U.S. Midterm Forecast Model"
-version: 27.1.0
-date-released: 2026-09-08
+message: "If you use Nucleus 42, please cite this software."
+title: "Nucleus 42: 2026 U.S. Midterm Forecast"
+version: "30.11.0"
+date-released: 2026-09-27
 type: software
 authors:
   - family-names: "Garbanzo Fallas"
@@ -13,8 +13,12 @@ license: MIT
 keywords:
   - election forecasting
   - political data science
-  - U.S. midterms
-  - U.S. House
-  - U.S. Senate
+  - United States
+  - midterm elections
   - Monte Carlo
-  - counterfactual analysis
+  - scenario analysis
+abstract: >-
+  A reproducible system for forecasting the 2026 U.S. midterm elections,
+  covering the national environment, all 435 House districts, all 35
+  scheduled Senate elections, uncertainty, validation, and counterfactuals.
+

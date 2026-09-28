@@ -1,21 +1,27 @@
-# NUCLEUS 42 — Phase 1: First public web deployment ($0)
+# Render deployment
 
-This patch does NOT change the forecast model, notebook, Scenario Lab engine,
-HTML, Model.xlsx, or generated outputs.
+The repository includes `render.yaml` for a single free-plan web service.
 
-It only prepares the existing stable Dash application to run as a public
-Python web service on Render Free.
+## Architecture
 
-Files:
-- `.python-version` — pins Python 3.12.
-- `render.yaml` — declares one free Render web service.
-- `dash_app/requirements.txt` — adds Gunicorn, the production web server.
+- **All-in-One** serves the exact autonomous HTML produced by the notebook.
+- Overview, Explore House, Explore Senate, Probability, Simulation, Methodology and Validation are native Dash views sourced from the consolidated v30 report.
+- The native Scenario Lab reads the v30.7 payload embedded in the autonomous HTML.
+- `/healthz` verifies that the report and publication sources can be resolved.
 
-Important:
-- Do NOT set Render Root Directory to `dash_app`.
-- Keep the repository root as the service root because Dash reads:
-  `Model.xlsx`, `outputs/`, shared `assets/`, and the final HTML.
-- Auto-deploy is intentionally OFF during Phase 1.
-  We first prove that the stable v27.1 site works online.
-- After the online test passes, Phase 2 will add the safe Excel -> notebook ->
-  audit -> publish automation.
+## Deploy
+
+1. Push the complete release snapshot to the repository's default branch.
+2. In Render, create a Blueprint from the repository or reconnect the existing service.
+3. Keep the repository root as the service root.
+4. Render installs `dash_app/requirements.txt` and starts Gunicorn using `render.yaml`.
+
+No environment secret is required for the published snapshot. A successful local check is:
+
+```bash
+pip install -r dash_app/requirements.txt
+python dash_app/check_setup.py
+python scripts/validate_repository.py
+```
+
+The free service may sleep when idle; that affects startup time, not model outputs.

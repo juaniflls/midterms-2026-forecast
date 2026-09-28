@@ -5,7 +5,7 @@ import base64
 
 import pandas as pd
 from dash import ALL, Dash, Input, Output, State, ctx, dcc, html, no_update
-from flask import send_file
+from flask import jsonify, send_file
 
 from core import BRAND_LOGO_PATH, DASH_DIR, MODEL_PATH, latest_html_path, load_bundle, load_senate_map, project_signature, safe_value, status_payload
 from figures import (
@@ -31,7 +31,7 @@ app = Dash(
     __name__,
     assets_folder=str(DASH_DIR / "assets"),
     suppress_callback_exceptions=True,
-    title="2026 Midterm Forecast — Interactive",
+    title="2026 Midterm Forecast — Nucleus 42",
 )
 server = app.server
 
@@ -41,10 +41,25 @@ def forecast_html():
     """Serve the notebook-authored standalone HTML without copying it into Dash."""
     path = latest_html_path()
     if path is None:
-        return "Notebook forecast HTML not found. Run Block 8 of v27.1.", 404
+        return "Notebook forecast HTML not found. Run the current publication notebook through Block 8.", 404
     response = send_file(path, mimetype="text/html", conditional=True, max_age=0)
     response.headers["Cache-Control"] = "no-store, max-age=0"
     return response
+
+
+@server.route("/healthz")
+def healthz():
+    """Small Render health probe that also verifies the publication sources."""
+    try:
+        payload = status_payload(project_signature())
+        return jsonify({
+            "status": "ok",
+            "release": "30.11.0",
+            "report": payload.get("report_version", "latest"),
+            "html": latest_html_path().name if latest_html_path() else None,
+        })
+    except Exception as exc:
+        return jsonify({"status": "error", "detail": str(exc)}), 503
 
 
 INITIAL_SIGNATURE = project_signature()
@@ -95,8 +110,8 @@ app.layout = html.Div([
 
     html.Header([
         html.Div("UNITED STATES · 120TH CONGRESS", className="kicker"),
-        html.Div("MIDTERMS 2026", className="title"),
-        html.Div("Forecast model · political data science · interactive Dash edition", className="subtitle"),
+        html.Div("2026 MIDTERM FORECAST", className="title"),
+        html.Div("Race-first forecast · uncertainty · validation · interactive counterfactuals", className="subtitle"),
     ], className="header"),
 
     html.Div([
@@ -864,18 +879,18 @@ def update_scenario(direct_overrides, signature):
             try: d55_threshold = float(d55_row.iloc[0]["Value"])
             except Exception: d55_threshold = None
     model_status = [
-        html.Span("v27.1 · fourteen-unit premodel · modal-conditional baseline preserved", className="method-chip"),
+        html.Span("v30.7 · directed-causal engine · exact official baseline preserved", className="method-chip"),
         html.Span(f"Counterfactual displacement {coherence.get('Mahalanobis distance', 0.0):.2f} · {coherence.get('Coherence status','')}", className="method-chip"),
         html.Span(f"Propagation caps {len(caps)} control(s)", className="method-chip warning" if len(caps) else "method-chip ok"),
         html.Span(f"Direct {direct_count} · hard-adjusted {hard_count} · propagated {propagated_count}", className="method-chip"),
-        html.Span(f"Joint feedback {result.get('feedback_iterations', 0)} iterations", className="method-chip"),
+        html.Span(f"Directed reconciliation · {result.get('feedback_iterations', 0)} ordered units", className="method-chip"),
         html.Span(f"Ledoit–Wolf shrinkage {premodel_info.get('relationship_shrinkage', 0):.3f}", className="method-chip"),
         html.Span(f"Maximum equation leverage {premodel_info.get('maximum_row_leverage', 0):.2f}", className="method-chip"),
         html.Span(f"House bucket diagnostic {house_bucket_diagnostic:+.2f} seats · not applied", className="method-chip"),
         html.Span(f"Senate bucket diagnostic {senate_bucket_diagnostic:+.2f} seats · not applied", className="method-chip"),
         html.Span("Senate Safe: 50% PVI + 50% prior-seat result · Scenario Lab only", className="method-chip"),
         html.Span((f"Senate D55 regression threshold: +{d55_threshold:.2f} pp uniform D-R swing" if d55_threshold is not None else "Senate D55 regression threshold unavailable"), className="method-chip"),
-        html.Span("Associational stress test · not causal", className="method-chip"),
+        html.Span("Exploratory counterfactual · never overwrites the official forecast", className="method-chip"),
         html.Span(support_text, className="method-chip warning" if scenario_outside_count else "method-chip ok"),
     ]
     battery_component = table_component(

@@ -1,0 +1,23 @@
+{
+  "release": "30.11.0",
+  "status": "PASS",
+  "repository_checks": "36/36",
+  "dash_setup_checks": "35/35",
+  "routes": {
+    "/": 200,
+    "/forecast-html": 200,
+    "/healthz": 200
+  },
+  "native_tabs_rendered": 9,
+  "scenario_callback_outputs": 13,
+  "scenario_reset": {
+    "house": "D230-R205",
+    "senate": "D52-R48",
+    "popular_vote_identity": true
+  },
+  "notes": [
+    "The model workbook, executed notebook and autonomous HTML were preserved byte-for-byte.",
+    "The Dash application is read-only with respect to forecast artifacts.",
+    "The social preview image must be selected manually in GitHub repository settings."
+  ]
+}

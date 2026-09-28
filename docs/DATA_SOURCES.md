@@ -1,21 +1,19 @@
-# Data Sources & Snapshot Policy
+# Data sources and refresh policy
 
-## Frozen release
-`Model.xlsx` is the exact frozen workbook used by NUCLEUS 42 v27.1.
+`Model.xlsx` is the canonical release snapshot. The maintained source sheet may change between releases, but a source edit becomes public only after the notebook has run end to end and every release gate passes.
 
-## Live canonical Model sheet
-https://docs.google.com/spreadsheets/d/1NC80MaJh8vyxrbQsi__HSR2StaSo8mgAJ3iSdilqEj0/edit?usp=sharing
+## Source roles
 
-The live sheet is maintained separately and is not the frozen release artifact.
+The workbook combines national indicators, historical election results, generic-ballot and race polling, ratings, candidate/incumbency information, district and state fundamentals, and source-control metadata. Each sheet has a defined modeling or audit role; retired aggregate result buckets are not allowed to re-enter production predictors.
 
-A future release should:
-1. export the maintained sheet as `Model.xlsx`;
-2. refresh approved current-cycle sources;
-3. run the notebook from a clean kernel;
-4. validate report + HTML + Dash;
-5. freeze the resulting artifacts as a new version.
+Senate polling sources are included through the Senate parser/source controls when active in the workbook. A retired third-party API is not equivalent to retiring the Senate polling parser itself.
 
-## Data families
-Historical election results, national political/economic indicators, House district fundamentals/ratings/polling, Senate polling/ratings, current-cycle PVI, candidate/incumbent information, official Census CD120 geography, and generated model audits.
+## Refresh rules
 
-Third-party data remain subject to their own terms.
+1. Update values and source metadata in the maintained sheet.
+2. Export the intended snapshot as `Model.xlsx`.
+3. Restart the notebook kernel and run all cells in order.
+4. Confirm the final and post-HTML release gates pass.
+5. Publish the notebook, consolidated report, HTML and workbook together.
+
+The repository does not contain credentials. Do not commit private API keys, service-account files, browser sessions or unpublished personal data.

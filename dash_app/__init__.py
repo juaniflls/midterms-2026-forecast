@@ -1,1 +1,1 @@
-"""Interactive Dash presentation layer for the 2026 Midterm Forecast project."""
+"""Nucleus 42 v30 publication wrapper for Render."""

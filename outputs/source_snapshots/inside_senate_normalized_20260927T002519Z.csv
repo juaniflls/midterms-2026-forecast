@@ -1,0 +1,36 @@
+State,State Abbr,Seat Class,Election Year,Rating Raw,Rating Standardized,Rating Signed,Previous Rating,Rating Date,Open,Special,Retrieved At
+Maine,ME,II,2026,Toss-up,Tossup,0.0,Tilt Republican,2026-09-17T13:25:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Alaska,AK,II,2026,Tilt Republican,Tilt R,-1.0,Lean Republican,2026-09-03T14:05:51-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Kansas,KS,II,2026,Likely Republican,Likely R,-3.0,Solid Republican,2026-09-03T14:04:05-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Ohio,OH,III,2026,Toss-up,Tossup,0.0,Tilt Republican,2026-09-03T14:01:48-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+New Hampshire,NH,II,2026,Toss-up,Tossup,0.0,Tilt Democrat,2026-09-03T14:01:06-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+North Carolina,NC,II,2026,Tilt Democrat,Tilt D,1.0,Toss-up,2026-08-06T13:20:00-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+Georgia,GA,II,2026,Tilt Democrat,Tilt D,1.0,Toss-up,2026-08-06T13:20:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Texas,TX,II,2026,Lean Republican,Lean R,-2.0,Likely Republican,2026-08-06T13:20:00-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+Iowa,IA,II,2026,Tilt Republican,Tilt R,-1.0,Lean Republican,2026-08-06T13:20:00-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+South Carolina,SC,II,2026,Likely Republican,Likely R,-3.0,Likely Republican,2026-07-12T09:45:59-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Montana,MT,II,2026,Solid Republican,Safe R,-4.0,Likely Republican,2026-06-25T11:49:57-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+Oklahoma,OK,II,2026,Solid Republican,Safe R,-4.0,Solid Republican,2026-04-23T21:14:00-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+Nebraska,NE,II,2026,Likely Republican,Likely R,-3.0,Solid Republican,2026-04-23T21:07:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Wyoming,WY,II,2026,Solid Republican,Safe R,-4.0,Solid Republican,2025-12-19T00:00:00-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+Minnesota,MN,II,2026,Likely Democrat,Likely D,3.0,Battleground Democrat,2025-07-24T12:00:00-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+Michigan,MI,II,2026,Toss-up,Tossup,0.0,Toss-up,2025-07-24T00:00:00-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+Alabama,AL,II,2026,Solid Republican,Safe R,-4.0,Solid Republican,2025-06-05T00:00:00-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+Illinois,IL,II,2026,Solid Democrat,Safe D,4.0,Solid Democrat,2025-04-23T00:00:00-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+Kentucky,KY,II,2026,Solid Republican,Safe R,-4.0,Solid Republican,2025-02-20T00:00:00-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+Florida,FL,III,2026,Solid Republican,Safe R,-4.0,Solid Republican,2025-01-17T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Delaware,DE,II,2026,Solid Democrat,Safe D,4.0,,2025-01-09T01:15:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Arkansas,AR,II,2026,Solid Republican,Safe R,-4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Colorado,CO,II,2026,Solid Democrat,Safe D,4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Idaho,ID,II,2026,Solid Republican,Safe R,-4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Louisiana,LA,II,2026,Solid Republican,Safe R,-4.0,,2025-01-09T00:00:00-05:00,True,False,2026-09-27T00:24:30.640607+00:00
+Massachusetts,MA,II,2026,Solid Democrat,Safe D,4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Mississippi,MS,II,2026,Solid Republican,Safe R,-4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+New Jersey,NJ,II,2026,Solid Democrat,Safe D,4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+New Mexico,NM,II,2026,Solid Democrat,Safe D,4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Oregon,OR,II,2026,Solid Democrat,Safe D,4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Rhode Island,RI,II,2026,Solid Democrat,Safe D,4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+South Dakota,SD,II,2026,Solid Republican,Safe R,-4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Tennessee,TN,II,2026,Solid Republican,Safe R,-4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+Virginia,VA,II,2026,Solid Democrat,Safe D,4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00
+West Virginia,WV,II,2026,Solid Republican,Safe R,-4.0,,2025-01-09T00:00:00-05:00,False,False,2026-09-27T00:24:30.640607+00:00

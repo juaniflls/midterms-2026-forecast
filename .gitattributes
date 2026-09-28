@@ -1,14 +1,11 @@
-*.html linguist-generated=true linguist-detectable=false
-*.ipynb linguist-generated=true linguist-detectable=false
-
+# GitHub Linguist: count maintained source code, not generated publications/data.
+Election_Model*.html linguist-generated=true linguist-detectable=false
+*.xlsx linguist-generated=true linguist-detectable=false
 outputs/** linguist-generated=true linguist-detectable=false
 qa/** linguist-generated=true linguist-detectable=false
-
-assets/readme/** linguist-generated=true linguist-detectable=false
-assets/social/** linguist-generated=true linguist-detectable=false
-release-assets/** linguist-generated=true linguist-detectable=false
-
-*.xlsx linguist-generated=true linguist-detectable=false
+assets/** linguist-generated=true linguist-detectable=false
 *.gz linguist-generated=true linguist-detectable=false
 
+# The executed notebook is a first-class reproducibility artifact.
+*.ipynb linguist-detectable=true
 *.py linguist-detectable=true

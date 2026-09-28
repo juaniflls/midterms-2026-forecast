@@ -226,7 +226,7 @@ def forecast_view(signature: str):
                 section_header(
                     "OFFICIAL FORECAST",
                     "Notebook forecast HTML not found",
-                    "Run Block 8 of the stable v27.1 notebook. Dash will detect the new HTML automatically.",
+                    "Run the current v30 publication notebook through Block 8. Dash will detect the new HTML automatically.",
                 ),
                 html.Div("Native audited views remain available in the tabs above.", className="empty-state"),
             ], className="section"),
@@ -243,7 +243,7 @@ def forecast_view(signature: str):
         html.Iframe(
             src=f"/forecast-html?sig={quote(signature, safe='')}",
             className="forecast-iframe",
-            title="Official v27.1 Midterms 2026 forecast",
+            title="Official Nucleus 42 v30.11 Midterms 2026 forecast",
         ),
     ], className="forecast-shell")
 
@@ -280,7 +280,7 @@ def overview_view(signature: str):
             ], className="two"),
         ], className="section"),
         html.Section([
-            section_header("Central forecast contract", "One forecast, one coherent map", "The v27.1 centralizer is audited after the race-by-race Monte Carlo: modal chamber total, supported central configuration, and coherent race-level public tuples."),
+            section_header("Central forecast contract", "One forecast, one coherent map", "The v30 centralizer is audited after the race-by-race Monte Carlo: modal chamber total, supported central configuration, and coherent race-level public tuples."),
             html.Div(table_component(s.get("CentralForecastContract", pd.DataFrame()), page_size=12, max_rows=50), className="panel"),
         ], className="section"),
         html.Section([
@@ -502,7 +502,7 @@ def senate_view(signature: str):
     states = senate.sort_values("D Win Probability", key=lambda x:(x-50).abs())["STATE"].astype(str).tolist() if not senate.empty else []
     return html.Div([
         html.Section([
-            section_header("Senate battlefield", "Explore the Senate, race by race", "Interactive state desk for the official v27.1 central pattern. Explore the 11 monitored state models, holds/flips and all 35 scheduled elections without changing the forecast."),
+            section_header("Senate battlefield", "Explore the Senate, race by race", "Interactive state desk for the official v30 central pattern. Explore the 12 monitored state models, holds/flips and all 35 scheduled elections without changing the forecast."),
             chamber_control_hero(b, "Senate"),
             seat_change_strip(b, "Senate"),
             html.Div([
@@ -633,7 +633,7 @@ def simulation_view(signature: str):
             section_header(
                 "Monte Carlo",
                 "Explore simulated election worlds",
-                "The full production run contains 50,000 complete elections. This page explores the stored simulation sample; the official central map remains a separate v27.1 modal-conditional object.",
+                "The full production run contains 50,000 complete elections. This page explores the stored simulation sample; the official central map remains a separate v30 modal-conditional object.",
             ),
             html.Div([
                 metric_card("Production simulations", f"{int(float(d.get('Monte Carlo Simulations', 0))):,}", "Full audited run", "purple"),
@@ -768,7 +768,7 @@ def validation_view(signature: str):
                 html.Div([
                     html.Div("Model quality", className="panel-title"),
                     html.P("Production stability, tree disagreement, constraint impact and nested OOF error.", className="panel-copy"),
-                    html.Div(dcc.Graph(figure=model_quality_figure(s["ModelQuality"]), config=PLOTLY_CONFIG, style={"height":"340px"}), className="graph-shell"),
+                    html.Div(dcc.Graph(figure=model_quality_figure(s.get("Block4_ModelQuality", s["ModelQuality"])), config=PLOTLY_CONFIG, style={"height":"340px"}), className="graph-shell"),
                 ], className="panel stable-graph-panel"),
             ], className="two stable-grid"),
 
@@ -811,16 +811,16 @@ def validation_view(signature: str):
                 details_table("Senate race stability", s["SenateRaceStability"], page_size=12, max_rows=500),
                 details_table("Pipeline stages", s["PipelineStageSummary"], page_size=12, max_rows=500),
                 details_table("Validation contract", s["ValidationStages"], page_size=12, max_rows=500),
-                details_table("v27.1 snapshot / Scenario contract", s["NationalPremodelContract"], page_size=10, max_rows=50),
-                details_table("v27 relationship regularization", s["NationalPremodelTuning"], page_size=12, max_rows=50),
-                details_table("v27 relational engine · within-support sensitivity", s["NationalPremodelSupport31"], page_size=15, max_rows=100),
-                details_table("v27 relational engine · 0–100 stress sensitivity", s["NationalPremodelOAT31"], page_size=15, max_rows=100),
-                details_table("v27 relational engine · combined scenarios", s["NationalPremodelCombined"], page_size=15, max_rows=100),
-                details_table("v27 · 14×14 inter-unit relationship audit", s.get("NationalRelationships14", pd.DataFrame()), page_size=15, max_rows=182),
-                details_table("v27 · 31×31 control-level relationship audit", s.get("NationalRelationships31", pd.DataFrame()), page_size=15, max_rows=930),
-                details_table("v27 · 42-target counterfactual coherence audit", s.get("Scenario42Coherence", pd.DataFrame()), page_size=15, max_rows=100),
-                details_table("v27 · Senate D55 regression contract", s.get("ScenarioSenateRegression", pd.DataFrame()), page_size=10, max_rows=30),
-                details_table("v27 · Senate flip thresholds from 35 local anchors", s.get("ScenarioSenateFlipOrder", pd.DataFrame()), page_size=20, max_rows=40),
+                details_table("Scenario snapshot contract", s["NationalPremodelContract"], page_size=10, max_rows=50),
+                details_table("Relationship regularization", s["NationalPremodelTuning"], page_size=12, max_rows=50),
+                details_table("Relational engine · within-support sensitivity", s["NationalPremodelSupport31"], page_size=15, max_rows=100),
+                details_table("Relational engine · 0–100 stress sensitivity", s["NationalPremodelOAT31"], page_size=15, max_rows=100),
+                details_table("Relational engine · combined scenarios", s["NationalPremodelCombined"], page_size=15, max_rows=100),
+                details_table("14×14 inter-unit relationship audit", s.get("NationalRelationships14", pd.DataFrame()), page_size=15, max_rows=182),
+                details_table("31×31 control-level relationship audit", s.get("NationalRelationships31", pd.DataFrame()), page_size=15, max_rows=930),
+                details_table("42-target counterfactual coherence audit", s.get("Scenario42Coherence", pd.DataFrame()), page_size=15, max_rows=100),
+                details_table("Senate D55 regression contract", s.get("ScenarioSenateRegression", pd.DataFrame()), page_size=10, max_rows=30),
+                details_table("Senate flip thresholds from 35 local anchors", s.get("ScenarioSenateFlipOrder", pd.DataFrame()), page_size=20, max_rows=40),
             ], className="details-stack"),
         ], className="section"),
     ])
@@ -893,7 +893,7 @@ def scenario_view(signature: str):
             section_header(
                 "COUNTERFACTUAL DATA LAB",
                 "Scenario Lab",
-                f"Adjust the observed national snapshot, release the slider, and rerun the same v27 counterfactual pipeline across the 42 national targets, all 435 House districts, and all 35 scheduled Senate elections. Reset is exactly the current official central forecast: House D{official_house_d}–R{official_house_r} · Senate D{official_senate_d}–R{official_senate_r}.",
+                f"Adjust the observed national snapshot and rerun the v30.7 directed-causal, race-first counterfactual across 42 synchronized outputs, all 435 House districts, and all 35 scheduled Senate elections. Reset is exactly the current official central forecast: House D{official_house_d}–R{official_house_r} · Senate D{official_senate_d}–R{official_senate_r}.",
             ),
             html.Div([
                 html.Div("SCENARIO · NEVER OVERWRITES THE OFFICIAL FORECAST", className="scenario-warning"),
@@ -907,7 +907,7 @@ def scenario_view(signature: str):
                 html.Div([
                     html.Div("Build the counterfactual", className="panel-title"),
                     html.P(
-                        "Battery arithmetic is applied while dragging. When the slider is released, the fourteen-unit premodel reconciles the national state and reruns the 42 targets and both geographic translators.",
+                        "Battery arithmetic is applied while dragging. On release, the same v30.7 directed-causal contract embedded in All-in-One reconciles the national state and applies one synchronized D−R swing to popular vote and both race-first maps.",
                         className="scenario-copy",
                     ),
                 ], className="scenario-slider-intro"),

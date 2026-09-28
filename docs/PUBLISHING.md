@@ -1,36 +1,33 @@
-# Publishing NUCLEUS 42 v27.1 to GitHub
+# Publishing checklist
 
-The GitHub-ready ZIP excludes `.git`. Keep the existing `.git` directory in your local clone.
+## Before committing
 
-## Update
-1. Extract `midterms-2026-forecast_v27.1.0_GITHUB_READY.zip`.
-2. Copy the extracted folder **contents** into your existing clone.
-3. Merge/replace files.
-4. Keep your existing `.git`.
-5. Do not commit the ZIP itself.
+1. Confirm `Model.xlsx` is the intended release snapshot.
+2. Execute the v30 notebook from a fresh kernel through the post-HTML release gate.
+3. Do not manually edit the generated report or publication HTML.
+4. Run:
 
-## Validate
 ```bash
-python3 scripts/validate_repository.py
-
-cd dash_app
-python3 -m venv .venv
-source .venv/bin/activate
-python3 -m pip install --upgrade pip
-python3 -m pip install -r requirements.txt
-python3 check_setup.py --deep
+python scripts/validate_repository.py
+python dash_app/check_setup.py
+python -m compileall -q dash_app
 ```
 
-## Commit
-```bash
-git status
-git add -A
-git commit -m "Publish NUCLEUS 42 model v27.1"
-git push origin main
-```
+5. Launch `python dash_app/app.py` and inspect every tab, Reset, maps, hovers, tables and All-in-One.
 
-Suggested tag: `v27.1.0`  
-Suggested release title: `NUCLEUS 42 v27.1 — Coherent 2026 Midterms Forecast`
+## GitHub release
 
-## Post-push
-Confirm README images, notebook, HTML, Model.xlsx, final report, Dash, docs, and Actions validation all resolve.
+Use the tag `v30.11.0`. The README screenshots illustrate functionality from the included executed snapshot; they are not hard-coded promises about later forecast values.
+
+GitHub's social preview must be uploaded manually in **Settings → General → Social preview** using `assets/social/nucleus42-v30-social-preview.jpg`.
+
+## Render
+
+After the commit is available on the configured branch, allow the Blueprint to redeploy. Confirm `/healthz`, All-in-One, every native analytical tab, and the native Scenario Lab baseline.
+
+## Never publish
+
+- a partially executed notebook;
+- a report and HTML generated from different workbooks;
+- credentials or private configuration;
+- cached environments, notebook checkpoints, or duplicate macOS metadata files.
