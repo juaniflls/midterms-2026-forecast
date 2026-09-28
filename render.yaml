@@ -1,10 +1,17 @@
+# Nucleus 42 v30 — Render deployment
+# Keep the repository root as Render's root directory. The Dash wrapper serves
+# the newest Election_Model*.html file directly and never recalculates forecasts.
+
 services:
   - type: web
     name: nucleus42
     runtime: python
     plan: free
     branch: main
-    buildCommand: python -m pip install --upgrade pip && pip install flask gunicorn
-    startCommand: gunicorn serve_forecast:app --bind 0.0.0.0:$PORT --workers 1 --threads 2 --timeout 120
+    buildCommand: python -m pip install --upgrade pip && pip install -r dash_app/requirements.txt
+    startCommand: gunicorn --chdir dash_app app:server --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 180 --access-logfile -
     healthCheckPath: /healthz
     autoDeployTrigger: commit
+    envVars:
+      - key: DASH_FILE_WATCH_MS
+        value: "60000"
