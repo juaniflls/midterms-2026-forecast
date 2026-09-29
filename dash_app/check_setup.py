@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 HTML = ROOT / "Election_Model_v30_11_Final_Publication.html"
-NOTEBOOK = ROOT / "NUCLEUS42_v30_11_FINAL_PUBLICATION_RELEASE.ipynb"
+NOTEBOOK = ROOT / "NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb"
 
 checks: dict[str, bool] = {
     "publication HTML exists": HTML.is_file() and HTML.stat().st_size > 1_000_000,
@@ -83,7 +83,7 @@ except Exception as exc:
     checks[f"Flask publication server ({type(exc).__name__}: {exc})"] = False
 
 failed = [name for name, passed in checks.items() if not passed]
-print("NUCLEUS 42 v30.11.1 publication check")
+print("NUCLEUS 42 v30.11.3 publication check")
 for name, passed in checks.items():
     print(f"[{'PASS' if passed else 'FAIL'}] {name}")
 
