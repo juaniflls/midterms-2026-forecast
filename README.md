@@ -21,7 +21,7 @@
 
 <p align="center">
   Forecast model by <strong>Juan Ignacio Garbanzo Fallas</strong><br>
-  <sub>Observatorio de los Estados Unidos · CIEP-UCR context · independent technical project</sub>
+  <sub>Independent technical project</sub>
 </p>
 
 ---
