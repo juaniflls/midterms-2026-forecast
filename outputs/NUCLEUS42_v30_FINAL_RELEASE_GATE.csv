@@ -1,6 +1,6 @@
 Gate,Passed,Detail
 Popular vote incumbent preserved,True,ExpectedVoteAnchor
-House = 435 race-first districts,True,D230-R205
+House = 435 race-first districts,True,D232-R203
 Senate current contract = 12 monitored / 23 structural-only,True,structural gate=True
 Senate monitored method selected by OOF evidence,True,POLL_5B
 Senate production promotion is explicit and gate-controlled,True,promoted=True

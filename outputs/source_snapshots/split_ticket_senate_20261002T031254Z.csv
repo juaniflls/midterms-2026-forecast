@@ -1,0 +1,36 @@
+Matchup,State,dem_name,rep_name,prediction,raw_prediction,bucket,win_prob_d,flip,win_prob_r
+Everett Wess (D) vs Barry Moore (R),Alabama,Everett Wess,Barry Moore,R+19.7,19.7,Safe R,0,N,100
+Mary Peltola (D) vs Dan Sullivan (R),Alaska,Mary Peltola,Dan Sullivan,D+1.7,-1.7,Lean D,62,Y,38
+Hallie Shoffner (D) vs Tom Cotton (R),Arkansas,Hallie Shoffner,Tom Cotton,R+19.0,19,Safe R,1,N,99
+John Hickenlooper (D) vs Mark Baisley (R),Colorado,John Hickenlooper,Mark Baisley,D+24.0,-24,Safe D,100,N,0
+Chris Coons (D) vs Michael Katz (R),Delaware,Chris Coons,Michael Katz,D+27.2,-27.2,Safe D,100,N,0
+Angie Nixon (D) vs Ashley Moody (R),Florida,Angie Nixon,Ashley Moody,R+6.1,6.1,Likely R,13,N,87
+Jon Ossoff (D) vs Mike Collins (R),Georgia,Jon Ossoff,Mike Collins,D+8.6,-8.6,Likely D,94,N,6
+Todd Achilles (Ind) vs Jim Risch (R),Idaho,Todd Achilles (Ind),Jim Risch,R+23.4,23.4,Safe R,1,N,99
+Juliana Stratton (D) vs Don Tracy (R),Illinois,Juliana Stratton,Don Tracy,D+21.6,-21.6,Safe D,100,N,0
+Josh Turek (D) vs Ashley Hinson (R),Iowa,Josh Turek,Ashley Hinson,R+0.2,0.2,Tossup,49,N,51
+Adam Hamilton (D) vs Roger Marshall (R),Kansas,Adam Hamilton,Roger Marshall,R+4.6,4.6,Lean R,25,N,75
+Charles Booker (D) vs Andy Barr (R),Kentucky,Charles Booker,Andy Barr,R+19.2,19.2,Safe R,0,N,100
+Eventual Nominee (D) vs Julia Letlow (R),Louisiana,Eventual Nominee,Julia Letlow,R+16.9,16.9,Safe R,1,N,99
+Troy Jackson (D) vs Susan Collins (R),Maine,Troy Jackson,Susan Collins,D+1.2,-1.2,Tossup,59,Y,41
+Ed Markey (D) vs John Deaton (R),Massachusetts,Ed Markey,John Deaton,D+30.2,-30.2,Safe D,100,N,0
+Abdul El-Sayed (D) vs Mike Rogers (R),Michigan,Abdul El-Sayed,Mike Rogers,D+4.7,-4.7,Lean D,78,N,22
+Peggy Flanagan (D) vs Michele Tafoya (R),Minnesota,Peggy Flanagan,Michele Tafoya,D+4.9,-4.9,Lean D,77,N,23
+Scott Colom (D) vs Cindy Hyde-Smith (R),Mississippi,Scott Colom,Cindy Hyde-Smith,R+13.1,13.1,Safe R,2,N,98
+Seth Bodnar (Ind) vs Kurt Alme (R),Montana,Seth Bodnar (Ind),Kurt Alme,R+18.0,18,Safe R,0,N,100
+Dan Osborn (Ind) vs Pete Ricketts (R),Nebraska,Dan Osborn (Ind),Pete Ricketts,R+4.1,4.1,Lean R,25,N,75
+Chris Pappas (D) vs John Sununu (R),New Hampshire,Chris Pappas,John Sununu,D+7.8,-7.8,Likely D,88,N,12
+Cory Booker (D) vs Justin Murphy (R),New Jersey,Cory Booker,Justin Murphy,D+17.2,-17.2,Safe D,100,N,0
+Ben Ray Lujan (D) vs Larry Marker* (R),New Mexico,Ben Ray Lujan,Larry Marker*,D+18.8,-18.8,Safe D,100,N,0
+Roy Cooper (D) vs Michael Whatley (R),North Carolina,Roy Cooper,Michael Whatley,D+8.4,-8.4,Likely D,93,Y,7
+Sherrod Brown (D) vs Jon Husted (R),Ohio,Sherrod Brown,Jon Husted,D+2.8,-2.8,Lean D,68,Y,32
+N'Kiyla Thomas (D) vs Kevin Hern (R),Oklahoma,N'Kiyla Thomas,Kevin Hern,R+27.0,27,Safe R,0,N,100
+Jeff Merkley (D) vs David Brock Smith (R),Oregon,Jeff Merkley,David Brock Smith,D+28.3,-28.3,Safe D,100,N,0
+Jack Reed (D) vs Raymond McKay (R),Rhode Island,Jack Reed,Raymond McKay,D+31.6,-31.6,Safe D,100,N,0
+Annie Andrews (D) vs Darline Graham (R),South Carolina,Annie Andrews,Darline Graham,R+6.1,6.1,Likely R,16,N,84
+Brian Bengs (Ind) vs Mike Rounds (R),South Dakota,Brian Bengs (Ind),Mike Rounds,R+19.8,19.8,Safe R,2,N,98
+Marquita Bradshaw (D) vs Bill Hagerty (R),Tennessee,Marquita Bradshaw,Bill Hagerty,R+22.6,22.6,Safe R,0,N,100
+James Talarico (D) vs Ken Paxton (R),Texas,James Talarico,Ken Paxton,D+2.7,-2.7,Lean D,70,Y,30
+Mark Warner (D) vs Bert Mizusawa (R),Virginia,Mark Warner,Bert Mizusawa,D+19.2,-19.2,Safe D,100,N,0
+Rachel Fetty Anderson (D) vs Shelley Moore Capito (R),West Virginia,Rachel Fetty Anderson,Shelley Moore Capito,R+35.2,35.2,Safe R,0,N,100
+James W. Byrd (D) vs Harriet Hageman (R),Wyoming,James W. Byrd,Harriet Hageman,R+36.2,36.2,Safe R,0,N,100

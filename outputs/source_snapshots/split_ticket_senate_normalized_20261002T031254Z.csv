@@ -1,0 +1,36 @@
+Provider State Raw,State,State Abbr,Rating Raw,Rating Standardized,Rating Signed,Projection Raw,Projection Margin D-R PP,Provider D Win Prob,Provider R Win Prob,Retrieved At,State Mapping QA
+Alabama,Alabama,AL,Safe R,Safe R,-4.0,R+19.7,-19.7,0,100,2026-10-02T03:11:59.197248+00:00,DIRECT
+Alaska,Alaska,AK,Lean D,Lean D,2.0,D+1.7,1.7,62,38,2026-10-02T03:11:59.197248+00:00,DIRECT
+Arkansas,Arkansas,AR,Safe R,Safe R,-4.0,R+19.0,-19.0,1,99,2026-10-02T03:11:59.197248+00:00,DIRECT
+Colorado,Colorado,CO,Safe D,Safe D,4.0,D+24.0,24.0,100,0,2026-10-02T03:11:59.197248+00:00,DIRECT
+Delaware,Delaware,DE,Safe D,Safe D,4.0,D+27.2,27.2,100,0,2026-10-02T03:11:59.197248+00:00,DIRECT
+Florida,Florida,FL,Likely R,Likely R,-3.0,R+6.1,-6.1,13,87,2026-10-02T03:11:59.197248+00:00,DIRECT
+Georgia,Georgia,GA,Likely D,Likely D,3.0,D+8.6,8.6,94,6,2026-10-02T03:11:59.197248+00:00,DIRECT
+Idaho,Idaho,ID,Safe R,Safe R,-4.0,R+23.4,-23.4,1,99,2026-10-02T03:11:59.197248+00:00,DIRECT
+Illinois,Illinois,IL,Safe D,Safe D,4.0,D+21.6,21.6,100,0,2026-10-02T03:11:59.197248+00:00,DIRECT
+Iowa,Iowa,IA,Tossup,Tossup,0.0,R+0.2,-0.2,49,51,2026-10-02T03:11:59.197248+00:00,DIRECT
+Kansas,Kansas,KS,Lean R,Lean R,-2.0,R+4.6,-4.6,25,75,2026-10-02T03:11:59.197248+00:00,DIRECT
+Kentucky,Kentucky,KY,Safe R,Safe R,-4.0,R+19.2,-19.2,0,100,2026-10-02T03:11:59.197248+00:00,DIRECT
+Louisiana,Louisiana,LA,Safe R,Safe R,-4.0,R+16.9,-16.9,1,99,2026-10-02T03:11:59.197248+00:00,DIRECT
+Maine,Maine,ME,Tossup,Tossup,0.0,D+1.2,1.2,59,41,2026-10-02T03:11:59.197248+00:00,DIRECT
+Massachusetts,Massachusetts,MA,Safe D,Safe D,4.0,D+30.2,30.2,100,0,2026-10-02T03:11:59.197248+00:00,DIRECT
+Michigan,Michigan,MI,Lean D,Lean D,2.0,D+4.7,4.7,78,22,2026-10-02T03:11:59.197248+00:00,DIRECT
+Minnesota,Minnesota,MN,Lean D,Lean D,2.0,D+4.9,4.9,77,23,2026-10-02T03:11:59.197248+00:00,DIRECT
+Mississippi,Mississippi,MS,Safe R,Safe R,-4.0,R+13.1,-13.1,2,98,2026-10-02T03:11:59.197248+00:00,DIRECT
+Montana,Montana,MT,Safe R,Safe R,-4.0,R+18.0,-18.0,0,100,2026-10-02T03:11:59.197248+00:00,DIRECT
+Nebraska,Nebraska,NE,Lean R,Lean R,-2.0,R+4.1,-4.1,25,75,2026-10-02T03:11:59.197248+00:00,DIRECT
+New Hampshire,New Hampshire,NH,Likely D,Likely D,3.0,D+7.8,7.8,88,12,2026-10-02T03:11:59.197248+00:00,DIRECT
+New Jersey,New Jersey,NJ,Safe D,Safe D,4.0,D+17.2,17.2,100,0,2026-10-02T03:11:59.197248+00:00,DIRECT
+New Mexico,New Mexico,NM,Safe D,Safe D,4.0,D+18.8,18.8,100,0,2026-10-02T03:11:59.197248+00:00,DIRECT
+North Carolina,North Carolina,NC,Likely D,Likely D,3.0,D+8.4,8.4,93,7,2026-10-02T03:11:59.197248+00:00,DIRECT
+Ohio,Ohio,OH,Lean D,Lean D,2.0,D+2.8,2.8,68,32,2026-10-02T03:11:59.197248+00:00,DIRECT
+Oklahoma,Oklahoma,OK,Safe R,Safe R,-4.0,R+27.0,-27.0,0,100,2026-10-02T03:11:59.197248+00:00,DIRECT
+Oregon,Oregon,OR,Safe D,Safe D,4.0,D+28.3,28.3,100,0,2026-10-02T03:11:59.197248+00:00,DIRECT
+Rhode Island,Rhode Island,RI,Safe D,Safe D,4.0,D+31.6,31.6,100,0,2026-10-02T03:11:59.197248+00:00,DIRECT
+South Carolina,South Carolina,SC,Likely R,Likely R,-3.0,R+6.1,-6.1,16,84,2026-10-02T03:11:59.197248+00:00,DIRECT
+South Dakota,South Dakota,SD,Safe R,Safe R,-4.0,R+19.8,-19.8,2,98,2026-10-02T03:11:59.197248+00:00,DIRECT
+Tennessee,Tennessee,TN,Safe R,Safe R,-4.0,R+22.6,-22.6,0,100,2026-10-02T03:11:59.197248+00:00,DIRECT
+Texas,Texas,TX,Lean D,Lean D,2.0,D+2.7,2.7,70,30,2026-10-02T03:11:59.197248+00:00,DIRECT
+Virginia,Virginia,VA,Safe D,Safe D,4.0,D+19.2,19.2,100,0,2026-10-02T03:11:59.197248+00:00,DIRECT
+West Virginia,West Virginia,WV,Safe R,Safe R,-4.0,R+35.2,-35.2,0,100,2026-10-02T03:11:59.197248+00:00,DIRECT
+Wyoming,Wyoming,WY,Safe R,Safe R,-4.0,R+36.2,-36.2,0,100,2026-10-02T03:11:59.197248+00:00,DIRECT
