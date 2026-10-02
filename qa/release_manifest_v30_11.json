@@ -1,12 +1,12 @@
 {
-  "release": "30.11.1",
-  "release_date": "2026-09-28",
+  "release": "30.11.3",
+  "release_date": "2026-10-01",
   "model": "Nucleus 42",
   "scenario_engine": "v30.8-reciprocal-standing-race-first",
   "immutable_artifacts": {
-    "NUCLEUS42_v30_11_FINAL_PUBLICATION_RELEASE.ipynb": "1ececba4f905296aebcda99798945a990c4bdcce2ee9a825d34d3858d8936e63",
-    "Election_Model_v30_11_Final_Publication.html": "3cc630f2fc59fd2e7ca88a36af7225e0a9c45e3b875897fa3ecf1a8e8b5edb6f",
-    "Model.xlsx": "8418fc64c09ac2c61c25c88442bd8565f4a58d2bf9d1e56cde3da42496d17e12"
+    "NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb": "3a5c31c58dd2b543b54d96d4a4dd11fd0eeff7f0512adb2d19145a263b7dcb3c",
+    "Election_Model_v30_11_Final_Publication.html": "6ecbdab94454fc3cdf667cf42f71efee5c04b06cafc6a77217910558cf805ae2",
+    "Model.xlsx": "c9c9425be1ecdce4848afd7e63f11dc756f3efee1f735793cb0848f2fd3d58d6"
   },
   "contracts": {
     "house_races": 435,
