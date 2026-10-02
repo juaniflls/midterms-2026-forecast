@@ -17,9 +17,9 @@ HTML = ROOT / "Election_Model_v30_11_Final_Publication.html"
 MODEL = ROOT / "Model.xlsx"
 REPORT = ROOT / "outputs" / "Election_Model_Final_Report_v30.xlsx"
 EXPECTED_SHA256 = {
-    NOTEBOOK.name: "35f14d9b4e6f5271965007c8b99b9d4f03c888a92b55e7e1cf6a067aa84f9ff4",
-    HTML.name: "583602d70190adec2fa84c0cc523c634b0ad698674114779d6014ed9c0c0b1cd",
-    MODEL.name: "8418fc64c09ac2c61c25c88442bd8565f4a58d2bf9d1e56cde3da42496d17e12",
+    NOTEBOOK.name: "3a5c31c58dd2b543b54d96d4a4dd11fd0eeff7f0512adb2d19145a263b7dcb3c",
+    HTML.name: "6ecbdab94454fc3cdf667cf42f71efee5c04b06cafc6a77217910558cf805ae2",
+    MODEL.name: "c9c9425be1ecdce4848afd7e63f11dc756f3efee1f735793cb0848f2fd3d58d6",
 }
 
 
