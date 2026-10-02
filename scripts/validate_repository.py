@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the v30.11.1 publication contract and web package."""
+"""Validate the v30.11.3 publication contract and web package."""
 from __future__ import annotations
 
 import hashlib
@@ -12,13 +12,13 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NOTEBOOK = ROOT / "NUCLEUS42_v30_11_FINAL_PUBLICATION_RELEASE.ipynb"
+NOTEBOOK = ROOT / "NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb"
 HTML = ROOT / "Election_Model_v30_11_Final_Publication.html"
 MODEL = ROOT / "Model.xlsx"
 REPORT = ROOT / "outputs" / "Election_Model_Final_Report_v30.xlsx"
 EXPECTED_SHA256 = {
-    NOTEBOOK.name: "1ececba4f905296aebcda99798945a990c4bdcce2ee9a825d34d3858d8936e63",
-    HTML.name: "3cc630f2fc59fd2e7ca88a36af7225e0a9c45e3b875897fa3ecf1a8e8b5edb6f",
+    NOTEBOOK.name: "35f14d9b4e6f5271965007c8b99b9d4f03c888a92b55e7e1cf6a067aa84f9ff4",
+    HTML.name: "583602d70190adec2fa84c0cc523c634b0ad698674114779d6014ed9c0c0b1cd",
     MODEL.name: "8418fc64c09ac2c61c25c88442bd8565f4a58d2bf9d1e56cde3da42496d17e12",
 }
 
@@ -96,7 +96,7 @@ for relative in (
     checks[f"package file: {relative}"] = (ROOT / relative).is_file()
 
 failed = [name for name, passed in checks.items() if not passed]
-print("NUCLEUS 42 v30.11.1 repository validation")
+print("NUCLEUS 42 v30.11.3 repository validation")
 for name, passed in checks.items():
     print(f"[{'PASS' if passed else 'FAIL'}] {name}")
 if failed:

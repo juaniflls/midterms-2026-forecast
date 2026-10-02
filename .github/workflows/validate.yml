@@ -1,4 +1,4 @@
-name: Validate v30 publication
+name: Validate v30.11.3 publication
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
       - name: Install validation and web dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install nbformat openpyxl
+          pip install pandas==2.2.3 nbformat==5.10.4 openpyxl==3.1.5
           pip install -r dash_app/requirements.txt
       - name: Validate repository
         run: python scripts/validate_repository.py
