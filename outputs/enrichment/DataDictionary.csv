@@ -1,0 +1,169 @@
+file,column,dtype,non_null,rows,role
+candidate_meta.csv,race_code,object,1190,1190,presentation: candidate identity and source metadata
+candidate_meta.csv,slot,object,1190,1190,presentation: candidate identity and source metadata
+candidate_meta.csv,name,object,1190,1190,presentation: candidate identity and source metadata
+candidate_meta.csv,wiki_title,object,602,1190,presentation: candidate identity and source metadata
+candidate_meta.csv,description,object,602,1190,presentation: candidate identity and source metadata
+candidate_meta.csv,image_url,object,1190,1190,presentation: candidate identity and source metadata
+candidate_meta.csv,page_url,object,602,1190,presentation: candidate identity and source metadata
+candidate_photo_overrides.csv,race_code,object,625,625,presentation: candidate identity and source metadata
+candidate_photo_overrides.csv,slot,object,625,625,presentation: candidate identity and source metadata
+candidate_photo_overrides.csv,name,object,625,625,presentation: candidate identity and source metadata
+candidate_photo_overrides.csv,wiki_ok,float64,12,625,presentation: candidate identity and source metadata
+candidate_photo_overrides.csv,image_url,object,625,625,presentation: candidate identity and source metadata
+candidate_photo_overrides.csv,source_page,object,625,625,presentation: candidate identity and source metadata
+candidate_photo_overrides.csv,note,object,625,625,presentation: candidate identity and source metadata
+candidates.csv,cand_id,object,1279,1279,presentation: candidate identity and source metadata
+candidates.csv,name,object,1279,1279,presentation: candidate identity and source metadata
+candidates.csv,first,object,1276,1279,presentation: candidate identity and source metadata
+candidates.csv,last,object,1276,1279,presentation: candidate identity and source metadata
+candidates.csv,party,object,1279,1279,presentation: candidate identity and source metadata
+candidates.csv,state,object,1279,1279,presentation: candidate identity and source metadata
+candidates.csv,incumbent,int64,1279,1279,presentation: candidate identity and source metadata
+candidates.csv,fec_id,object,1050,1279,presentation: candidate identity and source metadata
+candidates.csv,strength,float64,1279,1279,presentation: candidate identity and source metadata
+demographics.csv,district_code,object,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,state,object,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,district,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,vap_total,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,vap_white,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,vap_hispanic,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,vap_black,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,vap_asian,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,vap_native,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,vap_pacific,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,age_20_29,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,age_30_39,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,age_40_49,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,age_50_59,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,age_60_69,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,age_70_79,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,age_80_plus,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,educ_no_hs,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,educ_hs,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,educ_some_college,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,educ_associate,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,educ_bachelor,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,educ_master,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,educ_professional,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,educ_doctorate,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_u10k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_10_15k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_15_20k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_20_25k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_25_30k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_30_35k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_35_40k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_40_45k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_45_50k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_50_60k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_60_75k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_75_100k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_100_125k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_125_150k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_150_200k,int64,435,435,research/context: source observations; not newly activated as predictors
+demographics.csv,inc_200k_plus,int64,435,435,research/context: source observations; not newly activated as predictors
+fundraising.csv,race_code,object,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,dem_outside,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,rep_outside,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,dem_funds,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,dem_coh,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,dem_spent,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,dem_small,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,dem_pac,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,dem_self,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,dem_debt,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,rep_funds,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,rep_coh,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,rep_spent,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,rep_small,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,rep_pac,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,rep_self,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,rep_debt,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,ind_funds,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,ind_coh,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,ind_spent,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,ind_small,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,ind_pac,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,ind_self,float64,506,506,research/context: source observations; not newly activated as predictors
+fundraising.csv,ind_debt,float64,506,506,research/context: source observations; not newly activated as predictors
+historical.csv,code,object,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,level,object,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,state,object,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,district,object,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,pres16_total,int64,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,pres16_dem,int64,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,pres16_rep,int64,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,pres20_total,int64,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,pres20_dem,int64,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,pres20_rep,int64,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,pres24_total,int64,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,pres24_dem,int64,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,pres24_rep,int64,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,margin_2016,float64,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,margin_2020,float64,486,486,research/context: source observations; not newly activated as predictors
+historical.csv,margin_2024,float64,486,486,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,race_code,object,13,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,pollster,object,13,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,end_date,object,13,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,n,int64,13,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,dem,float64,13,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,rep,float64,13,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,lean,object,3,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,dem_name,object,13,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,rep_name,object,13,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,rating,float64,0,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,oth,float64,3,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,oth_party,object,3,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,oth_name,object,2,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,dem2,float64,0,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,rep2,float64,0,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,poll_id,object,4,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,source,object,13,13,research/context: source observations; not newly activated as predictors
+manual_race_polls.csv,notes,object,13,13,research/context: source observations; not newly activated as predictors
+race_polls.csv,race_code,object,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,poll_id,object,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,pollster,object,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,end_date,object,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,n,int64,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,rating,float64,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,lean,object,756,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,dem,float64,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,rep,float64,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,margin,float64,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,oth,float64,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,oth_party,object,346,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,oth_name,object,345,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,dem2,float64,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,rep2,float64,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,dem_name,object,1678,1678,research/context: source observations; not newly activated as predictors
+race_polls.csv,rep_name,object,1678,1678,research/context: source observations; not newly activated as predictors
+races.csv,race_code,object,506,506,presentation: candidate identity and source metadata
+races.csv,race_type,object,506,506,presentation: candidate identity and source metadata
+races.csv,state,object,506,506,presentation: candidate identity and source metadata
+races.csv,district,object,506,506,presentation: candidate identity and source metadata
+races.csv,dem_id,object,506,506,presentation: candidate identity and source metadata
+races.csv,dem_name,object,506,506,presentation: candidate identity and source metadata
+races.csv,dem_party,object,506,506,presentation: candidate identity and source metadata
+races.csv,rep_id,object,506,506,presentation: candidate identity and source metadata
+races.csv,rep_name,object,506,506,presentation: candidate identity and source metadata
+races.csv,rep_party,object,506,506,presentation: candidate identity and source metadata
+races.csv,ind_id,object,222,506,presentation: candidate identity and source metadata
+races.csv,ind_name,object,222,506,presentation: candidate identity and source metadata
+races.csv,ind_party,object,222,506,presentation: candidate identity and source metadata
+races.csv,ind_caucus,object,222,506,presentation: candidate identity and source metadata
+races.csv,ind_party_label,object,222,506,presentation: candidate identity and source metadata
+races.csv,dem2_id,float64,0,506,presentation: candidate identity and source metadata
+races.csv,rep2_id,float64,0,506,presentation: candidate identity and source metadata
+races.csv,rcv,bool,506,506,presentation: candidate identity and source metadata
+races.csv,rcv_anchor,float64,0,506,presentation: candidate identity and source metadata
+races.csv,threeway,bool,506,506,presentation: candidate identity and source metadata
+races.csv,ind_frac,float64,506,506,presentation: candidate identity and source metadata
+races.csv,same_party,object,9,506,presentation: candidate identity and source metadata
+races.csv,cand2_name,object,9,506,presentation: candidate identity and source metadata
+races.csv,cand1_inc,bool,506,506,presentation: candidate identity and source metadata
+races.csv,incumbent_party,object,399,506,presentation: candidate identity and source metadata
+races.csv,seat_holder,object,506,506,presentation: candidate identity and source metadata
+races.csv,dem_status,object,501,506,presentation: candidate identity and source metadata
+races.csv,rep_status,object,489,506,presentation: candidate identity and source metadata
+races.csv,ind_status,object,222,506,presentation: candidate identity and source metadata

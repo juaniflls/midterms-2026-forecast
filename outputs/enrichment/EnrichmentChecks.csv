@@ -1,0 +1,9 @@
+check,passed
+House identity coverage,True
+Senate identity coverage,True
+Unique race keys,True
+Party probability sums,True
+Finite central margins,True
+Demographic zero-shift recovers central totals,True
+External forecast output excluded from predictor inputs,True
+Photos source identity matched or explicit placeholder,True

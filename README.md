@@ -45,8 +45,8 @@ The repository documents the model in general. Numbers visible in screenshots ar
 
 | Resource | Purpose |
 |---|---|
-| [Executed v30.11 notebook](NUCLEUS42_v30_11_FINAL_PUBLICATION_RELEASE.ipynb) | Complete production pipeline with stored outputs |
-| [Autonomous forecast HTML](Election_Model_v30_11_Final_Publication.html) | Self-contained interactive publication; no server required |
+| [Executed v30.11 notebook](NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb) | Complete production pipeline with stored outputs |
+| [Autonomous forecast HTML](NUCLEUS42_v30_RaceCards.html) | Self-contained interactive publication; no server required |
 | [Canonical input workbook](Model.xlsx) | Versioned source snapshot for the included model run |
 | [v30 consolidated report](outputs/Election_Model_Final_Report_v30.xlsx) | Structured outputs, contracts, audits, and race detail |
 | [Render application](dash_app/) | Thin Flask server for the canonical autonomous HTML publication |
@@ -113,6 +113,25 @@ Every House total is reconstructed from 435 individual district winners. Users c
 
 The Senate layer covers every scheduled election. Monitored races can use the validated polling engine selected by out-of-fold evidence; the remaining races use structural estimates. The chamber total is the sum of race winners plus fixed non-up seats—never a chamber quota.
 
+### Candidate Race Cards · 470 detailed race profiles
+
+The v30 publication now includes detailed, clickable Race Cards for **435 House districts and 35 Senate elections**, with candidate portraits, party-correct names and colors, modeled win probabilities, implied two-party vote shares, a single race rating/margin, contextual polling, presidential history, and descriptive population composition. The historical forecast **engine is unchanged**; candidate photos, Census-derived descriptors, fundraising and contextual race polling are publication-only metadata. Missing portrait matches remain explicit rather than guessing identities.
+
+<table>
+<tr>
+<td width="50%" align="center"><strong>House example · NY-21</strong></td>
+<td width="50%" align="center"><strong>Senate example · Maine</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="assets/readme/race-card-house-NY-21.png" alt="NUCLEUS 42 House NY-21 candidate Race Card" width="100%"></td>
+<td valign="top"><img src="assets/readme/race-card-senate-ME-SEN.png" alt="NUCLEUS 42 Maine Senate candidate Race Card" width="100%"></td>
+</tr>
+</table>
+
+Click a district or state on a forecast map to open its fuller candidate Race Card. Hover text remains on the map; the screenshot/download view is not padded with instructions. Independent-vs-Republican identity for **Idaho, Nebraska, and South Dakota** is a presentation mapping only, never a re-estimation of the underlying race. Montana's three-way candidate polling is labeled observational and is not fabricated as three-way win probabilities.
+
+Race Card input snapshots and local images are bundled under `data/race_assets/`, `assets/portraits/` and `nucleus42_visual/` (all part of **v30**). Block 8 calls `scripts/enrich_publication.py` to incorporate and validate the complete visual layer **before publishing `NUCLEUS42_v30_RaceCards.html`**. It prints `HTML VISUAL VERIFICADO` with the race, portrait and demographic counts. Block 9 rejects HTML without all 470 Race Cards; a failed generation leaves the previous valid publication intact. Render serves this same new filename. These inputs are local and reproducible, with no new web-source automation. The separate original provenance of the supplied curated snapshots is recorded in `data/race_assets/SOURCE_PROVENANCE.md`.
+
 ### Scenario Lab
 
 <p align="center">
@@ -139,7 +158,7 @@ The Scenario Lab is exploratory, not a replacement forecast. It moves national c
 No installation is required:
 
 1. Download or clone the repository.
-2. Open `Election_Model_v30_11_Final_Publication.html` in a modern browser.
+2. Open `NUCLEUS42_v30_RaceCards.html` in a modern browser.
 
 The file contains its own styles, data, maps, tables, Scenario Lab, and export logic.
 
@@ -161,7 +180,7 @@ Open `http://127.0.0.1:8050`. The autonomous publication HTML is the complete ap
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter lab NUCLEUS42_v30_11_FINAL_PUBLICATION_RELEASE.ipynb
+jupyter lab NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb
 ```
 
 Place the intended canonical workbook at `Model.xlsx`, restart the kernel, and run every cell in order. Do not publish partial execution state. The release gate after HTML generation must pass.
@@ -177,8 +196,8 @@ python dash_app/check_setup.py
 
 ```text
 .
-├── NUCLEUS42_v30_11_FINAL_PUBLICATION_RELEASE.ipynb
-├── Election_Model_v30_11_Final_Publication.html
+├── NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb
+├── NUCLEUS42_v30_RaceCards.html
 ├── Model.xlsx
 ├── outputs/
 │   ├── Election_Model_Final_Report_v30.xlsx
@@ -199,7 +218,7 @@ python dash_app/check_setup.py
 
 ## Data and update policy
 
-The maintained Google Sheet is the live editorial source; `Model.xlsx` is the release snapshot. A workbook edit is not a published forecast until the notebook completes, all contracts pass, and the report and HTML are regenerated.
+`Model.xlsx` remains the **original manually maintained v30 workbook**. Its existing v30 API/CSV source refreshes are preserved. The experimental 32-web-source collector and Block 1A were abandoned and are **not** used in this release; polling and national inputs remain governed by the original v30 update workflow. Candidate identities, portraits, and district demographics enrich the **presentation only**, never the model predictors. A workbook edit is not a published forecast until the notebook completes, all contracts pass, and the report and HTML are regenerated.
 
 [Open the maintained source sheet](https://docs.google.com/spreadsheets/d/1NC80MaJh8vyxrbQsi__HSR2StaSo8mgAJ3iSdilqEj0/edit?usp=sharing)
 

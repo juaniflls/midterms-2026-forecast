@@ -1,0 +1,679 @@
+chamber,race,candidate,status
+House,AL-01,Clyde Jones Jr.,identity_not_resolved
+House,AL-03,Lee McInnis,identity_not_resolved
+House,AL-04,Amanda Pusczek,identity_not_resolved
+House,AL-05,Andrew Sneed,identity_not_resolved
+House,AL-06,Maurice Mercer,identity_not_resolved
+House,AL-07,Ammie Akin,identity_not_resolved
+House,AK-AL,Eric Hafner,no_image_returned
+House,AK-AL,John B. Williams,identity_not_resolved
+House,AK-AL,Clay Strickland,identity_not_resolved
+House,AK-AL,Bill Hill (Independent),identity_not_resolved
+House,AZ-01,Monica Alponte (Libertarian),identity_not_resolved
+House,AZ-02,Curtis Goodwin (Libertarian),identity_not_resolved
+House,AZ-03,Jacob Parkman,identity_not_resolved
+House,AZ-03,Alan Aversa (No Labels),identity_not_resolved
+House,AZ-04,Tisha Benoit (No Labels),identity_not_resolved
+House,AZ-05,Elizabeth Lee,identity_not_resolved
+House,AZ-06,JoAnna Mendoza,identity_not_resolved
+House,AZ-06,Jereme Peters (Libertarian),identity_not_resolved
+House,AZ-07,Daniel Butierez,identity_not_resolved
+House,AZ-08,Bernadette Greene-Placentia,identity_not_resolved
+House,AZ-09,Dani Sterbinsky,identity_not_resolved
+House,AR-01,Terri Green,identity_not_resolved
+House,AR-01,Steve Parsons (Libertarian),identity_not_resolved
+House,AR-03,Robb Ryerse,identity_not_resolved
+House,AR-03,Bobby Wilson (Libertarian),identity_not_resolved
+House,AR-04,James Russell,identity_not_resolved
+House,CA-02,Robin Littau,identity_not_resolved
+House,CA-03,Robb Tucker,identity_not_resolved
+House,CA-04,Eric Jones,identity_not_resolved
+House,CA-05,Michael Masuda,identity_not_resolved
+House,CA-06,Kevin Kiley (Independent),identity_not_resolved
+House,CA-07,Mai Vang,download_failed
+House,CA-08,Rudy Recile,identity_not_resolved
+House,CA-09,John McBride,identity_not_resolved
+House,CA-10,Jeff Frese,identity_not_resolved
+House,CA-12,Jamie Joyce,identity_not_resolved
+House,CA-14,Melissa Hernandez,identity_not_resolved
+House,CA-15,Kevin Mullin,download_failed
+House,CA-15,Charles Hoelter,identity_not_resolved
+House,CA-16,Peter Soulé,identity_not_resolved
+House,CA-17,Ritesh Tandon,identity_not_resolved
+House,CA-18,Shane Lewis,identity_not_resolved
+House,CA-19,Peter Coe Verbica,identity_not_resolved
+House,CA-20,Sandra Van Scotter,identity_not_resolved
+House,CA-21,Kyle Kirkland,identity_not_resolved
+House,CA-23,Tessa Lynn Hodge,identity_not_resolved
+House,CA-24,Bob Smith,identity_not_resolved
+House,CA-25,Joe Males,identity_not_resolved
+House,CA-26,Sam Gallucci,identity_not_resolved
+House,CA-27,Jason Gibbs,identity_not_resolved
+House,CA-28,April Verlato,identity_not_resolved
+House,CA-29,Angelica Dueñas,identity_not_resolved
+House,CA-30,Scott Meyers,identity_not_resolved
+House,CA-31,Eric Ching,identity_not_resolved
+House,CA-32,Larry Thompson,download_failed
+House,CA-33,Stephanie Vargas,identity_not_resolved
+House,CA-34,Angela Gonzales-Torres,identity_not_resolved
+House,CA-35,Mike Cargile,identity_not_resolved
+House,CA-36,Houston Brignano,identity_not_resolved
+House,CA-37,Samantha Mota,identity_not_resolved
+House,CA-38,Pedro Casas,identity_not_resolved
+House,CA-39,Steve Manos,identity_not_resolved
+House,CA-41,Mitch Clemmons,identity_not_resolved
+House,CA-42,Brian Burley,identity_not_resolved
+House,CA-43,Cristian Morales,identity_not_resolved
+House,CA-44,Nanette Barragán,download_failed
+House,CA-44,Genevieve Angel,identity_not_resolved
+House,CA-46,David Pan,identity_not_resolved
+House,CA-47,Jenny Le Roux,identity_not_resolved
+House,CA-49,Armen Kurdian,identity_not_resolved
+House,CA-50,Steve Cohen,download_failed
+House,CA-51,Ricardo Cabrera,identity_not_resolved
+House,CA-52,Jeff Belle,identity_not_resolved
+House,CO-01,Christy Peterson,identity_not_resolved
+House,CO-01,Shimon Blau (Independent),identity_not_resolved
+House,CO-02,Kelley Dennison,identity_not_resolved
+House,CO-03,Dwayne Romero,identity_not_resolved
+House,CO-04,Tim Veldhuizen (Independent),identity_not_resolved
+House,CO-05,Jessica Killin,identity_not_resolved
+House,CO-06,Jason Clark,identity_not_resolved
+House,CO-07,Tim Bennett,identity_not_resolved
+House,CT-01,Luke Bronin,download_failed
+House,CT-01,Amy Chai,identity_not_resolved
+House,CT-02,George Austin,identity_not_resolved
+House,CT-03,Chris Lancia,identity_not_resolved
+House,CT-04,Michael Goldstein,identity_not_resolved
+House,CT-05,Chris Shea,identity_not_resolved
+House,DE-AL,Joseph Arminio,identity_not_resolved
+House,DE-AL,Earl Cooper,identity_not_resolved
+House,DE-AL,John Whalen,identity_not_resolved
+House,FL-01,Gay Valimont,identity_not_resolved
+House,FL-01,Tyler Davis (Independent),identity_not_resolved
+House,FL-02,Amanda Green,identity_not_resolved
+House,FL-02,Austin Rogers,identity_not_resolved
+House,FL-03,Seth Harp,identity_not_resolved
+House,FL-03,Mike Klein (Independent),identity_not_resolved
+House,FL-04,LaShonda Holloway,identity_not_resolved
+House,FL-04,Todd Schaefer (Independent),identity_not_resolved
+House,FL-05,Rachel Grage,identity_not_resolved
+House,FL-06,Eric Yonce,identity_not_resolved
+House,FL-06,Michael Gist (Independent),identity_not_resolved
+House,FL-06,Andrew Parrott (Libertarian),identity_not_resolved
+House,FL-07,Bale Dalton,identity_not_resolved
+House,FL-07,Ryan Elijah,identity_not_resolved
+House,FL-07,Christopher Dennison (Libertarian),identity_not_resolved
+House,FL-08,Jennifer Jenkins,identity_not_resolved
+House,FL-09,Dan Green,identity_not_resolved
+House,FL-11,James Pericola,identity_not_resolved
+House,FL-11,Joe Strada,identity_not_resolved
+House,FL-11,Ralph Groves (Libertarian),identity_not_resolved
+House,FL-12,Kimberly Overman,identity_not_resolved
+House,FL-12,Branden Scrivener (Independent),identity_not_resolved
+House,FL-13,Leela Gray,identity_not_resolved
+House,FL-13,Tony D'Arrigo (Independent),identity_not_resolved
+House,FL-14,Brian Lambert (Libertarian),identity_not_resolved
+House,FL-15,Robert People,identity_not_resolved
+House,FL-16,Kelly Kirschner,identity_not_resolved
+House,FL-16,Sydney Gruters,identity_not_resolved
+House,FL-16,Mark Davis (Independent),identity_not_resolved
+House,FL-17,Matthew Montavon,identity_not_resolved
+House,FL-17,Michael Quirk (Independent),identity_not_resolved
+House,FL-18,Curtis Gibson,identity_not_resolved
+House,FL-18,Deva Simmons (Independent),identity_not_resolved
+House,FL-19,Victor Arias,identity_not_resolved
+House,FL-19,Jim Schwartzel,identity_not_resolved
+House,FL-19,Seth Haskin (Independent),identity_not_resolved
+House,FL-20,Brent Andersen,identity_not_resolved
+House,FL-20,Kedner Maxime (Independent),identity_not_resolved
+House,FL-21,James Martin,identity_not_resolved
+House,FL-21,Alexander Cooke (Independent),identity_not_resolved
+House,FL-22,Pia Dandiya,identity_not_resolved
+House,FL-22,Casey Askar,identity_not_resolved
+House,FL-23,Deborah Adeimy,identity_not_resolved
+House,FL-24,Te Mayonna Brown,identity_not_resolved
+House,FL-24,Andy Daro (Independent),identity_not_resolved
+House,FL-25,Scott Singer,identity_not_resolved
+House,FL-25,Peter Jassenoff (Libertarian),identity_not_resolved
+House,FL-26,Nicole Locklin,identity_not_resolved
+House,FL-26,Deborah Ann Meidinger Hosey (Independent),identity_not_resolved
+House,FL-27,Eliott Rodriguez,no_image_returned
+House,FL-28,Phil Ehr,identity_not_resolved
+House,FL-28,Eddy Rojas (Independent),identity_not_resolved
+House,GA-01,Amanda Hollowell,identity_not_resolved
+House,GA-01,Jim Kingston,identity_not_resolved
+House,GA-02,Matt Day,identity_not_resolved
+House,GA-03,Maura Keller,identity_not_resolved
+House,GA-04,James Duffie,identity_not_resolved
+House,GA-05,John Oscar Salvesen,identity_not_resolved
+House,GA-06,Kevin Martin,identity_not_resolved
+House,GA-07,Tony Kozycki,identity_not_resolved
+House,GA-08,Kelly Esti,identity_not_resolved
+House,GA-09,Caitlyn Gegen,identity_not_resolved
+House,GA-10,Pam Delancy,identity_not_resolved
+House,GA-11,Chris Harden,identity_not_resolved
+House,GA-11,John Cowan,identity_not_resolved
+House,GA-12,Ceretta Smith,identity_not_resolved
+House,GA-13,Jonathan Chavez,identity_not_resolved
+House,GA-14,Shawn Harris,identity_not_resolved
+House,GA-14,Andrew Underwood (Libertarian),identity_not_resolved
+House,HI-01,Adriel Lam,identity_not_resolved
+House,HI-01,Nathan Berning (Independent),identity_not_resolved
+House,HI-01,Jordan Conley (Green),identity_not_resolved
+House,HI-02,Edward Codelia (Independent),identity_not_resolved
+House,HI-02,Randall Terry (Independent),identity_not_resolved
+House,ID-01,Kaylee Peterson,identity_not_resolved
+House,ID-01,Brendan Gomez (Constitution),identity_not_resolved
+House,ID-01,Sarah Zabel (Independent),identity_not_resolved
+House,ID-02,Ellie Gilbreath,identity_not_resolved
+House,ID-02,Emre Houser (Independent),identity_not_resolved
+House,ID-02,Tripp Hutchinson (Independent),identity_not_resolved
+House,ID-02,Will Johanson (Libertarian),identity_not_resolved
+House,ID-02,Carta Sierra (Constitution),identity_not_resolved
+House,IL-01,Jonathan Jackson,download_failed
+House,IL-01,Christian Maxwell,identity_not_resolved
+House,IL-02,Michael Noack,identity_not_resolved
+House,IL-03,Angel Oakley,identity_not_resolved
+House,IL-04,Patty Garcia,identity_not_resolved
+House,IL-04,Lupe Castillo,identity_not_resolved
+House,IL-04,Chris Getty (Independent),identity_not_resolved
+House,IL-05,Tommy Hanson,identity_not_resolved
+House,IL-06,Niki Conforti,identity_not_resolved
+House,IL-07,Chad Koppie,identity_not_resolved
+House,IL-08,Melissa Bean,download_failed
+House,IL-08,Jennifer Davis,identity_not_resolved
+House,IL-09,John Elleson,identity_not_resolved
+House,IL-10,Carl Lambrecht,identity_not_resolved
+House,IL-11,Jeff Walter,identity_not_resolved
+House,IL-12,Julie Fortier,identity_not_resolved
+House,IL-13,Jeff Wilson,identity_not_resolved
+House,IL-14,James Marter,identity_not_resolved
+House,IL-15,Jennifer Todd,identity_not_resolved
+House,IL-16,Paul Nolley,identity_not_resolved
+House,IL-17,Dillan Vancil,identity_not_resolved
+House,IN-01,Barb Regnitz,identity_not_resolved
+House,IN-02,Jamee Decio,identity_not_resolved
+House,IN-02,William Henry (Libertarian),identity_not_resolved
+House,IN-03,Kelly Thompson,identity_not_resolved
+House,IN-04,Drew Cox,identity_not_resolved
+House,IN-06,Cinde Wirth,identity_not_resolved
+House,IN-07,Patrick McAuley,identity_not_resolved
+House,IN-07,James Sceniak (Libertarian),identity_not_resolved
+House,IN-08,Mary Allen,identity_not_resolved
+House,IN-09,Brad Meyer,identity_not_resolved
+House,IN-09,Tonya Hudson (Libertarian),identity_not_resolved
+House,IN-09,Floyd Taylor (Independent),identity_not_resolved
+House,IA-01,Christina Bohannan,license_unresolved
+House,IA-01,Michael Bridgford (Independent),identity_not_resolved
+House,IA-02,Lindsay James,license_unresolved
+House,IA-02,Joe Mitchell,license_unresolved
+House,IA-02,Dave Bushaw (Independent),identity_not_resolved
+House,IA-02,Rick Stewart (Libertarian),identity_not_resolved
+House,IA-03,Sarah Trone Garriott,license_unresolved
+House,IA-04,David Dawson,license_unresolved
+House,IA-04,Chris McGowan,identity_not_resolved
+House,KS-01,Lauren Reinhold,identity_not_resolved
+House,KS-02,Don Coover,identity_not_resolved
+House,KS-03,Eric Jenkins,identity_not_resolved
+House,KS-04,Katy Tyndell,identity_not_resolved
+House,KY-01,Drew Williams,identity_not_resolved
+House,KY-02,Megan Wingfield,identity_not_resolved
+House,KY-02,Thomas Loecken (Independent),identity_not_resolved
+House,KY-03,Maria Rodriquez,identity_not_resolved
+House,KY-04,Melissa Strange,identity_not_resolved
+House,KY-04,Jeremy Todd (Libertarian),identity_not_resolved
+House,KY-05,Ned Pillersdorf,identity_not_resolved
+House,KY-05,Gerardo Serrano (Independent),identity_not_resolved
+House,KY-05,Mikel Wein (Independent),identity_not_resolved
+House,KY-06,Zach Dembo,identity_not_resolved
+House,KY-06,Jay Bowman (Independent),identity_not_resolved
+House,LA-01,Lauren Jewett,identity_not_resolved
+House,LA-01,Randall Arrington,identity_not_resolved
+House,LA-01,Liddy Glass (Independent),identity_not_resolved
+House,LA-02,Renada Collins,identity_not_resolved
+House,LA-02,Peter Williams,identity_not_resolved
+House,LA-02,Lisa Ballay (Libertarian),identity_not_resolved
+House,LA-02,Walter Beach (Independent),identity_not_resolved
+House,LA-03,John Day,identity_not_resolved
+House,LA-03,Priscilla Gonzalez,identity_not_resolved
+House,LA-03,Tia LeBrun,identity_not_resolved
+House,LA-03,Caleb Walker,identity_not_resolved
+House,LA-03,Kate Cotten,identity_not_resolved
+House,LA-04,Conrad Cable,identity_not_resolved
+House,LA-04,Matt Gromlich,identity_not_resolved
+House,LA-04,Mike Nichols,identity_not_resolved
+House,LA-05,Dan McKay,identity_not_resolved
+House,LA-05,Antonio Wilson,identity_not_resolved
+House,LA-05,Misti Cordell,identity_not_resolved
+House,LA-05,Omar Dantzler,identity_not_resolved
+House,LA-05,Gabe Firment,no_image_returned
+House,LA-05,Austin Magee,identity_not_resolved
+House,LA-06,Pat Forbes,identity_not_resolved
+House,LA-06,Lindsay Garcia,identity_not_resolved
+House,LA-06,Monique Appeaning,identity_not_resolved
+House,LA-06,Larry Davis,identity_not_resolved
+House,LA-06,Rick Edmonds,no_image_returned
+House,LA-06,Chris Johnson,identity_not_resolved
+House,LA-06,Michael Mebruer,identity_not_resolved
+House,LA-06,Blake Miguez,no_image_returned
+House,LA-06,Stephen Wagley,identity_not_resolved
+House,LA-06,Rufus Craig (Libertarian),identity_not_resolved
+House,ME-01,Ronald Russell,identity_not_resolved
+House,ME-02,Matthew Dunlap,download_failed
+House,MD-01,Dan Schwartz,identity_not_resolved
+House,MD-02,Dave Wallace,identity_not_resolved
+House,MD-03,Berney Flowers,identity_not_resolved
+House,MD-04,George McDermott,identity_not_resolved
+House,MD-04,Sam Husseini (Green),identity_not_resolved
+House,MD-05,Chris Chaffee,identity_not_resolved
+House,MD-05,Brian Jordan (Independent),identity_not_resolved
+House,MD-06,Moshe Landman (Green),identity_not_resolved
+House,MD-07,Scott Collier,identity_not_resolved
+House,MD-08,Cheryl Riley,identity_not_resolved
+House,MD-08,Nancy Wallace (Green),identity_not_resolved
+House,MA-01,Jeromie Whalen,identity_not_resolved
+House,MA-01,Nadia Milleron (Independent),identity_not_resolved
+House,MA-03,Gary Grossi,identity_not_resolved
+House,MA-04,Jason Poulos,identity_not_resolved
+House,MA-04,Tom Stalcup,identity_not_resolved
+House,MA-05,Jonathan Paz,identity_not_resolved
+House,MA-05,Tarik Samman,identity_not_resolved
+House,MA-06,Bethany Andres-Beck,identity_not_resolved
+House,MA-06,John Beccia,identity_not_resolved
+House,MA-06,Jamie Belsito,identity_not_resolved
+House,MA-06,Daniel Koh,identity_not_resolved
+House,MA-06,Mariah Lancaster,identity_not_resolved
+House,MA-06,Tram Nguyen,identity_not_resolved
+House,MA-06,Micah Jones,identity_not_resolved
+House,MA-08,Patrick Roath,identity_not_resolved
+House,MA-08,Robert Burke,identity_not_resolved
+House,MA-09,Craig Swallow,identity_not_resolved
+House,MA-09,Tyler MacAllister,identity_not_resolved
+House,MI-01,Callie Barr,identity_not_resolved
+House,MI-01,LaVeta Davenport (Green),identity_not_resolved
+House,MI-01,Zebulon Featherly (Independent),identity_not_resolved
+House,MI-01,Arnett Satterla (Libertarian),identity_not_resolved
+House,MI-02,Ben Ambrose,identity_not_resolved
+House,MI-02,John Moolenaar,download_failed
+House,MI-02,Charlotte Magoon (Green),identity_not_resolved
+House,MI-03,Terri DeBoer,identity_not_resolved
+House,MI-03,Joe Jock (Green),identity_not_resolved
+House,MI-04,Sean McCann,no_image_returned
+House,MI-04,Shafina Che Barnett (Green),identity_not_resolved
+House,MI-05,Christian Vukasovich,identity_not_resolved
+House,MI-05,Jim Bronke (Green),identity_not_resolved
+House,MI-05,Ronald A Muszynski (Libertarian),identity_not_resolved
+House,MI-06,Heather Smiley,identity_not_resolved
+House,MI-06,Clyde Shabazz (Green),identity_not_resolved
+House,MI-06,Timothy A. Tegan (Libertarian),identity_not_resolved
+House,MI-07,Shane Dedrick (Green),identity_not_resolved
+House,MI-08,Thomas Smith,identity_not_resolved
+House,MI-08,Jim Casha (Green),identity_not_resolved
+House,MI-08,Mia C. Pettus (Libertarian),identity_not_resolved
+House,MI-09,Ray Pooley,identity_not_resolved
+House,MI-09,Destiny Clayton (Green),identity_not_resolved
+House,MI-09,Kevin Vayko (Libertarian),identity_not_resolved
+House,MI-10,Christina Hines,identity_not_resolved
+House,MI-10,Mike Bouchard,identity_not_resolved
+House,MI-10,Kwabena Nkromo (Green),identity_not_resolved
+House,MI-10,Mike Saliba (Libertarian),identity_not_resolved
+House,MI-11,Ethan Baker,identity_not_resolved
+House,MI-11,Farid Ishac (Libertarian),identity_not_resolved
+House,MI-11,Anil Kumar (Independent),identity_not_resolved
+House,MI-11,Ryan Teasdale (Green),identity_not_resolved
+House,MI-12,James Hooper,identity_not_resolved
+House,MI-12,Brenda K. Sanders (Green),identity_not_resolved
+House,MI-13,T.P. Nykoriak,identity_not_resolved
+House,MI-13,Shelby Campbell (Independent),identity_not_resolved
+House,MI-13,Maurice Morton (Independent),identity_not_resolved
+House,MN-03,Tyler Bass,identity_not_resolved
+House,MN-04,Paul Wikstrom,identity_not_resolved
+House,MN-05,John Nagel,identity_not_resolved
+House,MS-01,Cliff Johnson,identity_not_resolved
+House,MS-02,Ron Eller,identity_not_resolved
+House,MS-02,Bennie Foster (Independent),identity_not_resolved
+House,MS-03,Michael Chiaradio,identity_not_resolved
+House,MS-03,Erik Kiehle (Libertarian),identity_not_resolved
+House,MS-04,Carl Boyanton (Independent),identity_not_resolved
+House,MO-01,Paul Berry,identity_not_resolved
+House,MO-01,Tom Schmitz (Libertarian),identity_not_resolved
+House,MO-02,Fred Wellman,identity_not_resolved
+House,MO-02,Brandon Daugherty (Libertarian),identity_not_resolved
+House,MO-03,Bethany Mann,identity_not_resolved
+House,MO-03,Jim Higgins (Libertarian),identity_not_resolved
+House,MO-04,Jordan Herrera,identity_not_resolved
+House,MO-04,Thomas Holbrook (Libertarian),identity_not_resolved
+House,MO-05,Rick Brattin,no_image_returned
+House,MO-05,Randy Langkraehr (Libertarian),identity_not_resolved
+House,MO-06,Josh Smead,identity_not_resolved
+House,MO-06,Andy Maidment (Libertarian),identity_not_resolved
+House,MO-07,Missi Hesketh,identity_not_resolved
+House,MO-07,Kevin Craig (Libertarian),identity_not_resolved
+House,MO-08,Chris Reichard,identity_not_resolved
+House,MO-08,Rebecca Sharpe Lombard (Libertarian),identity_not_resolved
+House,MT-01,Kimberly Persico (Independent),identity_not_resolved
+House,MT-01,Nick Sheehy (Libertarian),identity_not_resolved
+House,MT-02,Brian Miller,identity_not_resolved
+House,MT-02,Michael Eisenhauer (Independent),identity_not_resolved
+House,MT-02,Patrick McCracken (Libertarian),identity_not_resolved
+House,NE-01,Chris Backemeyer,identity_not_resolved
+House,NE-01,Nik Sandman (Libertarian),identity_not_resolved
+House,NE-02,Denise Powell,identity_not_resolved
+House,NE-02,Brinker Harding,identity_not_resolved
+House,NE-02,Eric Foreman (Libertarian),identity_not_resolved
+House,NE-03,Becky Stille,identity_not_resolved
+House,NE-03,Macey Budke (Independent),identity_not_resolved
+House,NE-03,Mark Cohen (Independent),identity_not_resolved
+House,NV-01,Carrie Buck,no_image_returned
+House,NV-01,Bobby Khan (Independent),identity_not_resolved
+House,NV-01,Steven St. John (Independent),identity_not_resolved
+House,NV-01,Anthony Thomas (Independent),identity_not_resolved
+House,NV-01,Victor Willert (Independent),identity_not_resolved
+House,NV-02,Teresa Benitez-Thompson,no_image_returned
+House,NV-02,Lynn Chapman (Independent),identity_not_resolved
+House,NV-03,David Anderson (Independent),identity_not_resolved
+House,NV-03,Dean Johnson (Independent),identity_not_resolved
+House,NV-03,Jon Kamerath (Independent),identity_not_resolved
+House,NV-04,Cody Whipple,identity_not_resolved
+House,NV-04,Russell Best (Independent),identity_not_resolved
+House,NV-04,William Johnson (Independent),identity_not_resolved
+House,NV-04,Gary Steele (Independent),identity_not_resolved
+House,NH-01,Carleigh Beriont,identity_not_resolved
+House,NH-01,Bill Conlin,identity_not_resolved
+House,NH-01,Matthew Emerson,identity_not_resolved
+House,NH-01,Heath Howard,identity_not_resolved
+House,NH-01,Stefany Shaheen,identity_not_resolved
+House,NH-01,Sarah Spinosa,identity_not_resolved
+House,NH-01,Maura Sullivan,identity_not_resolved
+House,NH-01,Christian Urrutia,identity_not_resolved
+House,NH-01,Lindsey Anderson,identity_not_resolved
+House,NH-01,Melissa Bailey,identity_not_resolved
+House,NH-01,Michael Callis,identity_not_resolved
+House,NH-01,Brian Cole,identity_not_resolved
+House,NH-01,Anthony DiLorenzo,identity_not_resolved
+House,NH-01,Hollie Noveletsky,identity_not_resolved
+House,NH-02,Paige Beauchemin,identity_not_resolved
+House,NH-02,Sarah Chadzynski,identity_not_resolved
+House,NH-02,Dan Nicholson,identity_not_resolved
+House,NH-02,Victor Orlando,identity_not_resolved
+House,NJ-01,Damon Galdo,identity_not_resolved
+House,NJ-02,Zack Mullock,identity_not_resolved
+House,NJ-02,"Ramon Mora, Jr. (Independent)",identity_not_resolved
+House,NJ-03,Michael McGuire,identity_not_resolved
+House,NJ-03,Ryan Kelly (Independent),identity_not_resolved
+House,NJ-03,Steven Welzer (Green),identity_not_resolved
+House,NJ-04,Rachel Peace,identity_not_resolved
+House,NJ-05,Sean Kirrane,identity_not_resolved
+House,NJ-05,Adam Rueda (Independent),identity_not_resolved
+House,NJ-06,Hillary Herzig,identity_not_resolved
+House,NJ-07,Rebecca Bennett,identity_not_resolved
+House,NJ-07,Lana Leguia (Libertarian),identity_not_resolved
+House,NJ-07,Seamus O'Toole (Independent),identity_not_resolved
+House,NJ-08,Aristotle Eliopoulos (Independent),identity_not_resolved
+House,NJ-08,Craig Honts (Independent),identity_not_resolved
+House,NJ-08,Da'Shone Hughey (Independent),identity_not_resolved
+House,NJ-09,Rosie Pino,identity_not_resolved
+House,NJ-09,Terrisa Bukovinac (Independent),identity_not_resolved
+House,NJ-10,Carmen Bucco,identity_not_resolved
+House,NJ-11,Joe Hathaway,identity_not_resolved
+House,NJ-11,Alan Bond (Independent),identity_not_resolved
+House,NJ-12,Gregg Mele,identity_not_resolved
+House,NJ-12,Andres Jinete (Green),identity_not_resolved
+House,NJ-12,Winston Jordan (Independent),identity_not_resolved
+House,NM-01,Didi Okpareke,identity_not_resolved
+House,NM-02,Greg Cunningham,identity_not_resolved
+House,NM-03,Martin Zamora,no_image_returned
+House,NY-02,Patrick Halpin,download_failed
+House,NY-04,Jeanine Driscoll,identity_not_resolved
+House,NY-05,George Marsh,identity_not_resolved
+House,NY-06,Joseph Chou,identity_not_resolved
+House,NY-07,Melvin Rivera,identity_not_resolved
+House,NY-08,Lewis Mizrahi,identity_not_resolved
+House,NY-09,Joel Anabilah-Azumah,identity_not_resolved
+House,NY-10,Jennifer Moore,identity_not_resolved
+House,NY-11,Michael DeCillis,identity_not_resolved
+House,NY-12,Caroline Shinkle,identity_not_resolved
+House,NY-13,Jomo Williams,identity_not_resolved
+House,NY-13,Bob Cohen (Working Families),identity_not_resolved
+House,NY-13,Adriano Espaillat (Independent),identity_not_resolved
+House,NY-14,Diamant Hysenaj,identity_not_resolved
+House,NY-15,Stylo Sapaskis,identity_not_resolved
+House,NY-15,Gonzalo Duran (Conservative),identity_not_resolved
+House,NY-15,Andre Easton (Independent),identity_not_resolved
+House,NY-16,Joseph Cinquemani,identity_not_resolved
+House,NY-18,Jacqueline Auringer,identity_not_resolved
+House,NY-20,Ralph Ambrosio,identity_not_resolved
+House,NY-21,Blake Gendebien,identity_not_resolved
+House,NY-21,Anthony Constantino,identity_not_resolved
+House,NY-22,Kailee Buller,identity_not_resolved
+House,NY-23,Aaron Gies,identity_not_resolved
+House,NY-24,Alissa Ellman,identity_not_resolved
+House,NY-24,Ken Estes (Independent),identity_not_resolved
+House,NY-24,Todd Sloan (Independent),identity_not_resolved
+House,NY-25,Virginia McIntyre,identity_not_resolved
+House,NY-26,Dennis Hannon,identity_not_resolved
+House,NC-01,Tom Bailey (Libertarian),identity_not_resolved
+House,NC-02,Eugene Douglass,identity_not_resolved
+House,NC-02,Matthew Laszacs (Libertarian),identity_not_resolved
+House,NC-03,Daniel Cavender (Libertarian),identity_not_resolved
+House,NC-04,Max Ganorkar,identity_not_resolved
+House,NC-04,Guy Meilleur (Libertarian),identity_not_resolved
+House,NC-05,Chuck Hubbard,identity_not_resolved
+House,NC-05,Robert Luffman (Libertarian),identity_not_resolved
+House,NC-06,Cyril Jefferson,identity_not_resolved
+House,NC-07,Kimberly Hardy,identity_not_resolved
+House,NC-07,Maad Abu-Ghazalah (Libertarian),identity_not_resolved
+House,NC-08,Colby Watson,identity_not_resolved
+House,NC-10,Ashley Bell,identity_not_resolved
+House,NC-10,Steve Feldman (Libertarian),identity_not_resolved
+House,NC-11,Jamie Ager,identity_not_resolved
+House,NC-11,Travis Groo (Libertarian),identity_not_resolved
+House,NC-12,Jack Codiga,identity_not_resolved
+House,NC-13,Paul Barringer,identity_not_resolved
+House,NC-13,Steven Swinton (Libertarian),identity_not_resolved
+House,NC-14,Lakesha Womack,identity_not_resolved
+House,ND-AL,Trygve Hammer,identity_not_resolved
+House,OH-01,Eric Conroy,identity_not_resolved
+House,OH-01,John Hancock (Libertarian),identity_not_resolved
+House,OH-02,Jennifer Mazzuckelli,identity_not_resolved
+House,OH-03,Cleophus Dulaney,identity_not_resolved
+House,OH-04,Joshua Kolasinski,identity_not_resolved
+House,OH-04,Tracey Tackett (Independent),identity_not_resolved
+House,OH-04,Tamie Wilson (Independent),identity_not_resolved
+House,OH-05,Brian Shaver,identity_not_resolved
+House,OH-06,Elizabeth Kirtley,identity_not_resolved
+House,OH-07,Brian Poindexter,identity_not_resolved
+House,OH-08,Vanessa Enoch,identity_not_resolved
+House,OH-09,Matthew Althaus (Libertarian),identity_not_resolved
+House,OH-10,Kristina Knickerbocker,identity_not_resolved
+House,OH-10,Thomas McMasters (Libertarian),identity_not_resolved
+House,OH-11,Mike Kirchner,identity_not_resolved
+House,OH-12,Jerrad Christian,identity_not_resolved
+House,OH-13,Carey Coleman,identity_not_resolved
+House,OH-14,Maria Jukic,identity_not_resolved
+House,OH-15,Don Leonard,identity_not_resolved
+House,OH-15,Mike Carey,download_failed
+House,OH-15,Brennan Barrington (Libertarian),identity_not_resolved
+House,OK-01,John Croisant,identity_not_resolved
+House,OK-02,Brandon Wade,identity_not_resolved
+House,OK-02,Ronnie Hopkins (Independent),identity_not_resolved
+House,OK-03,Suzie Byrd,identity_not_resolved
+House,OK-04,Mitchell Jacob,identity_not_resolved
+House,OK-04,Rocco Bonacci (Independent),identity_not_resolved
+House,OK-05,Jena Nelson,identity_not_resolved
+House,OK-05,Robert Henri (Independent),identity_not_resolved
+House,OK-05,Austin Nieves (Independent),identity_not_resolved
+House,OR-01,Barbara Kahl,identity_not_resolved
+House,OR-02,Chris Beck,no_image_returned
+House,OR-03,Loran Ayles,identity_not_resolved
+House,OR-04,Monique DeSpain,identity_not_resolved
+House,OR-05,Patti Adair,identity_not_resolved
+House,OR-06,David Russ,identity_not_resolved
+House,PA-01,Bob Harvie,identity_not_resolved
+House,PA-02,Jessica Arriaga,identity_not_resolved
+House,PA-03,Dennis Mahoney (Independent),identity_not_resolved
+House,PA-04,Aurora Stuski,identity_not_resolved
+House,PA-05,Nicholas Manganaro,identity_not_resolved
+House,PA-06,Marty Young,identity_not_resolved
+House,PA-07,Bob Brooks,identity_not_resolved
+House,PA-07,Andrew Tupone (Green),identity_not_resolved
+House,PA-09,Rachel Wallace,identity_not_resolved
+House,PA-11,Nancy Mannion,identity_not_resolved
+House,PA-12,James Hayes,identity_not_resolved
+House,PA-13,Beth Farnham,identity_not_resolved
+House,PA-14,Alan Bradstock,identity_not_resolved
+House,PA-15,Ray Bilger,identity_not_resolved
+House,PA-16,Justin Wagner,identity_not_resolved
+House,PA-17,Tony Guy,identity_not_resolved
+House,RI-01,Kellie Keenan,identity_not_resolved
+House,RI-01,Pedro DeSouza (Independent),identity_not_resolved
+House,RI-02,Vic Mellor,identity_not_resolved
+House,RI-02,Stephen Skoly,identity_not_resolved
+House,SC-01,Jenny Costa Honeycutt,identity_not_resolved
+House,SC-01,Bill Reeside (Libertarian),identity_not_resolved
+House,SC-02,Zyon Khalifa,identity_not_resolved
+House,SC-03,Eunice Lehmacher,identity_not_resolved
+House,SC-03,Brian Corriea (Libertarian),identity_not_resolved
+House,SC-04,Courtney McClain,identity_not_resolved
+House,SC-04,Jessica Ethridge (Libertarian),identity_not_resolved
+House,SC-05,Mallory Dittmer,identity_not_resolved
+House,SC-05,Wes Climer,no_image_returned
+House,SC-06,John Peterson,identity_not_resolved
+House,SC-07,John Vincent,identity_not_resolved
+House,SD-AL,Nikki Gronli,identity_not_resolved
+House,TN-01,Kristi Burke,identity_not_resolved
+House,TN-01,Joshua Ashburn (Independent),identity_not_resolved
+House,TN-01,Richard Baker (Independent),identity_not_resolved
+House,TN-01,Chris Campbell (Independent),identity_not_resolved
+House,TN-01,Billy Cody (Independent),identity_not_resolved
+House,TN-01,Tyler McClain (Independent),identity_not_resolved
+House,TN-02,Michaela Barnett,identity_not_resolved
+House,TN-02,Bruce Fine (Independent),identity_not_resolved
+House,TN-02,Adam Heimerman (Independent),identity_not_resolved
+House,TN-03,Anna Golladay,identity_not_resolved
+House,TN-03,Dean Arnold (Independent),identity_not_resolved
+House,TN-03,Jean Howard-Hill (Independent),identity_not_resolved
+House,TN-03,Rodney Joe King (Independent),identity_not_resolved
+House,TN-03,Donnie Ownby (Independent),identity_not_resolved
+House,TN-03,Edward Roland (Independent),identity_not_resolved
+House,TN-04,Victoria Broderick,identity_not_resolved
+House,TN-04,Jacob Anders (Independent),identity_not_resolved
+House,TN-05,Charlie Hatcher,no_image_returned
+House,TN-05,James Johnson (Independent),identity_not_resolved
+House,TN-05,Micheál O'Leary (Independent),identity_not_resolved
+House,TN-06,Mike Croley,identity_not_resolved
+House,TN-06,Johnny Garrett,no_image_returned
+House,TN-06,Christopher Monday (Independent),identity_not_resolved
+House,TN-06,Angus Purdy (Independent),identity_not_resolved
+House,TN-07,Darden Copeland,identity_not_resolved
+House,TN-07,Andrew Koontz (Independent),identity_not_resolved
+House,TN-07,Lowell Reynolds (Independent),identity_not_resolved
+House,TN-08,Heidi Kuhn,identity_not_resolved
+House,TN-08,Adam Austill (Independent),identity_not_resolved
+House,TN-08,Wells Blankenship (Independent),identity_not_resolved
+House,TN-08,Antonio Futch (Independent),identity_not_resolved
+House,TN-08,Pamela Moses (Independent),identity_not_resolved
+House,TN-08,Horace Taylor (Independent),identity_not_resolved
+House,TN-08,Henry Ward III (Independent),identity_not_resolved
+House,TN-09,Dennis Clark (Independent),identity_not_resolved
+House,TN-09,Michelle Head (Independent),identity_not_resolved
+House,TX-01,Yolanda Prince,identity_not_resolved
+House,TX-02,Shaun Finnie,identity_not_resolved
+House,TX-03,Evan Hunt,identity_not_resolved
+House,TX-04,Jason Pearce,identity_not_resolved
+House,TX-05,Chelsey Hockett,identity_not_resolved
+House,TX-06,Danny Minton,identity_not_resolved
+House,TX-07,Alexander Hale,identity_not_resolved
+House,TX-07,Espoir Ngabo (Green),identity_not_resolved
+House,TX-08,Laura Jones,identity_not_resolved
+House,TX-08,Jessica Hart Steinmann,identity_not_resolved
+House,TX-09,Leticia Gutierrez,identity_not_resolved
+House,TX-10,Caitlin Rourk,identity_not_resolved
+House,TX-10,Chris Gober,identity_not_resolved
+House,TX-11,Claire Reynolds,identity_not_resolved
+House,TX-12,Angela Rodriguez Prilliman,identity_not_resolved
+House,TX-13,Mark Nair,identity_not_resolved
+House,TX-14,Thurman Bartie,identity_not_resolved
+House,TX-16,Adam Bauman,identity_not_resolved
+House,TX-17,Casey Shepard,identity_not_resolved
+House,TX-18,Ronald Whitfield,identity_not_resolved
+House,TX-19,Kyle Rable,identity_not_resolved
+House,TX-19,Tom Sell,identity_not_resolved
+House,TX-20,Edgardo Rafael Baez,identity_not_resolved
+House,TX-21,Kristin Hook,identity_not_resolved
+House,TX-22,Marquette Greene-Scott,identity_not_resolved
+House,TX-22,Trever Nehls,identity_not_resolved
+House,TX-23,Ben Mendoza (Independent),identity_not_resolved
+House,TX-24,Kevin Burge,identity_not_resolved
+House,TX-25,Dione Sims,identity_not_resolved
+House,TX-26,Steven Shook,identity_not_resolved
+House,TX-26,Phil Gray (Libertarian),identity_not_resolved
+House,TX-27,Tanya Lloyd,identity_not_resolved
+House,TX-27,Wayne Raasch (Write-in),identity_not_resolved
+House,TX-28,Tano Tijerina,identity_not_resolved
+House,TX-28,Marlón Durán (Green),identity_not_resolved
+House,TX-29,Martha Fierro,identity_not_resolved
+House,TX-30,Everett Jackson,identity_not_resolved
+House,TX-31,Justin Early,identity_not_resolved
+House,TX-31,Greg Stoker (Green),identity_not_resolved
+House,TX-32,Dan Barrios,identity_not_resolved
+House,TX-32,Jace Yarbrough,identity_not_resolved
+House,TX-33,Patrick Gillespie,identity_not_resolved
+House,TX-34,Eric Flores,identity_not_resolved
+House,TX-34,Eddie Espinoza (Green),identity_not_resolved
+House,TX-34,Chris Royal (Libertarian),identity_not_resolved
+House,TX-35,Johnny Garcia,identity_not_resolved
+House,TX-35,Carlos De La Cruz,identity_not_resolved
+House,TX-36,Rhonda Hart,identity_not_resolved
+House,TX-37,Lauren Peña,identity_not_resolved
+House,TX-38,Melissa McDonough,identity_not_resolved
+House,TX-38,Jon Bonck,identity_not_resolved
+House,TX-38,Alex McMenemy (Green),identity_not_resolved
+House,UT-01,Riley Owen,identity_not_resolved
+House,UT-01,Jesse West (Libertarian),identity_not_resolved
+House,UT-02,Peter Crosby,identity_not_resolved
+House,UT-02,Carlton Bowen (Independent),identity_not_resolved
+House,UT-02,Daniel Cottam (Libertarian),identity_not_resolved
+House,UT-03,Kent Udell,identity_not_resolved
+House,UT-03,Cassie Easley (Constitution),identity_not_resolved
+House,UT-03,Michael Stoddard (Libertarian),identity_not_resolved
+House,UT-04,Jonny Larsen,identity_not_resolved
+House,UT-04,Steven Burt (Independent),identity_not_resolved
+House,UT-04,Taylor Wright (Libertarian),identity_not_resolved
+House,VT-AL,Gerald Malloy,identity_not_resolved
+House,VT-AL,Adam Ortiz (Independent),identity_not_resolved
+House,VA-01,Shannon Taylor,no_image_returned
+House,VA-03,Edwin Rivera,identity_not_resolved
+House,VA-04,Robert Murray,identity_not_resolved
+House,VA-07,Doug Ollivant,identity_not_resolved
+House,VA-08,Tony Sabio,identity_not_resolved
+House,VA-09,Joy Powers,identity_not_resolved
+House,VA-10,Dave Beckwith,identity_not_resolved
+House,VA-11,Arthur Purves,identity_not_resolved
+House,WA-01,Mary Silva,identity_not_resolved
+House,WA-02,Edwin Feller,identity_not_resolved
+House,WA-04,John Duresky,identity_not_resolved
+House,WA-04,Amanda McKinney,identity_not_resolved
+House,WA-06,Teresa Fox,identity_not_resolved
+House,WA-07,Nirav Sheth,identity_not_resolved
+House,WA-08,Spencer Meline,identity_not_resolved
+House,WA-09,Doug Basler,identity_not_resolved
+House,WA-10,Chris Chung,identity_not_resolved
+House,WV-01,Vince George,identity_not_resolved
+House,WV-02,Ace Parsi,identity_not_resolved
+House,WI-01,Mitchell Berman,identity_not_resolved
+House,WI-03,Alexander Kent (Independent),identity_not_resolved
+House,WI-03,Rustin Provance (Independent),identity_not_resolved
+House,WI-04,Tim Rogers,identity_not_resolved
+House,WI-04,Arthur Burks (Independent),identity_not_resolved
+House,WI-04,Robert Raymond (Independent),identity_not_resolved
+House,WI-05,Andrew Beck,identity_not_resolved
+House,WI-06,Brad Smith,identity_not_resolved
+House,WI-06,Matthew Arndt (Green),identity_not_resolved
+House,WI-06,Elizabeth Fitzgibbon (Independent),identity_not_resolved
+House,WI-06,Michael Thurow (Independent),identity_not_resolved
+House,WI-07,Michael Alfonso,identity_not_resolved
+House,WI-08,Rick Crosson,identity_not_resolved
+House,WY-AL,Lisa Kinney,no_image_returned
+House,WY-AL,Shawn Johnson (Libertarian),identity_not_resolved

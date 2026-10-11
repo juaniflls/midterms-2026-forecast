@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-HTML = ROOT / "Election_Model_v30_11_Final_Publication.html"
+HTML = ROOT / "NUCLEUS42_v30_RaceCards.html"
 NOTEBOOK = ROOT / "NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb"
 
 checks: dict[str, bool] = {

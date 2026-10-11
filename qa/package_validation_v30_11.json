@@ -1,23 +1,91 @@
 {
-  "release": "30.11.0",
+  "release": "30.11.3",
   "status": "PASS",
-  "repository_checks": "36/36",
-  "dash_setup_checks": "35/35",
-  "routes": {
+  "publication": "NUCLEUS42_v30_RaceCards.html",
+  "execution": {
+    "mode": "all original cells sequentially in one IPython process",
+    "live_sources": true,
+    "elapsed_seconds": 189.5847520828247,
+    "code_cells": 18,
+    "html_bytes": 73755954,
+    "visual": {
+      "House": 435,
+      "Senate": 35,
+      "photos": 1072,
+      "demographicDistricts": 435
+    }
+  },
+  "browser": {
+    "initial_cards": 12,
+    "result_count": "435 of 470 races \u00b7 1072 matched portraits in the package",
+    "dialogs": [
+      {
+        "code": "NY-21",
+        "title": "New York 21st District Forecast",
+        "profiles": 2,
+        "parties": [
+          "D",
+          "R"
+        ],
+        "portraits": 2,
+        "demographic_bars": 6
+      },
+      {
+        "code": "ME-SEN",
+        "title": "Maine Senate Forecast",
+        "profiles": 2,
+        "parties": [
+          "D",
+          "R"
+        ],
+        "portraits": 2,
+        "demographic_bars": 6
+      },
+      {
+        "code": "ID-SEN",
+        "title": "Idaho Senate Forecast",
+        "profiles": 2,
+        "parties": [
+          "R",
+          "I"
+        ],
+        "portraits": 2,
+        "demographic_bars": 6
+      },
+      {
+        "code": "NE-SEN",
+        "title": "Nebraska Senate Forecast",
+        "profiles": 2,
+        "parties": [
+          "R",
+          "I"
+        ],
+        "portraits": 2,
+        "demographic_bars": 6
+      },
+      {
+        "code": "SD-SEN",
+        "title": "South Dakota Senate Forecast",
+        "profiles": 2,
+        "parties": [
+          "R",
+          "I"
+        ],
+        "portraits": 2,
+        "demographic_bars": 6
+      }
+    ],
+    "png_download_bytes": 811645,
+    "visible_map_entries_open_profiles": true,
+    "page_errors": []
+  },
+  "repository_validation": "STATUS: OK (47/47 checks)",
+  "render_routes": {
     "/": 200,
     "/forecast-html": 200,
     "/healthz": 200
   },
-  "native_tabs_rendered": 9,
-  "scenario_callback_outputs": 13,
-  "scenario_reset": {
-    "house": "D230-R205",
-    "senate": "D52-R48",
-    "popular_vote_identity": true
-  },
-  "notes": [
-    "The model workbook, executed notebook and autonomous HTML were preserved byte-for-byte.",
-    "The Dash application is read-only with respect to forecast artifacts.",
-    "The social preview image must be selected manually in GitHub repository settings."
-  ]
+  "render_live_deployment_tested": false,
+  "jupyter_kernel_execution_tested": false,
+  "original_manual_workbook_preserved": true
 }

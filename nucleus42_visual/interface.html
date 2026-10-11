@@ -1,0 +1,27 @@
+<section class="section n42rc-section" id="candidate-explorer">
+  <div class="n42rc-kicker">NUCLEUS 42 · the people behind the forecast</div>
+  <h2 class="section-title">Candidates &amp; race profiles</h2>
+  <p>Explore all 435 House districts and 35 Senate contests. Open a race for candidate portraits, the NUCLEUS forecast, presidential history, demographics, campaign finance and supplied polls.</p>
+  <div class="n42rc-mobile-nav"><a href="#data-lineage">Data &amp; provenance</a></div>
+  <div class="n42rc-note">Forecast inputs: <b>October 6, 2026</b> · Candidate and contextual archive received: <b>October 10, 2026</b>. D/R probabilities describe the existing NUCLEUS party model. Independent, same-party and ranked-choice fields need separate candidate models.</div>
+  <div class="n42rc-controls">
+    <label>Chamber<select id="n42rcChamber"><option value="House">House · 435 races</option><option value="Senate">Senate · 35 races</option><option value="all">Both chambers</option></select></label>
+    <label>State<select id="n42rcState"><option value="all">All states</option></select></label>
+    <label>Race group<select id="n42rcGroup"><option value="all">All races</option><option value="competitive">Competitive · D chance 20–80%</option><option value="special">Independent / RCV / same-party</option><option value="photos">Includes a supplied portrait</option></select></label>
+    <label>Search<input id="n42rcSearch" class="n42rc-search" placeholder="Candidate, state or district" type="search"></label>
+    <label>Order<select id="n42rcOrder"><option value="competitive">Closest first</option><option value="district">State / district</option><option value="dem">D chance, descending</option></select></label>
+  </div>
+  <div id="n42rcResultCount" class="n42rc-muted" role="status"></div>
+  <div id="n42rcRaceGrid" class="n42rc-grid"></div>
+  <div class="n42rc-pagination"><button id="n42rcPrev" class="n42rc-btn">Previous</button><span id="n42rcPage" class="n42rc-muted"></span><button id="n42rcNext" class="n42rc-btn">Next</button><button id="n42rcExport" class="n42rc-btn">Export filtered races · CSV</button></div>
+</section>
+<section class="section n42rc-section" id="data-lineage">
+  <div class="n42rc-kicker">Reproducibility · provenance · model eligibility</div>
+  <h2 class="section-title">The data behind the race profiles</h2>
+  <div id="n42rcDataSummary" class="n42rc-status"></div>
+  <div class="n42rc-note">The validated national / House / Senate engines remain the statistical baseline. External demographic, fundraising and candidate-strength variables are research inputs until matched historical vintages, geographic crosswalks and out-of-cycle validation establish improvement. Provider forecast outputs and provider “strength” scores are not training observations.</div>
+  <details class="n42rc-source-list"><summary>Source inventory and refresh policy</summary><div class="n42rc-table-wrap"><table class="n42rc-table"><thead><tr><th>File</th><th>Role</th><th>Refresh</th><th>Source</th></tr></thead><tbody id="n42rcSources"></tbody></table></div></details>
+  <details class="n42rc-source-list"><summary>What stays static and what needs updating?</summary><div class="n42rc-table-wrap"><table class="n42rc-table"><thead><tr><th>Data</th><th>Update trigger</th><th>Model use</th></tr></thead><tbody><tr><td>Candidate identity / portraits</td><td>Nomination, withdrawal, replacement; verify image identity</td><td>Race profiles; manual review of workbook mismatches</td></tr><tr><td>Population / education / income</td><td>New Census vintage or district boundaries</td><td>Descriptive context and single-variable sensitivity</td></tr><tr><td>Presidential election history</td><td>Certified results or geographic crosswalk correction</td><td>Context; compare with canonical model anchors</td></tr><tr><td>Polling / approval / generic ballot</td><td>Each new poll; preserve date and matchup</td><td>Existing validated sources; external archive shown as context</td></tr><tr><td>Campaign finance</td><td>New FEC filing; preserve filing date</td><td>Context; no direct predictive weight without historical evidence</td></tr><tr><td>Provider parameters / legislature files</td><td>Source archive update</td><td>Archived research; outside current House/Senate engine</td></tr></tbody></table></div></details>
+  <p class="n42rc-footnote">Supplementary candidate and demographic snapshots have separate provenance documentation in the repository. They do not determine NUCLEUS forecasts. Portrait identity records are retained; image licences require separate verification.</p>
+</section>
+<dialog id="n42rcRaceDialog" class="n42rc-dialog" aria-labelledby="n42rcDialogTitle"><div class="n42rc-dialog-head"><h2 id="n42rcDialogTitle"></h2><div class="n42rc-dialog-actions"><button id="n42rcDownload" class="n42rc-btn">Download card · PNG</button><button id="n42rcClose" class="n42rc-btn n42rc-close" aria-label="Close race profile">×</button></div></div><div id="n42rcRaceDetail" class="n42rc-detail"></div></dialog>

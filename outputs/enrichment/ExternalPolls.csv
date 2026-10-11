@@ -1,0 +1,1681 @@
+race,pollster,date,n,dem,rep,margin,dem_name,rep_name,matchup_match,source_file
+AK-01,Data for Progress,2025-03-07,1008.0,46.0,46.0,0.0,Mary Peltola,Nick Begich,False,race_polls.csv
+AK-01,Data for Progress,2025-07-27,678.0,38.0,48.0,-10.0,Generic Democrat,Generic Republican,False,race_polls.csv
+AK-01,Data for Progress,2025-10-23,823.0,37.0,48.0,-11.0,Matt Schultz,Nick Begich,False,race_polls.csv
+AK-01,Public Policy Polling,2026-02-12,600.0,39.0,46.0,-7.0,Matt Schultz,Nick Begich,False,race_polls.csv
+AK-01,Public Policy Polling,2026-02-12,600.0,37.0,41.0,-4.0,Bill Hill,Nick Begich,False,race_polls.csv
+AK-01,Change Research,2026-03-20,624.0,17.4,44.8,-27.4,Matt Schultz,Nick Begich,False,race_polls.csv
+AK-01,Tavern Research,2026-05-27,452.0,45.0,55.0,-10.0,Generic Democrat,Nick Begich,False,race_polls.csv
+AK-01,Tavern Research,2026-05-27,452.0,45.0,55.0,-10.0,Matt Schultz,Nick Begich,False,race_polls.csv
+AK-01,Tavern Research,2026-05-27,452.0,48.0,52.0,-4.0,Bill Hill,Nick Begich,False,race_polls.csv
+AK-01,The New York Times/Siena University,2026-06-29,593.0,39.2,51.1,-12.0,Matt Schultz,Nick Begich,False,race_polls.csv
+AK-01,The Bullfinch Group,2026-07-16,546.0,32.0,46.0,-14.0,Matt Schultz,Nick Begich,False,race_polls.csv
+AK-01,Data for Progress,2026-08-04,605.0,37.0,47.0,-10.0,Bill Hill,Nick Begich,False,race_polls.csv
+AK-01,GBAO,2026-08-05,500.0,42.0,46.0,-4.0,Bill Hill,Nick Begich,False,race_polls.csv
+AK-01,Alaska Survey Research,2026-08-05,1371.0,14.7,47.9,-33.2,Eric Hafner,Nick Begich,False,race_polls.csv
+AK-01,Alaska Survey Research,2026-08-23,1872.0,5.7,50.6,-44.9,John Williams,Nick Begich,False,race_polls.csv
+AK-01,The Bullfinch Group,2026-09-06,820.0,7.4,44.2,-36.8,Eric Hafner,Nick Begich,False,race_polls.csv
+AK-01,Fabrizio Ward/Impact Research,2026-09-11,800.0,9.0,45.0,-36.0,Eric Hafner,Nick Begich,False,race_polls.csv
+AK-01,The New York Times/Siena University,2026-10-01,504.0,8.2,46.6,-38.4,Eric Hafner,Nick Begich,False,race_polls.csv
+AK-01,Alaska Survey Research,2026-10-03,1512.0,6.9,49.8,-42.9,Eric Hafner,Nick Begich,False,race_polls.csv
+AK-GOV,Data for Progress,2025-03-07,1008.0,44.0,34.0,10.0,Mary Peltola,Nancy Dahlstrom,False,race_polls.csv
+AK-GOV,Data for Progress,2025-07-27,584.0,47.0,13.0,34.0,Mary Peltola,Bernadette Wilson,False,race_polls.csv
+AK-GOV,Alaska Survey Research,2025-10-14,1748.0,41.4,20.1,21.3,Tom Begich,Click Bishop,False,race_polls.csv
+AK-GOV,Data for Progress,2025-10-23,823.0,41.0,10.0,31.0,Mary Peltola,Bernadette Wilson,False,race_polls.csv
+AK-GOV,Lake Research Partners,2026-02-11,600.0,38.0,16.0,22.0,Tom Begich,Bernadette Wilson,False,race_polls.csv
+AK-GOV,Alaska Survey Research,2026-04-19,0.0,41.0,21.8,19.2,Tom Begich,Bernadette Wilson,False,race_polls.csv
+AK-GOV,Alaska Survey Research,2026-07-01,0.0,22.1,21.8,0.3,Tom Begich,Bernadette Wilson,False,race_polls.csv
+AK-GOV,Fabrizio Ward/Impact Research,2026-09-11,800.0,40.0,20.0,20.0,Jonathan Kreiss-Tomkins,Bernadette Wilson,True,race_polls.csv
+AK-GOV,co/efficient,2026-09-17,799.0,43.0,20.0,23.0,Jonathan Kreiss-Tomkins,Bernadette Wilson,True,race_polls.csv
+AK-GOV,The New York Times/Siena University,2026-10-01,504.0,40.2,20.1,20.2,Jonathan Kreiss-Tomkins,Bernadette Wilson,True,race_polls.csv
+AK-GOV,Alaska Survey Research,2026-10-03,1512.0,48.0,27.0,21.0,Jonathan Kreiss-Tomkins,Bernadette Wilson,True,race_polls.csv
+AK-SEN,Data for Progress,2025-07-27,678.0,45.0,46.0,-1.0,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Alaska Survey Research,2025-08-01,1613.0,42.5,46.7,-4.2,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Alaska Survey Research,2025-10-15,1708.0,47.7,45.9,1.8,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Data for Progress,2025-10-23,823.0,46.0,45.0,1.0,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,The Tyson Group,2025-11-13,600.0,43.0,39.0,4.0,Generic Democrat,Dan Sullivan,False,race_polls.csv
+AK-SEN,Alaska Survey Research,2026-01-11,1681.0,48.0,46.4,1.6,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Public Policy Polling,2026-01-17,611.0,49.0,47.0,2.0,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Alaska Survey Research,2026-03-22,1340.0,48.8,43.5,5.3,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Alaska Survey Research,2026-04-19,1946.0,49.1,42.5,6.6,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Alaska Survey Research,2026-05-17,1401.0,48.4,43.8,4.6,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Alaska Survey Research,2026-06-07,1393.0,49.4,44.2,5.2,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,The New York Times/Siena University,2026-06-29,593.0,45.1,47.5,-2.4,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Data for Progress,2026-08-04,605.0,47.0,41.0,6.0,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Alaska Survey Research,2026-08-05,1371.0,50.8,49.2,1.6,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Alaska Survey Research,2026-08-23,1495.0,50.6,49.4,1.2,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Fabrizio Ward/Impact Research,2026-09-11,800.0,46.0,41.0,5.0,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Alaska Survey Research,2026-09-12,1352.0,48.4,43.8,4.6,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,co/efficient,2026-09-17,799.0,46.0,48.0,-2.0,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Trafalgar Group,2026-09-24,1079.0,45.5,46.8,-1.3,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Quantus Insights,2026-09-30,758.0,46.5,46.8,-0.3,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,The New York Times/Siena University,2026-10-01,504.0,50.1,43.1,7.0,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AK-SEN,Alaska Survey Research,2026-10-03,1512.0,47.0,45.0,2.0,Mary Peltola,Dan Sullivan,True,race_polls.csv
+AL-02,Impact Research,2026-06-25,400.0,44.0,45.0,-1.0,Shomari Figures,Rhett Marques,True,race_polls.csv
+AL-02,DCCC Targeting Team,2026-07-30,421.0,46.0,46.0,0.0,Shomari Figures,Rhett Marques,True,race_polls.csv
+AL-02,Tulchin Research,2026-08-31,0.0,47.0,47.0,0.0,Shomari Figures,Rhett Marques,True,race_polls.csv
+AL-GOV,Cygnal Political,2025-11-13,605.0,34.1,52.6,-18.5,Doug Jones,Tommy Tuberville,True,race_polls.csv
+AL-GOV,yes. every kid. foundation.,2026-07-11,601.0,41.0,49.0,-8.0,Doug Jones,Tommy Tuberville,True,race_polls.csv
+AL-GOV,RMG Research,2026-09-25,800.0,37.0,50.0,-13.0,Doug Jones,Tommy Tuberville,True,race_polls.csv
+AL-SEN,yes. every kid. foundation.,2026-07-11,601.0,32.0,47.0,-15.0,Everett Wess,Barry Moore,True,race_polls.csv
+AL-SEN,RMG Research,2026-09-25,800.0,33.0,54.0,-21.0,Everett Wess,Barry Moore,True,race_polls.csv
+AR-02,2040 Strategy Group,2026-05-08,0.0,47.0,41.0,6.0,Chris Jones,French Hill,True,race_polls.csv
+AR-02,2040 Strategy Group,2026-05-08,0.0,46.0,43.0,3.0,Chris Jones,French Hill,True,race_polls.csv
+AR-02,Hendrix College,2026-08-12,1112.0,48.0,44.0,4.0,Chris Jones,French Hill,True,race_polls.csv
+AR-GOV,Hendrix College,2026-08-12,1217.0,40.0,45.0,-5.0,Fred Love,Sarah Huckabee Sanders,False,race_polls.csv
+AR-SEN,GrayHouse,2026-02-09,550.0,36.0,58.0,-22.0,Hallie Shoffner,Tom Cotton,True,race_polls.csv
+AR-SEN,2040 Strategy Group,2026-07-25,586.0,43.0,46.0,-3.0,Hallie Shoffner,Tom Cotton,True,race_polls.csv
+AR-SEN,Hendrix College,2026-08-12,1217.0,47.4,44.0,3.4,Hallie Shoffner,Tom Cotton,True,race_polls.csv
+AR-SEN,J.L. Partners,2026-08-18,803.0,35.0,51.0,-16.0,Hallie Shoffner,Tom Cotton,True,race_polls.csv
+AR-SEN,GrayHouse,2026-10-04,550.0,39.0,50.0,-11.0,Hallie Shoffner,Tom Cotton,True,race_polls.csv
+AZ-01,Clarity Campaign Labs,2025-11-05,676.0,45.0,46.0,-1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+AZ-01,GrayHouse,2025-11-17,500.0,42.0,42.0,0.0,Generic Democrat,Jay Feely,False,race_polls.csv
+AZ-01,GrayHouse,2025-11-17,500.0,43.0,40.0,3.0,Generic Democrat,Gina Swoboda,False,race_polls.csv
+AZ-01,FirstStrategic Communications and Public Affairs,2026-10-01,400.0,44.4,41.6,2.8,Amish Shah,Jay Feely,True,race_polls.csv
+AZ-02,GBAO,2026-06-15,500.0,41.0,44.0,-3.0,Jonathan Nez,Eli Crane,True,race_polls.csv
+AZ-02,GBAO,2026-08-24,500.0,44.0,46.0,-2.0,Jonathan Nez,Eli Crane,True,race_polls.csv
+AZ-06,Public Policy Polling,2025-10-15,581.0,42.0,41.0,1.0,JoAnna Mendoza,Juan Ciscomani,True,race_polls.csv
+AZ-06,Ragnar Research Partners,2026-03-14,400.0,47.0,44.0,3.0,JoAnna Mendoza,Juan Ciscomani,True,race_polls.csv
+AZ-06,Ragnar Research Partners,2026-03-14,400.0,43.0,42.0,1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+AZ-06,"Normington, Petts & Associates",2026-06-11,500.0,47.0,45.0,2.0,JoAnna Mendoza,Juan Ciscomani,True,race_polls.csv
+AZ-GOV,Kreate Strategies,2025-02-07,924.0,40.0,38.0,2.0,Katie Hobbs,Karrin Taylor Robson,False,race_polls.csv
+AZ-GOV,Kreate Strategies,2025-02-07,924.0,43.0,44.0,-1.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-02-13,1006.0,40.0,34.0,6.0,Katie Hobbs,Kimberly Yee,False,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-02-13,1006.0,43.0,35.0,8.0,Katie Hobbs,Karrin Taylor Robson,False,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-02-13,1006.0,40.0,35.0,5.0,Katie Hobbs,Jake Hoffman,False,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-02-13,1006.0,39.0,36.0,3.0,Katie Hobbs,Charlie Kirk,False,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-02-13,1006.0,40.0,38.0,2.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-02-13,1006.0,37.0,36.0,1.0,Katie Hobbs,Jack McCain,False,race_polls.csv
+AZ-GOV,Pulse Decision Science,2025-04-09,501.0,46.0,42.0,4.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Pulse Decision Science,2025-04-09,501.0,47.0,38.0,9.0,Katie Hobbs,Karrin Taylor Robson,False,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-05-16,1026.0,42.0,36.0,6.0,Katie Hobbs,Charlie Kirk,False,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-05-16,1026.0,41.0,39.0,2.0,Katie Hobbs,Karrin Taylor Robson,False,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-05-16,1026.0,40.0,36.0,4.0,Katie Hobbs,Kimberly Yee,False,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-05-16,1026.0,40.0,38.0,2.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-08-18,948.0,39.0,37.0,2.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2025-08-18,948.0,40.0,38.0,2.0,Katie Hobbs,Karrin Taylor Robson,False,race_polls.csv
+AZ-GOV,GrayHouse,2025-10-28,744.0,40.0,44.0,-4.0,Katie Hobbs,Generic Republican,False,race_polls.csv
+AZ-GOV,Emerson College,2025-11-10,850.0,44.1,43.4,0.7,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Emerson College,2025-11-10,850.0,43.0,42.0,1.0,Katie Hobbs,Karrin Taylor Robson,False,race_polls.csv
+AZ-GOV,Emerson College,2025-11-10,850.0,44.0,39.0,5.0,Katie Hobbs,David Schweikert,False,race_polls.csv
+AZ-GOV,NextGenP,2025-12-17,2725.0,51.0,30.0,21.0,Katie Hobbs,Karrin Taylor Robson,False,race_polls.csv
+AZ-GOV,NextGenP,2025-12-17,2725.0,51.0,32.0,19.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2026-02-26,1023.0,44.0,35.0,9.0,Katie Hobbs,David Schweikert,False,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2026-02-26,1023.0,42.0,37.0,5.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,TIPP Insights,2026-04-24,1159.0,48.4,37.6,10.8,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,TIPP Insights,2026-04-24,1501.0,44.7,34.6,10.1,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2026-05-07,996.0,42.0,35.0,7.0,Katie Hobbs,David Schweikert,False,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2026-05-07,996.0,41.0,37.0,4.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Fabrizio Ward/Impact Research,2026-07-28,913.0,52.0,44.0,8.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Tarrance Group,2026-07-30,600.0,52.0,48.0,4.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,GrayHouse,2026-08-11,600.0,49.0,45.0,4.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2026-08-13,923.0,48.4,35.4,13.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Stealth Analytics,2026-08-13,530.0,43.0,38.0,5.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Noble Predictive Insights,2026-08-13,1040.0,46.2,32.3,13.8,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Kreate Strategies,2026-08-16,900.0,45.0,40.0,5.0,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,Quantus Insights,2026-08-17,780.0,49.1,43.2,5.9,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,HighGround,2026-08-18,400.0,49.5,34.3,15.2,Katie Hobbs,Andy Biggs,True,race_polls.csv
+AZ-GOV,NextGenP,2026-08-19,1378.0,39.0,37.5,1.5,Katie Hobbs,Andy Biggs,True,race_polls.csv
+CA-22,Tulchin Research,2026-06-21,800.0,48.0,44.0,4.0,Randy Villegas,David G. Valadao,False,race_polls.csv
+CA-40,Tulchin Research,2026-01-19,800.0,44.0,44.0,0.0,Esther Kim-Varet,Ken Calvert,False,race_polls.csv
+CA-40,Tulchin Research,2026-01-19,800.0,43.0,44.0,-1.0,Esther Kim-Varet,Young Kim,False,race_polls.csv
+CA-48,Blueprint Polling,2025-10-26,517.0,43.0,40.0,3.0,Ammar Campa-Najjar,Darrell Issa,False,race_polls.csv
+CA-48,Lake Research Partners,2026-07-14,500.0,48.0,46.0,2.0,Marni von Wilpert,Jim Desmond,True,race_polls.csv
+CA-48,SurveyUSA,2026-09-01,522.0,45.0,42.0,3.0,Marni von Wilpert,Jim Desmond,True,race_polls.csv
+CA-48,SurveyUSA,2026-10-07,518.0,47.0,38.0,9.0,Marni von Wilpert,Jim Desmond,True,race_polls.csv
+CA-GOV,University of California Berkeley Institute of Governmental Studies,2026-05-24,8578.0,52.0,31.0,21.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CA-GOV,University of Southern California/California State University Long Beach Center for Urban Politics and Policy/Cal Poly Pomona,2026-05-26,735.0,55.0,34.0,21.0,Tom Steyer,Steve Hilton,False,race_polls.csv
+CA-GOV,University of Southern California/California State University Long Beach Center for Urban Politics and Policy/Cal Poly Pomona,2026-05-26,735.0,58.0,35.0,23.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CA-GOV,Kreate Strategies,2026-06-17,900.0,58.0,33.0,25.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CA-GOV,Public Policy Institute of California,2026-07-06,1003.0,61.0,36.0,25.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CA-GOV,University of California Berkeley Institute of Governmental Studies,2026-08-09,2310.0,55.0,37.0,18.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CA-GOV,Public Policy Institute of California,2026-09-10,1098.0,60.0,38.0,22.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CA-GOV,TrueDot,2026-09-14,1983.0,54.0,36.0,18.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CA-GOV,TrueDot,2026-09-14,2418.0,48.0,34.0,14.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CA-GOV,SurveyUSA,2026-09-20,742.0,55.0,33.0,22.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CA-GOV,University of California Berkeley Institute of Governmental Studies,2026-09-20,4512.0,58.0,33.0,25.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CA-GOV,IVC Media,2026-09-28,2906.0,48.0,38.0,10.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CA-GOV,Manhattan Institute,2026-10-01,1000.0,57.0,39.0,18.0,Xavier Becerra,Steve Hilton,True,race_polls.csv
+CO-03,Expedition Strategies,2026-01-12,400.0,39.0,48.0,-9.0,Alex Kelloff,Jeff Hurd,False,race_polls.csv
+CO-03,Ragnar Research Partners,2026-03-12,400.0,37.0,47.0,-10.0,Generic Democrat,Generic Republican,False,race_polls.csv
+CO-03,Ragnar Research Partners,2026-03-12,400.0,41.0,46.0,-5.0,Alex Kelloff,Jeff Hurd,False,race_polls.csv
+CO-03,"Keating Research, Inc.",2026-07-23,500.0,45.0,46.0,-1.0,Dwayne Romero,Jeff Hurd,True,race_polls.csv
+CO-04,Impact Research,2026-09-24,403.0,40.0,45.0,-5.0,Eileen Laubacher,Lauren Boebert,True,race_polls.csv
+CO-05,Global Strategy Group,2025-11-03,450.0,40.0,43.0,-3.0,Jessica Killin,Jeff Crank,True,race_polls.csv
+CO-05,Global Strategy Group,2026-07-21,450.0,44.0,45.0,-1.0,Jessica Killin,Jeff Crank,True,race_polls.csv
+CO-08,McLaughlin & Associates,2026-09-17,400.0,46.6,47.0,-0.4,Generic Democrat,Generic Republican,False,race_polls.csv
+CO-08,McLaughlin & Associates,2026-09-17,400.0,46.3,48.0,-1.7,Manny Rutinel,Gabe Evans,True,race_polls.csv
+CO-GOV,Magellan Strategies,2025-08-12,1136.0,50.1,37.8,12.3,Generic Democrat,Generic Republican,False,race_polls.csv
+CT-GOV,OnMessage Inc.,2025-08-14,600.0,50.0,42.0,8.0,Ned Lamont,Erin Stewart,False,race_polls.csv
+CT-GOV,University of New Hampshire,2026-06-23,821.0,49.0,36.0,13.0,Ned Lamont,Ryan Fazio,True,race_polls.csv
+CT-GOV,GreatBlue Research,2026-07-26,1000.0,44.0,29.6,14.4,Josh Elliott,Ryan Fazio,False,race_polls.csv
+CT-GOV,GreatBlue Research,2026-07-26,0.0,48.8,34.3,14.5,Josh Elliott,Ryan Fazio,False,race_polls.csv
+CT-GOV,GreatBlue Research,2026-07-26,1000.0,49.7,29.5,20.2,Ned Lamont,Ryan Fazio,True,race_polls.csv
+CT-GOV,GreatBlue Research,2026-07-26,0.0,54.8,32.7,22.1,Ned Lamont,Ryan Fazio,True,race_polls.csv
+CT-GOV,University of New Hampshire,2026-08-24,803.0,52.0,37.0,15.0,Ned Lamont,Ryan Fazio,True,race_polls.csv
+CT-GOV,GreatBlue Research,2026-09-08,1000.0,52.2,36.5,15.7,Ned Lamont,Ryan Fazio,True,race_polls.csv
+CT-GOV,Quinnipiac University,2026-09-14,1288.0,55.0,38.0,17.0,Ned Lamont,Ryan Fazio,True,race_polls.csv
+CT-GOV,co/efficient,2026-09-17,979.0,48.0,41.0,7.0,Ned Lamont,Ryan Fazio,True,race_polls.csv
+CT-GOV,University of New Hampshire,2026-09-21,540.0,55.0,38.0,17.0,Ned Lamont,Ryan Fazio,True,race_polls.csv
+FL-02,Patriot Polling,2026-07-26,922.0,35.1,62.2,-27.1,Yen Bailey,Keith Gross,False,race_polls.csv
+FL-02,Patriot Polling,2026-07-26,922.0,37.1,60.9,-23.8,Amanda Green,Keith Gross,False,race_polls.csv
+FL-02,Patriot Polling,2026-07-26,922.0,39.1,59.9,-20.8,Brice Barnes,Keith Gross,False,race_polls.csv
+FL-02,Patriot Polling,2026-07-26,922.0,39.1,58.5,-19.4,Nicholas Zateslo,Keith Gross,False,race_polls.csv
+FL-07,Public Policy Polling,2026-05-21,570.0,41.0,39.0,2.0,Bale Dalton,Cory Mills,False,race_polls.csv
+FL-08,Public Policy Polling,2026-07-18,633.0,35.0,44.0,-9.0,Jennifer Jenkins,Mike Haridopolos,True,race_polls.csv
+FL-09,SEA Polling,2026-08-30,400.0,41.0,41.0,0.0,Darren Soto,Dan Green,True,race_polls.csv
+FL-11,MDW Communications,2026-07-30,1044.0,41.8,42.1,-0.3,James Pericola,Joe Strada,True,race_polls.csv
+FL-13,Public Policy Polling,2026-05-20,616.0,39.0,41.0,-2.0,Leela Gray,Anna Paulina Luna,True,race_polls.csv
+FL-13,GQR,2026-08-06,500.0,44.0,47.0,-3.0,Leela Gray,Anna Paulina Luna,True,race_polls.csv
+FL-13,"Fabrizio, Lee & Associates",2026-08-06,400.0,41.0,49.0,-8.0,Leela Gray,Anna Paulina Luna,True,race_polls.csv
+FL-13,Hart Research Associates,2026-08-27,0.0,49.0,44.0,5.0,Generic Democrat,Generic Republican,False,race_polls.csv
+FL-13,Hart Research Associates,2026-08-27,0.0,44.0,43.0,1.0,Leela Gray,Anna Paulina Luna,True,race_polls.csv
+FL-13,Hart Research Associates,2026-08-27,0.0,51.0,46.0,5.0,Leela Gray,Anna Paulina Luna,True,race_polls.csv
+FL-14,St. Pete Polls,2026-07-15,469.0,46.2,38.5,7.7,Kathy Castor,Kevin Steele,False,race_polls.csv
+FL-14,St. Pete Polls,2026-07-15,469.0,46.2,37.5,8.7,Kathy Castor,Mike Beltran,True,race_polls.csv
+FL-16,SEA Polling,2026-08-29,400.0,40.0,39.0,1.0,Kelly Kirschner,Sydney Gruters,True,race_polls.csv
+FL-16,Public Policy Polling,2026-10-02,530.0,39.0,43.0,-4.0,Kelly Kirschner,Sydney Gruters,True,race_polls.csv
+FL-22,GQR,2026-06-25,400.0,43.0,45.0,-2.0,Generic Democrat,Generic Republican,False,race_polls.csv
+FL-22,GQR,2026-06-25,400.0,45.0,46.0,-1.0,Pia Dandiya,Belinda Keiser,False,race_polls.csv
+FL-22,Tavern Research,2026-08-12,551.0,50.0,50.0,0.0,Pia Dandiya,Casey Askar,True,race_polls.csv
+FL-22,Impact Research,2026-08-31,0.0,46.0,46.0,0.0,Generic Democrat,Generic Republican,False,race_polls.csv
+FL-22,Impact Research,2026-08-31,0.0,46.0,44.0,2.0,Pia Dandiya,Casey Askar,True,race_polls.csv
+FL-25,Middle Seat,2026-05-06,576.0,51.0,39.0,12.0,Generic Democrat,Generic Republican,False,race_polls.csv
+FL-25,Middle Seat,2026-05-06,576.0,43.0,34.0,9.0,Oliver Larkin,George Moraitis,False,race_polls.csv
+FL-25,Middle Seat,2026-05-06,576.0,45.0,33.0,12.0,Oliver Larkin,Scott Singer,False,race_polls.csv
+FL-27,Bendixen & Amandi International,2026-08-30,600.0,45.0,45.0,0.0,Eliott Rodriguez,María Elvira Salazar,False,race_polls.csv
+FL-27,Tulchin Research,2026-09-13,600.0,46.0,47.0,-1.0,Eliott Rodriguez,María Elvira Salazar,False,race_polls.csv
+FL-GOV,Targoz Market Research,2025-05-07,1153.0,34.0,38.0,-4.0,Daniella Levine Cava,Byron Donalds,False,race_polls.csv
+FL-GOV,Targoz Market Research,2025-05-07,1144.0,35.0,39.0,-4.0,Daniella Levine Cava,Casey DeSantis,False,race_polls.csv
+FL-GOV,Victory Insights,2025-06-10,600.0,31.4,36.7,-5.3,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,McLaughlin & Associates,2025-08-27,800.0,41.0,49.0,-8.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Cygnal Political,2025-08-27,1000.0,38.0,50.6,-12.6,Generic Democrat,Generic Republican,False,race_polls.csv
+FL-GOV,Bendixen & Amandi International,2025-09-09,631.0,41.0,40.0,1.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Bendixen & Amandi International,2025-09-09,631.0,40.0,42.0,-2.0,David Jolly,Paul Renner,False,race_polls.csv
+FL-GOV,Targoz Market Research,2025-09-18,1123.0,33.0,34.0,-1.0,David Jolly,Paul Renner,False,race_polls.csv
+FL-GOV,Targoz Market Research,2025-09-18,1118.0,32.0,36.0,-4.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,University of North Florida,2025-10-25,728.0,33.0,45.0,-12.0,Jerry Demings,Byron Donalds,False,race_polls.csv
+FL-GOV,University of North Florida,2025-10-25,728.0,34.0,47.0,-13.0,David Jolly,Casey DeSantis,False,race_polls.csv
+FL-GOV,University of North Florida,2025-10-25,728.0,36.0,47.0,-11.0,Jerry Demings,Casey DeSantis,False,race_polls.csv
+FL-GOV,University of North Florida,2025-10-25,728.0,34.0,45.0,-11.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Targoz Market Research,2026-02-16,0.0,36.0,41.0,-5.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Targoz Market Research,2026-02-16,1129.0,34.0,36.0,-2.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,The Public Sentiment Institute,2026-02-20,200.0,30.3,31.3,-1.0,David Jolly,James Fishback,False,race_polls.csv
+FL-GOV,The Public Sentiment Institute,2026-02-20,124.0,42.3,35.8,6.5,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,The Public Sentiment Institute,2026-02-20,200.0,32.2,35.7,-3.5,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,The Public Sentiment Institute,2026-02-20,124.0,40.1,32.9,7.2,David Jolly,James Fishback,False,race_polls.csv
+FL-GOV,The Public Sentiment Institute,2026-02-20,183.0,31.9,31.8,0.1,David Jolly,James Fishback,False,race_polls.csv
+FL-GOV,The Public Sentiment Institute,2026-02-20,183.0,34.0,36.7,-2.7,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,University of North Florida,2026-03-02,776.0,36.0,42.0,-6.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,University of North Florida,2026-03-02,773.0,36.0,43.0,-7.0,Jerry Demings,Byron Donalds,False,race_polls.csv
+FL-GOV,Emerson College,2026-03-31,1125.0,36.2,45.2,-9.0,Jerry Demings,Byron Donalds,False,race_polls.csv
+FL-GOV,Emerson College,2026-03-31,1125.0,39.6,39.0,0.6,David Jolly,Casey DeSantis,False,race_polls.csv
+FL-GOV,Emerson College,2026-03-31,1125.0,39.1,40.9,-1.8,Jerry Demings,Casey DeSantis,False,race_polls.csv
+FL-GOV,Emerson College,2026-03-31,1125.0,39.4,44.2,-4.8,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,MDW Communications,2026-04-03,1834.0,40.5,41.2,-0.7,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Echelon Insights,2026-04-09,406.0,44.0,48.0,-4.0,Jerry Demings,Byron Donalds,False,race_polls.csv
+FL-GOV,Echelon Insights,2026-04-09,406.0,43.0,49.0,-6.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Stetson University Center for Public Opinion Research,2026-04-13,848.0,40.0,47.0,-7.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Stetson University Center for Public Opinion Research,2026-04-13,848.0,42.0,46.0,-4.0,Jerry Demings,Byron Donalds,False,race_polls.csv
+FL-GOV,Cherry Communications,2026-05-09,604.0,39.0,48.0,-9.0,Jerry Demings,Byron Donalds,False,race_polls.csv
+FL-GOV,Cherry Communications,2026-05-09,604.0,39.0,47.0,-8.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Change Research,2026-05-16,2070.0,41.0,43.0,-2.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Change Research,2026-05-16,1593.0,46.0,42.0,4.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Kaplan Strategies,2026-06-09,668.0,29.8,34.9,-5.1,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,University of North Florida,2026-07-17,848.0,41.4,46.1,-4.7,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Targoz Market Research,2026-07-26,1332.0,37.0,40.0,-3.0,David Jolly,Jay Collins,False,race_polls.csv
+FL-GOV,Targoz Market Research,2026-07-26,1338.0,36.0,40.0,-4.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Targoz Market Research,2026-07-26,1027.0,39.0,44.0,-5.0,David Jolly,Jay Collins,False,race_polls.csv
+FL-GOV,Targoz Market Research,2026-07-26,1026.0,38.0,45.0,-7.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Hart Research Associates,2026-08-13,600.0,46.0,45.0,1.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Change Research,2026-09-09,1107.0,47.0,44.0,3.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,St. Pete Polls,2026-09-17,913.0,43.4,43.5,-0.1,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Stetson University Center for Public Opinion Research,2026-09-21,830.0,39.0,51.0,-12.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Change Research,2026-09-27,1063.0,48.0,46.0,2.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,"Mason-Dixon Polling & Research, Inc.",2026-10-01,625.0,41.0,48.0,-7.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Targoz Market Research,2026-10-04,849.0,42.0,52.0,-10.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,Targoz Market Research,2026-10-04,1174.0,39.0,48.0,-9.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,YouGov,2026-10-05,3813.0,45.0,47.0,-2.0,David Jolly,Byron Donalds,True,race_polls.csv
+FL-GOV,St. Pete Polls,2026-10-07,836.0,44.6,44.7,-0.1,David Jolly,Byron Donalds,True,race_polls.csv
+FL-SEN,The Tyson Group,2025-10-03,800.0,37.0,44.0,-7.0,Jennifer Jenkins,Ashley Moody,False,race_polls.csv
+FL-SEN,University of North Florida,2025-10-25,728.0,38.0,49.0,-11.0,Jennifer Jenkins,Ashley Moody,False,race_polls.csv
+FL-SEN,University of North Florida,2026-03-02,772.0,38.0,45.0,-7.0,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,University of North Florida,2026-03-02,768.0,38.0,46.0,-8.0,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,Emerson College,2026-03-31,1125.0,38.0,45.9,-7.9,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,Emerson College,2026-03-31,1125.0,37.6,45.3,-7.7,Hector Mujica,Ashley Moody,False,race_polls.csv
+FL-SEN,Emerson College,2026-03-31,1125.0,36.3,47.3,-11.0,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,MDW Communications,2026-04-03,1834.0,42.2,43.4,-1.2,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,Public Policy Polling,2026-04-03,574.0,40.0,43.0,-3.0,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,Echelon Insights,2026-04-09,406.0,43.0,50.0,-7.0,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,Stetson University Center for Public Opinion Research,2026-04-13,414.0,38.0,51.0,-13.0,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,Stetson University Center for Public Opinion Research,2026-04-13,434.0,42.0,49.0,-7.0,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,Cherry Communications,2026-05-09,604.0,40.0,48.0,-8.0,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,Change Research,2026-05-16,1593.0,47.0,45.0,2.0,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,Change Research,2026-05-16,2070.0,41.0,46.0,-5.0,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,Global Strategy Group,2026-05-21,1000.0,43.0,46.0,-3.0,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,Change Research,2026-06-14,1273.0,42.0,46.0,-4.0,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,Change Research,2026-06-14,1015.0,46.0,46.0,0.0,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,University of North Florida,2026-07-17,848.0,41.6,50.0,-8.4,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,University of North Florida,2026-07-17,848.0,40.2,49.9,-9.7,Alexander Vindman,Ashley Moody,False,race_polls.csv
+FL-SEN,Change Research,2026-09-09,1107.0,47.0,47.0,0.0,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,Quantus Insights,2026-09-10,733.0,43.0,50.4,-7.4,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,St. Pete Polls,2026-09-17,913.0,44.8,45.2,-0.4,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,InsiderAdvantage,2026-09-21,600.0,41.8,49.3,-7.5,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,Stetson University Center for Public Opinion Research,2026-09-21,830.0,40.0,51.0,-11.0,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,Change Research,2026-09-27,1063.0,47.0,48.0,-1.0,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,"Mason-Dixon Polling & Research, Inc.",2026-10-01,625.0,40.0,50.0,-10.0,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,Targoz Market Research,2026-10-04,1171.0,38.0,50.0,-12.0,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,Targoz Market Research,2026-10-04,847.0,42.0,52.0,-10.0,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,YouGov,2026-10-05,3812.0,44.0,49.0,-5.0,Angie Nixon,Ashley Moody,True,race_polls.csv
+FL-SEN,St. Pete Polls,2026-10-07,836.0,44.9,46.8,-1.9,Angie Nixon,Ashley Moody,True,race_polls.csv
+GA-07,20/20 Insight,2026-08-26,445.0,43.0,46.0,-3.0,Tony Kozycki,Rich McCormick,True,race_polls.csv
+GA-11,Miller Consulting Services,2026-09-11,402.0,45.0,48.0,-3.0,Generic Democrat,Generic Republican,False,race_polls.csv
+GA-11,Miller Consulting Services,2026-09-11,402.0,42.0,40.0,2.0,Chris Harden,John Cowan,True,race_polls.csv
+GA-GOV,Echelon Insights,2026-04-09,407.0,49.0,43.0,6.0,Keisha Lance Bottoms,Burt Jones,False,race_polls.csv
+GA-GOV,Echelon Insights,2026-04-09,407.0,46.0,44.0,2.0,Keisha Lance Bottoms,Brad Raffensperger,False,race_polls.csv
+GA-GOV,Echelon Insights,2026-04-09,407.0,49.0,43.0,6.0,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,Concord Public Opinion Partners,2026-06-02,510.0,53.0,38.0,15.0,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,Concord Public Opinion Partners,2026-06-02,510.0,52.0,42.0,10.0,Keisha Lance Bottoms,Burt Jones,False,race_polls.csv
+GA-GOV,Beacon Research/Shaw & Company Research,2026-06-27,1002.0,52.0,47.0,5.0,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,Wick,2026-06-30,1175.0,42.7,43.2,-0.5,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,State Navigate,2026-07-13,448.0,51.0,44.0,7.0,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,Fabrizio Ward/Impact Research,2026-07-16,1060.0,48.0,46.0,2.0,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,Quantus Insights,2026-08-01,815.0,46.4,44.9,1.5,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,InsiderAdvantage,2026-08-17,800.0,46.2,46.3,-0.1,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,YouGov,2026-09-18,3414.0,44.0,45.0,-1.0,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,YouGov,2026-09-18,3299.0,44.0,46.0,-2.0,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,YouGov,2026-09-18,3069.0,44.0,47.0,-3.0,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,InsiderAdvantage,2026-09-23,1200.0,46.0,48.0,-2.0,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,Big Data Poll,2026-09-23,712.0,49.9,50.1,-0.2,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,Big Data Poll,2026-09-23,678.0,49.5,50.5,-1.0,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-GOV,Wedgewood Polls,2026-10-03,600.0,49.0,51.0,-2.0,Keisha Lance Bottoms,Rick Jackson,True,race_polls.csv
+GA-SEN,WPA Intelligence,2025-01-15,500.0,44.0,33.0,11.0,Jon Ossoff,Rich McCormick,False,race_polls.csv
+GA-SEN,WPA Intelligence,2025-01-15,500.0,45.0,32.0,13.0,Jon Ossoff,Buddy Carter,False,race_polls.csv
+GA-SEN,WPA Intelligence,2025-01-15,500.0,46.0,32.0,14.0,Jon Ossoff,Brad Raffensperger,False,race_polls.csv
+GA-SEN,WPA Intelligence,2025-01-15,500.0,44.0,34.0,10.0,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,WPA Intelligence,2025-01-15,500.0,47.0,31.0,16.0,Jon Ossoff,John King,False,race_polls.csv
+GA-SEN,WPA Intelligence,2025-01-15,500.0,40.0,46.0,-6.0,Jon Ossoff,Brian Kemp,False,race_polls.csv
+GA-SEN,The Tyson Group,2025-01-31,600.0,42.0,49.0,-7.0,Jon Ossoff,Brian Kemp,False,race_polls.csv
+GA-SEN,The Tyson Group,2025-01-31,600.0,51.0,39.0,12.0,Jon Ossoff,Marjorie Taylor Greene,False,race_polls.csv
+GA-SEN,The Tyson Group,2025-01-31,600.0,47.0,39.0,8.0,Jon Ossoff,Buddy Carter,False,race_polls.csv
+GA-SEN,Quantus Insights,2025-02-13,800.0,44.5,48.3,-3.8,Jon Ossoff,Brian Kemp,False,race_polls.csv
+GA-SEN,Cygnal Political,2025-03-10,600.0,43.7,43.9,-0.2,Jon Ossoff,Generic Republican,False,race_polls.csv
+GA-SEN,University of Georgia,2025-04-24,1000.0,50.9,38.2,12.7,Jon Ossoff,John King,False,race_polls.csv
+GA-SEN,University of Georgia,2025-04-24,1000.0,48.4,38.8,9.6,Jon Ossoff,Brad Raffensperger,False,race_polls.csv
+GA-SEN,University of Georgia,2025-04-24,1000.0,45.7,49.0,-3.3,Jon Ossoff,Brian Kemp,False,race_polls.csv
+GA-SEN,University of Georgia,2025-04-24,1000.0,54.2,37.3,16.9,Jon Ossoff,Marjorie Taylor Greene,False,race_polls.csv
+GA-SEN,Trafalgar Group,2025-04-27,1426.0,47.5,42.8,4.7,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Trafalgar Group,2025-04-27,1426.0,48.3,36.5,11.8,Jon Ossoff,Marjorie Taylor Greene,False,race_polls.csv
+GA-SEN,Trafalgar Group,2025-04-27,1426.0,46.4,37.5,8.9,Jon Ossoff,Brad Raffensperger,False,race_polls.csv
+GA-SEN,Cygnal Political,2025-05-17,800.0,46.3,42.8,3.5,Jon Ossoff,Kelly Loeffler,False,race_polls.csv
+GA-SEN,Cygnal Political,2025-05-17,800.0,46.0,42.1,3.9,Jon Ossoff,Buddy Carter,False,race_polls.csv
+GA-SEN,Cygnal Political,2025-05-17,800.0,45.7,43.3,2.4,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Cygnal Political,2025-05-17,800.0,44.7,42.1,2.6,Jon Ossoff,John King,False,race_polls.csv
+GA-SEN,Cygnal Political,2025-05-17,800.0,44.1,44.3,-0.2,Jon Ossoff,Brad Raffensperger,False,race_polls.csv
+GA-SEN,Cygnal Political,2025-06-18,610.0,49.8,40.0,9.8,Jon Ossoff,John King,False,race_polls.csv
+GA-SEN,TIPP Insights,2025-08-01,2395.0,45.2,42.0,3.2,Jon Ossoff,Derek Dooley,False,race_polls.csv
+GA-SEN,TIPP Insights,2025-08-01,2395.0,45.1,43.4,1.7,Jon Ossoff,Buddy Carter,False,race_polls.csv
+GA-SEN,TIPP Insights,2025-08-01,2956.0,43.6,39.0,4.7,Jon Ossoff,Derek Dooley,False,race_polls.csv
+GA-SEN,TIPP Insights,2025-08-01,2395.0,44.9,44.1,0.8,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,TIPP Insights,2025-08-01,2956.0,43.5,40.3,3.2,Jon Ossoff,Buddy Carter,False,race_polls.csv
+GA-SEN,TIPP Insights,2025-08-01,2956.0,43.5,40.6,2.9,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Quantus Insights,2025-09-12,624.0,40.2,37.1,3.1,Jon Ossoff,Buddy Carter,False,race_polls.csv
+GA-SEN,Quantus Insights,2025-09-12,624.0,42.1,35.4,6.7,Jon Ossoff,Derek Dooley,False,race_polls.csv
+GA-SEN,Quantus Insights,2025-09-12,624.0,37.8,37.7,0.1,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Emerson College,2026-03-02,1000.0,48.9,41.4,7.5,Jon Ossoff,Derek Dooley,False,race_polls.csv
+GA-SEN,Emerson College,2026-03-02,1000.0,47.7,43.3,4.4,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Emerson College,2026-03-02,1000.0,47.1,43.7,3.4,Jon Ossoff,Buddy Carter,False,race_polls.csv
+GA-SEN,Echelon Insights,2026-04-09,407.0,52.0,43.0,9.0,Jon Ossoff,Buddy Carter,False,race_polls.csv
+GA-SEN,Echelon Insights,2026-04-09,407.0,51.0,44.0,7.0,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Beacon Research/Shaw & Company Research,2026-06-27,1002.0,56.0,43.0,13.0,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Wick,2026-06-30,1175.0,46.7,42.9,3.8,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Fabrizio Ward/Impact Research,2026-07-16,1060.0,52.0,43.0,9.0,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,InsiderAdvantage,2026-08-17,800.0,50.1,42.6,7.5,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Trafalgar Group,2026-09-12,1091.0,49.4,42.8,6.6,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Quantus Insights,2026-09-16,645.0,49.0,44.9,4.1,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,YouGov,2026-09-18,3301.0,52.0,42.0,10.0,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,YouGov,2026-09-18,3071.0,51.0,43.0,8.0,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,YouGov,2026-09-18,3416.0,51.0,41.0,10.0,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,InsiderAdvantage,2026-09-23,1200.0,50.0,42.0,8.0,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Big Data Poll,2026-09-23,712.0,55.4,44.6,10.8,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Big Data Poll,2026-09-23,678.0,55.4,44.6,10.8,Jon Ossoff,Mike Collins,True,race_polls.csv
+GA-SEN,Wedgewood Polls,2026-10-03,600.0,55.0,45.0,10.0,Jon Ossoff,Mike Collins,True,race_polls.csv
+IA-01,Public Policy Polling,2025-06-19,555.0,43.0,39.0,4.0,Christina Bohannan,Mariannette Miller-Meeks,True,race_polls.csv
+IA-01,Public Policy Polling,2025-06-19,555.0,42.0,45.0,-3.0,Generic Democrat,Generic Republican,False,race_polls.csv
+IA-01,The Bullfinch Group,2026-07-16,705.0,40.0,35.0,5.0,Christina Bohannan,Mariannette Miller-Meeks,True,race_polls.csv
+IA-02,Public Policy Polling,2026-04-14,673.0,36.0,33.0,3.0,Lindsay James,Joe Mitchell,True,race_polls.csv
+IA-02,Global Strategy Group,2026-07-19,0.0,46.0,45.0,1.0,Lindsay James,Joe Mitchell,True,race_polls.csv
+IA-03,Public Policy Polling,2025-09-18,717.0,44.0,44.0,0.0,Jennifer Konfrst,Zach Nunn,False,race_polls.csv
+IA-03,Change Research,2025-10-27,638.0,45.0,42.0,3.0,Generic Democrat,Generic Republican,False,race_polls.csv
+IA-03,Ragnar Research Partners,2026-03-14,400.0,43.0,44.0,-1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+IA-03,Ragnar Research Partners,2026-03-14,400.0,42.0,48.0,-6.0,Sarah Trone Garriott,Zach Nunn,True,race_polls.csv
+IA-GOV,GBAO,2026-03-16,1200.0,50.0,42.0,8.0,Rob Sand,Randy Feenstra,False,race_polls.csv
+IA-GOV,Echelon Insights,2026-04-09,377.0,51.0,39.0,12.0,Rob Sand,Randy Feenstra,False,race_polls.csv
+IA-GOV,Global Strategy Group,2026-04-28,0.0,50.0,41.0,9.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Cygnal Political,2026-06-19,600.0,47.7,43.4,4.3,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Beacon Research/Shaw & Company Research,2026-06-27,1003.0,53.0,44.0,9.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,The New York Times/Siena University,2026-06-27,600.0,48.2,46.5,1.6,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Emerson College,2026-08-04,712.0,48.4,42.7,5.7,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Suffolk University,2026-08-23,500.0,47.8,43.6,4.2,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Wedgewood Polls,2026-08-29,600.0,51.0,46.0,5.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Emerson College,2026-09-01,750.0,48.6,45.5,3.1,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,YouGov,2026-09-08,2041.0,51.0,41.0,10.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,YouGov,2026-09-08,2167.0,50.0,39.0,11.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,YouGov,2026-09-08,2128.0,51.0,40.0,11.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Cygnal Political,2026-09-11,500.0,47.8,44.4,3.4,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,co/efficient,2026-09-16,831.0,46.0,42.0,4.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Marist University,2026-09-20,1050.0,54.0,42.0,12.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Beacon Research/Shaw & Company Research,2026-09-28,1008.0,53.0,44.0,9.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Beacon Research/Shaw & Company Research,2026-09-28,1204.0,53.0,43.0,10.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,The New York Times/Siena University,2026-10-01,606.0,52.0,40.9,11.2,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Suffolk University,2026-10-04,500.0,54.8,42.8,12.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,CNN/SSRS,2026-10-05,801.0,51.0,42.0,9.0,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-GOV,Emerson College,2026-10-06,650.0,49.0,45.3,3.7,Rob Sand,Zach Lahn,True,race_polls.csv
+IA-SEN,Public Policy Polling,2025-06-03,568.0,43.0,45.0,-2.0,Generic Democrat,Joni Ernst,False,race_polls.csv
+IA-SEN,Public Policy Polling,2025-08-19,572.0,45.0,43.0,2.0,Zach Wahls,Joni Ernst,False,race_polls.csv
+IA-SEN,Public Policy Polling,2025-08-19,572.0,42.0,44.0,-2.0,Nathan Sage,Joni Ernst,False,race_polls.csv
+IA-SEN,Public Policy Polling,2025-08-19,572.0,43.0,44.0,-1.0,Jackie Norris,Joni Ernst,False,race_polls.csv
+IA-SEN,Public Policy Polling,2025-08-19,572.0,43.0,44.0,-1.0,Josh Turek,Joni Ernst,False,race_polls.csv
+IA-SEN,Change Research,2026-01-11,1108.0,41.0,44.0,-3.0,Nathan Sage,Ashley Hinson,False,race_polls.csv
+IA-SEN,Change Research,2026-01-11,1108.0,41.0,44.0,-3.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Change Research,2026-01-11,1108.0,41.0,44.0,-3.0,Zach Wahls,Ashley Hinson,False,race_polls.csv
+IA-SEN,GBAO,2026-03-16,1200.0,43.0,47.0,-4.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,GBAO,2026-03-16,1200.0,44.0,47.0,-3.0,Zach Wahls,Ashley Hinson,False,race_polls.csv
+IA-SEN,Echelon Insights,2026-04-09,377.0,46.0,44.0,2.0,Zach Wahls,Ashley Hinson,False,race_polls.csv
+IA-SEN,Echelon Insights,2026-04-09,377.0,46.0,45.0,1.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Public Policy Polling,2026-06-04,557.0,46.0,46.0,0.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Global Strategy Group,2026-06-11,1000.0,45.0,47.0,-2.0,Generic Democrat,Generic Republican,False,race_polls.csv
+IA-SEN,Global Strategy Group,2026-06-11,1000.0,47.0,45.0,2.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Cygnal Political,2026-06-19,600.0,44.2,46.0,-1.8,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,The New York Times/Siena University,2026-06-27,600.0,46.0,48.5,-2.5,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Beacon Research/Shaw & Company Research,2026-06-27,1003.0,50.0,46.0,4.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Emerson College,2026-08-04,712.0,45.0,47.5,-2.5,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Suffolk University,2026-08-23,500.0,40.8,45.4,-4.6,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Abacus Data,2026-08-28,323.0,48.0,41.0,7.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Abacus Data,2026-08-28,500.0,41.0,36.0,5.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Wedgewood Polls,2026-08-29,600.0,48.0,50.0,-2.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Global Strategy Group,2026-08-31,800.0,46.0,42.0,4.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Emerson College,2026-09-01,750.0,45.0,49.5,-4.4,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,YouGov,2026-09-08,2166.0,44.0,43.0,1.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,YouGov,2026-09-08,2127.0,45.0,43.0,2.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,YouGov,2026-09-08,2041.0,47.0,43.0,4.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Cygnal Political,2026-09-11,500.0,42.9,42.9,0.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,co/efficient,2026-09-16,831.0,43.0,48.0,-5.0,Generic Democrat,Generic Republican,False,race_polls.csv
+IA-SEN,co/efficient,2026-09-16,831.0,42.0,46.0,-4.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Trafalgar Group,2026-09-18,1089.0,42.1,44.0,-1.9,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Marist University,2026-09-20,1050.0,50.0,42.0,8.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,InsiderAdvantage,2026-09-23,1200.0,47.4,45.7,1.7,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Beacon Research/Shaw & Company Research,2026-09-28,1008.0,49.0,47.0,2.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Beacon Research/Shaw & Company Research,2026-09-28,1204.0,50.0,46.0,4.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Quantus Insights,2026-09-29,738.0,46.6,48.5,-1.9,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Quantus Insights,2026-09-29,738.0,48.8,51.2,-2.4,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,The New York Times/Siena University,2026-10-01,606.0,47.0,47.8,-0.9,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Suffolk University,2026-10-04,500.0,48.0,43.6,4.4,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,CNN/SSRS,2026-10-05,801.0,43.0,45.0,-2.0,Josh Turek,Ashley Hinson,True,race_polls.csv
+IA-SEN,Emerson College,2026-10-06,650.0,45.0,46.6,-1.6,Josh Turek,Ashley Hinson,True,race_polls.csv
+ID-01,SurveyUSA,2026-07-14,480.0,35.0,45.0,-10.0,Kaylee Peterson,Russ Fulcher,True,race_polls.csv
+ID-01,Change Research,2026-07-30,0.0,27.0,48.0,-21.0,Kaylee Peterson,Russ Fulcher,True,race_polls.csv
+ID-GOV,Change Research,2026-07-30,1213.0,32.0,53.0,-21.0,Generic Democrat,Brad Little,False,race_polls.csv
+ID-GOV,Change Research,2026-07-30,1213.0,27.0,48.0,-21.0,Terri Pickens,Brad Little,True,race_polls.csv
+ID-GOV,Change Research,2026-07-30,1213.0,33.0,54.0,-21.0,Terri Pickens,Brad Little,True,race_polls.csv
+ID-GOV,Advanced Targeting Research,2026-09-16,700.0,27.2,37.3,-10.1,Terri Pickens,Brad Little,True,race_polls.csv
+ID-SEN,Public Policy Polling,2026-03-17,639.0,34.0,48.0,-14.0,Todd Achilles,James Risch,False,race_polls.csv
+ID-SEN,The Bullfinch Group,2026-06-01,774.0,36.0,40.0,-4.0,Todd Achilles,James Risch,False,race_polls.csv
+ID-SEN,The Bullfinch Group,2026-06-01,774.0,15.0,41.0,-26.0,David Roth,James Risch,False,race_polls.csv
+ID-SEN,The Bullfinch Group,2026-06-01,774.0,33.0,50.0,-17.0,David Roth,James Risch,False,race_polls.csv
+ID-SEN,Peak Insights,2026-06-07,500.0,15.0,55.0,-40.0,David Roth,James Risch,False,race_polls.csv
+ID-SEN,Change Research,2026-07-30,0.0,13.0,43.0,-30.0,David Roth,James Risch,False,race_polls.csv
+ID-SEN,Change Research,2026-07-30,0.0,21.0,45.0,-24.0,Todd Achilles,James Risch,False,race_polls.csv
+ID-SEN,The Bullfinch Group,2026-08-07,608.0,38.0,33.0,5.0,Todd Achilles,James Risch,False,race_polls.csv
+ID-SEN,The Bullfinch Group,2026-08-07,608.0,30.0,34.0,-4.0,Todd Achilles,James Risch,False,race_polls.csv
+ID-SEN,Peak Insights,2026-08-13,500.0,18.0,52.0,-34.0,Todd Achilles,James Risch,False,race_polls.csv
+ID-SEN,Advanced Targeting Research,2026-09-16,700.0,50.1,38.5,11.6,Todd Achilles,James Risch,False,race_polls.csv
+ID-SEN,Advanced Targeting Research,2026-09-16,700.0,45.5,39.4,6.1,Todd Achilles,James Risch,False,race_polls.csv
+ID-SEN,Peak Insights,2026-09-30,500.0,24.0,49.0,-25.0,Todd Achilles,James Risch,False,race_polls.csv
+IL-04,The Bullfinch Group,2026-08-03,653.0,34.0,15.0,19.0,Patty Garcia,Lupe Castillo,True,race_polls.csv
+IL-GOV,Victory Research,2025-11-24,1200.0,54.3,34.0,20.3,JB Pritzker,Darren Bailey,True,race_polls.csv
+IL-GOV,Public Policy Polling,2026-10-01,569.0,54.0,34.0,20.0,JB Pritzker,Darren Bailey,True,race_polls.csv
+IL-SEN,Public Policy Polling,2026-10-01,569.0,49.0,36.0,13.0,Juliana Stratton,Don Tracy,True,race_polls.csv
+IN-05,Impact Research,2026-07-20,0.0,46.0,48.0,-2.0,J.D. Ford,Victoria Spartz,True,race_polls.csv
+KS-GOV,Global Strategy Group,2026-08-16,600.0,47.0,46.0,1.0,Cindy Holscher,Ty Masterson,True,race_polls.csv
+KS-GOV,co/efficient,2026-09-10,915.0,43.0,51.0,-8.0,Cindy Holscher,Ty Masterson,True,race_polls.csv
+KS-GOV,Global Strategy Group,2026-09-16,800.0,49.0,46.0,3.0,Cindy Holscher,Ty Masterson,True,race_polls.csv
+KS-GOV,Emerson College,2026-09-16,750.0,43.5,50.8,-7.3,Cindy Holscher,Ty Masterson,True,race_polls.csv
+KS-GOV,Wedgewood Polls,2026-09-24,500.0,48.0,52.0,-4.0,Cindy Holscher,Ty Masterson,True,race_polls.csv
+KS-GOV,The New York Times/Siena University,2026-09-30,605.0,44.4,48.5,-4.1,Cindy Holscher,Ty Masterson,True,race_polls.csv
+KS-GOV,YouGov,2026-10-04,2252.0,44.0,47.0,-3.0,Cindy Holscher,Ty Masterson,True,race_polls.csv
+KS-SEN,Tavern Research,2026-01-28,1013.0,46.0,54.0,-8.0,Patrick Schmidt,Roger Marshall,False,race_polls.csv
+KS-SEN,Tavern Research,2026-01-28,1013.0,45.0,55.0,-10.0,Noah Taylor,Roger Marshall,False,race_polls.csv
+KS-SEN,Tavern Research,2026-01-28,1013.0,46.0,54.0,-8.0,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,Tavern Research,2026-01-28,1013.0,46.0,54.0,-8.0,Generic Democrat,Roger Marshall,False,race_polls.csv
+KS-SEN,GQR,2026-04-27,500.0,45.0,49.0,-4.0,Patrick Schmidt,Roger Marshall,False,race_polls.csv
+KS-SEN,GBAO,2026-07-13,600.0,43.0,47.0,-4.0,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,Public Policy Polling,2026-08-08,0.0,45.0,46.0,-1.0,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,Global Strategy Group,2026-08-16,800.0,44.0,43.0,1.0,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,co/efficient,2026-09-10,915.0,44.0,49.0,-5.0,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,co/efficient,2026-09-10,915.0,45.0,51.0,-6.0,Generic Democrat,Generic Republican,False,race_polls.csv
+KS-SEN,Emerson College,2026-09-16,750.0,44.8,43.3,1.5,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,Global Strategy Group,2026-09-16,800.0,47.0,43.0,4.0,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,Global Strategy Group,2026-09-16,800.0,49.0,47.0,2.0,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,Wedgewood Polls,2026-09-24,500.0,50.0,48.0,2.0,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,The New York Times/Siena University,2026-09-30,605.0,44.9,44.8,0.1,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,The New York Times/Siena University,2026-09-30,605.0,46.4,46.7,-0.3,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,Trafalgar Group,2026-10-01,1095.0,44.4,43.5,0.9,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,YouGov,2026-10-04,2253.0,48.0,45.0,3.0,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,GBAO,2026-10-04,600.0,46.0,41.0,5.0,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KS-SEN,GBAO,2026-10-04,600.0,49.0,44.0,5.0,Adam Hamilton,Roger Marshall,True,race_polls.csv
+KY-06,Public Policy Polling,2026-04-25,675.0,36.0,37.0,-1.0,Cherlynn Stevenson,Ralph Alvarado,False,race_polls.csv
+KY-06,Public Policy Polling,2026-04-25,675.0,38.0,33.0,5.0,Zach Dembo,Ryan Dotson,False,race_polls.csv
+KY-06,Public Policy Polling,2026-04-25,675.0,37.0,37.0,0.0,Zach Dembo,Ralph Alvarado,True,race_polls.csv
+KY-06,Public Policy Polling,2026-04-25,675.0,36.0,37.0,-1.0,Cherlynn Stevenson,Ryan Dotson,False,race_polls.csv
+KY-06,GQR,2026-06-28,0.0,39.0,42.0,-3.0,Zach Dembo,Ralph Alvarado,True,race_polls.csv
+KY-06,DCCC Targeting Team,2026-07-30,474.0,47.0,47.0,0.0,Zach Dembo,Ralph Alvarado,True,race_polls.csv
+KY-06,Lake Research Partners,2026-08-23,0.0,45.0,44.0,1.0,Zach Dembo,Ralph Alvarado,True,race_polls.csv
+KY-06,GQR,2026-09-30,401.0,42.0,37.0,5.0,Zach Dembo,Ralph Alvarado,True,race_polls.csv
+KY-06,Lake Research Partners,2026-10-04,400.0,46.0,40.0,6.0,Zach Dembo,Ralph Alvarado,True,race_polls.csv
+KY-06,Lake Research Partners,2026-10-04,400.0,48.0,45.0,3.0,Zach Dembo,Ralph Alvarado,True,race_polls.csv
+KY-06,Change Research,2026-10-05,524.0,47.0,38.0,9.0,Zach Dembo,Ralph Alvarado,True,race_polls.csv
+KY-SEN,Public Policy Polling,2025-12-19,650.0,39.0,46.0,-7.0,Charles Booker,Daniel Cameron,False,race_polls.csv
+KY-SEN,Public Policy Polling,2025-12-19,648.0,35.0,51.0,-16.0,Amy McGrath,Generic Republican,False,race_polls.csv
+KY-SEN,Public Policy Polling,2025-12-19,650.0,40.0,41.0,-1.0,Charles Booker,Nate Morris,False,race_polls.csv
+KY-SEN,Public Policy Polling,2025-12-19,650.0,38.0,49.0,-11.0,Charles Booker,Andy Barr,True,race_polls.csv
+KY-SEN,Public Policy Polling,2025-12-19,649.0,36.0,50.0,-14.0,Charles Booker,Generic Republican,False,race_polls.csv
+KY-SEN,Global Strategy Group,2026-08-27,600.0,40.0,49.0,-9.0,Charles Booker,Andy Barr,True,race_polls.csv
+LA-SEN,Public Policy Polling,2026-07-22,518.0,37.0,41.0,-4.0,Jamie Davis,Julia Letlow,True,race_polls.csv
+LA-SEN,Hart Research Associates,2026-09-19,500.0,44.0,48.0,-4.0,Jamie Davis,Julia Letlow,True,race_polls.csv
+MA-GOV,YouGov,2025-02-20,700.0,44.0,12.0,32.0,Maura Healey,Brian Shortsleeve,False,race_polls.csv
+MA-GOV,YouGov,2025-02-20,700.0,41.0,14.0,27.0,Maura Healey,Peter Durant,False,race_polls.csv
+MA-GOV,YouGov,2025-02-20,700.0,40.0,15.0,25.0,Maura Healey,Mike Kennealy,False,race_polls.csv
+MA-GOV,YouGov,2025-02-20,700.0,44.0,14.0,30.0,Maura Healey,Lew Evangelidis,False,race_polls.csv
+MA-GOV,YouGov,2025-02-20,700.0,45.0,25.0,20.0,Maura Healey,John Deaton,False,race_polls.csv
+MA-GOV,Advantage Inc.,2025-09-25,750.0,46.0,31.3,14.7,Maura Healey,Brian Shortsleeve,False,race_polls.csv
+MA-GOV,Advantage Inc.,2025-09-25,750.0,44.9,34.1,10.8,Maura Healey,Mike Kennealy,False,race_polls.csv
+MA-GOV,YouGov,2025-10-29,800.0,48.0,27.0,21.0,Maura Healey,Brian Shortsleeve,False,race_polls.csv
+MA-GOV,YouGov,2025-10-29,800.0,51.0,26.0,25.0,Maura Healey,Mike Minogue,True,race_polls.csv
+MA-GOV,YouGov,2025-10-29,800.0,49.0,27.0,22.0,Maura Healey,Mike Kennealy,False,race_polls.csv
+MA-GOV,University of New Hampshire,2026-02-16,612.0,55.0,28.0,27.0,Maura Healey,Mike Kennealy,False,race_polls.csv
+MA-GOV,University of New Hampshire,2026-02-16,612.0,58.0,28.0,30.0,Maura Healey,Brian Shortsleeve,False,race_polls.csv
+MA-GOV,University of New Hampshire,2026-02-16,612.0,56.0,27.0,29.0,Maura Healey,Mike Minogue,True,race_polls.csv
+MA-GOV,University of New Hampshire,2026-04-20,603.0,51.0,29.0,22.0,Maura Healey,Brian Shortsleeve,False,race_polls.csv
+MA-GOV,University of New Hampshire,2026-04-20,597.0,53.0,32.0,21.0,Maura Healey,Mike Kennealy,False,race_polls.csv
+MA-GOV,University of New Hampshire,2026-04-20,599.0,52.0,32.0,20.0,Maura Healey,Mike Minogue,True,race_polls.csv
+MA-GOV,Polity Research Consulting,2026-05-07,608.0,59.0,30.0,29.0,Maura Healey,Brian Shortsleeve,False,race_polls.csv
+MA-GOV,Polity Research Consulting,2026-05-07,608.0,58.0,31.0,27.0,Maura Healey,Mike Minogue,True,race_polls.csv
+MA-GOV,Suffolk University,2026-06-12,500.0,56.2,31.0,25.2,Maura Healey,Mike Minogue,True,race_polls.csv
+MA-GOV,Suffolk University,2026-06-12,500.0,56.4,29.4,27.0,Maura Healey,Brian Shortsleeve,False,race_polls.csv
+MA-GOV,University of New Hampshire,2026-06-23,608.0,51.0,32.0,19.0,Maura Healey,Mike Minogue,True,race_polls.csv
+MA-GOV,University of New Hampshire,2026-06-23,608.0,50.0,32.0,18.0,Maura Healey,Brian Shortsleeve,False,race_polls.csv
+MA-GOV,YouGov,2026-08-12,800.0,53.0,33.0,20.0,Maura Healey,Mike Minogue,True,race_polls.csv
+MA-GOV,YouGov,2026-08-12,800.0,51.0,32.0,19.0,Maura Healey,Brian Shortsleeve,False,race_polls.csv
+MA-GOV,University of New Hampshire,2026-08-24,881.0,55.0,28.0,27.0,Maura Healey,Brian Shortsleeve,False,race_polls.csv
+MA-GOV,University of New Hampshire,2026-08-24,884.0,54.0,30.0,24.0,Maura Healey,Mike Minogue,True,race_polls.csv
+MA-GOV,University of New Hampshire,2026-09-21,557.0,54.0,38.0,16.0,Maura Healey,Mike Minogue,True,race_polls.csv
+MA-GOV,MassINC Polling Group,2026-09-22,800.0,54.0,32.0,22.0,Maura Healey,Mike Minogue,True,race_polls.csv
+MA-SEN,YouGov,2025-02-20,700.0,35.0,33.0,2.0,Ed Markey,Charles D. Baker,False,race_polls.csv
+MA-SEN,SurveyUSA,2025-03-04,775.0,45.0,26.0,19.0,Ed Markey,John Deaton,True,race_polls.csv
+MA-SEN,Suffolk University,2025-11-23,500.0,52.0,29.0,23.0,Seth Moulton,John Deaton,False,race_polls.csv
+MA-SEN,Suffolk University,2025-11-23,500.0,54.0,31.0,23.0,Ed Markey,John Deaton,True,race_polls.csv
+MA-SEN,Cygnal Political,2026-01-25,800.0,54.0,30.0,24.0,Ed Markey,John Deaton,True,race_polls.csv
+MA-SEN,University of New Hampshire,2026-02-16,611.0,59.0,23.0,36.0,Seth Moulton,John Deaton,False,race_polls.csv
+MA-SEN,University of New Hampshire,2026-02-16,616.0,56.0,27.0,29.0,Ed Markey,John Deaton,True,race_polls.csv
+MA-SEN,University of New Hampshire,2026-04-20,603.0,55.0,32.0,23.0,Ed Markey,John Deaton,True,race_polls.csv
+MA-SEN,University of New Hampshire,2026-04-20,600.0,56.0,25.0,31.0,Seth Moulton,John Deaton,False,race_polls.csv
+MA-SEN,Suffolk University,2026-06-12,500.0,53.8,26.2,27.6,Seth Moulton,John Deaton,False,race_polls.csv
+MA-SEN,Suffolk University,2026-06-12,500.0,55.0,29.8,25.2,Ed Markey,John Deaton,True,race_polls.csv
+MA-SEN,University of New Hampshire,2026-06-23,600.0,50.0,30.0,20.0,Seth Moulton,John Deaton,False,race_polls.csv
+MA-SEN,University of New Hampshire,2026-06-23,618.0,50.0,34.0,16.0,Ed Markey,John Deaton,True,race_polls.csv
+MA-SEN,YouGov,2026-08-12,800.0,49.0,25.0,24.0,Seth Moulton,John Deaton,False,race_polls.csv
+MA-SEN,YouGov,2026-08-12,800.0,51.0,30.0,21.0,Ed Markey,John Deaton,True,race_polls.csv
+MA-SEN,University of New Hampshire,2026-08-24,893.0,38.0,25.0,13.0,Seth Moulton,John Deaton,False,race_polls.csv
+MA-SEN,University of New Hampshire,2026-08-24,906.0,49.0,30.0,19.0,Ed Markey,John Deaton,True,race_polls.csv
+MA-SEN,University of New Hampshire,2026-09-21,556.0,53.0,30.0,23.0,Ed Markey,John Deaton,True,race_polls.csv
+MA-SEN,MassINC Polling Group,2026-09-22,800.0,54.0,28.0,26.0,Ed Markey,John Deaton,True,race_polls.csv
+MD-01,Z to A Research,2026-07-27,482.0,39.0,52.0,-13.0,Dan Schwartz,Andy Harris,True,race_polls.csv
+MD-GOV,OpinionWorks,2025-10-10,928.0,45.0,37.0,8.0,Wes Moore,Larry Hogan,False,race_polls.csv
+MD-GOV,University of Maryland Baltimore County,2025-10-25,757.0,49.0,29.0,20.0,Wes Moore,Generic Republican,False,race_polls.csv
+MD-GOV,Gonzales Research,2026-01-06,808.0,49.9,28.0,21.9,Wes Moore,Generic Republican,False,race_polls.csv
+MD-GOV,Zenith Research,2026-08-03,800.0,58.0,31.0,27.0,Wes Moore,Dan Cox,True,race_polls.csv
+MD-GOV,UMBC Institute of Politics,2026-09-27,776.0,51.0,24.0,27.0,Wes Moore,Dan Cox,True,race_polls.csv
+ME-01,University of New Hampshire,2026-09-21,657.0,57.0,35.0,22.0,Chellie Pingree,Ronald Russell,True,race_polls.csv
+ME-02,Ragnar Research Partners,2025-04-15,400.0,43.0,48.0,-5.0,Jared Golden,Paul LePage,False,race_polls.csv
+ME-02,Mellman Group,2025-06-10,400.0,44.0,43.0,1.0,Jared Golden,Paul LePage,False,race_polls.csv
+ME-02,University of New Hampshire,2025-06-23,394.0,47.0,50.0,-3.0,Jared Golden,Paul LePage,False,race_polls.csv
+ME-02,University of New Hampshire,2025-10-21,521.0,44.0,49.0,-5.0,Jared Golden,Paul LePage,False,race_polls.csv
+ME-02,Pan Atlantic SMS Group,2025-12-07,387.0,43.0,44.0,-1.0,Joe Baldacci,Paul LePage,False,race_polls.csv
+ME-02,University of New Hampshire,2026-02-16,520.0,44.0,48.0,-4.0,Jordan Wood,Paul LePage,False,race_polls.csv
+ME-02,University of New Hampshire,2026-02-16,520.0,46.0,47.0,-1.0,Matt Dunlap,Paul LePage,False,race_polls.csv
+ME-02,University of New Hampshire,2026-02-16,520.0,47.0,48.0,-1.0,Joe Baldacci,Paul LePage,False,race_polls.csv
+ME-02,Upswing Research,2026-02-27,403.0,45.0,52.0,-7.0,Jordan Wood,Paul LePage,False,race_polls.csv
+ME-02,co/efficient,2026-04-28,918.0,40.0,50.0,-10.0,Joe Baldacci,Paul LePage,False,race_polls.csv
+ME-02,co/efficient,2026-04-28,918.0,40.0,50.0,-10.0,Matt Dunlap,Paul LePage,False,race_polls.csv
+ME-02,co/efficient,2026-04-28,918.0,41.0,48.0,-7.0,Generic Democrat,Generic Republican,False,race_polls.csv
+ME-02,Pan Atlantic SMS Group,2026-05-18,418.0,49.0,41.0,8.0,Joe Baldacci,Paul LePage,False,race_polls.csv
+ME-02,Tulchin Research,2026-07-16,600.0,49.0,48.0,1.0,Matt Dunlap,Paul LePage,False,race_polls.csv
+ME-02,DCCC Targeting Team,2026-08-13,621.0,48.0,49.0,-1.0,Matt Dunlap,Paul LePage,False,race_polls.csv
+ME-02,Impact Research,2026-09-12,500.0,49.0,49.0,0.0,Matt Dunlap,Paul LePage,False,race_polls.csv
+ME-02,Impact Research,2026-09-12,500.0,45.0,49.0,-4.0,Generic Democrat,Generic Republican,False,race_polls.csv
+ME-02,University of New Hampshire,2026-09-21,622.0,51.0,45.0,6.0,Matt Dunlap,Paul LePage,False,race_polls.csv
+ME-02,Tulchin Research,2026-09-30,500.0,50.0,48.0,2.0,Matt Dunlap,Paul LePage,False,race_polls.csv
+ME-GOV,The New York Times/Siena University,2026-06-26,608.0,55.4,39.6,15.8,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,The New York Times/Siena University,2026-06-26,608.0,49.6,36.4,13.2,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,Beacon Research/Shaw & Company Research,2026-06-27,1003.0,53.0,42.0,11.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,University of New Hampshire,2026-07-20,1150.0,49.0,35.0,14.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,Beacon Research/Shaw & Company Research,2026-08-10,1000.0,49.0,38.0,11.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,CNN/SSRS,2026-09-06,880.0,52.0,39.0,13.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,YouGov,2026-09-08,1377.0,44.0,35.0,9.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,YouGov,2026-09-08,1334.0,47.0,36.0,11.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,University of Massachusetts Lowell Center for Public Opinion/YouGov,2026-09-14,650.0,49.0,38.0,11.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,University of New Hampshire,2026-09-21,1312.0,48.0,40.0,8.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,The New York Times/Siena University,2026-09-22,619.0,53.4,39.2,14.2,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,Fabrizio Ward/Impact Research,2026-09-22,982.0,52.0,39.0,13.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,The New York Times/Siena University,2026-09-22,619.0,47.0,34.4,12.5,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,co/efficient,2026-09-30,1240.0,47.0,38.0,9.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,YouGov,2026-10-01,1133.0,56.0,44.0,12.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,Marist University,2026-10-04,1505.0,52.0,40.0,12.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-GOV,The Washington Post/George Mason University Schar School of Policy and Government,2026-10-05,800.0,49.0,36.0,13.0,Hannah Pingree,Bobby Charles,False,race_polls.csv
+ME-SEN,Upswing Research,2025-03-25,600.0,42.0,43.0,-1.0,Jordan Wood,Susan Collins,False,race_polls.csv
+ME-SEN,Public Policy Polling,2025-09-09,642.0,44.0,35.0,9.0,Dan Kleban,Susan Collins,False,race_polls.csv
+ME-SEN,Zenith Research,2025-10-10,501.0,38.0,38.0,0.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Zenith Research,2025-10-10,501.0,42.0,37.0,5.0,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,Maine People's Resource Center,2025-10-29,783.0,41.7,45.8,-4.1,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,Maine People's Resource Center,2025-10-29,783.0,44.8,40.9,3.9,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Cygnal Political,2025-11-11,600.0,49.0,41.0,8.0,Generic Democrat,Susan Collins,False,race_polls.csv
+ME-SEN,Pan Atlantic SMS Group,2025-12-07,820.0,43.0,43.0,0.0,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,Pan Atlantic SMS Group,2025-12-07,820.0,43.0,42.0,1.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Workbench Strategy,2025-12-16,900.0,50.4,49.6,0.8,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Workbench Strategy,2025-12-16,900.0,48.6,51.4,-2.8,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,"Fabrizio, Lee & Associates",2026-01-24,800.0,44.0,45.0,-1.0,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,"Fabrizio, Lee & Associates",2026-01-24,800.0,44.0,45.0,-1.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,University of New Hampshire,2026-02-16,1097.0,41.0,40.0,1.0,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,University of New Hampshire,2026-02-16,1105.0,49.0,38.0,11.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Pan Atlantic SMS Group,2026-03-02,810.0,44.0,44.0,0.0,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,Pan Atlantic SMS Group,2026-03-02,810.0,44.0,40.0,4.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Quantus Insights,2026-03-05,800.0,43.0,44.6,-1.6,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,Quantus Insights,2026-03-05,800.0,48.6,41.8,6.8,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,OnMessage Inc.,2026-03-08,600.0,42.0,42.0,0.0,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,OnMessage Inc.,2026-03-08,600.0,44.0,42.0,2.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Emerson College,2026-03-23,1075.0,46.2,42.5,3.7,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,Emerson College,2026-03-23,1075.0,47.8,40.6,7.2,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Maine People's Resource Center,2026-03-31,1167.0,48.3,39.3,9.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Maine People's Resource Center,2026-03-31,1167.0,41.9,45.0,-3.1,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,Echelon Insights,2026-04-09,378.0,48.0,46.0,2.0,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,Echelon Insights,2026-04-09,378.0,51.0,45.0,6.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Pan Atlantic SMS Group,2026-05-18,827.0,48.0,41.0,7.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,University of New Hampshire,2026-05-25,1250.0,51.0,42.0,9.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,University of Massachusetts Lowell Center for Public Opinion/YouGov,2026-05-26,650.0,48.0,43.0,5.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Public Policy Polling,2026-06-03,670.0,49.0,45.0,4.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,"Fabrizio, Lee & Associates",2026-06-03,800.0,46.0,46.0,0.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Tavern Research,2026-06-08,1642.0,52.0,48.0,4.0,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,Tavern Research,2026-06-08,1642.0,51.0,49.0,2.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Tavern Research,2026-06-08,1642.0,55.0,45.0,10.0,Generic Democrat,Susan Collins,False,race_polls.csv
+ME-SEN,Quantus Insights,2026-06-11,870.0,46.0,45.0,1.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Wick,2026-06-14,1008.0,47.6,45.4,2.2,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,The New York Times/Siena University,2026-06-26,608.0,49.2,47.0,2.2,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Beacon Research/Shaw & Company Research,2026-06-27,1003.0,47.0,50.0,-3.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Wedgewood Polls,2026-07-06,405.0,47.0,47.0,0.0,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,Wedgewood Polls,2026-07-06,405.0,48.0,43.0,5.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,Tavern Research,2026-07-06,1074.0,52.0,48.0,4.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Wedgewood Polls,2026-07-06,405.0,46.0,50.0,-4.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Public Policy Polling,2026-07-07,785.0,42.0,47.0,-5.0,Graham Platner,Susan Collins,False,race_polls.csv
+ME-SEN,Public Policy Polling,2026-07-07,785.0,45.0,45.0,0.0,Nirav Shah,Susan Collins,False,race_polls.csv
+ME-SEN,Public Policy Polling,2026-07-07,785.0,49.0,44.0,5.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,Public Policy Polling,2026-07-07,785.0,37.0,48.0,-11.0,Janet Mills,Susan Collins,False,race_polls.csv
+ME-SEN,Public Policy Polling,2026-07-07,785.0,38.0,47.0,-9.0,Jordan Wood,Susan Collins,False,race_polls.csv
+ME-SEN,Public Policy Polling,2026-07-07,785.0,47.0,47.0,0.0,Shenna Bellows,Susan Collins,False,race_polls.csv
+ME-SEN,University of New Hampshire,2026-07-20,1178.0,49.0,46.0,3.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,Hart Research Associates,2026-08-01,802.0,49.0,45.0,4.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,Beacon Research/Shaw & Company Research,2026-08-10,1000.0,48.0,46.0,2.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,Abacus Data,2026-08-28,327.0,50.0,42.0,8.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,Abacus Data,2026-08-28,499.0,40.0,40.0,0.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,CNN/SSRS,2026-09-06,880.0,48.0,45.0,3.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,YouGov,2026-09-08,1335.0,48.0,44.0,4.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,YouGov,2026-09-08,1378.0,46.0,44.0,2.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,University of Massachusetts Lowell Center for Public Opinion/YouGov,2026-09-14,650.0,48.0,43.0,5.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,Quantus Insights,2026-09-15,621.0,47.4,47.6,-0.2,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,University of New Hampshire,2026-09-21,1301.0,51.0,47.0,4.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,The New York Times/Siena University,2026-09-22,619.0,45.9,48.7,-2.7,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,Fabrizio Ward/Impact Research,2026-09-22,982.0,50.0,47.0,3.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,InsiderAdvantage,2026-09-23,1200.0,46.4,45.6,0.8,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,Maine People's Resource Center,2026-09-29,684.0,49.3,46.5,2.8,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,co/efficient,2026-09-30,1240.0,46.0,48.0,-2.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,co/efficient,2026-09-30,1240.0,46.0,46.0,0.0,Generic Democrat,Generic Republican,False,race_polls.csv
+ME-SEN,Trafalgar Group,2026-10-01,1091.0,46.2,45.9,0.3,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,YouGov,2026-10-01,1136.0,50.0,50.0,0.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,Wedgewood Polls,2026-10-01,400.0,52.0,48.0,4.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,Marist University,2026-10-04,1505.0,51.0,47.0,4.0,Troy Jackson,Susan Collins,True,race_polls.csv
+ME-SEN,The Washington Post/George Mason University Schar School of Policy and Government,2026-10-05,800.0,50.0,46.0,4.0,Troy Jackson,Susan Collins,True,race_polls.csv
+MI-04,Public Policy Polling,2025-11-21,559.0,42.0,44.0,-2.0,Sean McCann,Bill Huizenga,True,race_polls.csv
+MI-04,Ragnar Research Partners,2026-03-14,400.0,42.0,43.0,-1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+MI-04,Ragnar Research Partners,2026-03-14,400.0,42.0,48.0,-6.0,Sean McCann,Bill Huizenga,True,race_polls.csv
+MI-04,GBAO,2026-06-01,500.0,48.0,45.0,3.0,Sean McCann,Bill Huizenga,True,race_polls.csv
+MI-04,GBAO,2026-09-16,500.0,47.0,46.0,1.0,Sean McCann,Bill Huizenga,True,race_polls.csv
+MI-07,Public Policy Polling,2025-10-28,557.0,43.0,39.0,4.0,Matt Maasdam,Tom Barrett,False,race_polls.csv
+MI-07,Public Policy Polling,2025-10-28,557.0,45.0,41.0,4.0,Bridget Brink,Tom Barrett,False,race_polls.csv
+MI-07,Public Policy Polling,2026-04-25,519.0,46.0,45.0,1.0,Bridget Brink,Tom Barrett,False,race_polls.csv
+MI-07,Public Policy Polling,2026-04-25,519.0,45.0,44.0,1.0,Matt Maasdam,Tom Barrett,False,race_polls.csv
+MI-07,Data for Progress,2026-06-30,772.0,45.0,46.0,-1.0,Bridget Brink,Tom Barrett,False,race_polls.csv
+MI-07,Data for Progress,2026-06-30,772.0,46.0,47.0,-1.0,Matt Maasdam,Tom Barrett,False,race_polls.csv
+MI-07,Data for Progress,2026-06-30,772.0,48.0,46.0,2.0,William Lawrence,Tom Barrett,True,race_polls.csv
+MI-07,Global Strategy Group,2026-08-13,0.0,49.0,47.0,2.0,William Lawrence,Tom Barrett,True,race_polls.csv
+MI-10,Public Policy Polling,2026-01-17,592.0,44.0,42.0,2.0,Christina Hines,Mike Bouchard,False,race_polls.csv
+MI-10,Public Policy Polling,2026-01-17,592.0,42.0,44.0,-2.0,Tim Greimel,Mike Bouchard,False,race_polls.csv
+MI-10,Public Policy Polling,2026-01-17,592.0,41.0,43.0,-2.0,Eric Chung,Mike Bouchard,False,race_polls.csv
+MI-10,Global Strategy Group,2026-08-13,600.0,45.0,45.0,0.0,Christina Hines,Mike Bouchard,False,race_polls.csv
+MI-GOV,Target Insyght,2025-03-06,600.0,42.0,30.0,12.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2025-03-13,688.0,38.0,36.0,2.0,Jocelyn Benson,Tudor Dixon,False,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2025-03-13,688.0,37.0,34.0,3.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2025-03-13,688.0,37.0,35.0,2.0,Jocelyn Benson,Mike Cox,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2025-05-08,600.0,29.3,34.9,-5.6,Garlin Gilchrist,John James,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2025-05-08,600.0,35.0,31.3,3.7,Jocelyn Benson,Tudor Dixon,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2025-05-08,600.0,29.6,34.5,-4.9,Chris Swanson,John James,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2025-05-08,600.0,36.2,26.3,9.9,Jocelyn Benson,Aric Nesbitt,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2025-05-08,600.0,35.4,27.0,8.4,Jocelyn Benson,Mike Cox,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2025-05-08,600.0,34.5,34.0,0.5,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,The Tyson Group,2025-10-09,600.0,31.0,35.0,-4.0,Generic Democrat,John James,False,race_polls.csv
+MI-GOV,The Tyson Group,2025-10-09,600.0,35.0,39.0,-4.0,Generic Democrat,Generic Republican,False,race_polls.csv
+MI-GOV,The Tyson Group,2025-10-09,600.0,31.0,28.0,3.0,Generic Democrat,Mike Cox,False,race_polls.csv
+MI-GOV,Schoen Cooperman Research,2025-10-14,600.0,30.0,29.0,1.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Rosetta Stone,2025-10-25,637.0,37.0,33.0,4.0,Jocelyn Benson,Mike Cox,False,race_polls.csv
+MI-GOV,Rosetta Stone,2025-10-25,637.0,35.0,38.0,-3.0,Jocelyn Benson,Tudor Dixon,False,race_polls.csv
+MI-GOV,Rosetta Stone,2025-10-25,637.0,34.0,39.0,-5.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,EPIC-MRA,2025-11-11,600.0,33.0,34.0,-1.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2025-11-21,616.0,33.0,32.0,1.0,Jocelyn Benson,Mike Cox,False,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2025-11-21,616.0,31.0,37.0,-6.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2025-11-21,616.0,32.0,27.0,5.0,Jocelyn Benson,Aric Nesbitt,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-01-06,600.0,35.0,24.0,11.0,Jocelyn Benson,Aric Nesbitt,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-01-06,600.0,32.0,34.0,-2.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-01-06,600.0,47.0,45.0,2.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-01-06,600.0,34.0,24.0,10.0,Jocelyn Benson,Tom Leonard,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-01-06,600.0,34.0,28.0,6.0,Jocelyn Benson,Mike Cox,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-02-02,0.0,28.0,28.9,-0.9,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-02-02,600.0,44.6,40.4,4.2,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-02-02,600.0,27.8,28.3,-0.5,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-02-02,0.0,45.0,40.8,4.2,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Impact Research,2026-02-16,800.0,39.0,36.0,3.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Michigan State University Institute for Public Policy and Social Research/YouGov,2026-03-24,1000.0,29.5,22.7,6.8,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Impact Research,2026-03-29,800.0,40.0,36.0,4.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-05-01,600.0,34.2,29.2,5.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-05-01,600.0,34.0,26.0,8.0,Jocelyn Benson,Perry Johnson,False,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2026-05-07,606.0,41.0,30.0,11.0,Jocelyn Benson,Mike Cox,False,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2026-05-07,606.0,42.0,32.0,10.0,Jocelyn Benson,Perry Johnson,False,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2026-05-07,606.0,42.0,30.0,12.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,TIPP Insights,2026-05-23,1456.0,45.7,35.1,10.6,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,TIPP Insights,2026-05-23,1163.0,48.9,38.0,10.9,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2026-06-13,827.0,48.0,41.0,7.0,Jocelyn Benson,Mike Cox,False,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2026-06-13,827.0,51.0,40.0,11.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2026-06-13,827.0,50.0,42.0,8.0,Jocelyn Benson,Perry Johnson,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-07-24,600.0,47.7,37.4,10.3,Jocelyn Benson,Perry Johnson,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-07-24,600.0,43.5,40.3,3.2,Chris Swanson,Perry Johnson,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-07-24,600.0,43.4,39.8,3.6,Chris Swanson,John James,False,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-07-24,600.0,43.7,38.7,5.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2026-07-29,672.0,48.0,43.0,5.0,Jocelyn Benson,Perry Johnson,False,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2026-07-29,672.0,46.0,44.0,2.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,EPIC-MRA,2026-07-31,600.0,47.0,38.0,9.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,EPIC-MRA,2026-07-31,600.0,48.0,36.0,12.0,Jocelyn Benson,Perry Johnson,False,race_polls.csv
+MI-GOV,Beacon Research/Shaw & Company Research,2026-08-10,1006.0,52.0,47.0,5.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,TIPP Insights,2026-08-10,1528.0,48.4,34.1,14.3,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,TIPP Insights,2026-08-10,1215.0,53.0,36.5,16.5,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Fabrizio Ward/Impact Research,2026-08-11,877.0,49.0,44.0,5.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Michigan State University Institute for Public Policy and Social Research/YouGov,2026-08-20,779.0,52.0,43.0,9.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Michigan State University Institute for Public Policy and Social Research/YouGov,2026-08-20,913.0,49.0,39.0,10.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,EPIC-MRA,2026-08-28,600.0,45.0,41.0,4.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,"Glengariff Group, Inc.",2026-09-03,600.0,47.0,43.0,4.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,CNN/SSRS,2026-09-06,843.0,50.0,41.0,9.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,The Washington Post/George Mason University Schar School of Policy and Government,2026-09-14,803.0,53.0,41.0,12.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Emerson College,2026-09-14,1000.0,48.6,41.9,6.7,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Suffolk University,2026-09-20,500.0,50.6,34.4,16.2,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Cygnal/Beacon Research,2026-09-21,600.0,45.0,38.0,7.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,The New York Times/Siena University,2026-09-22,605.0,48.5,42.8,5.6,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,co/efficient,2026-09-23,843.0,47.0,44.0,3.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Marist University,2026-09-27,1235.0,53.0,41.0,12.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Guidant Polling and Strategy,2026-09-27,800.0,50.0,45.0,5.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Beacon Research/Shaw & Company Research,2026-09-28,1028.0,54.0,45.0,9.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Beacon Research/Shaw & Company Research,2026-09-28,1203.0,55.0,44.0,11.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Mitchell Research & Communications,2026-10-01,682.0,46.0,39.0,7.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Z to A Research,2026-10-01,483.0,50.0,40.0,10.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,YouGov,2026-10-04,3949.0,48.0,45.0,3.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-GOV,Wedgewood Polls,2026-10-09,607.0,55.0,45.0,10.0,Jocelyn Benson,John James,True,race_polls.csv
+MI-SEN,Target Insyght,2025-03-06,600.0,46.0,44.0,2.0,Pete Buttigieg,Mike Rogers,False,race_polls.csv
+MI-SEN,Target Insyght,2025-03-06,600.0,35.0,41.0,-6.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Target Insyght,2025-03-06,600.0,42.0,41.0,1.0,Gretchen Whitmer,Mike Rogers,False,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2025-05-08,600.0,45.1,39.1,6.0,Haley Stevens,Bill Huizenga,False,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2025-05-08,600.0,45.2,43.8,1.4,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2025-05-08,600.0,41.6,45.9,-4.3,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2025-05-08,600.0,40.5,41.0,-0.5,Abdul El-Sayed,Bill Huizenga,False,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2025-05-08,600.0,40.8,46.9,-6.1,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2025-05-08,600.0,41.4,40.5,0.9,Mallory McMorrow,Bill Huizenga,False,race_polls.csv
+MI-SEN,"Normington, Petts & Associates",2025-06-16,700.0,44.0,48.0,-4.0,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,"Normington, Petts & Associates",2025-06-16,700.0,47.0,45.0,2.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Rosetta Stone,2025-10-25,637.0,40.0,47.0,-7.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Rosetta Stone,2025-10-25,637.0,31.0,45.0,-14.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Rosetta Stone,2025-10-25,637.0,39.0,46.0,-7.0,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,EPIC-MRA,2025-11-11,600.0,44.0,42.0,2.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,EPIC-MRA,2025-11-11,600.0,43.0,42.0,1.0,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2025-11-21,616.0,40.0,42.0,-2.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2025-11-21,616.0,38.0,44.0,-6.0,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2025-11-21,616.0,38.0,41.0,-3.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2026-01-06,600.0,41.6,48.0,-6.4,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2026-01-06,600.0,42.4,45.7,-3.3,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2026-01-06,600.0,43.7,44.1,-0.4,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Emerson College,2026-01-25,1000.0,45.7,42.6,3.1,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,Emerson College,2026-01-25,1000.0,47.3,41.6,5.7,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Emerson College,2026-01-25,1000.0,42.5,42.8,-0.3,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2026-05-01,600.0,39.8,44.7,-4.9,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2026-05-01,600.0,41.5,43.8,-2.3,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2026-05-01,600.0,40.7,42.8,-2.1,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2026-05-07,607.0,41.0,42.0,-1.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2026-05-07,606.0,41.0,43.0,-2.0,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2026-05-07,606.0,39.0,42.0,-3.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,TIPP Insights,2026-05-23,1163.0,47.8,41.0,6.9,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,TIPP Insights,2026-05-23,1456.0,39.8,39.6,0.1,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,TIPP Insights,2026-05-23,1456.0,42.3,38.6,3.7,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,TIPP Insights,2026-05-23,1163.0,43.4,42.1,1.3,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,TIPP Insights,2026-05-23,1163.0,45.2,41.6,3.6,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,TIPP Insights,2026-05-23,1456.0,45.0,38.4,6.6,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Tulchin Research,2026-06-04,500.0,46.0,41.0,5.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2026-06-13,827.0,41.0,47.0,-6.0,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2026-06-13,827.0,41.0,45.0,-4.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2026-06-13,827.0,47.0,42.0,5.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Zenith Research,2026-06-14,602.0,43.0,42.0,1.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Zenith Research,2026-06-14,602.0,45.0,42.0,3.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Zenith Research,2026-06-14,602.0,44.0,42.0,2.0,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,Data for Progress,2026-06-22,709.0,45.0,46.0,-1.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Data for Progress,2026-06-22,709.0,47.0,46.0,1.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Wedgewood Polls,2026-06-28,602.0,46.0,46.0,0.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Wedgewood Polls,2026-06-28,602.0,49.0,44.0,5.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Wedgewood Polls,2026-06-28,602.0,41.0,48.0,-7.0,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,Quantus Insights,2026-06-30,947.0,45.2,44.1,1.1,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Quantus Insights,2026-06-30,947.0,45.1,43.7,1.4,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Quantus Insights,2026-06-30,947.0,44.4,45.3,-0.9,Mallory McMorrow,Mike Rogers,False,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2026-07-24,600.0,38.7,49.0,-10.3,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2026-07-24,600.0,45.5,44.7,0.8,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2026-07-29,672.0,43.0,46.0,-3.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2026-07-29,672.0,45.0,45.0,0.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,SoCal Strategies,2026-07-30,640.0,44.0,40.0,4.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,SoCal Strategies,2026-07-30,640.0,41.0,42.0,-1.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,EPIC-MRA,2026-07-31,600.0,43.0,46.0,-3.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,EPIC-MRA,2026-07-31,600.0,44.0,42.0,2.0,Haley Stevens,Mike Rogers,False,race_polls.csv
+MI-SEN,TIPP Insights,2026-08-10,1215.0,45.4,42.3,3.2,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,GBAO,2026-08-10,800.0,50.0,44.0,6.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,TIPP Insights,2026-08-10,1528.0,42.5,39.2,3.4,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Beacon Research/Shaw & Company Research,2026-08-10,1006.0,47.0,51.0,-4.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Fabrizio Ward/Impact Research,2026-08-11,877.0,48.0,47.0,1.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,"Susquehanna Polling & Research, Inc.",2026-08-17,800.0,46.0,39.0,7.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Michigan State University Institute for Public Policy and Social Research/YouGov,2026-08-20,779.0,50.0,45.0,5.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Michigan State University Institute for Public Policy and Social Research/YouGov,2026-08-20,913.0,48.0,44.0,4.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,EPIC-MRA,2026-08-28,600.0,47.0,43.0,4.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Abacus Data,2026-08-28,500.0,41.0,35.0,6.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Abacus Data,2026-08-28,332.0,47.0,42.0,5.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,"Glengariff Group, Inc.",2026-09-03,600.0,44.4,45.8,-1.4,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,CNN/SSRS,2026-09-06,843.0,47.0,44.0,3.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Trafalgar Group,2026-09-09,1079.0,46.3,44.8,1.5,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Emerson College,2026-09-14,1000.0,48.2,45.7,2.5,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,The Washington Post/George Mason University Schar School of Policy and Government,2026-09-14,803.0,48.0,45.0,3.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,InsiderAdvantage,2026-09-17,1200.0,46.6,44.7,1.9,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Torchlight Strategies,2026-09-19,643.0,43.1,44.4,-1.3,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Suffolk University,2026-09-20,500.0,46.8,39.6,7.2,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Cygnal/Beacon Research,2026-09-21,600.0,45.0,40.0,5.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,The New York Times/Siena University,2026-09-22,605.0,49.5,44.5,5.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,GBAO,2026-09-22,800.0,48.0,44.0,4.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,co/efficient,2026-09-23,843.0,45.0,45.0,0.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,co/efficient,2026-09-23,843.0,50.0,50.0,0.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,co/efficient,2026-09-23,843.0,47.0,46.0,1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+MI-SEN,Big Data Poll,2026-09-24,725.0,45.4,41.0,4.4,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Big Data Poll,2026-09-24,678.0,46.7,42.1,4.6,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Marist University,2026-09-27,1235.0,51.0,44.0,7.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Guidant Polling and Strategy,2026-09-27,800.0,49.0,45.0,4.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Guidant Polling and Strategy,2026-09-27,800.0,48.0,43.0,5.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Beacon Research/Shaw & Company Research,2026-09-28,1203.0,51.0,48.0,3.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Beacon Research/Shaw & Company Research,2026-09-28,1028.0,50.0,49.0,1.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Trafalgar Group,2026-09-30,1085.0,46.9,45.1,1.8,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Mitchell Research & Communications,2026-10-01,682.0,45.6,41.4,4.2,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Z to A Research,2026-10-01,483.0,49.0,42.0,7.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,YouGov,2026-10-04,3947.0,49.0,48.0,1.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Quantus Insights,2026-10-06,744.0,48.4,47.2,1.2,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MI-SEN,Wedgewood Polls,2026-10-09,607.0,53.0,47.0,6.0,Abdul El-Sayed,Mike Rogers,True,race_polls.csv
+MN-01,Public Policy Polling,2026-02-03,708.0,41.0,44.0,-3.0,Jake Johnson,Brad Finstad,True,race_polls.csv
+MN-01,Ragnar Research Partners,2026-03-14,400.0,42.0,52.0,-10.0,Jake Johnson,Brad Finstad,True,race_polls.csv
+MN-01,Ragnar Research Partners,2026-03-14,400.0,40.0,45.0,-5.0,Generic Democrat,Generic Republican,False,race_polls.csv
+MN-01,GBAO,2026-09-21,500.0,47.0,46.0,1.0,Jake Johnson,Brad Finstad,True,race_polls.csv
+MN-02,Harper Polling,2026-06-21,415.0,43.0,43.0,0.0,Kaela Berg,Eric Pratt,False,race_polls.csv
+MN-02,Harper Polling,2026-06-21,415.0,43.0,42.0,1.0,Matt Klein,Eric Pratt,False,race_polls.csv
+MN-02,Harper Polling,2026-06-21,415.0,45.0,40.0,5.0,Matt Little,Eric Pratt,True,race_polls.csv
+MN-02,Impact Research,2026-09-13,500.0,52.0,40.0,12.0,Matt Little,Eric Pratt,True,race_polls.csv
+MN-GOV,SurveyUSA,2025-09-18,568.0,49.0,38.0,11.0,Tim Walz,Phillip Parrish,False,race_polls.csv
+MN-GOV,SurveyUSA,2025-09-18,568.0,46.0,41.0,5.0,Tim Walz,Scott Jensen,False,race_polls.csv
+MN-GOV,SurveyUSA,2025-09-18,568.0,50.0,37.0,13.0,Tim Walz,Kendall Qualls,False,race_polls.csv
+MN-GOV,SurveyUSA,2025-09-18,568.0,47.0,40.0,7.0,Tim Walz,Kristin Robbins,False,race_polls.csv
+MN-GOV,RMG Research,2025-12-16,800.0,40.0,46.0,-6.0,Tim Walz,Generic Republican,False,race_polls.csv
+MN-GOV,SurveyUSA,2026-01-30,575.0,49.0,33.0,16.0,Amy Klobuchar,Patrick Knight,False,race_polls.csv
+MN-GOV,SurveyUSA,2026-01-30,575.0,49.0,32.0,17.0,Amy Klobuchar,Brad Kohler,False,race_polls.csv
+MN-GOV,SurveyUSA,2026-01-30,575.0,49.0,33.0,16.0,Amy Klobuchar,Kendall Qualls,False,race_polls.csv
+MN-GOV,SurveyUSA,2026-01-30,575.0,50.0,32.0,18.0,Amy Klobuchar,Phillip Parrish,False,race_polls.csv
+MN-GOV,SurveyUSA,2026-01-30,575.0,49.0,35.0,14.0,Amy Klobuchar,Scott Jensen,False,race_polls.csv
+MN-GOV,SurveyUSA,2026-01-30,575.0,48.0,33.0,15.0,Amy Klobuchar,Kristin Robbins,False,race_polls.csv
+MN-GOV,SurveyUSA,2026-01-30,575.0,49.0,34.0,15.0,Amy Klobuchar,Lisa Demuth,True,race_polls.csv
+MN-GOV,SurveyUSA,2026-01-30,575.0,52.0,32.0,20.0,Amy Klobuchar,Mike Lindell,False,race_polls.csv
+MN-GOV,SurveyUSA,2026-01-30,575.0,50.0,30.0,20.0,Amy Klobuchar,Peggy Bennett,False,race_polls.csv
+MN-GOV,SurveyUSA,2026-01-30,575.0,50.0,33.0,17.0,Amy Klobuchar,Jeff Johnson,False,race_polls.csv
+MN-GOV,Emerson College,2026-02-08,1000.0,52.8,30.9,21.9,Amy Klobuchar,Mike Lindell,False,race_polls.csv
+MN-GOV,Emerson College,2026-02-08,1000.0,51.1,37.7,13.4,Amy Klobuchar,Lisa Demuth,True,race_polls.csv
+MN-GOV,"Mason-Dixon Polling & Research, Inc.",2026-06-10,800.0,48.0,40.0,8.0,Amy Klobuchar,Lisa Demuth,True,race_polls.csv
+MN-GOV,"Mason-Dixon Polling & Research, Inc.",2026-06-10,800.0,53.0,36.0,17.0,Amy Klobuchar,Mike Lindell,False,race_polls.csv
+MN-GOV,"Mason-Dixon Polling & Research, Inc.",2026-06-10,800.0,48.0,37.0,11.0,Amy Klobuchar,Kendall Qualls,False,race_polls.csv
+MN-GOV,SurveyUSA,2026-08-17,661.0,52.0,36.0,16.0,Amy Klobuchar,Lisa Demuth,True,race_polls.csv
+MN-GOV,TIPP Insights,2026-09-02,1494.0,46.6,36.7,9.9,Amy Klobuchar,Lisa Demuth,True,race_polls.csv
+MN-GOV,TIPP Insights,2026-09-02,1192.0,49.7,39.8,9.8,Amy Klobuchar,Lisa Demuth,True,race_polls.csv
+MN-GOV,SurveyUSA,2026-09-14,654.0,47.0,40.0,7.0,Amy Klobuchar,Lisa Demuth,True,race_polls.csv
+MN-GOV,co/efficient,2026-09-15,833.0,47.0,45.0,2.0,Amy Klobuchar,Lisa Demuth,True,race_polls.csv
+MN-GOV,Morning Consult,2026-10-07,1000.0,48.0,39.0,9.0,Amy Klobuchar,Lisa Demuth,True,race_polls.csv
+MN-SEN,Impact Research,2025-07-11,604.0,49.0,45.0,4.0,Angie Craig,Michele Tafoya,False,race_polls.csv
+MN-SEN,Impact Research,2025-07-11,604.0,48.0,45.0,3.0,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,Public Policy Polling,2025-09-16,1015.0,46.0,44.0,2.0,Peggy Flanagan,Generic Republican,False,race_polls.csv
+MN-SEN,Public Policy Polling,2025-09-16,1015.0,47.0,43.0,4.0,Angie Craig,Generic Republican,False,race_polls.csv
+MN-SEN,Emerson College,2026-02-08,1000.0,47.1,40.6,6.5,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,Emerson College,2026-02-08,1000.0,46.6,40.2,6.4,Angie Craig,Michele Tafoya,False,race_polls.csv
+MN-SEN,Impact Research,2026-05-28,808.0,51.0,44.0,7.0,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,Impact Research,2026-05-28,808.0,51.0,44.0,7.0,Angie Craig,Michele Tafoya,False,race_polls.csv
+MN-SEN,"Mason-Dixon Polling & Research, Inc.",2026-06-10,800.0,49.0,41.0,8.0,Generic Democrat,Generic Republican,False,race_polls.csv
+MN-SEN,SurveyUSA,2026-08-17,661.0,46.0,41.0,5.0,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,TIPP Insights,2026-09-02,1494.0,40.0,38.0,2.0,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,TIPP Insights,2026-09-02,1192.0,44.0,41.9,2.1,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,Quantus Insights,2026-09-10,720.0,48.9,45.4,3.5,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,SurveyUSA,2026-09-14,654.0,42.0,42.0,0.0,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,co/efficient,2026-09-15,833.0,46.0,47.0,-1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+MN-SEN,co/efficient,2026-09-15,833.0,43.0,42.0,1.0,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,InsiderAdvantage,2026-09-29,1200.0,46.0,45.0,1.0,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,Big Data Poll,2026-09-30,622.0,45.8,43.6,2.2,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,GQR,2026-10-04,800.0,50.0,42.0,8.0,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,GQR,2026-10-04,800.0,53.0,44.0,9.0,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MN-SEN,Morning Consult,2026-10-07,1000.0,45.0,41.0,4.0,Peggy Flanagan,Michele Tafoya,True,race_polls.csv
+MO-02,Remington,2026-09-15,565.0,42.0,43.0,-1.0,Fred Wellman,Ann Wagner,True,race_polls.csv
+MO-02,Remington,2026-09-15,565.0,47.0,46.0,1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+MS-SEN,Impact Research,2026-04-12,500.0,39.0,42.0,-3.0,Scott Colom,Cindy Hyde-Smith,True,race_polls.csv
+MS-SEN,Data for Progress,2026-08-15,1018.0,41.0,47.0,-6.0,Scott Colom,Cindy Hyde-Smith,True,race_polls.csv
+MS-SEN,Data for Progress,2026-08-15,1018.0,38.0,44.0,-6.0,Scott Colom,Cindy Hyde-Smith,True,race_polls.csv
+MT-01,Tulchin Research,2025-11-25,424.0,47.0,43.0,4.0,Ryan Busse,Ryan Zinke,False,race_polls.csv
+MT-01,Peak Insights,2026-01-15,400.0,38.0,48.0,-10.0,Sam Forstag,Ryan Zinke,False,race_polls.csv
+MT-01,Peak Insights,2026-01-15,400.0,41.0,47.0,-6.0,Ryan Busse,Ryan Zinke,False,race_polls.csv
+MT-01,Upswing Research,2026-05-05,401.0,43.0,47.0,-4.0,Matt Rains,Aaron Flint,False,race_polls.csv
+MT-01,Upswing Research,2026-05-05,401.0,43.0,48.0,-5.0,Sam Forstag,Aaron Flint,True,race_polls.csv
+MT-01,Impact Research,2026-06-25,500.0,44.0,44.0,0.0,Sam Forstag,Aaron Flint,True,race_polls.csv
+MT-01,Rutgers-Eagleton,2026-09-07,375.0,41.0,42.0,-1.0,Sam Forstag,Aaron Flint,True,race_polls.csv
+MT-01,Public Policy Polling,2026-09-10,536.0,45.0,43.0,2.0,Sam Forstag,Aaron Flint,True,race_polls.csv
+MT-01,Public Policy Polling,2026-09-10,536.0,44.0,48.0,-4.0,Generic Democrat,Generic Republican,False,race_polls.csv
+MT-01,Impact Research,2026-09-23,500.0,47.0,44.0,3.0,Sam Forstag,Aaron Flint,True,race_polls.csv
+MT-01,American Pulse Research & Polling,2026-09-24,314.0,36.5,45.8,-9.3,Generic Democrat,Generic Republican,False,race_polls.csv
+MT-01,American Pulse Research & Polling,2026-09-24,314.0,45.4,45.9,-0.5,Sam Forstag,Aaron Flint,True,race_polls.csv
+MT-02,Rutgers-Eagleton,2026-09-07,0.0,26.0,48.0,-22.0,Brian Miller,Troy Downing,True,race_polls.csv
+MT-SEN,yes. every kid. foundation.,2026-01-26,500.0,19.0,43.0,-24.0,Reilly Neill,Steve Daines,False,race_polls.csv
+MT-SEN,American Pulse Research & Polling,2026-02-18,607.0,40.0,53.9,-13.9,Seth Bodnar,Steve Daines,False,race_polls.csv
+MT-SEN,American Pulse Research & Polling,2026-02-18,607.0,25.1,51.7,-26.6,Reilly Neill,Steve Daines,False,race_polls.csv
+MT-SEN,Tavern Research,2026-05-18,607.0,24.0,46.0,-22.0,Reilly Neill,Kurt Alme,False,race_polls.csv
+MT-SEN,Tavern Research,2026-05-18,607.0,44.0,56.0,-12.0,Generic Democrat,Kurt Alme,False,race_polls.csv
+MT-SEN,Tavern Research,2026-05-18,607.0,42.0,58.0,-16.0,Reilly Neill,Kurt Alme,False,race_polls.csv
+MT-SEN,Public Opinion Strategies,2026-06-11,500.0,25.0,44.0,-19.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,Hart Research Associates,2026-06-24,800.0,43.0,49.0,-6.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,GrayHouse,2026-06-24,500.0,25.0,41.0,-16.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,Hart Research Associates,2026-06-24,800.0,22.0,47.0,-25.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,The Bullfinch Group,2026-07-16,793.0,22.0,36.0,-14.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,GQR,2026-07-26,500.0,44.0,52.0,-8.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,GQR,2026-07-26,500.0,40.0,44.0,-4.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,GQR,2026-07-26,500.0,22.0,41.0,-19.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,Hart Research Associates,2026-08-04,800.0,15.0,45.0,-30.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,Hart Research Associates,2026-08-04,800.0,38.0,52.0,-14.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,Peak Insights,2026-08-25,600.0,19.0,44.0,-25.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,Rutgers-Eagleton,2026-09-07,845.0,16.0,38.0,-22.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,Aspect Strategic,2026-09-15,715.0,14.0,44.0,-30.0,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,Quantus Insights,2026-09-15,625.0,24.4,45.3,-20.9,Alani Bankhead,Kurt Alme,True,race_polls.csv
+MT-SEN,American Pulse Research & Polling,2026-09-24,604.0,18.9,45.1,-26.2,Alani Bankhead,Kurt Alme,True,race_polls.csv
+NC-01,GQR,2026-02-02,500.0,43.0,47.0,-4.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NC-01,GQR,2026-02-02,500.0,42.0,39.0,3.0,Don Davis,Laurie Buckhout,True,race_polls.csv
+NC-01,co/efficient,2026-04-29,842.0,42.0,46.0,-4.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NC-01,co/efficient,2026-04-29,842.0,41.0,41.0,0.0,Don Davis,Laurie Buckhout,True,race_polls.csv
+NC-01,GQR,2026-06-28,500.0,45.0,41.0,4.0,Don Davis,Laurie Buckhout,True,race_polls.csv
+NC-01,GBAO,2026-09-11,500.0,50.0,43.0,7.0,Don Davis,Laurie Buckhout,True,race_polls.csv
+NC-01,GQR,2026-10-04,500.0,47.0,39.0,8.0,Don Davis,Laurie Buckhout,True,race_polls.csv
+NC-01,Neighborhood Research Corporation,2026-10-06,303.0,51.0,41.0,10.0,Don Davis,Laurie Buckhout,True,race_polls.csv
+NC-01,Neighborhood Research Corporation,2026-10-06,303.0,40.0,44.0,-4.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NC-01,co/efficient,2026-10-08,623.0,45.0,46.0,-1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NC-01,co/efficient,2026-10-08,623.0,42.0,43.0,-1.0,Don Davis,Laurie Buckhout,True,race_polls.csv
+NC-03,Tulchin Research,2026-08-02,0.0,41.0,44.0,-3.0,Raymond Smith Jr.,Greg Murphy,True,race_polls.csv
+NC-07,Public Policy Polling,2026-08-20,517.0,43.0,48.0,-5.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NC-07,Public Policy Polling,2026-08-20,517.0,39.0,45.0,-6.0,Kimberly Hardy,David Rouzer,True,race_polls.csv
+NC-07,Public Policy Polling,2026-08-20,517.0,43.0,49.0,-6.0,Kimberly Hardy,David Rouzer,True,race_polls.csv
+NC-09,Lake Research Partners,2026-09-03,400.0,42.0,46.0,-4.0,Richard Ojeda,Richard Hudson,True,race_polls.csv
+NC-10,Ragnar Research Partners,2026-03-12,400.0,37.0,52.0,-15.0,Ashley Bell,Pat Harrigan,True,race_polls.csv
+NC-10,Ragnar Research Partners,2026-03-12,400.0,38.0,51.0,-13.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NC-11,Public Policy Polling,2026-09-11,531.0,47.0,44.0,3.0,Jamie Ager,Generic Republican,False,race_polls.csv
+NC-11,Public Policy Polling,2026-09-11,531.0,46.0,50.0,-4.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NC-14,Ragnar Research Partners,2026-03-12,400.0,38.0,47.0,-9.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NC-14,Ragnar Research Partners,2026-03-12,400.0,40.0,48.0,-8.0,LaKesha Womack,Tim Moore,True,race_polls.csv
+NC-SEN,Public Policy Polling,2025-03-05,662.0,47.0,43.0,4.0,Roy Cooper,Thom Tillis,False,race_polls.csv
+NC-SEN,Change Research,2025-04-04,867.0,48.0,45.0,3.0,Roy Cooper,Thom Tillis,False,race_polls.csv
+NC-SEN,Emerson College,2025-07-30,1000.0,46.7,41.4,5.3,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Victory Insights,2025-07-30,600.0,44.4,43.5,0.9,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Harper Polling,2025-08-12,600.0,47.3,39.1,8.2,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Change Research,2025-09-08,855.0,48.0,41.0,7.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Harper Polling,2025-09-15,600.0,46.1,41.9,4.2,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Harper Polling,2025-11-10,600.0,48.1,38.0,10.1,Roy Cooper,Don Brown,False,race_polls.csv
+NC-SEN,Harper Polling,2025-11-10,600.0,47.3,38.6,8.7,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Change Research,2026-01-07,1105.0,47.0,42.0,5.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,TIPP Insights,2026-01-15,1512.0,48.4,24.2,24.2,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Change Research,2026-02-04,1069.0,50.0,40.0,10.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Public Policy Polling,2026-03-14,556.0,47.0,44.0,3.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-03-18,872.0,48.0,34.0,14.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Harper Polling,2026-03-23,600.0,48.9,41.1,7.8,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Quantus Insights,2026-04-01,987.0,48.6,43.8,4.8,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,High Point University,2026-04-06,800.0,49.0,39.0,10.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,High Point University,2026-04-06,703.0,50.0,42.0,8.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Opinion Diagnostics,2026-04-24,830.0,50.4,41.4,9.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Change Research,2026-05-08,957.0,49.3,42.4,6.9,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Harper Polling,2026-05-11,600.0,49.8,38.7,11.1,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-06-10,905.0,47.7,34.0,13.7,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,The New York Times/Siena University,2026-06-27,601.0,50.0,43.2,6.8,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Public Policy Polling,2026-07-11,759.0,48.0,44.0,4.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Beacon Research/Shaw & Company Research,2026-07-27,1005.0,53.0,44.0,9.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-07-31,800.0,47.0,33.0,14.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-07-31,466.0,53.0,42.0,11.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-07-31,717.0,51.0,35.0,16.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Change Research,2026-08-01,967.0,50.0,41.0,9.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Change Research,2026-08-06,915.0,50.0,42.9,7.1,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Harper Polling,2026-08-10,600.0,51.5,39.0,12.5,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,High Point University,2026-08-12,660.0,50.0,45.0,5.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,High Point University,2026-08-12,800.0,48.0,41.0,7.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-08-31,800.0,39.0,29.0,10.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-08-31,677.0,49.0,36.0,13.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-08-31,565.0,49.0,38.0,11.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,East Carolina University Center for Survey Research,2026-09-03,675.0,51.7,43.6,8.1,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Trafalgar Group,2026-09-10,1084.0,48.2,42.3,5.9,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Harper Polling,2026-09-15,608.0,49.2,34.1,15.1,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-09-15,885.0,48.0,37.0,11.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,High Point University,2026-09-16,706.0,50.0,42.0,8.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,InsiderAdvantage,2026-09-17,1200.0,48.4,42.5,5.9,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-09-18,3511.0,54.0,41.0,13.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-09-18,3742.0,53.0,41.0,12.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,YouGov,2026-09-18,3864.0,52.0,41.0,11.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Fabrizio Ward/Impact Research,2026-09-20,1115.0,53.0,42.0,11.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Opinion Diagnostics,2026-09-20,857.0,51.7,43.5,8.2,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Quantus Insights,2026-09-22,686.0,48.4,43.3,5.1,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Big Data Poll,2026-09-29,642.0,50.8,38.5,12.3,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,Big Data Poll,2026-09-29,698.0,49.3,37.8,11.5,Roy Cooper,Michael Whatley,True,race_polls.csv
+NC-SEN,East Carolina University Center for Survey Research,2026-10-03,810.0,50.0,43.0,7.0,Roy Cooper,Michael Whatley,True,race_polls.csv
+NE-01,Zenith Research,2026-05-11,401.0,38.0,45.0,-7.0,Chris Backemeyer,Mike Flood,False,race_polls.csv
+NE-01,Global Strategy Group,2026-09-03,600.0,49.0,45.0,4.0,Chris Backemeyer,Mike Flood,False,race_polls.csv
+NE-01,Global Strategy Group,2026-09-03,600.0,43.0,42.0,1.0,Chris Backemeyer,Mike Flood,False,race_polls.csv
+NE-02,Public Policy Polling,2025-10-23,594.0,46.0,39.0,7.0,John Cavanaugh,Generic Republican,False,race_polls.csv
+NE-02,Public Policy Polling,2025-10-23,594.0,49.0,42.0,7.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NE-02,Public Policy Polling,2025-10-23,594.0,44.0,39.0,5.0,Denise Powell,Generic Republican,False,race_polls.csv
+NE-02,SurveyUSA,2026-09-13,182.0,46.0,42.0,4.0,Denise Powell,Brinker Harding,True,race_polls.csv
+NE-GOV,Public Policy Polling,2026-04-07,670.0,33.0,38.0,-5.0,Lynne Walz,Jim Pillen,True,race_polls.csv
+NE-GOV,Public Policy Polling,2026-09-02,559.0,31.0,32.0,-1.0,Lynne Walz,Jim Pillen,True,race_polls.csv
+NE-GOV,SurveyUSA,2026-09-13,503.0,35.0,43.0,-8.0,Lynne Walz,Jim Pillen,True,race_polls.csv
+NE-GOV,Lake Research Partners,2026-09-14,900.0,40.0,40.0,0.0,Lynne Walz,Jim Pillen,True,race_polls.csv
+NE-GOV,Wedgewood Polls,2026-09-16,500.0,36.0,53.0,-17.0,Lynne Walz,Jim Pillen,True,race_polls.csv
+NE-GOV,co/efficient,2026-09-30,1113.0,38.0,42.0,-4.0,Lynne Walz,Jim Pillen,True,race_polls.csv
+NE-GOV,YouGov,2026-10-03,1808.0,43.0,44.0,-1.0,Lynne Walz,Jim Pillen,True,race_polls.csv
+NE-SEN,Change Research,2025-04-01,524.0,45.0,46.0,-1.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NE-SEN,Impact Research,2026-02-05,600.0,47.0,48.0,-1.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NE-SEN,GBAO,2026-04-20,800.0,46.0,45.0,1.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NE-SEN,Tavern Research,2026-05-11,1165.0,34.0,50.0,-16.0,William J. Forbes,Pete Ricketts,False,race_polls.csv
+NE-SEN,Tavern Research,2026-05-11,1165.0,47.0,42.0,5.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NE-SEN,Tavern Research,2026-05-11,1165.0,39.0,48.0,-9.0,Cindy Burbank,Pete Ricketts,False,race_polls.csv
+NE-SEN,Tavern Research,2026-05-11,1165.0,42.0,49.0,-7.0,Generic Democrat,Pete Ricketts,False,race_polls.csv
+NE-SEN,GBAO,2026-07-26,800.0,47.0,47.0,0.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NE-SEN,Impact Research,2026-08-13,600.0,47.0,47.0,0.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NE-SEN,GBAO,2026-09-08,800.0,47.0,46.0,1.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NE-SEN,SurveyUSA,2026-09-13,503.0,46.0,42.0,4.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NE-SEN,Wedgewood Polls,2026-09-16,500.0,48.0,52.0,-4.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NE-SEN,co/efficient,2026-09-30,1113.0,44.0,47.0,-3.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NE-SEN,co/efficient,2026-09-30,1113.0,40.0,49.0,-9.0,Generic Candidate,Generic Republican,False,race_polls.csv
+NE-SEN,co/efficient,2026-09-30,1113.0,40.0,44.0,-4.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NE-SEN,YouGov,2026-10-03,1808.0,48.0,47.0,1.0,Dan Osborn,Pete Ricketts,False,race_polls.csv
+NH-01,University of New Hampshire,2026-09-21,707.0,46.0,42.0,4.0,Stefany Shaheen,Anthony DiLorenzo,True,race_polls.csv
+NH-02,St. Anselm,2025-08-27,881.0,49.0,31.0,18.0,Maggie Goodlander,Lily Tang Williams,False,race_polls.csv
+NH-02,University of New Hampshire,2025-09-23,508.0,51.0,39.0,12.0,Maggie Goodlander,Lily Tang Williams,False,race_polls.csv
+NH-02,St. Anselm,2025-11-19,1102.0,40.0,35.0,5.0,Maggie Goodlander,Lily Tang Williams,False,race_polls.csv
+NH-02,University of New Hampshire,2026-01-19,1094.0,54.0,40.0,14.0,Maggie Goodlander,Lily Tang Williams,False,race_polls.csv
+NH-02,St. Anselm,2026-03-18,739.0,48.0,36.0,12.0,Maggie Goodlander,Lily Tang Williams,False,race_polls.csv
+NH-02,St. Anselm,2026-06-25,802.0,50.0,31.0,19.0,Maggie Goodlander,Lily Tang Williams,False,race_polls.csv
+NH-02,St. Anselm,2026-08-18,701.0,50.0,35.0,15.0,Maggie Goodlander,Lily Tang Williams,False,race_polls.csv
+NH-02,University of New Hampshire,2026-09-21,694.0,56.0,35.0,21.0,Maggie Goodlander,Lily Tang Williams,False,race_polls.csv
+NH-GOV,co/efficient,2025-10-13,1034.0,40.0,43.0,-3.0,Generic Democrat,Kelly Ayotte,False,race_polls.csv
+NH-GOV,University of New Hampshire,2026-01-19,2031.0,39.0,50.0,-11.0,Jon Kiper,Kelly Ayotte,False,race_polls.csv
+NH-GOV,University of New Hampshire,2026-01-19,2027.0,41.0,49.0,-8.0,Deaglan McEachern,Kelly Ayotte,False,race_polls.csv
+NH-GOV,yes. every kid. foundation.,2026-01-29,563.0,37.0,47.0,-10.0,Jon Kiper,Kelly Ayotte,False,race_polls.csv
+NH-GOV,St. Anselm,2026-03-18,1491.0,39.0,46.0,-7.0,Cinde Warmington,Kelly Ayotte,True,race_polls.csv
+NH-GOV,St. Anselm,2026-03-18,1491.0,31.0,45.0,-14.0,Jon Kiper,Kelly Ayotte,False,race_polls.csv
+NH-GOV,University of New Hampshire,2026-04-21,1117.0,39.0,47.0,-8.0,Cinde Warmington,Kelly Ayotte,True,race_polls.csv
+NH-GOV,University of New Hampshire,2026-06-23,2221.0,39.0,44.0,-5.0,Cinde Warmington,Kelly Ayotte,True,race_polls.csv
+NH-GOV,St. Anselm,2026-06-25,1614.0,37.0,45.0,-8.0,Cinde Warmington,Kelly Ayotte,True,race_polls.csv
+NH-GOV,St. Anselm,2026-08-18,1411.0,38.0,49.0,-11.0,Cinde Warmington,Kelly Ayotte,True,race_polls.csv
+NH-GOV,University of New Hampshire,2026-08-24,1878.0,39.0,49.0,-10.0,Cinde Warmington,Kelly Ayotte,True,race_polls.csv
+NH-GOV,co/efficient,2026-09-11,958.0,34.0,55.0,-21.0,Cinde Warmington,Kelly Ayotte,True,race_polls.csv
+NH-GOV,University of New Hampshire,2026-09-21,1407.0,43.0,47.0,-4.0,Cinde Warmington,Kelly Ayotte,True,race_polls.csv
+NH-GOV,The New York Times/Siena University,2026-09-22,613.0,40.8,52.3,-11.5,Cinde Warmington,Kelly Ayotte,True,race_polls.csv
+NH-GOV,St. Anselm,2026-09-29,1042.0,45.0,52.0,-7.0,Cinde Warmington,Kelly Ayotte,True,race_polls.csv
+NH-GOV,YouGov,2026-10-05,1520.0,40.0,49.0,-9.0,Cinde Warmington,Kelly Ayotte,True,race_polls.csv
+NH-SEN,Praecones Analytica,2025-03-01,626.0,58.9,41.1,17.8,Jeanne Shaheen,Frank Edelblut,False,race_polls.csv
+NH-SEN,Praecones Analytica,2025-03-01,626.0,45.6,54.4,-8.8,Jeanne Shaheen,Chris Sununu,False,race_polls.csv
+NH-SEN,Praecones Analytica,2025-03-01,626.0,55.1,44.9,10.2,Jeanne Shaheen,Scott Brown,False,race_polls.csv
+NH-SEN,Quantus Insights,2025-03-19,650.0,44.0,53.0,-9.0,Chris Pappas,Chris Sununu,False,race_polls.csv
+NH-SEN,St. Anselm,2025-08-27,1776.0,48.0,30.0,18.0,Chris Pappas,Dan Innis,False,race_polls.csv
+NH-SEN,St. Anselm,2025-08-27,1776.0,48.0,37.0,11.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,1892 Polling,2025-09-04,500.0,45.0,43.0,2.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,co/efficient,2025-09-12,904.0,48.0,42.0,6.0,Chris Pappas,Generic Republican,False,race_polls.csv
+NH-SEN,co/efficient,2025-09-12,904.0,49.0,37.0,12.0,Chris Pappas,Dan Innis,False,race_polls.csv
+NH-SEN,co/efficient,2025-09-12,904.0,46.0,43.0,3.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,co/efficient,2025-09-12,904.0,50.0,40.0,10.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,University of New Hampshire,2025-09-23,1225.0,49.0,43.0,6.0,Chris Pappas,Chris Sununu,False,race_polls.csv
+NH-SEN,University of New Hampshire,2025-09-23,1213.0,52.0,37.0,15.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,co/efficient,2025-10-13,1034.0,45.0,42.0,3.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,co/efficient,2025-10-13,1034.0,49.0,39.0,10.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,St. Anselm,2025-11-19,2212.0,44.0,36.0,8.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,St. Anselm,2025-11-19,2212.0,44.0,41.0,3.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,Guidant Polling and Strategy,2025-12-11,600.0,49.0,38.0,11.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,Guidant Polling and Strategy,2025-12-11,600.0,47.0,44.0,3.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,Praecones Analytica,2025-12-28,603.0,42.3,35.6,6.7,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,Praecones Analytica,2025-12-28,603.0,45.8,28.0,17.8,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,University of New Hampshire,2026-01-19,2017.0,52.0,42.0,10.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,University of New Hampshire,2026-01-19,2038.0,50.0,45.0,5.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,yes. every kid. foundation.,2026-01-29,563.0,45.0,41.0,4.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,St. Anselm,2026-03-18,1491.0,46.0,43.0,3.0,Chris Pappas,Chris Sununu,False,race_polls.csv
+NH-SEN,St. Anselm,2026-03-18,1491.0,47.0,38.0,9.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,Emerson College,2026-03-23,1100.0,45.4,43.7,1.7,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,Emerson College,2026-03-23,1100.0,47.8,39.3,8.5,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,University of New Hampshire,2026-04-21,1115.0,52.0,38.0,14.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,University of New Hampshire,2026-04-21,1130.0,49.0,42.0,7.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,University of New Hampshire,2026-06-23,1980.0,52.0,38.0,14.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,University of New Hampshire,2026-06-23,2157.0,47.0,44.0,3.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,St. Anselm,2026-06-25,1614.0,48.0,36.0,12.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,St. Anselm,2026-06-25,1614.0,47.0,41.0,6.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,Peak Insights,2026-06-27,500.0,43.0,42.0,1.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,St. Anselm,2026-08-18,1411.0,49.0,37.0,12.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,St. Anselm,2026-08-18,1411.0,48.0,41.0,7.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,University of New Hampshire,2026-08-24,1846.0,45.0,40.0,5.0,Chris Pappas,Scott Brown,False,race_polls.csv
+NH-SEN,University of New Hampshire,2026-08-24,1846.0,43.0,45.0,-2.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,"Fabrizio, Lee & Associates",2026-08-30,600.0,36.0,37.0,-1.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,co/efficient,2026-09-11,958.0,46.0,46.0,0.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,co/efficient,2026-09-11,958.0,46.0,46.0,0.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NH-SEN,InsiderAdvantage,2026-09-17,1200.0,47.8,39.9,7.9,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,University of New Hampshire,2026-09-21,1392.0,50.0,42.0,8.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,The New York Times/Siena University,2026-09-22,613.0,49.8,44.8,5.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,Trafalgar Group,2026-09-27,1082.0,47.4,40.5,6.9,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,St. Anselm,2026-09-29,1042.0,51.0,44.0,7.0,Chris Pappas,John Sununu,False,race_polls.csv
+NH-SEN,YouGov,2026-10-05,1519.0,51.0,43.0,8.0,Chris Pappas,John Sununu,False,race_polls.csv
+NJ-02,Public Policy Polling,2025-05-22,505.0,36.0,46.0,-10.0,Generic Democrat,Jeff Van Drew,False,race_polls.csv
+NJ-07,Z to A Research,2026-05-26,430.0,47.0,43.0,4.0,Rebecca Bennett,Thomas H. Kean Jr.,False,race_polls.csv
+NJ-07,Z to A Research,2026-05-26,430.0,46.0,43.0,3.0,Tina Shah,Thomas H. Kean Jr.,False,race_polls.csv
+NJ-07,StimSight Research,2026-09-12,498.0,47.0,42.0,5.0,Rebecca Bennett,Thomas H. Kean Jr.,False,race_polls.csv
+NM-02,co/efficient,2026-04-28,879.0,43.0,41.0,2.0,Gabriel Vasquez,Greg Cunningham,True,race_polls.csv
+NM-02,co/efficient,2026-04-28,879.0,45.0,45.0,0.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NM-02,SurveyUSA,2026-09-02,554.0,46.0,43.0,3.0,Gabriel Vasquez,Greg Cunningham,True,race_polls.csv
+NM-GOV,McLaughlin & Associates,2026-07-15,400.0,46.0,45.0,1.0,Deb Haaland,Gregg Hull,True,race_polls.csv
+NM-GOV,BSP Research,2026-08-07,800.0,41.0,24.0,17.0,Deb Haaland,Gregg Hull,True,race_polls.csv
+NM-GOV,Research & Polling Inc.,2026-08-28,516.0,49.0,43.0,6.0,Deb Haaland,Gregg Hull,True,race_polls.csv
+NM-GOV,SurveyUSA,2026-09-30,567.0,47.0,41.0,6.0,Deb Haaland,Gregg Hull,True,race_polls.csv
+NM-SEN,Research & Polling Inc.,2026-08-28,516.0,53.0,38.0,15.0,Ben Ray Luján,Larry Marker,True,race_polls.csv
+NM-SEN,SurveyUSA,2026-09-30,567.0,54.0,36.0,18.0,Ben Ray Luján,Larry Marker,True,race_polls.csv
+NV-02,Wedgewood Polls,2026-07-12,350.0,48.0,46.0,2.0,Teresa Benitez-Thompson,David Flippo,True,race_polls.csv
+NV-02,Strategies 360,2026-08-26,400.0,42.0,45.0,-3.0,Teresa Benitez-Thompson,David Flippo,True,race_polls.csv
+NV-02,GBAO,2026-09-03,500.0,38.0,37.0,1.0,Teresa Benitez-Thompson,David Flippo,True,race_polls.csv
+NV-GOV,Noble Predictive Insights,2025-10-13,766.0,37.0,40.0,-3.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Emerson College,2025-11-18,800.0,41.1,41.1,0.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Hart Research Associates,2026-02-17,800.0,43.0,46.0,-3.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Noble Predictive Insights,2026-03-13,845.0,36.0,30.0,6.0,Aaron Ford,Jose Zalaya,False,race_polls.csv
+NV-GOV,Noble Predictive Insights,2026-03-13,845.0,37.0,32.0,5.0,Aaron Ford,Irina Hansen,False,race_polls.csv
+NV-GOV,Noble Predictive Insights,2026-03-13,845.0,37.0,31.0,6.0,Aaron Ford,Matthew Winterhawk,False,race_polls.csv
+NV-GOV,Noble Predictive Insights,2026-03-13,845.0,38.0,39.0,-1.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Global Strategy Group,2026-05-11,700.0,42.0,45.0,-3.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Public Opinion Strategies,2026-06-29,600.0,42.0,51.0,-9.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Wedgewood Polls,2026-07-12,700.0,47.0,50.0,-3.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Public Policy Polling,2026-07-16,558.0,44.0,44.0,0.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Grassroots Targeting,2026-07-16,2500.0,40.0,52.0,-12.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Tarrance Group,2026-07-29,550.0,43.0,50.0,-7.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Emerson College,2026-09-08,680.0,44.2,42.0,2.1,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Noble Predictive Insights,2026-09-26,708.0,40.0,42.0,-2.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NV-GOV,Noble Predictive Insights,2026-09-26,800.0,37.0,38.0,-1.0,Aaron Ford,Joe Lombardo,True,race_polls.csv
+NY-01,Public Policy Polling,2025-12-11,579.0,38.0,41.0,-3.0,Chris Gallant,Nicholas J. LaLota,False,race_polls.csv
+NY-04,Impact Research,2026-02-17,500.0,46.0,41.0,5.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NY-17,Impact Research,2026-02-17,500.0,44.0,39.0,5.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NY-17,FM3 Research,2026-07-01,509.0,51.0,45.0,6.0,Cait Conley,Mike Lawler,True,race_polls.csv
+NY-17,co/efficient,2026-07-22,1292.0,45.0,50.0,-5.0,Cait Conley,Mike Lawler,True,race_polls.csv
+NY-17,Emerson College,2026-09-29,400.0,47.9,45.6,2.3,Cait Conley,Mike Lawler,True,race_polls.csv
+NY-17,McLaughlin & Associates,2026-09-30,400.0,47.0,50.0,-3.0,Cait Conley,Mike Lawler,True,race_polls.csv
+NY-18,Impact Research,2026-02-17,500.0,42.0,35.0,7.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NY-18,Global Strategy Group,2026-07-26,500.0,46.0,41.0,5.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NY-18,Global Strategy Group,2026-07-26,500.0,53.0,39.0,14.0,Pat Ryan,Jackie Auringer,True,race_polls.csv
+NY-18,Public Policy Polling,2026-09-30,561.0,51.0,42.0,9.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NY-18,Public Policy Polling,2026-09-30,561.0,52.0,35.0,17.0,Pat Ryan,Jackie Auringer,True,race_polls.csv
+NY-21,Impact Research,2026-05-31,500.0,44.0,45.0,-1.0,Blake Gendebien,Anthony Constantino,True,race_polls.csv
+NY-21,SurveyUSA,2026-08-08,612.0,43.0,39.0,4.0,Blake Gendebien,Anthony Constantino,True,race_polls.csv
+NY-21,J.L. Partners,2026-08-17,500.0,40.0,53.0,-13.0,Blake Gendebien,Anthony Constantino,True,race_polls.csv
+NY-21,Impact Research,2026-09-02,500.0,44.0,47.0,-3.0,Blake Gendebien,Anthony Constantino,True,race_polls.csv
+NY-21,Public Policy Polling,2026-09-10,557.0,40.0,53.0,-13.0,Generic Democrat,Generic Republican,False,race_polls.csv
+NY-21,Public Policy Polling,2026-09-10,557.0,43.0,48.0,-5.0,Blake Gendebien,Anthony Constantino,True,race_polls.csv
+NY-21,Impact Research,2026-10-04,500.0,45.0,48.0,-3.0,Blake Gendebien,Anthony Constantino,True,race_polls.csv
+NY-21,Siena University,2026-10-06,496.0,46.0,42.0,4.0,Blake Gendebien,Anthony Constantino,True,race_polls.csv
+NY-23,Public Policy Polling,2026-09-23,626.0,35.0,52.0,-17.0,Aaron Gies,Nick Langworthy,True,race_polls.csv
+NY-GOV,Citizen Data,2025-02-10,1000.0,46.0,38.0,8.0,Kathy Hochul,Mike Lawler,False,race_polls.csv
+NY-GOV,GrayHouse,2025-04-24,600.0,45.0,38.0,7.0,Kathy Hochul,Mike Lawler,False,race_polls.csv
+NY-GOV,GrayHouse,2025-04-24,600.0,46.0,40.0,6.0,Kathy Hochul,Elise Stefanik,False,race_polls.csv
+NY-GOV,GrayHouse,2025-04-24,600.0,44.0,36.0,8.0,Kathy Hochul,Blake Masters,False,race_polls.csv
+NY-GOV,co/efficient,2025-05-02,1163.0,43.0,42.0,1.0,Kathy Hochul,Elise Stefanik,False,race_polls.csv
+NY-GOV,Harper Polling,2025-05-09,600.0,50.1,38.8,11.3,Kathy Hochul,Elise Stefanik,False,race_polls.csv
+NY-GOV,Harper Polling,2025-05-09,600.0,48.0,41.0,7.0,Kathy Hochul,Mike Lawler,False,race_polls.csv
+NY-GOV,Siena University,2025-06-26,800.0,44.0,24.0,20.0,Kathy Hochul,Mike Lawler,False,race_polls.csv
+NY-GOV,Siena University,2025-06-26,800.0,44.0,19.0,25.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Siena University,2025-06-26,800.0,47.0,24.0,23.0,Kathy Hochul,Elise Stefanik,False,race_polls.csv
+NY-GOV,Siena University,2025-08-07,813.0,45.0,31.0,14.0,Kathy Hochul,Elise Stefanik,False,race_polls.csv
+NY-GOV,Siena University,2025-09-10,802.0,52.0,27.0,25.0,Kathy Hochul,Elise Stefanik,False,race_polls.csv
+NY-GOV,GrayHouse,2025-09-26,1250.0,48.0,43.0,5.0,Kathy Hochul,Elise Stefanik,False,race_polls.csv
+NY-GOV,Manhattan Institute,2025-10-26,900.0,42.0,43.0,-1.0,Kathy Hochul,Elise Stefanik,False,race_polls.csv
+NY-GOV,Manhattan Institute,2025-10-26,900.0,37.0,43.0,-6.0,Antonio Delgado,Elise Stefanik,False,race_polls.csv
+NY-GOV,J.L. Partners,2025-11-10,500.0,45.0,42.0,3.0,Kathy Hochul,Generic Republican,False,race_polls.csv
+NY-GOV,J.L. Partners,2025-11-10,500.0,46.0,43.0,3.0,Kathy Hochul,Elise Stefanik,False,race_polls.csv
+NY-GOV,J.L. Partners,2025-11-10,500.0,47.0,36.0,11.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Siena University,2025-11-12,802.0,52.0,32.0,20.0,Kathy Hochul,Elise Stefanik,False,race_polls.csv
+NY-GOV,Siena University,2025-12-12,801.0,50.0,25.0,25.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Siena University,2025-12-12,801.0,49.0,30.0,19.0,Kathy Hochul,Elise Stefanik,False,race_polls.csv
+NY-GOV,John Zogby Strategies,2026-01-08,844.0,49.0,34.0,15.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,John Zogby Strategies,2026-01-08,844.0,53.0,39.0,14.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Siena University,2026-01-28,802.0,54.0,28.0,26.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,MAD Global Strategy,2026-02-04,600.0,47.0,34.0,13.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Marist University,2026-02-19,1442.0,50.0,33.0,17.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Siena University,2026-02-26,805.0,51.0,31.0,20.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,McLaughlin & Associates,2026-03-08,800.0,52.0,43.0,9.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Echelon Insights,2026-03-26,500.0,55.0,40.0,15.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Siena University,2026-03-26,804.0,47.0,34.0,13.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Siena University,2026-04-30,806.0,49.0,33.0,16.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Siena University,2026-06-23,1120.0,52.0,32.0,20.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,co/efficient,2026-07-02,1085.0,47.0,41.0,6.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Red Oak Strategic,2026-07-12,2000.0,47.0,43.0,4.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Moxie Strategies,2026-07-28,813.0,49.0,37.0,12.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Siena University,2026-08-06,811.0,49.0,39.0,10.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Concord Public Opinion Partners,2026-08-21,505.0,50.0,34.0,16.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,McLaughlin & Associates,2026-08-31,800.0,49.6,45.7,3.9,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Siena University,2026-09-17,1144.0,50.0,41.0,9.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Quinnipiac University,2026-09-20,1026.0,58.0,39.0,19.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,co/efficient,2026-09-25,1046.0,48.0,41.0,7.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Marist University,2026-10-04,1361.0,53.0,42.0,11.0,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+NY-GOV,Emerson College,2026-10-05,900.0,52.4,39.7,12.7,Kathy Hochul,Bruce Blakeman,True,race_polls.csv
+OH-01,Quantus Insights,2026-08-24,509.0,47.9,44.6,3.3,Greg Landsman,Eric Conroy,True,race_polls.csv
+OH-07,GBAO,2026-06-20,500.0,43.0,44.0,-1.0,Brian Poindexter,Max Miller,True,race_polls.csv
+OH-07,co/efficient,2026-07-30,665.0,44.0,39.0,5.0,Brian Poindexter,Max Miller,True,race_polls.csv
+OH-07,Tavern Research,2026-08-04,635.0,54.0,46.0,8.0,Brian Poindexter,Max Miller,True,race_polls.csv
+OH-07,Tavern Research,2026-08-04,635.0,50.0,50.0,0.0,Generic Democrat,Generic Republican,False,race_polls.csv
+OH-07,co/efficient,2026-08-06,615.0,47.0,33.0,14.0,Brian Poindexter,Max Miller,True,race_polls.csv
+OH-07,Bedrock Polling,2026-08-10,866.0,39.0,44.0,-5.0,Brian Poindexter,Generic Republican,False,race_polls.csv
+OH-07,Bedrock Polling,2026-08-10,866.0,43.0,44.0,-1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+OH-07,Bedrock Polling,2026-08-10,866.0,43.0,35.0,8.0,Brian Poindexter,Max Miller,True,race_polls.csv
+OH-09,McLaughlin & Associates,2026-04-20,400.0,43.0,47.0,-4.0,Marcy Kaptur,Derek Merrin,True,race_polls.csv
+OH-09,DCCC Targeting Team,2026-09-23,481.0,48.0,48.0,0.0,Marcy Kaptur,Derek Merrin,True,race_polls.csv
+OH-10,FM3 Research,2026-07-12,0.0,41.0,48.0,-7.0,Kristina Knickerbocker,Mike Turner,True,race_polls.csv
+OH-10,FM3 Research,2026-07-12,0.0,48.0,47.0,1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+OH-10,Global Strategy Group,2026-07-23,700.0,40.0,45.0,-5.0,Kristina Knickerbocker,Mike Turner,True,race_polls.csv
+OH-10,Global Strategy Group,2026-07-23,700.0,42.0,49.0,-7.0,Kristina Knickerbocker,Mike Turner,True,race_polls.csv
+OH-15,Hart Research Associates,2026-06-25,550.0,47.0,44.0,3.0,Generic Democrat,Generic Republican,False,race_polls.csv
+OH-15,Hart Research Associates,2026-06-25,550.0,40.0,45.0,-5.0,Don Leonard,Mike Carey,True,race_polls.csv
+OH-15,Hart Research Associates,2026-08-09,401.0,37.0,41.0,-4.0,Don Leonard,Mike Carey,True,race_polls.csv
+OH-15,Hart Research Associates,2026-09-24,500.0,48.0,47.0,1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+OH-15,Hart Research Associates,2026-09-24,500.0,46.0,45.0,1.0,Don Leonard,Mike Carey,True,race_polls.csv
+OH-GOV,Public Policy Polling,2025-02-20,642.0,45.0,44.0,1.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Public Policy Polling,2025-02-20,642.0,42.0,48.0,-6.0,Tim Ryan,Vivek Ramaswamy,False,race_polls.csv
+OH-GOV,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-04-24,800.0,45.0,50.0,-5.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-04-24,800.0,43.0,46.0,-3.0,Tim Ryan,Jim Tressel,False,race_polls.csv
+OH-GOV,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-04-24,800.0,44.0,46.0,-2.0,Tim Ryan,Dave Yost,False,race_polls.csv
+OH-GOV,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-04-24,800.0,45.0,46.0,-1.0,Amy Acton,Dave Yost,False,race_polls.csv
+OH-GOV,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-04-24,800.0,44.0,46.0,-2.0,Amy Acton,Jim Tressel,False,race_polls.csv
+OH-GOV,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-04-24,800.0,44.0,51.0,-7.0,Tim Ryan,Vivek Ramaswamy,False,race_polls.csv
+OH-GOV,Impact Research,2025-07-28,800.0,46.0,47.0,-1.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Emerson College,2025-08-19,1000.0,41.0,48.8,-7.8,Tim Ryan,Vivek Ramaswamy,False,race_polls.csv
+OH-GOV,Emerson College,2025-08-19,1000.0,39.4,48.7,-9.3,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Hart Research Associates,2025-09-22,800.0,46.0,45.0,1.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-10-14,800.0,47.0,50.0,-3.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-10-14,800.0,47.0,49.0,-2.0,Tim Ryan,Vivek Ramaswamy,False,race_polls.csv
+OH-GOV,Emerson College,2025-12-08,850.0,45.9,45.2,0.7,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Data Targeting,2025-12-08,603.0,43.0,45.0,-2.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,EMC Research,2026-02-22,1343.0,53.0,43.0,10.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Quantus Insights,2026-03-14,809.0,45.9,44.9,1.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Echelon Insights,2026-04-09,413.0,44.0,49.0,-5.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2026-04-14,1000.0,47.0,48.0,-1.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Beacon Research/Shaw & Company Research,2026-06-01,1015.0,50.0,49.0,1.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Tulchin Research,2026-06-04,600.0,47.0,44.0,3.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Fabrizio Ward/Impact Research,2026-06-16,800.0,47.0,44.0,3.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,The New York Times/Siena University,2026-06-28,601.0,46.7,46.9,-0.2,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Tulchin Research,2026-08-04,600.0,46.0,44.0,2.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Beacon Research/Shaw & Company Research,2026-08-10,1008.0,48.0,50.0,-2.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Wedgewood Polls,2026-08-13,800.0,47.0,46.0,1.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,YouGov,2026-09-10,1000.0,48.0,45.0,3.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Marist University,2026-09-27,1298.0,50.0,44.0,6.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Big Data Poll,2026-09-27,680.0,46.8,47.9,-1.1,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Big Data Poll,2026-09-27,735.0,46.1,46.9,-0.8,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,Suffolk University,2026-09-27,500.0,50.4,41.4,9.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,YouGov,2026-09-30,3777.0,48.0,44.0,4.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,The New York Times/Siena University,2026-10-01,616.0,49.0,45.0,3.9,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,CNN/SSRS,2026-10-05,760.0,50.0,42.0,8.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-GOV,co/efficient,2026-10-06,925.0,43.0,45.0,-2.0,Amy Acton,Vivek Ramaswamy,True,race_polls.csv
+OH-SEN,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-02-21,800.0,41.0,47.0,-6.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-02-21,800.0,38.0,45.0,-7.0,Tim Ryan,Jon Husted,False,race_polls.csv
+OH-SEN,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-04-24,800.0,46.0,49.0,-3.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-04-24,800.0,44.0,50.0,-6.0,Tim Ryan,Jon Husted,False,race_polls.csv
+OH-SEN,Emerson College,2025-08-19,1000.0,43.7,49.5,-5.8,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-10-14,800.0,49.0,48.0,1.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Emerson College,2025-12-08,850.0,46.3,48.8,-2.5,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,EMC Research,2026-02-22,1343.0,51.0,47.0,4.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,OnMessage Inc.,2026-03-08,600.0,47.0,45.0,2.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Quantus Insights,2026-03-14,784.0,44.4,45.5,-1.1,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Echelon Insights,2026-04-09,413.0,45.0,51.0,-6.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2026-04-14,1000.0,47.0,50.0,-3.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Beacon Research/Shaw & Company Research,2026-06-01,1015.0,53.0,45.0,8.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Tulchin Research,2026-06-04,600.0,46.0,42.0,4.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Fabrizio Ward/Impact Research,2026-06-16,800.0,48.0,45.0,3.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,The New York Times/Siena University,2026-06-28,601.0,47.0,49.8,-2.8,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Tulchin Research,2026-08-04,600.0,47.0,43.0,4.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Beacon Research/Shaw & Company Research,2026-08-10,1008.0,53.0,45.0,8.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Wedgewood Polls,2026-08-13,800.0,48.0,44.0,4.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Abacus Data,2026-08-28,500.0,40.0,33.0,7.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Abacus Data,2026-08-28,306.0,46.0,41.0,5.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,InsiderAdvantage,2026-09-09,1200.0,47.3,41.9,5.4,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,YouGov,2026-09-10,1000.0,48.0,45.0,3.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Trafalgar Group,2026-09-16,1085.0,45.4,41.5,3.9,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Quantus Insights,2026-09-23,695.0,47.3,46.8,0.5,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Quantus Insights,2026-09-23,695.0,47.6,47.2,0.4,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Big Data Poll,2026-09-27,735.0,45.2,41.2,4.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Big Data Poll,2026-09-27,680.0,46.3,42.6,3.7,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Marist University,2026-09-27,1298.0,51.0,43.0,8.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,Suffolk University,2026-09-27,500.0,46.6,44.0,2.6,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,InsiderAdvantage,2026-09-29,1200.0,43.8,42.5,1.3,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,YouGov,2026-09-30,3777.0,49.0,45.0,4.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,The New York Times/Siena University,2026-10-01,616.0,48.8,46.1,2.7,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,CNN/SSRS,2026-10-05,760.0,49.0,43.0,6.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,co/efficient,2026-10-06,925.0,45.0,46.0,-1.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,co/efficient,2026-10-06,925.0,43.0,44.0,-1.0,Sherrod Brown,Jon Husted,True,race_polls.csv
+OH-SEN,co/efficient,2026-10-06,925.0,45.0,45.0,0.0,Generic Democrat,Generic Republican,False,race_polls.csv
+OK-05,GBAO,2026-09-20,500.0,43.0,48.0,-5.0,Jena Nelson,Stephanie Bice,True,race_polls.csv
+OK-SEN,Cole Hargrave,2026-08-06,500.0,27.0,48.0,-21.0,Jim Priest,Kevin Hern,False,race_polls.csv
+OK-SEN,Cole Hargrave,2026-08-06,500.0,25.0,49.0,-24.0,N'Kiyla Jasmine Thomas,Kevin Hern,False,race_polls.csv
+OR-GOV,FM3 Research,2026-02-04,1065.0,45.0,35.0,10.0,Tina Kotek,Chris Dudley,False,race_polls.csv
+OR-GOV,FM3 Research,2026-02-04,1065.0,45.0,40.0,5.0,Tina Kotek,Christine Drazan,True,race_polls.csv
+OR-GOV,FM3 Research,2026-02-04,1065.0,43.0,37.0,6.0,Tina Kotek,Ed Diehl,False,race_polls.csv
+OR-GOV,Hoffman Research Group,2026-05-12,603.0,45.0,45.0,0.0,Tina Kotek,Christine Drazan,True,race_polls.csv
+OR-GOV,Hoffman Research Group,2026-05-12,603.0,44.0,48.0,-4.0,Tina Kotek,Chris Dudley,False,race_polls.csv
+OR-GOV,Public Opinion Strategies,2026-06-24,600.0,44.0,48.0,-4.0,Tina Kotek,Christine Drazan,True,race_polls.csv
+OR-GOV,DHM Research,2026-09-09,600.0,43.0,45.0,-2.0,Tina Kotek,Christine Drazan,True,race_polls.csv
+OR-GOV,DHM Research,2026-09-27,915.0,46.0,47.0,-1.0,Tina Kotek,Christine Drazan,True,race_polls.csv
+OR-GOV,DHM Research,2026-10-01,549.0,46.0,44.0,2.0,Tina Kotek,Christine Drazan,True,race_polls.csv
+OR-GOV,GBAO,2026-10-04,800.0,46.0,42.0,4.0,Tina Kotek,Christine Drazan,True,race_polls.csv
+PA-01,Public Policy Polling,2025-10-11,585.0,41.0,41.0,0.0,Bob Harvie,Brian Fitzpatrick,True,race_polls.csv
+PA-01,Global Strategy Group,2026-03-22,400.0,42.0,48.0,-6.0,Bob Harvie,Brian Fitzpatrick,True,race_polls.csv
+PA-01,Global Strategy Group,2026-08-09,500.0,43.0,47.0,-4.0,Bob Harvie,Brian Fitzpatrick,True,race_polls.csv
+PA-01,GQR,2026-08-23,400.0,48.0,49.0,-1.0,Bob Harvie,Brian Fitzpatrick,True,race_polls.csv
+PA-01,Public Opinion Strategies,2026-09-14,400.0,42.0,51.0,-9.0,Bob Harvie,Brian Fitzpatrick,True,race_polls.csv
+PA-07,GBAO,2026-07-02,0.0,47.0,43.0,4.0,Bob Brooks,Ryan E. Mackenzie,False,race_polls.csv
+PA-07,Franklin & Marshall College,2026-09-20,350.0,45.0,40.0,5.0,Bob Brooks,Ryan E. Mackenzie,False,race_polls.csv
+PA-08,Public Policy Polling,2025-08-28,615.0,45.0,43.0,2.0,Paige Cognetti,Rob Bresnahan Jr.,False,race_polls.csv
+PA-08,Impact Research,2026-06-11,500.0,46.0,45.0,1.0,Paige Cognetti,Rob Bresnahan Jr.,False,race_polls.csv
+PA-08,Lake Research Partners,2026-06-23,400.0,47.0,45.0,2.0,Paige Cognetti,Rob Bresnahan Jr.,False,race_polls.csv
+PA-10,Public Policy Polling,2025-07-11,559.0,46.0,43.0,3.0,Janelle Stelson,Scott Perry,True,race_polls.csv
+PA-10,Public Policy Polling,2025-11-19,549.0,48.0,44.0,4.0,Janelle Stelson,Scott Perry,True,race_polls.csv
+PA-10,"Normington, Petts & Associates",2026-04-23,400.0,51.0,45.0,6.0,Janelle Stelson,Scott Perry,True,race_polls.csv
+PA-10,Franklin & Marshall College,2026-09-20,378.0,47.0,44.0,3.0,Janelle Stelson,Scott Perry,True,race_polls.csv
+PA-GOV,"Susquehanna Polling & Research, Inc.",2025-09-28,700.0,54.0,36.0,18.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,"Susquehanna Polling & Research, Inc.",2025-09-28,704.0,55.0,37.0,18.0,Josh Shapiro,Douglas V. Mastriano,False,race_polls.csv
+PA-GOV,Quinnipiac University,2025-09-29,1579.0,55.0,39.0,16.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Quinnipiac University,2025-09-29,1579.0,56.0,39.0,17.0,Josh Shapiro,Douglas V. Mastriano,False,race_polls.csv
+PA-GOV,Quinnipiac University,2026-02-23,836.0,55.0,37.0,18.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Franklin & Marshall College,2026-03-01,834.0,48.0,28.0,20.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,"Susquehanna Polling & Research, Inc.",2026-03-29,700.0,58.0,36.0,22.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Bravo Group,2026-05-24,684.0,53.4,28.8,24.6,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,MAD Global Strategy,2026-06-11,600.0,48.0,31.0,17.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Franklin & Marshall College,2026-06-14,546.0,50.0,28.0,22.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Bravo Group,2026-06-25,644.0,53.7,29.3,24.4,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Quinnipiac University,2026-07-13,895.0,53.0,40.0,13.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Bravo Group,2026-07-24,630.0,53.4,28.1,25.3,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,The New York Times/Siena University,2026-08-21,760.0,54.4,37.3,17.1,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,The New York Times/Siena University,2026-08-21,760.0,54.8,38.7,16.1,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Bravo Group,2026-08-22,711.0,56.4,25.2,31.2,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Franklin & Marshall College,2026-08-23,501.0,50.0,25.0,25.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,The New York Times/Siena University,2026-09-22,615.0,58.4,37.6,20.8,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,The New York Times/Siena University,2026-09-22,615.0,57.0,37.6,19.4,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Bravo Group,2026-09-22,624.0,55.1,27.7,27.4,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,"Susquehanna Polling & Research, Inc.",2026-09-30,700.0,52.0,31.0,21.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Z to A Research,2026-10-01,630.0,53.0,34.0,19.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+PA-GOV,Quinnipiac University,2026-10-05,1159.0,59.0,34.0,25.0,Josh Shapiro,Stacy Garrity,True,race_polls.csv
+RI-GOV,Opinion Diagnostics,2026-04-16,802.0,33.0,16.0,17.0,Helena Foulkes,Aaron Guckian,True,race_polls.csv
+RI-GOV,Opinion Diagnostics,2026-04-16,802.0,28.0,15.0,13.0,Daniel McKee,Aaron Guckian,False,race_polls.csv
+RI-GOV,Emerson College,2026-05-16,1000.0,32.6,22.5,10.1,Daniel McKee,Generic Republican,False,race_polls.csv
+RI-GOV,Emerson College,2026-05-16,1000.0,38.9,20.8,18.1,Helena Foulkes,Generic Republican,False,race_polls.csv
+RI-GOV,University of New Hampshire,2026-06-23,630.0,38.0,22.0,16.0,Helena Foulkes,Generic Republican,False,race_polls.csv
+RI-GOV,University of New Hampshire,2026-06-23,630.0,27.0,23.0,4.0,Daniel McKee,Generic Republican,False,race_polls.csv
+RI-GOV,Emerson College,2026-08-22,1000.0,44.7,18.3,26.4,Helena Foulkes,Generic Republican,False,race_polls.csv
+RI-GOV,Emerson College,2026-08-22,1000.0,35.9,17.4,18.5,Daniel McKee,Generic Republican,False,race_polls.csv
+RI-GOV,University of New Hampshire,2026-08-24,711.0,27.0,17.0,10.0,Daniel McKee,Aaron Guckian,False,race_polls.csv
+RI-GOV,University of New Hampshire,2026-08-24,715.0,26.0,19.0,7.0,Daniel McKee,Elaine Pelino,False,race_polls.csv
+RI-GOV,University of New Hampshire,2026-08-24,739.0,40.0,15.0,25.0,Helena Foulkes,Aaron Guckian,True,race_polls.csv
+RI-GOV,University of New Hampshire,2026-08-24,741.0,42.0,20.0,22.0,Helena Foulkes,Elaine Pelino,False,race_polls.csv
+RI-GOV,University of New Hampshire,2026-09-21,596.0,44.0,17.0,27.0,Helena Foulkes,Aaron Guckian,True,race_polls.csv
+RI-GOV,Opinion Diagnostics,2026-09-25,800.0,41.0,19.0,22.0,Helena Foulkes,Aaron Guckian,True,race_polls.csv
+RI-SEN,University of New Hampshire,2026-04-20,556.0,52.0,34.0,18.0,Jack Reed,Raymond McKay,True,race_polls.csv
+RI-SEN,University of New Hampshire,2026-06-23,627.0,52.0,35.0,17.0,Jack Reed,Raymond McKay,True,race_polls.csv
+RI-SEN,University of New Hampshire,2026-08-24,722.0,51.0,31.0,20.0,Jack Reed,Raymond McKay,True,race_polls.csv
+RI-SEN,University of New Hampshire,2026-09-21,595.0,53.0,33.0,20.0,Jack Reed,Raymond McKay,True,race_polls.csv
+SC-01,Public Policy Polling,2025-12-06,645.0,36.0,39.0,-3.0,Mac Deford,Mark Smith,False,race_polls.csv
+SC-01,GQR,2026-07-22,0.0,41.0,43.0,-2.0,Nancy Lacore,Jenny Costa Honeycutt,True,race_polls.csv
+SC-01,GQR,2026-07-22,0.0,48.0,50.0,-2.0,Nancy Lacore,Jenny Costa Honeycutt,True,race_polls.csv
+SC-01,Public Policy Polling,2026-09-10,536.0,42.0,48.0,-6.0,Generic Democrat,Generic Republican,False,race_polls.csv
+SC-01,Public Policy Polling,2026-09-10,536.0,40.0,41.0,-1.0,Nancy Lacore,Jenny Costa Honeycutt,True,race_polls.csv
+SC-01,co/efficient,2026-10-01,837.0,41.0,53.0,-12.0,Generic Democrat,Generic Republican,False,race_polls.csv
+SC-01,co/efficient,2026-10-01,837.0,40.0,46.0,-6.0,Nancy Lacore,Jenny Costa Honeycutt,True,race_polls.csv
+SC-07,Blueprint Polling,2026-07-28,557.0,36.7,41.1,-4.4,John Vincent,Russell Fry,True,race_polls.csv
+SC-GOV,Public Policy Polling,2026-07-17,577.0,37.0,45.0,-8.0,Jermaine Johnson,Alan Wilson,True,race_polls.csv
+SC-GOV,Hart Research Associates,2026-08-15,600.0,41.0,48.0,-7.0,Jermaine Johnson,Alan Wilson,True,race_polls.csv
+SC-SEN,Public Policy Polling,2025-11-22,704.0,39.0,41.0,-2.0,Generic Democrat,Lindsey Graham,False,race_polls.csv
+SC-SEN,Public Policy Polling,2025-11-22,704.0,36.0,42.0,-6.0,Annie Andrews,Lindsey Graham,False,race_polls.csv
+SC-SEN,Impact Research,2026-03-01,700.0,42.0,47.0,-5.0,Annie Andrews,Lindsey Graham,False,race_polls.csv
+SC-SEN,Impact Research,2026-06-22,700.0,45.0,48.0,-3.0,Annie Andrews,Lindsey Graham,False,race_polls.csv
+SC-SEN,Public Policy Polling,2026-07-17,577.0,42.0,36.0,6.0,Annie Andrews,John Warren,False,race_polls.csv
+SC-SEN,Public Policy Polling,2026-07-17,577.0,41.0,44.0,-3.0,Annie Andrews,Trey Gowdy,False,race_polls.csv
+SC-SEN,Public Policy Polling,2026-07-17,577.0,41.0,38.0,3.0,Annie Andrews,Mark Lynch,False,race_polls.csv
+SC-SEN,Public Policy Polling,2026-07-17,577.0,42.0,39.0,3.0,Annie Andrews,Russell Fry,False,race_polls.csv
+SC-SEN,Public Policy Polling,2026-07-17,577.0,42.0,41.0,1.0,Annie Andrews,Pamela Evette,False,race_polls.csv
+SC-SEN,Public Policy Polling,2026-07-17,577.0,41.0,40.0,1.0,Annie Andrews,Mark Sanford,False,race_polls.csv
+SC-SEN,Public Policy Polling,2026-07-17,577.0,39.0,47.0,-8.0,Annie Andrews,Generic Republican,False,race_polls.csv
+SC-SEN,Public Policy Polling,2026-07-17,577.0,42.0,39.0,3.0,Annie Andrews,Nancy Mace,False,race_polls.csv
+SC-SEN,Public Policy Polling,2026-07-17,577.0,42.0,43.0,-1.0,Annie Andrews,Ralph Norman,False,race_polls.csv
+SC-SEN,Impact Research,2026-08-24,700.0,41.0,41.0,0.0,Annie Andrews,Darline Graham,True,race_polls.csv
+SC-SEN,Abacus Data,2026-08-28,306.0,38.0,51.0,-13.0,Annie Andrews,Darline Graham,True,race_polls.csv
+SC-SEN,Abacus Data,2026-08-28,500.0,34.0,34.0,0.0,Annie Andrews,Darline Graham,True,race_polls.csv
+SC-SEN,InsiderAdvantage,2026-09-09,1200.0,43.2,45.1,-1.9,Annie Andrews,Darline Graham,True,race_polls.csv
+SC-SEN,Trafalgar Group,2026-09-25,1087.0,42.3,43.4,-1.1,Annie Andrews,Darline Graham,True,race_polls.csv
+SC-SEN,InsiderAdvantage,2026-09-29,1200.0,45.0,46.0,-1.0,Annie Andrews,Darline Graham,True,race_polls.csv
+SD-01,Lake Research Partners,2026-08-30,500.0,43.0,47.0,-4.0,Nikki Gronli,Marty Jackley,True,race_polls.csv
+SD-SEN,Public Policy Polling,2025-07-31,552.0,28.0,41.0,-13.0,Brian Bengs,Mike Rounds,False,race_polls.csv
+SD-SEN,Public Policy Polling,2025-11-14,814.0,31.0,44.0,-13.0,Brian Bengs,Mike Rounds,False,race_polls.csv
+SD-SEN,Public Policy Polling,2025-11-14,814.0,30.0,52.0,-22.0,Julian Beaudion,Mike Rounds,False,race_polls.csv
+SD-SEN,Public Policy Polling,2026-02-18,685.0,32.0,49.0,-17.0,Julian Beaudion,Mike Rounds,False,race_polls.csv
+SD-SEN,Public Policy Polling,2026-02-18,685.0,35.0,47.0,-12.0,Brian Bengs,Mike Rounds,False,race_polls.csv
+SD-SEN,Public Policy Polling,2026-05-30,726.0,40.0,44.0,-4.0,Brian Bengs,Mike Rounds,False,race_polls.csv
+SD-SEN,Public Policy Polling,2026-05-30,726.0,18.0,43.0,-25.0,Julian Beaudion,Mike Rounds,False,race_polls.csv
+SD-SEN,Public Opinion Strategies,2026-07-09,500.0,33.0,56.0,-23.0,Brian Bengs,Mike Rounds,False,race_polls.csv
+SD-SEN,Impact Research,2026-08-17,500.0,44.0,44.0,0.0,Brian Bengs,Mike Rounds,False,race_polls.csv
+SD-SEN,Public Policy Polling,2026-09-09,629.0,42.0,45.0,-3.0,Brian Bengs,Mike Rounds,False,race_polls.csv
+SD-SEN,Zenith Research,2026-09-27,500.0,47.0,53.0,-6.0,Brian Bengs,Mike Rounds,False,race_polls.csv
+TN-05,Impact Research,2026-05-13,558.0,41.0,47.0,-6.0,Chaz Molder,Andy Ogles,False,race_polls.csv
+TN-05,Impact Research,2026-08-24,500.0,40.0,48.0,-8.0,Chaz Molder,Charlie Hatcher,True,race_polls.csv
+TN-05,Impact Research,2026-10-01,552.0,41.0,46.0,-5.0,Chaz Molder,Charlie Hatcher,True,race_polls.csv
+TN-09,Hart Research Associates,2026-09-03,400.0,44.0,48.0,-4.0,Justin Pearson,Brent Taylor,False,race_polls.csv
+TN-GOV,Targoz Market Research,2025-08-01,1167.0,30.0,49.0,-19.0,Generic Democrat,John Rose,False,race_polls.csv
+TN-GOV,Targoz Market Research,2025-08-01,1173.0,32.0,51.0,-19.0,Generic Democrat,Marsha Blackburn,False,race_polls.csv
+TN-GOV,Quantus Insights,2025-08-07,600.0,28.0,49.0,-21.0,Jerri Green,Marsha Blackburn,True,race_polls.csv
+TN-GOV,Quantus Insights,2025-08-07,600.0,27.0,43.0,-16.0,Jerri Green,John Rose,False,race_polls.csv
+TN-GOV,Targoz Market Research,2026-04-27,1157.0,27.0,51.0,-24.0,Jerri Green,Marsha Blackburn,True,race_polls.csv
+TN-GOV,Targoz Market Research,2026-08-26,601.0,34.0,55.0,-21.0,Jerri Green,Marsha Blackburn,True,race_polls.csv
+TN-GOV,Targoz Market Research,2026-08-26,1149.0,33.0,46.0,-13.0,Jerri Green,Marsha Blackburn,True,race_polls.csv
+TN-GOV,TargetSmart,2026-09-12,600.0,36.0,45.0,-9.0,Jerri Green,Marsha Blackburn,True,race_polls.csv
+TN-SEN,Targoz Market Research,2026-08-26,607.0,33.0,58.0,-25.0,Marquita Bradshaw,Bill Hagerty,True,race_polls.csv
+TN-SEN,Targoz Market Research,2026-08-26,1157.0,31.0,51.0,-20.0,Marquita Bradshaw,Bill Hagerty,True,race_polls.csv
+TX-02,Impact Research,2026-10-04,501.0,37.0,46.0,-9.0,Shaun Finnie,Steve Toth,True,race_polls.csv
+TX-09,Public Policy Polling,2026-09-19,560.0,39.0,45.0,-6.0,Leticia Gutierrez,Alex Mealer,True,race_polls.csv
+TX-10,Change Research,2026-09-22,613.0,41.0,48.0,-7.0,Caitlin Rourk,Chris Gober,True,race_polls.csv
+TX-15,Public Policy Polling,2025-09-11,533.0,38.0,41.0,-3.0,Bobby Pulido,Monica De La Cruz,True,race_polls.csv
+TX-15,Applecart,2026-05-25,802.0,46.0,49.0,-3.0,Generic Democrat,Generic Republican,False,race_polls.csv
+TX-15,Applecart,2026-05-25,802.0,48.0,46.0,2.0,Bobby Pulido,Monica De La Cruz,True,race_polls.csv
+TX-15,"Normington, Petts & Associates",2026-07-27,0.0,48.0,46.0,2.0,Generic Democrat,Generic Republican,False,race_polls.csv
+TX-15,"Normington, Petts & Associates",2026-07-27,0.0,51.0,45.0,6.0,Bobby Pulido,Monica De La Cruz,True,race_polls.csv
+TX-15,Barbara Jordan Public Policy Research and Survey Center,2026-08-22,700.0,50.0,45.0,5.0,Bobby Pulido,Monica De La Cruz,True,race_polls.csv
+TX-15,"Normington, Petts & Associates",2026-09-28,400.0,51.0,44.0,7.0,Generic Democrat,Generic Republican,False,race_polls.csv
+TX-15,"Normington, Petts & Associates",2026-09-28,400.0,54.0,41.0,13.0,Bobby Pulido,Monica De La Cruz,True,race_polls.csv
+TX-23,Public Policy Polling,2026-03-11,521.0,45.0,47.0,-2.0,Generic Democrat,Generic Republican,False,race_polls.csv
+TX-23,Public Policy Polling,2026-03-11,521.0,40.0,42.0,-2.0,Katy Padilla Stout,Brandon Herrera,True,race_polls.csv
+TX-28,Pulse Decision Science,2026-06-23,400.0,38.0,46.0,-8.0,Henry Cuellar,Tano Tijerina,True,race_polls.csv
+TX-28,Pulse Decision Science,2026-06-23,400.0,33.0,42.0,-9.0,Henry Cuellar,Tano Tijerina,True,race_polls.csv
+TX-28,Barbara Jordan Public Policy Research and Survey Center,2026-08-22,600.0,45.0,34.0,11.0,Henry Cuellar,Tano Tijerina,True,race_polls.csv
+TX-34,co/efficient,2026-04-29,777.0,40.0,41.0,-1.0,Vicente Gonzalez,Eric Flores,True,race_polls.csv
+TX-34,co/efficient,2026-04-29,777.0,44.0,48.0,-4.0,Generic Democrat,Generic Republican,False,race_polls.csv
+TX-34,Ragnar Research Partners,2026-06-16,400.0,41.0,44.0,-3.0,Vicente Gonzalez,Eric Flores,True,race_polls.csv
+TX-34,Barbara Jordan Public Policy Research and Survey Center,2026-08-22,700.0,45.0,42.0,3.0,Vicente Gonzalez,Eric Flores,True,race_polls.csv
+TX-35,"Normington, Petts & Associates",2026-08-31,0.0,44.0,45.0,-1.0,Johnny Garcia,Carlos De La Cruz,True,race_polls.csv
+TX-GOV,Slingshot Strategies,2025-08-29,843.0,43.0,49.0,-6.0,Generic Democrat,Generic Republican,False,race_polls.csv
+TX-GOV,Emerson College,2026-01-12,1165.0,42.3,50.2,-7.9,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,University of Houston Hobby School of Public Affairs,2026-01-31,1502.0,42.0,49.0,-7.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,GBAO,2026-02-03,1000.0,43.0,46.0,-3.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,University of Texas at Tyler Center for Opinion Research,2026-02-22,1117.0,39.0,51.0,-12.0,Chris Bell,Greg Abbott,False,race_polls.csv
+TX-GOV,University of Texas at Tyler Center for Opinion Research,2026-02-22,1117.0,41.0,49.0,-8.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,YouGov,2026-04-20,1200.0,38.0,44.0,-6.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Slingshot Strategies,2026-04-20,1018.0,43.0,48.0,-5.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Barbara Jordan Public Policy Research and Survey Center,2026-05-06,1223.0,43.0,49.0,-6.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Public Policy Polling,2026-05-23,643.0,44.0,48.0,-4.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Slingshot Strategies,2026-05-28,1670.0,41.0,46.0,-5.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,ReconMR/Siena Research Institute,2026-06-04,807.0,43.0,49.0,-6.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Quantus Insights,2026-06-04,800.0,41.0,49.0,-8.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,YouGov,2026-06-12,1200.0,40.0,47.0,-7.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,SoCal Strategies,2026-06-21,800.0,42.2,53.9,-11.7,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,The New York Times/Siena University,2026-06-27,656.0,44.2,50.6,-6.4,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Slingshot Strategies,2026-07-17,1048.0,42.0,45.0,-3.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Beacon Research/Shaw & Company Research,2026-07-27,1006.0,49.0,50.0,-1.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Barbara Jordan Public Policy Research and Survey Center,2026-07-30,1200.0,43.0,49.0,-6.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,ReconMR/Siena Research Institute,2026-07-30,619.0,45.0,46.0,-1.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Wedgewood Polls,2026-07-31,800.0,44.0,50.0,-6.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,GBAO,2026-08-09,1000.0,48.0,49.0,-1.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Emerson College,2026-08-10,1000.0,45.0,48.5,-3.5,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,YouGov,2026-08-13,1200.0,40.0,45.0,-5.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Slingshot Strategies,2026-08-24,1000.0,42.0,49.0,-7.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Overton Insights,2026-08-26,1167.0,48.8,51.2,-2.4,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Fabrizio Ward/Impact Research,2026-09-01,895.0,46.0,49.0,-3.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,YouGov,2026-09-04,1000.0,47.0,47.0,0.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,"Mason-Dixon Polling & Research, Inc.",2026-09-10,625.0,41.0,48.0,-7.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,ReconMR/Siena Research Institute,2026-09-11,614.0,49.0,45.0,4.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,SoCal Strategies,2026-09-13,649.0,44.0,52.0,-8.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Emerson College,2026-09-14,1000.0,45.5,48.7,-3.2,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Barbara Jordan Public Policy Research and Survey Center,2026-09-19,1800.0,45.0,49.0,-4.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Marist University,2026-09-20,1139.0,49.0,46.0,3.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Slingshot Strategies,2026-09-22,1007.0,46.0,50.0,-4.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Stratus Intelligence,2026-09-24,865.0,45.0,50.0,-5.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Big Data Poll,2026-09-26,793.0,44.2,48.2,-4.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Big Data Poll,2026-09-26,698.0,44.4,48.9,-4.5,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Beacon Research/Shaw & Company Research,2026-09-28,1203.0,49.0,50.0,-1.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Guidant Polling and Strategy,2026-09-28,800.0,44.0,46.0,-2.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,Beacon Research/Shaw & Company Research,2026-09-28,881.0,47.0,52.0,-5.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,University of Massachusetts Lowell Center for Public Opinion/YouGov,2026-09-28,850.0,44.0,48.0,-4.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,The New York Times/Siena University,2026-09-30,615.0,49.0,45.5,3.5,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-GOV,YouGov,2026-10-05,3622.0,48.0,47.0,1.0,Gina Hinojosa,Greg Abbott,True,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2025-05-19,1200.0,44.0,47.0,-3.0,Joaquin Castro,Ken Paxton,False,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2025-05-19,1200.0,43.0,49.0,-6.0,Beto O’Rourke,Wesley Hunt,False,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2025-05-19,1200.0,44.0,48.0,-4.0,Colin Allred,John Cornyn,False,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2025-05-19,1200.0,43.0,49.0,-6.0,Beto O’Rourke,John Cornyn,False,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2025-05-19,1200.0,46.0,48.0,-2.0,Colin Allred,Ken Paxton,False,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2025-05-19,1200.0,44.0,47.0,-3.0,Colin Allred,Wesley Hunt,False,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2025-05-19,1200.0,42.0,48.0,-6.0,Joaquin Castro,Wesley Hunt,False,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2025-05-19,1200.0,41.0,48.0,-7.0,Joaquin Castro,John Cornyn,False,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2025-05-19,1200.0,45.0,49.0,-4.0,Beto O’Rourke,Ken Paxton,False,race_polls.csv
+TX-SEN,Emerson College,2025-08-12,1000.0,40.6,45.9,-5.3,Colin Allred,Ken Paxton,False,race_polls.csv
+TX-SEN,Emerson College,2025-08-12,1000.0,38.1,45.2,-7.1,Colin Allred,John Cornyn,False,race_polls.csv
+TX-SEN,GBAO,2025-08-18,800.0,49.0,47.0,2.0,Colin Allred,Ken Paxton,False,race_polls.csv
+TX-SEN,Slingshot Strategies,2025-08-29,843.0,43.0,48.0,-5.0,Generic Democrat,Generic Republican,False,race_polls.csv
+TX-SEN,University of Texas at Tyler Center for Opinion Research,2025-09-24,1031.0,35.0,41.0,-6.0,James Talarico,John Cornyn,False,race_polls.csv
+TX-SEN,University of Texas at Tyler Center for Opinion Research,2025-09-24,1032.0,37.0,38.0,-1.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,University of Texas at Tyler Center for Opinion Research,2025-09-24,1032.0,37.0,36.0,1.0,James Talarico,Wesley Hunt,False,race_polls.csv
+TX-SEN,University of Texas at Tyler Center for Opinion Research,2025-09-24,1032.0,37.0,43.0,-6.0,Colin Allred,John Cornyn,False,race_polls.csv
+TX-SEN,University of Texas at Tyler Center for Opinion Research,2025-09-24,1032.0,37.0,38.0,-1.0,Colin Allred,Wesley Hunt,False,race_polls.csv
+TX-SEN,University of Texas at Tyler Center for Opinion Research,2025-09-24,1031.0,41.0,38.0,3.0,Colin Allred,Ken Paxton,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,44.0,50.0,-6.0,Jasmine Crockett,John Cornyn,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,46.0,49.0,-3.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,45.0,50.0,-5.0,Jasmine Crockett,Wesley Hunt,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,45.0,50.0,-5.0,Colin Allred,Wesley Hunt,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,47.0,49.0,-2.0,Beto O’Rourke,Wesley Hunt,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,46.0,49.0,-3.0,Beto O’Rourke,John Cornyn,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,47.0,48.0,-1.0,Colin Allred,Ken Paxton,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,46.0,48.0,-2.0,Colin Allred,John Cornyn,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,47.0,49.0,-2.0,Jasmine Crockett,Ken Paxton,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,44.0,50.0,-6.0,James Talarico,Wesley Hunt,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,45.0,48.0,-3.0,James Talarico,John Cornyn,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-10-01,1183.0,46.0,49.0,-3.0,Beto O’Rourke,Ken Paxton,False,race_polls.csv
+TX-SEN,Cygnal Political,2025-10-06,600.0,40.0,47.0,-7.0,Generic Democrat,John Cornyn,False,race_polls.csv
+TX-SEN,Ragnar Research Partners,2025-11-17,1000.0,40.0,46.0,-6.0,James Talarico,John Cornyn,False,race_polls.csv
+TX-SEN,Ragnar Research Partners,2025-11-17,1000.0,44.0,44.0,0.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Ragnar Research Partners,2025-11-17,1000.0,44.0,43.0,1.0,Colin Allred,Ken Paxton,False,race_polls.csv
+TX-SEN,Ragnar Research Partners,2025-11-17,1000.0,40.0,47.0,-7.0,Colin Allred,John Cornyn,False,race_polls.csv
+TX-SEN,Change Research,2025-11-26,1189.0,41.0,49.0,-8.0,Jasmine Crockett,John Cornyn,False,race_polls.csv
+TX-SEN,Change Research,2025-11-26,1189.0,42.0,50.0,-8.0,Jasmine Crockett,Ken Paxton,False,race_polls.csv
+TX-SEN,Emerson College,2026-01-12,1165.0,42.5,48.2,-5.7,Jasmine Crockett,John Cornyn,False,race_polls.csv
+TX-SEN,Emerson College,2026-01-12,1165.0,44.1,46.9,-2.8,James Talarico,John Cornyn,False,race_polls.csv
+TX-SEN,Emerson College,2026-01-12,1165.0,45.8,45.5,0.3,Jasmine Crockett,Ken Paxton,False,race_polls.csv
+TX-SEN,Emerson College,2026-01-12,1165.0,42.6,48.0,-5.4,Jasmine Crockett,Wesley Hunt,False,race_polls.csv
+TX-SEN,Emerson College,2026-01-12,1165.0,43.6,47.1,-3.5,James Talarico,Wesley Hunt,False,race_polls.csv
+TX-SEN,Emerson College,2026-01-12,1165.0,45.6,45.6,0.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs,2026-01-31,1502.0,44.0,46.0,-2.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs,2026-01-31,1502.0,42.0,46.0,-4.0,James Talarico,Wesley Hunt,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs,2026-01-31,1502.0,43.0,44.0,-1.0,James Talarico,John Cornyn,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs,2026-01-31,1502.0,43.0,45.0,-2.0,Jasmine Crockett,John Cornyn,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs,2026-01-31,1502.0,43.0,45.0,-2.0,Jasmine Crockett,Ken Paxton,False,race_polls.csv
+TX-SEN,University of Houston Hobby School of Public Affairs,2026-01-31,1502.0,43.0,46.0,-3.0,Jasmine Crockett,Wesley Hunt,False,race_polls.csv
+TX-SEN,Hart Research Associates,2026-02-12,803.0,49.0,45.0,4.0,Jasmine Crockett,Ken Paxton,False,race_polls.csv
+TX-SEN,Public Policy Polling,2026-03-05,576.0,47.0,45.0,2.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Public Policy Polling,2026-03-05,576.0,44.0,43.0,1.0,James Talarico,John Cornyn,False,race_polls.csv
+TX-SEN,Impact Research,2026-03-17,900.0,43.0,41.0,2.0,James Talarico,John Cornyn,False,race_polls.csv
+TX-SEN,Impact Research,2026-03-17,900.0,44.0,43.0,1.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,YouGov,2026-04-20,1200.0,40.0,33.0,7.0,James Talarico,John Cornyn,False,race_polls.csv
+TX-SEN,Slingshot Strategies,2026-04-20,1018.0,46.0,41.0,5.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Slingshot Strategies,2026-04-20,1018.0,44.0,41.0,3.0,James Talarico,John Cornyn,False,race_polls.csv
+TX-SEN,YouGov,2026-04-20,1200.0,42.0,34.0,8.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2026-05-06,1223.0,45.0,45.0,0.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2026-05-06,1223.0,44.0,45.0,-1.0,James Talarico,John Cornyn,False,race_polls.csv
+TX-SEN,Public Policy Polling,2026-05-23,643.0,45.0,38.0,7.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Slingshot Strategies,2026-05-28,1670.0,47.0,44.0,3.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,ReconMR/Siena Research Institute,2026-06-04,807.0,46.0,46.0,0.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Quantus Insights,2026-06-04,800.0,43.0,45.0,-2.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,YouGov,2026-06-12,1200.0,42.0,43.0,-1.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,SoCal Strategies,2026-06-21,800.0,47.0,48.5,-1.5,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,The New York Times/Siena University,2026-06-27,656.0,46.6,46.7,-0.1,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,A2 Insights,2026-06-28,618.0,48.4,46.1,2.3,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Slingshot Strategies,2026-07-17,1048.0,45.0,40.0,5.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Beacon Research/Shaw & Company Research,2026-07-27,1006.0,51.0,48.0,3.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,ReconMR/Siena Research Institute,2026-07-30,619.0,47.0,43.0,4.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2026-07-30,1200.0,47.0,45.0,2.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Wedgewood Polls,2026-07-31,800.0,48.0,46.0,2.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,YouGov Blue,2026-07-31,1001.0,48.0,45.0,3.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Emerson College,2026-08-10,1000.0,46.2,47.2,-1.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,YouGov,2026-08-13,1200.0,42.0,39.0,3.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Slingshot Strategies,2026-08-24,1000.0,48.0,42.0,6.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Overton Insights,2026-08-26,1167.0,50.0,50.0,0.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Fabrizio Ward/Impact Research,2026-09-01,895.0,48.0,44.0,4.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,YouGov,2026-09-04,1000.0,48.0,43.0,5.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,InsiderAdvantage,2026-09-09,1200.0,47.1,45.6,1.5,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,"Mason-Dixon Polling & Research, Inc.",2026-09-10,625.0,46.0,43.0,3.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,ReconMR/Siena Research Institute,2026-09-11,614.0,49.0,43.0,6.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,SoCal Strategies,2026-09-13,649.0,50.0,45.0,5.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Emerson College,2026-09-14,1000.0,47.4,46.4,1.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Trafalgar Group,2026-09-17,1079.0,46.4,45.2,1.2,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Barbara Jordan Public Policy Research and Survey Center,2026-09-19,1800.0,47.0,46.0,1.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Marist University,2026-09-20,1139.0,50.0,44.0,6.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Slingshot Strategies,2026-09-22,1007.0,49.0,44.0,5.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Stratus Intelligence,2026-09-24,865.0,48.0,48.0,0.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Big Data Poll,2026-09-26,698.0,46.8,44.9,1.9,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Big Data Poll,2026-09-26,793.0,46.4,43.8,2.6,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Pulse Decision Science,2026-09-27,800.0,45.0,48.0,-3.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Beacon Research/Shaw & Company Research,2026-09-28,1203.0,53.0,46.0,7.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Beacon Research/Shaw & Company Research,2026-09-28,881.0,51.0,49.0,2.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,Guidant Polling and Strategy,2026-09-28,800.0,47.0,44.0,3.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,University of Massachusetts Lowell Center for Public Opinion/YouGov,2026-09-28,850.0,45.0,45.0,0.0,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,The New York Times/Siena University,2026-09-30,615.0,50.8,45.1,5.7,James Talarico,Ken Paxton,True,race_polls.csv
+TX-SEN,YouGov,2026-10-05,3623.0,50.0,44.0,6.0,James Talarico,Ken Paxton,True,race_polls.csv
+UT-01,Lighthouse Research,2026-09-10,515.0,62.7,21.2,41.5,Ben McAdams,Riley Owen,True,race_polls.csv
+UT-02,Crosby for Congress,2026-09-10,762.0,30.7,32.4,-1.7,Peter Crosby,Blake Moore,True,race_polls.csv
+UT-02,Crosby for Congress,2026-09-23,657.0,34.9,32.0,2.9,Peter Crosby,Blake Moore,True,race_polls.csv
+UT-02,Lighthouse Research,2026-09-24,515.0,34.0,39.0,-5.0,Peter Crosby,Blake Moore,True,race_polls.csv
+UT-03,Lighthouse Research,2026-09-15,508.0,26.4,44.5,-18.1,Kent Udell,Celeste Maloy,True,race_polls.csv
+UT-04,Larsen for Congress,2026-09-13,1270.0,47.7,25.0,22.7,Jonny Larsen,Mike Kennedy,True,race_polls.csv
+UT-04,Lighthouse Research,2026-09-17,513.0,32.9,41.7,-8.8,Jonny Larsen,Mike Kennedy,True,race_polls.csv
+VA-01,Public Policy Polling,2025-08-09,541.0,40.0,41.0,-1.0,Shannon Taylor,Robert Wittman,False,race_polls.csv
+VA-01,Public Policy Polling,2025-08-09,541.0,47.0,47.0,0.0,Generic Democrat,Generic Republican,False,race_polls.csv
+VA-01,Ragnar Research Partners,2026-03-12,400.0,44.0,42.0,2.0,Generic Democrat,Generic Republican,False,race_polls.csv
+VA-01,Ragnar Research Partners,2026-03-12,400.0,42.0,46.0,-4.0,Shannon Taylor,Robert Wittman,False,race_polls.csv
+VA-01,DCCC Targeting Team,2026-09-17,519.0,46.0,47.0,-1.0,Shannon Taylor,Robert Wittman,False,race_polls.csv
+VA-01,The Washington Post/George Mason University Schar School of Policy and Government,2026-09-28,609.0,50.0,46.0,4.0,Shannon Taylor,Robert Wittman,False,race_polls.csv
+VA-02,Tulchin Research,2026-07-13,700.0,47.0,47.0,0.0,Elaine G. Luria,Jen Kiggans,False,race_polls.csv
+VA-05,Expedition Strategies,2026-08-01,602.0,44.0,47.0,-3.0,Tom Perriello,John McGuire,True,race_polls.csv
+VA-05,Expedition Strategies,2026-09-24,400.0,45.0,46.0,-1.0,Tom Perriello,John McGuire,True,race_polls.csv
+VA-05,Expedition Strategies,2026-09-24,400.0,48.0,46.0,2.0,Generic Democrat,Generic Republican,False,race_polls.csv
+VA-05,The Washington Post/George Mason University Schar School of Policy and Government,2026-09-28,600.0,45.0,51.0,-6.0,Tom Perriello,John McGuire,True,race_polls.csv
+VA-06,co/efficient,2026-09-30,791.0,29.0,59.0,-30.0,Beth Macy,Ben Cline,True,race_polls.csv
+VA-SEN,Responsive Management,2025-01-15,806.0,45.0,38.0,7.0,Mark Warner,Glenn Youngkin,False,race_polls.csv
+VT-01,University of New Hampshire,2026-06-23,871.0,57.0,26.0,31.0,Becca Balint,Mark Coester,False,race_polls.csv
+VT-01,University of New Hampshire,2026-06-23,872.0,57.0,26.0,31.0,Becca Balint,Gerald Malloy,False,race_polls.csv
+VT-01,University of New Hampshire,2026-07-20,949.0,63.0,25.0,38.0,Becca Balint,Gerald Malloy,False,race_polls.csv
+VT-01,University of New Hampshire,2026-07-20,948.0,64.0,25.0,39.0,Becca Balint,Mark Coester,False,race_polls.csv
+VT-01,Braun Research,2026-09-21,732.0,46.9,30.2,16.7,Becca Balint,Gerald Malloy,False,race_polls.csv
+VT-01,University of New Hampshire,2026-09-21,830.0,66.0,30.0,36.0,Becca Balint,Gerald Malloy,False,race_polls.csv
+VT-01,Braun Research,2026-09-21,817.0,43.3,28.3,15.0,Becca Balint,Gerald Malloy,False,race_polls.csv
+VT-GOV,University of New Hampshire,2026-06-23,867.0,25.0,41.0,-16.0,Aly Richards,Phil Scott,False,race_polls.csv
+VT-GOV,University of New Hampshire,2026-06-23,867.0,27.0,42.0,-15.0,Amanda Janoo,Phil Scott,True,race_polls.csv
+VT-GOV,University of New Hampshire,2026-07-20,925.0,35.0,43.0,-8.0,Aly Richards,Phil Scott,False,race_polls.csv
+VT-GOV,University of New Hampshire,2026-07-20,925.0,33.0,44.0,-11.0,Amanda Janoo,Phil Scott,True,race_polls.csv
+VT-GOV,University of New Hampshire,2026-09-21,829.0,49.0,43.0,6.0,Amanda Janoo,Phil Scott,True,race_polls.csv
+VT-GOV,Braun Research,2026-09-21,732.0,34.4,43.7,-9.3,Amanda Janoo,Phil Scott,True,race_polls.csv
+VT-GOV,Braun Research,2026-09-21,817.0,32.0,41.6,-9.6,Amanda Janoo,Phil Scott,True,race_polls.csv
+VT-GOV,State Navigate,2026-10-04,948.0,43.0,46.0,-3.0,Amanda Janoo,Phil Scott,True,race_polls.csv
+WA-03,co/efficient,2026-04-29,982.0,34.0,41.0,-7.0,Marie Gluesenkamp Perez,John Braun,True,race_polls.csv
+WA-03,co/efficient,2026-04-29,982.0,45.0,44.0,1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+WA-03,Emerson College,2026-07-10,500.0,42.0,43.0,-1.0,Marie Gluesenkamp Perez,John Braun,True,race_polls.csv
+WA-03,DHM Research,2026-09-27,543.0,47.0,48.0,-1.0,Marie Gluesenkamp Perez,John Braun,True,race_polls.csv
+WA-05,Tavern Research,2026-05-25,578.0,47.0,53.0,-6.0,Carmela Conroy,Michael Baumgartner,True,race_polls.csv
+WA-05,Tavern Research,2026-05-25,578.0,47.0,53.0,-6.0,Generic Democrat,Michael Baumgartner,False,race_polls.csv
+WA-05,Tavern Research,2026-05-25,578.0,46.0,54.0,-8.0,David Womack,Michael Baumgartner,False,race_polls.csv
+WA-05,Tavern Research,2026-05-25,578.0,46.0,54.0,-8.0,Bajun Mavalwalla,Michael Baumgartner,False,race_polls.csv
+WI-01,Ragnar Research Partners,2026-03-16,400.0,41.0,50.0,-9.0,Mitchell Berman,Bryan Steil,True,race_polls.csv
+WI-01,Ragnar Research Partners,2026-03-16,400.0,44.0,42.0,2.0,Generic Democrat,Generic Republican,False,race_polls.csv
+WI-01,Impact Research,2026-08-09,400.0,44.0,44.0,0.0,Generic Democrat,Generic Republican,False,race_polls.csv
+WI-01,Impact Research,2026-08-09,400.0,48.0,49.0,-1.0,Mitchell Berman,Bryan Steil,True,race_polls.csv
+WI-01,DCCC Targeting Team,2026-09-23,495.0,48.0,48.0,0.0,Mitchell Berman,Bryan Steil,True,race_polls.csv
+WI-01,Impact Research,2026-10-01,500.0,49.0,48.0,1.0,Generic Democrat,Generic Republican,False,race_polls.csv
+WI-01,Impact Research,2026-10-01,500.0,48.0,47.0,1.0,Mitchell Berman,Bryan Steil,True,race_polls.csv
+WI-03,Public Policy Polling,2025-10-15,609.0,44.0,42.0,2.0,Rebecca Cooke,Derrick Van Orden,True,race_polls.csv
+WI-03,Impact Research,2026-02-17,500.0,49.0,48.0,1.0,Rebecca Cooke,Derrick Van Orden,True,race_polls.csv
+WI-03,Impact Research,2026-05-31,500.0,50.0,46.0,4.0,Rebecca Cooke,Derrick Van Orden,True,race_polls.csv
+WI-03,FM3 Research,2026-06-25,535.0,50.0,46.0,4.0,Rebecca Cooke,Derrick Van Orden,True,race_polls.csv
+WI-06,Tavern Research,2026-05-28,437.0,39.0,61.0,-22.0,Generic Democrat,Glenn Grothman,False,race_polls.csv
+WI-06,Tavern Research,2026-05-28,437.0,39.0,61.0,-22.0,Brad Smith,Glenn Grothman,True,race_polls.csv
+WI-GOV,Platform Communications,2025-09-30,500.0,40.0,43.0,-3.0,Generic Democrat,Generic Republican,False,race_polls.csv
+WI-GOV,Impact Research,2025-10-08,500.0,51.0,44.0,7.0,Mandela Barnes,Tim Michels,False,race_polls.csv
+WI-GOV,Impact Research,2025-10-08,500.0,50.0,44.0,6.0,Mandela Barnes,Tom Tiffany,False,race_polls.csv
+WI-GOV,Patriot Polling,2026-03-16,812.0,42.0,46.0,-4.0,Francesca Hong,Tom Tiffany,False,race_polls.csv
+WI-GOV,TIPP Insights,2026-03-19,1168.0,40.3,42.7,-2.4,Francesca Hong,Tom Tiffany,False,race_polls.csv
+WI-GOV,TIPP Insights,2026-03-19,1495.0,39.6,38.1,1.5,Mandela Barnes,Tom Tiffany,False,race_polls.csv
+WI-GOV,TIPP Insights,2026-03-19,1168.0,43.8,41.2,2.6,Sara Rodriguez,Tom Tiffany,False,race_polls.csv
+WI-GOV,TIPP Insights,2026-03-19,1495.0,40.1,39.3,0.8,Sara Rodriguez,Tom Tiffany,False,race_polls.csv
+WI-GOV,TIPP Insights,2026-03-19,1495.0,36.5,40.4,-3.8,Francesca Hong,Tom Tiffany,False,race_polls.csv
+WI-GOV,TIPP Insights,2026-03-19,1168.0,43.0,40.7,2.3,Mandela Barnes,Tom Tiffany,False,race_polls.csv
+WI-GOV,TIPP Insights,2026-03-19,1168.0,42.3,40.8,1.5,David Crowley,Tom Tiffany,True,race_polls.csv
+WI-GOV,TIPP Insights,2026-03-19,1495.0,39.3,38.2,1.1,David Crowley,Tom Tiffany,True,race_polls.csv
+WI-GOV,RMG Research,2026-04-14,800.0,50.0,43.0,7.0,Generic Democrat,Generic Republican,False,race_polls.csv
+WI-GOV,Wedgewood Polls,2026-07-04,707.0,47.0,42.0,5.0,Sara Rodriguez,Tom Tiffany,False,race_polls.csv
+WI-GOV,Wedgewood Polls,2026-07-04,707.0,47.0,44.0,3.0,Francesca Hong,Tom Tiffany,False,race_polls.csv
+WI-GOV,Wedgewood Polls,2026-07-04,707.0,48.0,44.0,4.0,Mandela Barnes,Tom Tiffany,False,race_polls.csv
+WI-GOV,Marquette University Law School,2026-07-16,695.0,47.0,43.0,4.0,Sara Rodriguez,Tom Tiffany,False,race_polls.csv
+WI-GOV,Marquette University Law School,2026-07-16,695.0,43.0,44.0,-1.0,Joel Brennan,Tom Tiffany,False,race_polls.csv
+WI-GOV,Marquette University Law School,2026-07-16,838.0,44.0,40.0,4.0,Mandela Barnes,Tom Tiffany,False,race_polls.csv
+WI-GOV,Marquette University Law School,2026-07-16,838.0,38.0,42.0,-4.0,Kelda Roys,Tom Tiffany,False,race_polls.csv
+WI-GOV,Marquette University Law School,2026-07-16,838.0,40.0,43.0,-3.0,Francesca Hong,Tom Tiffany,False,race_polls.csv
+WI-GOV,Marquette University Law School,2026-07-16,838.0,42.0,41.0,1.0,Sara Rodriguez,Tom Tiffany,False,race_polls.csv
+WI-GOV,Marquette University Law School,2026-07-16,695.0,42.0,44.0,-2.0,Kelda Roys,Tom Tiffany,False,race_polls.csv
+WI-GOV,Marquette University Law School,2026-07-16,838.0,39.0,42.0,-3.0,Joel Brennan,Tom Tiffany,False,race_polls.csv
+WI-GOV,Marquette University Law School,2026-07-16,695.0,47.0,42.0,5.0,Mandela Barnes,Tom Tiffany,False,race_polls.csv
+WI-GOV,Marquette University Law School,2026-07-16,695.0,44.0,44.0,0.0,Francesca Hong,Tom Tiffany,False,race_polls.csv
+WI-GOV,RMG Research,2026-07-24,800.0,46.0,43.0,3.0,David Crowley,Tom Tiffany,True,race_polls.csv
+WI-GOV,RMG Research,2026-07-24,800.0,51.0,45.0,6.0,Generic Democrat,Generic Republican,False,race_polls.csv
+WI-GOV,RMG Research,2026-07-24,800.0,47.0,42.0,5.0,Mandela Barnes,Tom Tiffany,False,race_polls.csv
+WI-GOV,RMG Research,2026-07-24,800.0,44.0,43.0,1.0,Francesca Hong,Tom Tiffany,False,race_polls.csv
+WI-GOV,GBAO,2026-08-03,800.0,47.0,44.0,3.0,David Crowley,Tom Tiffany,True,race_polls.csv
+WI-GOV,Platform Communications,2026-08-13,500.0,48.0,44.0,4.0,David Crowley,Tom Tiffany,True,race_polls.csv
+WI-GOV,TIPP Insights,2026-08-18,1187.0,46.7,43.4,3.4,David Crowley,Tom Tiffany,True,race_polls.csv
+WI-GOV,TIPP Insights,2026-08-18,1434.0,43.2,41.2,2.0,David Crowley,Tom Tiffany,True,race_polls.csv
+WI-GOV,Marquette University Law School,2026-08-20,738.0,49.0,44.0,5.0,David Crowley,Tom Tiffany,True,race_polls.csv
+WI-GOV,Marquette University Law School,2026-08-20,891.0,44.0,44.0,0.0,David Crowley,Tom Tiffany,True,race_polls.csv
+WI-GOV,Marquette University Law School,2026-09-23,692.0,49.0,46.0,3.0,David Crowley,Tom Tiffany,True,race_polls.csv
+WI-GOV,Marquette University Law School,2026-09-23,843.0,46.0,45.0,1.0,David Crowley,Tom Tiffany,True,race_polls.csv
+WI-GOV,Z to A Research,2026-10-01,662.0,49.0,44.0,5.0,David Crowley,Tom Tiffany,True,race_polls.csv
+TX-GOV,The New York Times/Siena University,2026-09-30,615.0,49.0,46.0,,Gina Hinojosa,Greg Abbott,True,manual_race_polls.csv
+AK-GOV,The New York Times/Siena University,2026-10-01,504.0,52.0,48.0,,Jonathan Kreiss-Tomkins,Bernadette Wilson,True,manual_race_polls.csv
+IA-GOV,The New York Times/Siena University,2026-10-01,606.0,52.0,41.0,,Rob Sand,Zach Lahn,True,manual_race_polls.csv
+KS-GOV,The New York Times/Siena University,2026-09-30,605.0,44.0,49.0,,Cindy Holscher,Ty Masterson,True,manual_race_polls.csv

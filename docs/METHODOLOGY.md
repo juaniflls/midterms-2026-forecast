@@ -29,7 +29,7 @@ The canonical public snapshot consists of:
 - `Model.xlsx`
 - `NUCLEUS42_v30_11_FINAL_PUBLICATION_RELEASE.ipynb`
 - `outputs/Election_Model_Final_Report_v30.xlsx`
-- `Election_Model_v30_11_Final_Publication.html`
+- `NUCLEUS42_v30_RaceCards.html`
 
 These files must be regenerated and published together. The Dash layer reads them; it does not retrain or mutate the model.
 

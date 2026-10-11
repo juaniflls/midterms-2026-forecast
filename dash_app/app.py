@@ -12,7 +12,7 @@ from flask import Flask, jsonify, send_file
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-PUBLICATION_HTML = PROJECT_ROOT / "Election_Model_v30_11_Final_Publication.html"
+PUBLICATION_HTML = PROJECT_ROOT / "NUCLEUS42_v30_RaceCards.html"
 
 app = Flask(__name__)
 server = app

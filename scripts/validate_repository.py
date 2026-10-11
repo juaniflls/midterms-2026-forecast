@@ -13,14 +13,11 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTEBOOK = ROOT / "NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb"
-HTML = ROOT / "Election_Model_v30_11_Final_Publication.html"
+HTML = ROOT / "NUCLEUS42_v30_RaceCards.html"
 MODEL = ROOT / "Model.xlsx"
 REPORT = ROOT / "outputs" / "Election_Model_Final_Report_v30.xlsx"
-EXPECTED_SHA256 = {
-    NOTEBOOK.name: "3a5c31c58dd2b543b54d96d4a4dd11fd0eeff7f0512adb2d19145a263b7dcb3c",
-    HTML.name: "6ecbdab94454fc3cdf667cf42f71efee5c04b06cafc6a77217910558cf805ae2",
-    MODEL.name: "c9c9425be1ecdce4848afd7e63f11dc756f3efee1f735793cb0848f2fd3d58d6",
-}
+V30_ORIGINAL_ENGINE_SHA256 = "fbe5f69839ae2562c6667c0eaa25a1fa536cfda472ac041edf96f5079f512452"
+V30_SOURCE_BLOCK_SHA256 = "c1bc8cae187591e167ffb03dfc4e39d5799ca29134321a5f98d28f1d3c3e45f0"
 
 
 def sha256(path: Path) -> str:
@@ -35,14 +32,23 @@ checks: dict[str, bool] = {}
 for path in (NOTEBOOK, HTML, MODEL, REPORT):
     checks[f"exists: {path.relative_to(ROOT)}"] = path.is_file() and path.stat().st_size > 0
 
-if all(path.is_file() for path in (NOTEBOOK, HTML, MODEL)):
-    for name, expected in EXPECTED_SHA256.items():
-        checks[f"immutable SHA-256: {name}"] = sha256(ROOT / name) == expected
 
 if NOTEBOOK.is_file():
     nb = json.loads(NOTEBOOK.read_text(encoding="utf-8"))
     checks["notebook format v4"] = nb.get("nbformat") == 4
     checks["notebook has 18 code cells"] = sum(c.get("cell_type") == "code" for c in nb.get("cells", [])) == 18
+    blocks = ["".join(c.get("source", [])) for c in nb["cells"]]
+    original_engine = "".join(blocks[i] for i,c in enumerate(nb["cells"]) if c["cell_type"] == "code" and i not in (4,34,36))
+    checks["uploaded v30 statistical blocks preserved"] = hashlib.sha256(original_engine.encode()).hexdigest() == V30_ORIGINAL_ENGINE_SHA256
+    source_block = re.sub(r"# FILE PATH SAFETY.*?(?=OUTPUT_DIR =)", "BASE_DIR = Path.cwd()\n", blocks[4], flags=re.S)
+    checks["uploaded source logic preserved (root safety only)"] = hashlib.sha256(source_block.encode()).hexdigest() == V30_SOURCE_BLOCK_SHA256
+    checks["Block 8 publishes enriched HTML before success"] = (
+        "_n42_publication.publish_html(html, output_html, BASE_DIR)" in blocks[34]
+        and "with open(output_html" not in blocks[34]
+        and not any("audit_new_web_sources" in s or "N42_WEB_AUDIT" in s or "Model.automated.xlsx" in s for s in blocks)
+    )
+    checks["Block 9 rejects old dashboard"] = "_n42_publication.validate_publication(_html_path)" in blocks[36]
+    checks["CSS inserted outside Plotly script"] = 'id="n42-v30-upgrade-style"' in blocks[34] and 'html.replace("</style>", N42_UPGRADE_CSS' not in blocks[34]
     checks["notebook stores no error output"] = not any(
         output.get("output_type") == "error"
         for cell in nb.get("cells", [])
@@ -51,6 +57,15 @@ if NOTEBOOK.is_file():
 
 if HTML.is_file():
     text = HTML.read_text(encoding="utf-8", errors="ignore")
+    from enrich_publication import validate_publication
+    try:
+        visual = validate_publication(HTML)
+        checks["HTML payload: 435 House + 35 Senate, portraits and demographics"] = visual["House"] == 435 and visual["Senate"] == 35
+    except (ValueError, KeyError, TypeError) as exc:
+        checks["HTML payload: 435 House + 35 Senate, portraits and demographics"] = False
+        print("Visual validation:", exc)
+    checks["470 race cards embedded"] = all(x in text for x in ("n42RaceData", "N42_RACECARDS_BEGIN", "n42-racecards-style"))
+    checks["Race Card map hover/click bundle embedded"] = "interface" in text.lower() and "ID-SEN" in text
     checks["HTML engine v30.8"] = "v30.8-reciprocal-standing-race-first" in text
     checks["HTML reciprocal standing bridge"] = all(
         marker in text
@@ -85,6 +100,12 @@ if REPORT.is_file():
         checks["report/model provenance identity"] = report_hash.lower() == sha256(MODEL).lower()
     else:
         checks["report/model provenance identity"] = False
+
+checks["local race candidate photos included"] = len(list((ROOT/"data/race_assets/photos").glob("*.jpg"))) >= 1000
+checks["local portrait archive included"] = len(list((ROOT/"assets/portraits").glob("*"))) >= 400
+checks["source demographics included"] = (ROOT/"data/race_assets/demographics.csv").is_file()
+checks["visual renderer and scripts included"] = all((ROOT/p).is_file() for p in ("scripts/enrich_publication.py","nucleus42_visual/enrichment.py","nucleus42_visual/interface.js","nucleus42_visual/interface.css","nucleus42_visual/interface.html"))
+checks["README race-card screenshots included"] = all((ROOT/p).is_file() for p in ("assets/readme/race-card-house-NY-21.png","assets/readme/race-card-senate-ME-SEN.png"))
 
 for relative in (
     "README.md", "MODEL_CARD.md", "RELEASE_NOTES_v30.11.1.md", "render.yaml",

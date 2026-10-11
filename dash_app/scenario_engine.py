@@ -19,7 +19,7 @@ import pandas as pd
 
 DASH_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = DASH_DIR.parent
-HTML_PATH = PROJECT_ROOT / "Election_Model_v30_11_Final_Publication.html"
+HTML_PATH = PROJECT_ROOT / "NUCLEUS42_v30_RaceCards.html"
 ENGINE_VERSION = "v30.7-directed-causal-race-first"
 
 

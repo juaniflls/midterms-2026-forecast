@@ -1,12 +1,13 @@
 {
   "release": "30.11.3",
-  "release_date": "2026-10-01",
+  "release_date": "2026-10-11",
   "model": "Nucleus 42",
   "scenario_engine": "v30.8-reciprocal-standing-race-first",
   "immutable_artifacts": {
-    "NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb": "3a5c31c58dd2b543b54d96d4a4dd11fd0eeff7f0512adb2d19145a263b7dcb3c",
-    "Election_Model_v30_11_Final_Publication.html": "6ecbdab94454fc3cdf667cf42f71efee5c04b06cafc6a77217910558cf805ae2",
-    "Model.xlsx": "c9c9425be1ecdce4848afd7e63f11dc756f3efee1f735793cb0848f2fd3d58d6"
+    "NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb": "4f7df6498604f28096170c78e7dc16e03f79cb6b9c41ea174b4ef9239835c195",
+    "NUCLEUS42_v30_RaceCards.html": "3c43b4b4acaae9414513fa4adfe2de70139742df3c9479ce680611c44a5aa536",
+    "Model.xlsx": "9d5cc13d9d355d3299c8d2f69313392cf80816c3bd171502dab2eee0b0278e63",
+    "outputs/Election_Model_Final_Report_v30.xlsx": "e648dc79143203e35df7a9cd84f9e786f528f01453607a57b286c846b16e65f4"
   },
   "contracts": {
     "house_races": 435,
@@ -16,10 +17,11 @@
     "scenario_controls": 31,
     "scenario_units": 14,
     "notebook_code_cells": 18,
-    "notebook_error_outputs": 0
+    "notebook_error_outputs": 0,
+    "race_cards": 470
   },
   "web_architecture": {
-    "application": "Canonical autonomous v30.11 HTML served directly at /",
+    "application": "NUCLEUS42_v30_RaceCards.html served directly at /",
     "native_tabs": [],
     "scenario_source": "Serialized canonical HTML payload"
   }

@@ -1,0 +1,11 @@
+file,bytes,sha256,role,received_date,source_observation_date,source_url
+SOURCE_PROVENANCE.md,857,aa849612e1dda5e8dd7db6bd0bce4f4fc38a1600b08145c2686691c9f46f125f,"source documentation / provider parameters, archived",2026-10-10,not established per file,
+candidate_meta.csv,235370,06b88274bdf3d2d03399f2479d3593b6ddd9401173ab0062daf91d3f9768884f,presentation: candidate identity and source metadata,2026-10-10,not established per file,
+candidate_photo_overrides.csv,175381,7e9be0171fa5181ca4743803b53e37c961b458741fc0ae7e0103a6bb5ad41477,presentation: candidate identity and source metadata,2026-10-10,not established per file,
+candidates.csv,73116,03f1cb0d2296c7f0ba9db10b9ce1c95a4fb76ebc8637e5112137961192c62573,presentation: candidate identity and source metadata,2026-10-10,not established per file,
+demographics.csv,104443,f26a491f66a4178de3cba9ea630c151d42da47f8623369571acc6f02c0fc4b11,research/context: source observations; not newly activated as predictors,2026-10-10,not established per file,
+fundraising.csv,76579,f93cfc459186a1ea29571872b63727db9a15094a4527746a7ba60266df5a23cc,research/context: source observations; not newly activated as predictors,2026-10-10,not established per file,
+historical.csv,68062,eac10a99cc38742892201a41a5b93c0f01b9a4a82caa715b4f76e6f2e5fae998,research/context: source observations; not newly activated as predictors,2026-10-10,not established per file,
+manual_race_polls.csv,9033,5ab9c2fb278587f3911ce8547deeefa2108896e60798a4e92f268e55a13a9ea7,research/context: source observations; not newly activated as predictors,2026-10-10,not established per file,
+race_polls.csv,245052,63edc9cfe2ef0d54d85f262c3ca7300d03ea2fe17ab511cfca032bbe3a982dd3,research/context: source observations; not newly activated as predictors,2026-10-10,not established per file,
+races.csv,75706,d21329f97e0105e1aa6e1d6b1b8bb1518648d2376906f10b2639b73739411190,presentation: candidate identity and source metadata,2026-10-10,not established per file,
