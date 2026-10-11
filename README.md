@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme/nucleus42-v30-banner.jpg" alt="Nucleus 42 — Midterms 2026 Forecast Model" width="100%">
+  <img src="assets/readme/nucleus42-v30-banner.jpg" alt="NUCLEUS 42 — 2026 U.S. Midterm Forecast" width="100%">
 </p>
 
 <p align="center">
@@ -12,110 +12,127 @@
   <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-111827?style=flat-square">
 </p>
 
-<h1 align="center">Nucleus 42 · 2026 U.S. Midterm Forecast</h1>
+<h1 align="center">NUCLEUS 42 · 2026 U.S. Midterm Forecast</h1>
 
 <p align="center">
-  <strong>An independent, reproducible election-forecasting system.</strong><br>
-  National environment · 435 House districts · 35 scheduled Senate elections · uncertainty · validation · interactive counterfactuals
+  <strong>An independent election-forecasting project.</strong><br>
+  National environment · 435 House districts · 35 Senate elections · uncertainty · historical validation · interactive scenarios
 </p>
 
 <p align="center">
-  Forecast model by <strong>Juan Ignacio Garbanzo Fallas</strong><br>
+  Created by <strong>Juan Ignacio Garbanzo Fallas</strong><br>
   <sub>Independent technical project</sub>
 </p>
 
 ---
 
-## What Nucleus 42 is
+## About the project
 
-Nucleus 42 is an end-to-end political data-science system for the 2026 U.S. midterm elections. It is not only a dashboard: it connects a versioned source workbook, a reproducible modeling notebook, race-level House and Senate engines, nested historical validation, complete-election Monte Carlo simulations, structured audits, an autonomous HTML publication, and a web presentation layer.
+NUCLEUS 42 connects a source workbook, a modeling notebook, race-level House and Senate forecasts, historical validation, complete-election Monte Carlo simulations, and a self-contained interactive HTML publication.
 
-The repository documents the model in general. Numbers visible in screenshots are examples from one executed model run; they illustrate the interface and are not hard-coded claims about future releases.
+The workbook supplies the model inputs. The notebook produces the forecasts, report, and HTML. The web application serves the generated HTML.
 
-| Surface | Scope |
+Screenshots illustrate particular model runs. Their numbers are examples of executed snapshots, not fixed predictions for subsequent releases.
+
+| Component | Scope |
 |---|---|
-| National model | 42 targets describing vote, political context, ideology, partisanship, approval, and economic perceptions |
-| U.S. House | Every voting district, with race-first margins, winners, ratings, probabilities, holds, flips, geographic map, and cartogram |
-| U.S. Senate | All 35 scheduled 2026 elections, including monitored and structural races under one 35-race architecture |
+| National model | 42 targets covering voting intentions, political context, ideology, partisanship, presidential approval, and economic perceptions |
+| House forecast | 435 voting districts, with margins, winners, ratings, probabilities, holds, flips, a geographic map, and a cartogram |
+| Senate forecast | 35 scheduled elections, combining monitored races and structural estimates |
 | Uncertainty | 50,000 complete simulated elections and chamber-control distributions |
-| Scenario Lab | 31 controls in 14 intervention units, constrained reconciliation, incumbent-aware effects, and race-first geography |
-| Publication | One autonomous HTML used locally and by the Render application |
+| Scenario Lab | 31 controls in 14 intervention units, with constrained reconciliation and race-level effects |
+| Race Cards | 470 race profiles with candidate identities, portraits, forecast results, presidential history, and demographic context |
+| Publication | A self-contained HTML file for local viewing and web hosting |
 
-## Start here
+## Main files
 
 | Resource | Purpose |
 |---|---|
-| [Executed v30.11 notebook](NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb) | Complete production pipeline with stored outputs |
-| [Autonomous forecast HTML](NUCLEUS42_v30_RaceCards.html) | Self-contained interactive publication; no server required |
-| [Canonical input workbook](Model.xlsx) | Versioned source snapshot for the included model run |
-| [v30 consolidated report](outputs/Election_Model_Final_Report_v30.xlsx) | Structured outputs, contracts, audits, and race detail |
-| [Render application](dash_app/) | Thin Flask server for the canonical autonomous HTML publication |
-| [Methodology](docs/METHODOLOGY.md) | Model architecture, validation, uncertainty, and contracts |
-| [Scenario Lab guide](docs/SCENARIO_LAB.md) | Counterfactual engine, constraints, interpretation, and limits |
-| [Model card](MODEL_CARD.md) | Intended uses, non-uses, validation, and limitations |
-| [Publishing guide](docs/PUBLISHING.md) | Validation, GitHub, social preview, and release workflow |
+| [Forecast notebook](NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb) | Runs the complete modeling and publication pipeline |
+| [Interactive forecast](NUCLEUS42_v30_RaceCards.html) | Generated HTML with forecasts, maps, Race Cards, and Scenario Lab |
+| [Input workbook](Model.xlsx) | Canonical source workbook |
+| [Consolidated report](outputs/Election_Model_Final_Report_v30.xlsx) | Model outputs, race detail, validation, and audits |
+| [Web application](dash_app/) | Serves the generated HTML |
+| [Methodology](docs/METHODOLOGY.md) | Model architecture, validation, and uncertainty |
+| [Scenario Lab guide](docs/SCENARIO_LAB.md) | Counterfactual assumptions, constraints, and interpretation |
+| [Model card](MODEL_CARD.md) | Intended uses and limitations |
+| [Publishing guide](docs/PUBLISHING.md) | Publication and release workflow |
 
 > [!IMPORTANT]
-> `Model.xlsx`, the executed notebook, `outputs/Election_Model_Final_Report_v30.xlsx`, and the autonomous HTML form one release snapshot. Update them together by running the notebook end to end.
+> The workbook, executed notebook, report, and HTML should describe the same model run. After updating inputs, run the notebook from beginning to end before publishing the resulting files.
 
-## One release contract, two coordinated surfaces
+## How the publication works
 
-The notebook generates the authoritative report and autonomous HTML. Render serves that exact HTML as the complete application: one interface, one Scenario Lab engine, and no duplicate Dash navigation or branding shell.
+The notebook generates the report and the HTML publication. The visual enrichment step adds candidate portraits and demographic context to the generated race results.
+
+Render serves `NUCLEUS42_v30_RaceCards.html` from the repository. Generating a new HTML file locally does not update the hosted application until the updated file is committed, pushed, and deployed.
 
 ```mermaid
 flowchart TD
-    A["Canonical data workbook"] --> B["Executed v30 notebook"]
-    B --> C["National model + validation"]
-    C --> D["435 House races"]
-    C --> E["35 Senate races"]
-    D --> F["50,000-election uncertainty"]
-    E --> F
-    B --> G["v30.8 Scenario Lab"]
-    F --> H["Autonomous HTML"]
-    G --> H
-    H --> I["Local browser"]
-    H --> J["Render · full application"]
+    A["Model.xlsx"] --> B["Forecast notebook"]
+    B --> C["National model and validation"]
+    C --> D["House and Senate forecasts"]
+    D --> E["Election simulations"]
+    E --> F["Report and base HTML"]
+    G["Local candidate and demographic assets"] --> H["Visual enrichment"]
+    F --> H
+    H --> I["NUCLEUS42_v30_RaceCards.html"]
+    I --> J["Local browser"]
+    I --> K["Render application"]
 ```
 
-This design keeps the publication coherent with a single presentation layer:
+The publication includes Overview, House, Senate, Probability, Simulation, Context, Validation, and Scenario Lab.
 
-- Render serves the exact autonomous HTML at `/`;
-- the HTML retains Overview, House, Senate, Probability, Simulation, Context, Validation and Scenario Lab;
-- Scenario Lab uses the `v30.8-reciprocal-standing-race-first` engine;
-- presidential approval and direction of country reconcile in both directions through one bounded, historically regularized bridge;
-- reset returns to the exact official race-first baseline;
-- House and Senate maps, hovers, tables, filters, and data exploration remain available in their dedicated views;
-- the web server never rewrites the workbook, notebook, report, or forecast.
+- Chamber totals are derived from individual race results.
+- Race Cards present the forecast alongside candidate and geographic context.
+- Scenario Lab explores changes to national conditions.
+- Reset returns Scenario Lab to the official baseline.
+- The web server serves the publication without recalculating the model.
 
-## Product tour
+## Interface tour
 
 ### Forecast overview
 
 <p align="center">
-  <img src="assets/readme/v30-overview.png" alt="Nucleus 42 v30 forecast overview" width="86%">
+  <img src="assets/readme/v30-overview.png" alt="NUCLEUS 42 forecast overview" width="86%">
 </p>
 
-The Overview brings together chamber-control probability, national popular vote, simulation status, and balance of power without duplicating the full race desks.
+The Overview summarizes chamber-control probabilities, national popular vote, simulation status, and the balance of power.
 
-### House: race-first, district by district
+### House forecast
 
 <p align="center">
-  <img src="assets/readme/v30-house.png" alt="Nucleus 42 House forecast interface" width="86%">
+  <img src="assets/readme/v30-house.png" alt="NUCLEUS 42 House forecast" width="86%">
 </p>
 
-Every House total is reconstructed from 435 individual district winners. Users can switch among the geographic map and district cartogram, inspect margins and probabilities, identify holds and flips, filter the race desk, and export visible data.
+The House forecast covers all 435 voting districts. Seat totals are reconstructed from individual district winners.
 
-### Senate: one 35-race architecture
+The interface provides geographic and cartogram views, margins, win probabilities, holds and flips, race filters, and data exports.
+
+### Senate forecast
 
 <p align="center">
-  <img src="assets/readme/v30-senate.png" alt="Nucleus 42 Senate race-first map" width="86%">
+  <img src="assets/readme/v30-senate.png" alt="NUCLEUS 42 Senate forecast" width="86%">
 </p>
 
-The Senate layer covers every scheduled election. Monitored races can use the validated polling engine selected by out-of-fold evidence; the remaining races use structural estimates. The chamber total is the sum of race winners plus fixed non-up seats—never a chamber quota.
+The Senate forecast covers all 35 scheduled elections. Monitored races use the model's selected polling engine where applicable; other races use structural estimates.
 
-### Candidate Race Cards · 470 detailed race profiles
+The chamber balance combines projected winners in these elections with seats that are not up for election.
 
-The v30 publication now includes detailed, clickable Race Cards for **435 House districts and 35 Senate elections**, with candidate portraits, party-correct names and colors, modeled win probabilities, implied two-party vote shares, a single race rating/margin, contextual polling, presidential history, and descriptive population composition. The historical forecast **engine is unchanged**; candidate photos, Census-derived descriptors, fundraising and contextual race polling are publication-only metadata. Missing portrait matches remain explicit rather than guessing identities.
+### Race Cards
+
+The publication includes **435 House Race Cards and 35 Senate Race Cards**.
+
+Each card presents the available information for its race:
+
+- Candidate names, party identities, colors, and portraits.
+- Modeled win probabilities.
+- Implied two-party vote shares, where applicable.
+- Forecast margin and race rating.
+- Presidential election history.
+- Descriptive demographic context.
+
+Candidate portraits and demographic descriptors are presentation metadata. They do not change the statistical forecast. Missing portrait matches remain explicit rather than being assigned to an uncertain identity.
 
 <table>
 <tr>
@@ -123,46 +140,64 @@ The v30 publication now includes detailed, clickable Race Cards for **435 House 
 <td width="50%" align="center"><strong>Senate example · Maine</strong></td>
 </tr>
 <tr>
-<td valign="top"><img src="assets/readme/race-card-house-NY-21.png" alt="NUCLEUS 42 House NY-21 candidate Race Card" width="100%"></td>
-<td valign="top"><img src="assets/readme/race-card-senate-ME-SEN.png" alt="NUCLEUS 42 Maine Senate candidate Race Card" width="100%"></td>
+<td valign="top"><img src="assets/readme/race-card-house-NY-21.png" alt="NUCLEUS 42 House NY-21 Race Card" width="100%"></td>
+<td valign="top"><img src="assets/readme/race-card-senate-ME-SEN.png" alt="NUCLEUS 42 Maine Senate Race Card" width="100%"></td>
 </tr>
 </table>
 
-Click a district or state on a forecast map to open its fuller candidate Race Card. Hover text remains on the map; the screenshot/download view is not padded with instructions. Independent-vs-Republican identity for **Idaho, Nebraska, and South Dakota** is a presentation mapping only, never a re-estimation of the underlying race. Montana's three-way candidate polling is labeled observational and is not fabricated as three-way win probabilities.
+Click a district or state on a forecast map to open its Race Card. Map hovers remain available, and cards can be exported as images.
 
-Race Card input snapshots and local images are bundled under `data/race_assets/`, `assets/portraits/` and `nucleus42_visual/` (all part of **v30**). Block 8 calls `scripts/enrich_publication.py` to incorporate and validate the complete visual layer **before publishing `NUCLEUS42_v30_RaceCards.html`**. It prints `HTML VISUAL VERIFICADO` with the race, portrait and demographic counts. Block 9 rejects HTML without all 470 Race Cards; a failed generation leaves the previous valid publication intact. Render serves this same new filename. These inputs are local and reproducible, with no new web-source automation. The separate original provenance of the supplied curated snapshots is recorded in `data/race_assets/SOURCE_PROVENANCE.md`.
+Independent candidate identities are displayed where applicable, including Idaho, Nebraska, and South Dakota. These presentation mappings do not re-estimate the underlying races or create additional candidate-level probabilities.
+
+Local visual resources are maintained under:
+
+- `data/race_assets/`
+- `assets/portraits/`
+- `nucleus42_visual/`
+
+Block 8 integrates the visual layer through `scripts/enrich_publication.py` and writes `NUCLEUS42_v30_RaceCards.html` to the project root.
+
+Successful visual validation prints `HTML VISUAL VERIFICADO`, together with the race, portrait, and demographic counts. Block 9 checks the final publication for all 470 Race Cards.
+
+The visual resources are bundled locally. Their source documentation is maintained separately from the model's statistical inputs.
 
 ### Scenario Lab
 
 <p align="center">
-  <img src="assets/readme/v30-scenario-lab.png" alt="Nucleus 42 v30 Scenario Lab" width="86%">
+  <img src="assets/readme/v30-scenario-lab.png" alt="NUCLEUS 42 Scenario Lab" width="86%">
 </p>
 
-The Scenario Lab is exploratory, not a replacement forecast. It moves national conditions through a directed, historically scaled system and then reruns all 435 House districts and all 35 Senate elections. Composition batteries remain coherent, protected exogenous inputs do not receive reverse feedback, and economic/political conditions are interpreted relative to the presidential incumbent party.
+Scenario Lab explores counterfactual changes to national conditions and their consequences for House and Senate races.
+
+It begins at the official forecast baseline. Changes pass through historically scaled relationships and reconciliation constraints before updating race-level results.
+
+Composition controls remain coherent, protected exogenous inputs do not receive reverse feedback, and political and economic effects are interpreted relative to the presidential incumbent party.
+
+Scenario Lab uses the `v30.8-reciprocal-standing-race-first` engine. Presidential approval and direction-of-country measures reconcile through a bounded, historically regularized bridge.
 
 > [!NOTE]
-> Interface images are publication examples from an executed snapshot. The methodology and functionality are the durable subject of this repository.
+> Scenario Lab results are exploratory scenarios. They do not replace the official forecast or update the source workbook.
 
 ## Modeling principles
 
-1. **Race first.** Chamber totals are consequences of race-level winners.
-2. **No chamber quota.** House and Senate outputs are never forced to a desired seat total.
-3. **Temporal validation.** Historical cycles are held out as sealed future elections during model evaluation.
-4. **Probability discipline.** Point forecasts, win probabilities, control probabilities, and diagnostic stability are distinct quantities.
-5. **Module isolation.** Senate cannot rewrite the national vote; the presentation layer cannot rewrite the model.
-6. **Traceable fallbacks.** Missing or weak evidence triggers explicit, auditable behavior rather than silent substitution.
-7. **Reproducible publication.** The report and HTML are generated downstream of successful release gates.
+1. **Race first.** Chamber totals follow from race-level outcomes.
+2. **No chamber quotas.** The model does not force forecasts toward a desired seat total.
+3. **Temporal validation.** Historical election cycles are held out during evaluation.
+4. **Distinct probability measures.** Race win probabilities, chamber-control probabilities, point forecasts, and diagnostic stability serve different purposes.
+5. **Module isolation.** Presentation metadata cannot rewrite the statistical model.
+6. **Traceable fallbacks.** Missing or weak evidence should trigger explicit, auditable behavior.
+7. **Consistent publication.** The report and HTML must correspond to the completed model run.
 
-## Run the autonomous publication
+## View the forecast locally
 
-No installation is required:
+To view the included publication:
 
 1. Download or clone the repository.
 2. Open `NUCLEUS42_v30_RaceCards.html` in a modern browser.
 
-The file contains its own styles, data, maps, tables, Scenario Lab, and export logic.
+No Python installation is required to view the generated HTML. The publication contains its styles, embedded data, maps, Race Cards, Scenario Lab, and export logic.
 
-## Run the Render/Dash application locally
+## Run the web application locally
 
 ```bash
 python -m venv .venv
@@ -172,9 +207,13 @@ python dash_app/check_setup.py
 python dash_app/app.py
 ```
 
-Open `http://127.0.0.1:8050`. The autonomous publication HTML is the complete application.
+Open `http://127.0.0.1:8050`.
 
-## Reproduce the model
+The web application serves the generated HTML. It does not run the forecasting notebook when a visitor opens the site.
+
+## Reproduce the forecast
+
+Run these commands from the repository root:
 
 ```bash
 python -m venv .venv
@@ -183,42 +222,66 @@ pip install -r requirements.txt
 jupyter lab NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb
 ```
 
-Place the intended canonical workbook at `Model.xlsx`, restart the kernel, and run every cell in order. Do not publish partial execution state. The release gate after HTML generation must pass.
+Before executing the notebook:
 
-Run repository checks:
+1. Place the intended input workbook at `Model.xlsx`.
+2. Keep the notebook, scripts, and visual resources together in the project folder.
+3. Confirm that the notebook's project root points to that folder.
+4. Restart the kernel and select **Run All**.
+5. Wait for the final validation block to complete.
+
+The generated publication is:
+
+```text
+NUCLEUS42_v30_RaceCards.html
+```
+
+The consolidated report is:
+
+```text
+outputs/Election_Model_Final_Report_v30.xlsx
+```
+
+Check the output paths printed by the notebook. A successful execution should generate the visual publication in the intended project folder and pass the final checks.
+
+Do not publish outputs from an incomplete or failed run.
+
+Additional repository checks:
 
 ```bash
 python scripts/validate_repository.py
 python dash_app/check_setup.py
 ```
 
-## Repository map
+## Repository structure
 
-```text
-.
-├── NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb
-├── NUCLEUS42_v30_RaceCards.html
-├── Model.xlsx
-├── outputs/
-│   ├── Election_Model_Final_Report_v30.xlsx
-│   └── generated model and audit artifacts
-├── dash_app/
-│   ├── app.py
-│   ├── assets/dash_v2.css
-│   └── check_setup.py
-├── assets/
-│   ├── branding/
-│   ├── readme/
-│   └── social/
-├── docs/
-├── scripts/
-├── render.yaml
-└── VERSION
-```
+| Location | Contents |
+|---|---|
+| `NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb` | Modeling and publication notebook |
+| `NUCLEUS42_v30_RaceCards.html` | Generated interactive publication |
+| `Model.xlsx` | Canonical input workbook |
+| `outputs/` | Reports, model outputs, and audits |
+| `data/race_assets/` | Local candidate and demographic resources |
+| `assets/portraits/` | Candidate images |
+| `assets/readme/` | README screenshots and banner |
+| `assets/branding/` | Branding resources |
+| `assets/social/` | Social preview resources |
+| `nucleus42_visual/` | Visual enrichment modules |
+| `scripts/` | Publication and repository validation scripts |
+| `dash_app/` | Web server and deployment checks |
+| `docs/` | Methodology and operating documentation |
+| `render.yaml` | Render deployment configuration |
+| `VERSION` | Release metadata |
 
 ## Data and update policy
 
-`Model.xlsx` remains the **original manually maintained v30 workbook**. Its existing v30 API/CSV source refreshes are preserved. The experimental 32-web-source collector and Block 1A were abandoned and are **not** used in this release; polling and national inputs remain governed by the original v30 update workflow. Candidate identities, portraits, and district demographics enrich the **presentation only**, never the model predictors. A workbook edit is not a published forecast until the notebook completes, all contracts pass, and the report and HTML are regenerated.
+`Model.xlsx` is the manually maintained canonical workbook for version 30. Existing API/CSV refreshes from the original model remain part of its established workflow.
+
+Workbook changes become a published forecast only after the notebook completes successfully and regenerates the report and HTML.
+
+Candidate identities, portraits, and demographic context are maintained as local presentation resources. Updating these resources does not constitute a new statistical forecast.
+
+The experimental 32-source collector and Block 1A are not part of this release.
 
 [Open the maintained source sheet](https://docs.google.com/spreadsheets/d/1NC80MaJh8vyxrbQsi__HSR2StaSo8mgAJ3iSdilqEj0/edit?usp=sharing)
 
@@ -226,19 +289,25 @@ See [Data Sources](docs/DATA_SOURCES.md) for source roles and refresh rules.
 
 ## Interpretation and limitations
 
-- This is a probabilistic forecast, not a statement of certainty.
-- Scenario Lab outputs are counterfactual stress tests, not new official forecasts.
-- Candidate changes, redistricting, polling errors, turnout, source revisions, and rare shocks can alter outcomes.
-- The national popular-vote model is an independently validated module; displayed national vote is not mechanically reconstructed from chamber seat totals.
-- Diagnostic stability is a sensitivity index, not a win probability.
-- Historical relationships may not persist under structural political change.
+- Forecast probabilities express uncertainty; they do not guarantee outcomes.
+- Scenario Lab outputs are counterfactual exercises.
+- Candidate changes, redistricting, turnout, polling errors, source revisions, and unexpected events can affect outcomes.
+- The national popular-vote model is evaluated separately from the race engines. National vote is not mechanically reconstructed from chamber seat totals.
+- Diagnostic stability is a sensitivity measure, not a win probability.
+- Historical relationships may change.
+- Candidate photographs and demographic context may have different reference dates from the forecast inputs.
+- Displayed results should be interpreted using the dates and assumptions of the corresponding model run.
 
-## Citation, license, and conduct
+## Citation and license
 
-- Citation metadata: [CITATION.cff](CITATION.cff)
-- Model card: [MODEL_CARD.md](MODEL_CARD.md)
-- Contribution guide: [CONTRIBUTING.md](CONTRIBUTING.md)
-- Security policy: [SECURITY.md](SECURITY.md)
-- License: [MIT](LICENSE)
+| Resource | Purpose |
+|---|---|
+| [CITATION.cff](CITATION.cff) | Project citation metadata |
+| [MODEL_CARD.md](MODEL_CARD.md) | Intended uses and limitations |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidance |
+| [SECURITY.md](SECURITY.md) | Security reporting |
+| [MIT license](LICENSE) | Repository license terms |
 
-Nucleus 42 is an independent technical project. Institutional context must not be interpreted as formal endorsement unless expressly stated.
+NUCLEUS 42 is an independent technical project by Juan Ignacio Garbanzo Fallas. Institutional references do not imply formal endorsement unless expressly stated.
+
+Third-party data and images retain their applicable source terms. The repository license does not override those terms.

@@ -1,7 +1,7 @@
 """Add the full race-card interface to the official v30 publication.
 
 This module changes presentation only. It imports candidate identity, portraits,
-descriptive population composition, history, finance and contextual polling from
+descriptive population composition and history from
 the packaged source snapshot. It does not alter forecast inputs or results.
 """
 from pathlib import Path
@@ -32,6 +32,10 @@ def validate_publication(path):
     if not match:
         raise ValueError("HTML sin datos de Race Cards.")
     payload = json.loads(match.group(1))
+    if "polls" in payload or any("finance" in race for race in payload.get("races", [])):
+        raise ValueError("HTML includes removed supplementary data.")
+    if any(marker in text for marker in ("Campaign finance", "Supplied polling", "D.polls", "r.finance")):
+        raise ValueError("HTML includes removed supplementary sections.")
     races = payload["races"]
     house = [race for race in races if race["chamber"] == "House"]
     senate = [race for race in races if race["chamber"] == "Senate"]

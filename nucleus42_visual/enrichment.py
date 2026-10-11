@@ -20,8 +20,6 @@ def clean(value):
 def norm(value):
     return re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFKD',str(value)).encode('ascii','ignore').decode().lower())
 
-def records(frame): return clean(frame.replace({np.nan:None}).to_dict('records'))
-
 def number(value, default=None):
     try:return float(value) if np.isfinite(float(value)) else default
     except (ValueError,TypeError):return default
@@ -31,7 +29,7 @@ def build_racecards(root:Path, html_path:Path, report_path:Path):
     def read(name):return pd.read_csv(ei/(name+'.csv'))
     races=read('races').fillna(''); candidates=read('candidates').fillna('')
     metadata=read('candidate_meta').fillna(''); overrides=read('candidate_photo_overrides').fillna('')
-    demo=read('demographics'); historical=read('historical'); funds=read('fundraising')
+    demo=read('demographics'); historical=read('historical')
     assert races.race_code.is_unique and demo.district_code.is_unique
     # Display-only candidate polling snapshot from the selected saved workbook.
     # These are provider averages, NOT modeled candidate vote shares and never
@@ -57,7 +55,7 @@ def build_racecards(root:Path, html_path:Path, report_path:Path):
     assert len(house)==435 and house['District ID'].is_unique
     assert len(senate)==35 and senate['State Abbr'].is_unique
     race_index=races.set_index('race_code'); candidate_index=candidates.set_index('cand_id')
-    dem_index=demo.set_index('district_code'); fund_index=funds.set_index('race_code')
+    dem_index=demo.set_index('district_code')
     history_index=historical.set_index('code'); photo_audit=[]; enriched=[]; candidate_rows=[]
     dem_columns=[c for c in demo if c not in ['district_code','state','district']]
     # State sums are explicitly derived, not independent state observations.
@@ -144,7 +142,6 @@ def build_racecards(root:Path, html_path:Path, report_path:Path):
             drow=dem_index.loc[code] if chamber=='House' else state_demo.loc[state]
             hkey=code if chamber=='House' else state
             hist=history_index.loc[hkey].to_dict() if hkey in history_index.index else {}
-            financing=fund_index.loc[code].to_dict() if code in fund_index.index else {}
             model={'margin':number(row.get('Projected Margin PP',row.get('Final Margin PP'))),
                    'pD':number(row['D Win Probability']),'pR':number(row['R Win Probability']),
                    'winner':str(row.get('Projected Winner','')),'rating':str(row['Forecast Rating']),
@@ -154,18 +151,8 @@ def build_racecards(root:Path, html_path:Path, report_path:Path):
                    'monitored':bool(row.get('Monitored',False))}
             assert model['pD'] is not None and model['pR'] is not None and abs(model['pD']+model['pR']-100)<1e-6
             enriched.append({'id':model_code,'sourceRaceCode':code,'state':state,'chamber':chamber,'label':str(row.get('District Label',row.get('State',code))),
-                             'candidates':field,'model':model,'composition':composition(drow),'history':clean(hist),'finance':clean(financing),
+                             'candidates':field,'model':model,'composition':composition(drow),'history':clean(hist),
                              'field':{k:clean(ext.get(k)) for k in ['same_party','rcv','threeway','ind_caucus','incumbent_party']},'pollSnapshot':poll_snapshot.get(model_code), 'notes':special,'candidate_conflicts':conflicts})
-    # Polls are context-only, with matchup matching and per-poll dates. No provider rating enters the engine.
-    polls=[]
-    all_polls=pd.concat([read('race_polls').assign(input_file='race_polls.csv'),read('manual_race_polls').assign(input_file='manual_race_polls.csv')],ignore_index=True)
-    for _,row in all_polls.iterrows():
-        code=str(row.get('race_code',''))
-        if code not in race_index.index:continue
-        ext=race_index.loc[code]
-        match=all(norm(row.get(k+'_name',''))==norm(ext.get(k+'_name','')) and norm(row.get(k+'_name','')) for k in ['dem','rep'])
-        polls.append({'race':code,'pollster':str(row.get('pollster','')),'date':str(row.get('end_date','')),'n':number(row.get('n')),'dem':number(row.get('dem')),'rep':number(row.get('rep')),'margin':number(row.get('margin')),'dem_name':str(row.get('dem_name','')),'rep_name':str(row.get('rep_name','')),'matchup_match':bool(match),'source_file':str(row['input_file'])})
-    polls=pd.DataFrame(polls).drop_duplicates(subset=['race','pollster','date','n','dem','rep','dem_name','rep_name'])
     demo_audit=demo[['district_code','vap_total']].copy()
     demo_audit['category_sum']=demo.filter(regex='^vap_(?!total)').sum(axis=1)
     demo_audit['sum_exceeds_vap']=demo_audit.category_sum.gt(demo_audit.vap_total)
@@ -175,7 +162,7 @@ def build_racecards(root:Path, html_path:Path, report_path:Path):
         if not path.is_file():continue
         role=next((d['role'] for d in dictionaries if d['file']==path.name),'source documentation / provider parameters, archived')
         inventory.append({'file':path.name,'bytes':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'role':role,'received_date':'2026-10-10','source_observation_date':'not established per file','source_url':SOURCE_URL})
-    for name, df in [('CandidateProfiles',pd.DataFrame(candidate_rows)),('PhotoAudit',pd.DataFrame(photo_audit)),('DemographicQuality',demo_audit),('DataDictionary',pd.DataFrame(dictionaries)),('SourceInventory',pd.DataFrame(inventory)),('ExternalPolls',polls),('Demographics',demo),('HistoricalContext',historical),('Fundraising',funds)]:
+    for name, df in [('CandidateProfiles',pd.DataFrame(candidate_rows)),('PhotoAudit',pd.DataFrame(photo_audit)),('DemographicQuality',demo_audit),('DataDictionary',pd.DataFrame(dictionaries)),('SourceInventory',pd.DataFrame(inventory)),('Demographics',demo),('HistoricalContext',historical)]:
         df.to_csv(out/f'{name}.csv',index=False)
     flat=[]
     for r in enriched:
@@ -185,7 +172,7 @@ def build_racecards(root:Path, html_path:Path, report_path:Path):
     projection=pd.read_excel(book,'FinalProjection')
     fixed_d=int(projection.loc[projection.Chamber.eq('Senate'),'Democratic Seats'].iloc[0])-int((senate['Projected Winner']=='D').sum())
     fixed_r=65-fixed_d
-    payload={'races':enriched,'polls':records(polls),'groups':group_specs,'sources':inventory,'fixedD':fixed_d,'fixedR':fixed_r,
+    payload={'races':enriched,'groups':group_specs,'sources':inventory,'fixedD':fixed_d,'fixedR':fixed_r,
              'counts':{'House':435,'Senate':35,'photoMatched':sum(bool(r['photo_file']) for r in photo_audit),'photoMissing':sum(not bool(r['photo_file']) for r in photo_audit),'demographicDistricts':int(len(dem_index)),'demographicCategoryOverlapRows':int(demo_audit.sum_exceeds_vap.sum()),'candidateConflicts':sum(bool(r['candidate_conflicts']) for r in enriched)},
              'dataAsOf':'2026-10-06','enrichmentReceived':'2026-10-10','dataMode':__import__('os').environ.get('NUCLEUS_DATA_MODE','snapshot')}
     # A plain JSON copy excludes embedded pictures; original photos travel in the package.
