@@ -12,7 +12,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NOTEBOOK = ROOT / "NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb"
+NOTEBOOK = ROOT / "NUCLEUS42_v30_SIN_FINANZAS_NI_POLLS_EXTERNOS.ipynb"
 HTML = ROOT / "NUCLEUS42_v30_RaceCards.html"
 MODEL = ROOT / "Model.xlsx"
 REPORT = ROOT / "outputs" / "Election_Model_Final_Report_v30.xlsx"
