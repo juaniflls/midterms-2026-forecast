@@ -25,7 +25,7 @@ def validate_publication(path):
     # self-contained, so repository validation must not require the Python
     # plotly package or an exact match to a separately installed JS version.
     plotly_bundle = re.search(
-        r"<script\\b[^>]*>\\s*/\\*\\*\\s*\\*\\s*plotly\\.js v[0-9]+\\.[0-9]+\\.[0-9]+.*?</script>",
+        r"<script\b[^>]*>\s*/\*\*\s*\*\s*plotly\.js v[0-9]+\.[0-9]+\.[0-9]+.*?</script>",
         text, flags=re.S | re.I,
     )
     if not plotly_bundle or len(plotly_bundle.group(0)) < 3_000_000:
