@@ -76,7 +76,7 @@ if HTML.is_file():
         print("Visual validation:", exc)
     checks["470 race cards embedded"] = all(x in text for x in ("n42RaceData", "N42_RACECARDS_BEGIN", "n42-racecards-style"))
     checks["Race Card map hover/click bundle embedded"] = "interface" in text.lower() and "ID-SEN" in text
-    checks["HTML engine v30.8"] = "v30.8-reciprocal-standing-race-first" in text
+    checks["HTML engine v30.9"] = "v30.9-historical-local-response" in text
     checks["HTML reciprocal standing bridge"] = all(
         marker in text
         for marker in (
