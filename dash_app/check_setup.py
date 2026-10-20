@@ -26,8 +26,8 @@ if HTML.is_file():
         checks[f"HTML anchor #{anchor}"] = bool(
             re.search(rf"\bid=[\"']{re.escape(anchor)}[\"']", text, re.IGNORECASE)
         )
-    checks["v30.8 Scenario Lab engine embedded"] = (
-        "v30.8-reciprocal-standing-race-first" in text
+    checks["v30.9 Scenario Lab engine embedded"] = (
+        "v30.9-historical-local-response" in text
     )
     checks["reciprocal standing bridge embedded"] = all(
         marker in text
@@ -54,8 +54,8 @@ if NOTEBOOK.is_file():
     source = "\n".join(
         "".join(cell.get("source", [])) for cell in notebook.get("cells", [])
     )
-    checks["notebook regenerates v30.8 engine"] = (
-        'SCENARIO_ENGINE_VERSION = "v30.8-reciprocal-standing-race-first"' in source
+    checks["notebook regenerates v30.9 engine"] = (
+        'SCENARIO_ENGINE_VERSION = "v30.9-historical-local-response"' in source
     )
     checks["notebook regenerates reciprocal standing bridge"] = (
         "directionTouched&&!approvalTouched" in source
