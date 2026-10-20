@@ -15403,7 +15403,7 @@
       ],
       "model": {
         "margin": -18.74265202596607,
-        "pD": 4.961998547196881,
+        "pD": 4.961998547196885,
         "pR": 95.03800145280312,
         "winner": "R",
         "rating": "Safe R",
@@ -23286,7 +23286,7 @@
         }
       ],
       "model": {
-        "margin": 47.90479104395284,
+        "margin": 47.90479104395283,
         "pD": 99.9,
         "pR": 0.1000000000000001,
         "winner": "D",
@@ -23744,9 +23744,9 @@
         "rating": "Tilt D",
         "engine": "HOUSE COMPOSITE",
         "poll_count": 2.0,
-        "fundamentals_weight": 0.4693105266388132,
-        "ratings_weight": 0.1956011993827616,
-        "polling_weight": 0.3350882739784251,
+        "fundamentals_weight": 0.4693105266388133,
+        "ratings_weight": 0.1956011993827617,
+        "polling_weight": 0.335088273978425,
         "pvi": -4.0,
         "incumbent": "Mariannette Miller-Meeks",
         "monitored": false
@@ -25705,7 +25705,7 @@
         }
       ],
       "model": {
-        "margin": 0.7427752711972964,
+        "margin": 0.7427752711972961,
         "pD": 52.60453127755515,
         "pR": 47.39546872244485,
         "winner": "D",
@@ -26931,16 +26931,16 @@
         }
       ],
       "model": {
-        "margin": -2.684446372651213,
-        "pD": 40.66712759437834,
-        "pR": 59.33287240562166,
+        "margin": -2.684446372651212,
+        "pD": 40.66712759437835,
+        "pR": 59.33287240562165,
         "winner": "R",
         "rating": "Tilt R",
         "engine": "HOUSE COMPOSITE",
         "poll_count": 3.0,
-        "fundamentals_weight": 0.446888055602067,
+        "fundamentals_weight": 0.4468880556020671,
         "ratings_weight": 0.186255868351463,
-        "polling_weight": 0.36685607604647,
+        "polling_weight": 0.3668560760464699,
         "pvi": -4.0,
         "incumbent": "Jared Golden",
         "monitored": false
@@ -28858,7 +28858,7 @@
         }
       ],
       "model": {
-        "margin": 52.39587812311651,
+        "margin": 52.3958781231165,
         "pD": 99.9,
         "pR": 0.1000000000000001,
         "winner": "D",
@@ -30072,7 +30072,7 @@
         }
       ],
       "model": {
-        "margin": -0.8137930238676607,
+        "margin": -0.8137930238676606,
         "pD": 47.14685240069543,
         "pR": 52.85314759930457,
         "winner": "R",
@@ -34620,9 +34620,9 @@
         "rating": "Toss-Up",
         "engine": "HOUSE COMPOSITE",
         "poll_count": 2.0,
-        "fundamentals_weight": 0.4658506905522188,
+        "fundamentals_weight": 0.4658506905522187,
         "ratings_weight": 0.1941591944632204,
-        "polling_weight": 0.3399901149845608,
+        "polling_weight": 0.3399901149845609,
         "pvi": -5.0,
         "incumbent": "Ryan Zinke",
         "monitored": false
@@ -35985,8 +35985,8 @@
       ],
       "model": {
         "margin": 14.40313837662431,
-        "pD": 89.73970349294315,
-        "pR": 10.26029650705685,
+        "pD": 89.73970349294314,
+        "pR": 10.26029650705686,
         "winner": "D",
         "rating": "Likely D",
         "engine": "HOUSE COMPOSITE",
@@ -38550,8 +38550,8 @@
         }
       ],
       "model": {
-        "margin": -9.373558262073072,
-        "pD": 20.48359736716967,
+        "margin": -9.37355826207307,
+        "pD": 20.48359736716968,
         "pR": 79.51640263283034,
         "winner": "R",
         "rating": "Likely R",
@@ -41518,7 +41518,7 @@
         }
       ],
       "model": {
-        "margin": -6.319767326919694,
+        "margin": -6.319767326919695,
         "pD": 28.91503928558878,
         "pR": 71.08496071441121,
         "winner": "R",
@@ -45565,15 +45565,15 @@
         }
       ],
       "model": {
-        "margin": -1.832294501970498,
-        "pD": 43.59823832847337,
-        "pR": 56.40176167152663,
+        "margin": -1.832294501970499,
+        "pD": 43.59823832847336,
+        "pR": 56.40176167152664,
         "winner": "R",
         "rating": "Tilt R",
         "engine": "HOUSE COMPOSITE",
         "poll_count": 3.0,
-        "fundamentals_weight": 0.3990663540509594,
-        "ratings_weight": 0.166324540053941,
+        "fundamentals_weight": 0.3990663540509595,
+        "ratings_weight": 0.1663245400539411,
         "polling_weight": 0.4346091058950995,
         "pvi": -5.0,
         "incumbent": "Max Miller",
@@ -47202,8 +47202,8 @@
         }
       ],
       "model": {
-        "margin": -30.80539836369696,
-        "pD": 0.3368689589588801,
+        "margin": -30.80539836369695,
+        "pD": 0.3368689589588805,
         "pR": 99.66313104104113,
         "winner": "R",
         "rating": "Safe R",
@@ -48839,7 +48839,7 @@
         }
       ],
       "model": {
-        "margin": 58.56939211191605,
+        "margin": 58.56939211191604,
         "pD": 99.9,
         "pR": 0.1000000000000001,
         "winner": "D",
@@ -49427,7 +49427,7 @@
         }
       ],
       "model": {
-        "margin": 2.431982786392272,
+        "margin": 2.431982786392273,
         "pD": 58.46914457137071,
         "pR": 41.53085542862929,
         "winner": "D",
@@ -49436,7 +49436,7 @@
         "poll_count": 2.0,
         "fundamentals_weight": 0.4526400601439531,
         "ratings_weight": 0.1886532128033464,
-        "polling_weight": 0.3587067270527004,
+        "polling_weight": 0.3587067270527005,
         "pvi": -1.0,
         "incumbent": "Ryan Mackenzie",
         "monitored": false
@@ -49868,7 +49868,7 @@
         }
       ],
       "model": {
-        "margin": 4.013192501710457,
+        "margin": 4.013192501710458,
         "pD": 63.79515827772772,
         "pR": 36.20484172227228,
         "winner": "D",
@@ -57768,7 +57768,7 @@
         }
       ],
       "model": {
-        "margin": -18.85962532635018,
+        "margin": -18.85962532635017,
         "pD": 4.85742114744461,
         "pR": 95.14257885255539,
         "winner": "R",
@@ -58959,7 +58959,7 @@
         }
       ],
       "model": {
-        "margin": -1.669432050350195,
+        "margin": -1.669432050350196,
         "pD": 44.16297816613327,
         "pR": 55.83702183386673,
         "winner": "R",
@@ -60165,7 +60165,7 @@
         }
       ],
       "model": {
-        "margin": 42.16543848942421,
+        "margin": 42.1654384894242,
         "pD": 99.9,
         "pR": 0.1000000000000001,
         "winner": "D",
@@ -66441,9 +66441,9 @@
         }
       ],
       "model": {
-        "margin": 12.876553924134,
-        "pD": 97.57944163470155,
-        "pR": 2.420558365298442,
+        "margin": 12.78893971379229,
+        "pD": 97.58286304790226,
+        "pR": 2.417136952097731,
         "winner": "D",
         "rating": "D Likely",
         "engine": "5B POLLING ENGINE",
@@ -68084,6 +68084,158 @@
       "candidate_conflicts": []
     },
     {
+      "id": "IA-SEN",
+      "sourceRaceCode": "IA-SEN",
+      "state": "IA",
+      "chamber": "Senate",
+      "label": "Iowa",
+      "candidates": [
+        {
+          "slot": "dem",
+          "name": "Josh Turek",
+          "party": "DEM"
+        },
+        {
+          "slot": "rep",
+          "name": "Ashley Hinson",
+          "party": "REP"
+        },
+        {
+          "slot": "ind",
+          "name": "Thomas Laehn",
+          "party": "Libertarian"
+        }
+      ],
+      "model": {
+        "margin": -1.992304939694847,
+        "pD": 36.54288608991354,
+        "pR": 63.45711391008646,
+        "winner": "R",
+        "rating": "R Tilt",
+        "engine": "5B POLLING ENGINE",
+        "poll_count": null,
+        "fundamentals_weight": null,
+        "ratings_weight": null,
+        "polling_weight": null,
+        "pvi": -6.0,
+        "incumbent": "",
+        "monitored": true
+      },
+      "composition": {
+        "raw": {
+          "vap_total": 2450103.0,
+          "vap_white": 2093769.0,
+          "vap_hispanic": 134104.0,
+          "vap_black": 104136.0,
+          "vap_asian": 67950.0,
+          "vap_native": 38717.0,
+          "vap_pacific": 6628.0,
+          "age_20_29": 431457.0,
+          "age_30_39": 403435.0,
+          "age_40_49": 366770.0,
+          "age_50_59": 389436.0,
+          "age_60_69": 391848.0,
+          "age_70_79": 236254.0,
+          "age_80_plus": 143631.0,
+          "educ_no_hs": 148645.0,
+          "educ_hs": 652792.0,
+          "educ_some_college": 429255.0,
+          "educ_associate": 255181.0,
+          "educ_bachelor": 433380.0,
+          "educ_master": 148289.0,
+          "educ_professional": 36031.0,
+          "educ_doctorate": 27629.0,
+          "inc_u10k": 53544.0,
+          "inc_10_15k": 46854.0,
+          "inc_15_20k": 47659.0,
+          "inc_20_25k": 48392.0,
+          "inc_25_30k": 48702.0,
+          "inc_30_35k": 52047.0,
+          "inc_35_40k": 50363.0,
+          "inc_40_45k": 49778.0,
+          "inc_45_50k": 52883.0,
+          "inc_50_60k": 99696.0,
+          "inc_60_75k": 131444.0,
+          "inc_75_100k": 183917.0,
+          "inc_100_125k": 140044.0,
+          "inc_125_150k": 94546.0,
+          "inc_150_200k": 98518.0,
+          "inc_200k_plus": 91752.0
+        },
+        "shares": {
+          "vap_white": 0.8545636652826433,
+          "vap_hispanic": 0.05473402546750075,
+          "vap_black": 0.042502702947590364,
+          "vap_asian": 0.027733527937396918,
+          "vap_native": 0.015802192805771838,
+          "vap_pacific": 0.0027051923939524175,
+          "age_20_29": 0.18260171802384512,
+          "age_30_39": 0.17074221558799593,
+          "age_40_49": 0.15522481294684215,
+          "age_50_59": 0.16481754302360177,
+          "age_60_69": 0.16583835238322164,
+          "age_70_79": 0.09998768426518867,
+          "age_80_plus": 0.060787673769304704,
+          "educ_no_hs": 0.06974702538755125,
+          "educ_hs": 0.3063022651067332,
+          "educ_some_college": 0.20141450693083057,
+          "educ_associate": 0.1197357172149801,
+          "educ_bachelor": 0.2033500343937365,
+          "educ_master": 0.06957998350226774,
+          "educ_professional": 0.016906421822051595,
+          "educ_doctorate": 0.01296404564184906,
+          "inc_u10k": 0.04150250476886599,
+          "inc_10_15k": 0.03631701700359419,
+          "inc_15_20k": 0.03694098077804019,
+          "inc_20_25k": 0.03750913661241153,
+          "inc_25_30k": 0.037749420798844156,
+          "inc_30_35k": 0.04034216468148006,
+          "inc_35_40k": 0.039036878971955735,
+          "inc_40_45k": 0.038583439458849005,
+          "inc_45_50k": 0.040990156874569326,
+          "inc_50_60k": 0.0772753943567321,
+          "inc_60_75k": 0.10188359548854814,
+          "inc_75_100k": 0.14255595714880334,
+          "inc_100_125k": 0.10854954388635643,
+          "inc_125_150k": 0.07328357642083527,
+          "inc_150_200k": 0.07636231444828813,
+          "inc_200k_plus": 0.07111791830182639
+        },
+        "notes": [
+          "Race / origin are separate source categories, can overlap, and are never added into a partition.",
+          "Age shares use only supplied 20+ bins. Education shares use recorded attainment counts. Income shares describe households, not voters.",
+          "Source vintage and detailed Census universe not supplied per record; shares are descriptive proxies."
+        ]
+      },
+      "history": {
+        "level": "state",
+        "state": "IA",
+        "district": "STATE",
+        "pres16_total": 1566031,
+        "pres16_dem": 653669,
+        "pres16_rep": 800983,
+        "pres20_total": 1690871,
+        "pres20_dem": 759061,
+        "pres20_rep": 897672,
+        "pres24_total": 1663506,
+        "pres24_dem": 707278,
+        "pres24_rep": 927019,
+        "margin_2016": -10.12709569024069,
+        "margin_2020": -8.366526169274108,
+        "margin_2024": -13.445597709596235
+      },
+      "field": {
+        "same_party": "",
+        "rcv": false,
+        "threeway": false,
+        "ind_caucus": "LIB",
+        "incumbent_party": ""
+      },
+      "pollSnapshot": null,
+      "notes": [],
+      "candidate_conflicts": []
+    },
+    {
       "id": "FL-SEN",
       "sourceRaceCode": "FL-SEN",
       "state": "FL",
@@ -68236,158 +68388,6 @@
       "candidate_conflicts": []
     },
     {
-      "id": "IA-SEN",
-      "sourceRaceCode": "IA-SEN",
-      "state": "IA",
-      "chamber": "Senate",
-      "label": "Iowa",
-      "candidates": [
-        {
-          "slot": "dem",
-          "name": "Josh Turek",
-          "party": "DEM"
-        },
-        {
-          "slot": "rep",
-          "name": "Ashley Hinson",
-          "party": "REP"
-        },
-        {
-          "slot": "ind",
-          "name": "Thomas Laehn",
-          "party": "Libertarian"
-        }
-      ],
-      "model": {
-        "margin": -2.500784269168561,
-        "pD": 33.22591425492713,
-        "pR": 66.77408574507287,
-        "winner": "R",
-        "rating": "R Tilt",
-        "engine": "5B POLLING ENGINE",
-        "poll_count": null,
-        "fundamentals_weight": null,
-        "ratings_weight": null,
-        "polling_weight": null,
-        "pvi": -6.0,
-        "incumbent": "",
-        "monitored": true
-      },
-      "composition": {
-        "raw": {
-          "vap_total": 2450103.0,
-          "vap_white": 2093769.0,
-          "vap_hispanic": 134104.0,
-          "vap_black": 104136.0,
-          "vap_asian": 67950.0,
-          "vap_native": 38717.0,
-          "vap_pacific": 6628.0,
-          "age_20_29": 431457.0,
-          "age_30_39": 403435.0,
-          "age_40_49": 366770.0,
-          "age_50_59": 389436.0,
-          "age_60_69": 391848.0,
-          "age_70_79": 236254.0,
-          "age_80_plus": 143631.0,
-          "educ_no_hs": 148645.0,
-          "educ_hs": 652792.0,
-          "educ_some_college": 429255.0,
-          "educ_associate": 255181.0,
-          "educ_bachelor": 433380.0,
-          "educ_master": 148289.0,
-          "educ_professional": 36031.0,
-          "educ_doctorate": 27629.0,
-          "inc_u10k": 53544.0,
-          "inc_10_15k": 46854.0,
-          "inc_15_20k": 47659.0,
-          "inc_20_25k": 48392.0,
-          "inc_25_30k": 48702.0,
-          "inc_30_35k": 52047.0,
-          "inc_35_40k": 50363.0,
-          "inc_40_45k": 49778.0,
-          "inc_45_50k": 52883.0,
-          "inc_50_60k": 99696.0,
-          "inc_60_75k": 131444.0,
-          "inc_75_100k": 183917.0,
-          "inc_100_125k": 140044.0,
-          "inc_125_150k": 94546.0,
-          "inc_150_200k": 98518.0,
-          "inc_200k_plus": 91752.0
-        },
-        "shares": {
-          "vap_white": 0.8545636652826433,
-          "vap_hispanic": 0.05473402546750075,
-          "vap_black": 0.042502702947590364,
-          "vap_asian": 0.027733527937396918,
-          "vap_native": 0.015802192805771838,
-          "vap_pacific": 0.0027051923939524175,
-          "age_20_29": 0.18260171802384512,
-          "age_30_39": 0.17074221558799593,
-          "age_40_49": 0.15522481294684215,
-          "age_50_59": 0.16481754302360177,
-          "age_60_69": 0.16583835238322164,
-          "age_70_79": 0.09998768426518867,
-          "age_80_plus": 0.060787673769304704,
-          "educ_no_hs": 0.06974702538755125,
-          "educ_hs": 0.3063022651067332,
-          "educ_some_college": 0.20141450693083057,
-          "educ_associate": 0.1197357172149801,
-          "educ_bachelor": 0.2033500343937365,
-          "educ_master": 0.06957998350226774,
-          "educ_professional": 0.016906421822051595,
-          "educ_doctorate": 0.01296404564184906,
-          "inc_u10k": 0.04150250476886599,
-          "inc_10_15k": 0.03631701700359419,
-          "inc_15_20k": 0.03694098077804019,
-          "inc_20_25k": 0.03750913661241153,
-          "inc_25_30k": 0.037749420798844156,
-          "inc_30_35k": 0.04034216468148006,
-          "inc_35_40k": 0.039036878971955735,
-          "inc_40_45k": 0.038583439458849005,
-          "inc_45_50k": 0.040990156874569326,
-          "inc_50_60k": 0.0772753943567321,
-          "inc_60_75k": 0.10188359548854814,
-          "inc_75_100k": 0.14255595714880334,
-          "inc_100_125k": 0.10854954388635643,
-          "inc_125_150k": 0.07328357642083527,
-          "inc_150_200k": 0.07636231444828813,
-          "inc_200k_plus": 0.07111791830182639
-        },
-        "notes": [
-          "Race / origin are separate source categories, can overlap, and are never added into a partition.",
-          "Age shares use only supplied 20+ bins. Education shares use recorded attainment counts. Income shares describe households, not voters.",
-          "Source vintage and detailed Census universe not supplied per record; shares are descriptive proxies."
-        ]
-      },
-      "history": {
-        "level": "state",
-        "state": "IA",
-        "district": "STATE",
-        "pres16_total": 1566031,
-        "pres16_dem": 653669,
-        "pres16_rep": 800983,
-        "pres20_total": 1690871,
-        "pres20_dem": 759061,
-        "pres20_rep": 897672,
-        "pres24_total": 1663506,
-        "pres24_dem": 707278,
-        "pres24_rep": 927019,
-        "margin_2016": -10.12709569024069,
-        "margin_2020": -8.366526169274108,
-        "margin_2024": -13.445597709596235
-      },
-      "field": {
-        "same_party": "",
-        "rcv": false,
-        "threeway": false,
-        "ind_caucus": "LIB",
-        "incumbent_party": ""
-      },
-      "pollSnapshot": null,
-      "notes": [],
-      "candidate_conflicts": []
-    },
-    {
       "id": "NE-SEN",
       "sourceRaceCode": "NE-SEN",
       "state": "NE",
@@ -68406,9 +68406,9 @@
         }
       ],
       "model": {
-        "margin": -3.399779170644565,
-        "pD": 28.00039720000291,
-        "pR": 71.99960279999709,
+        "margin": -3.244366932976385,
+        "pD": 29.28823179916958,
+        "pR": 70.71176820083042,
         "winner": "R",
         "rating": "R Lean",
         "engine": "5B POLLING ENGINE",
@@ -68531,8 +68531,8 @@
         "incumbent_party": "REP"
       },
       "pollSnapshot": {
-        "ind": 46.1,
-        "rep": 48.7
+        "ind": 45.6,
+        "rep": 46.933
       },
       "notes": [
         "Independent / three-way field: candidate probabilities are not inferred from D/R probabilities."

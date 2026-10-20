@@ -21,14 +21,8 @@ if str(ROOT) not in sys.path:
 def validate_publication(path):
     """Reject the old dashboard even when its title and file size look valid."""
     text = Path(path).read_text(encoding="utf-8")
-    # Validate the embedded Plotly.js bundle directly. The published HTML is
-    # self-contained, so repository validation must not require the Python
-    # plotly package or an exact match to a separately installed JS version.
-    plotly_bundle = re.search(
-        r"<script\b[^>]*>\s*/\*\*\s*\*\s*plotly\.js v[0-9]+\.[0-9]+\.[0-9]+.*?</script>",
-        text, flags=re.S | re.I,
-    )
-    if not plotly_bundle or len(plotly_bundle.group(0)) < 3_000_000:
+    from plotly.offline import get_plotlyjs
+    if get_plotlyjs() not in text:
         raise ValueError("El código de Plotly está incompleto o fue alterado por una inserción HTML.")
     required = ("N42_RACECARDS_BEGIN", "N42_RACECARDS_END",
                 'id="n42-racecards-style"', 'id="n42RaceData"')
@@ -38,12 +32,10 @@ def validate_publication(path):
     if not match:
         raise ValueError("HTML sin datos de Race Cards.")
     payload = json.loads(match.group(1))
-    # Older snapshots may retain unused research fields in their embedded JSON.
-    # Validate the public Race Card interface instead of rejecting archival
-    # fields which the renderer does not expose or feed into forecasting.
-    # Reject an actual supplementary panel if it is reintroduced to the UI.
-    if re.search(r'<[^>]+(?:id|class)=[\x22\x27][^\x22\x27]*(?:n42rc-finance|n42rc-external-polls)[^\x22\x27]*[\x22\x27]', text, re.I):
-        raise ValueError("HTML exposes removed supplementary Race Card panels.")
+    if "polls" in payload or any("finance" in race for race in payload.get("races", [])):
+        raise ValueError("HTML includes removed supplementary data.")
+    if any(marker in text for marker in ("Campaign finance", "Supplied polling", "D.polls", "r.finance")):
+        raise ValueError("HTML includes removed supplementary sections.")
     races = payload["races"]
     house = [race for race in races if race["chamber"] == "House"]
     senate = [race for race in races if race["chamber"] == "Senate"]
