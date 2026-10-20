@@ -1,34 +1,13 @@
-# Scenario Lab v30.8
+# Scenario Lab — NUCLEUS 42 v30.9
 
-Scenario Lab is an exploratory counterfactual system. It does not overwrite the official forecast and its output is not a second validated forecast.
+The official v30 forecast, 42-target statistical engine, input workbook, and Monte Carlo remain unchanged. The Scenario Lab is an **exploratory, downstream counterfactual**, not a new probabilistic forecast.
 
-## Contract
+**Historic environments:** A selector beside the scenario CSV download offers 2006, 2010, 2014, 2018, and 2022. All 31 starting control values are read from the `Model` sheet of the unmodified `Model.xlsx`, using each row's `Midterm Year`. This compares the observed conditions of those years applied hypothetically to the **2026** races and candidates. It does **not** predict the election results of those historical years. The 2026 default is preserved; users may edit the controls after selecting a year; `Reset` restores the official 2026 state.
 
-- Engine: `v30.8-reciprocal-standing-race-first`
-- Inputs: 31 controls arranged in 14 intervention units
-- Geography: all 435 House districts and all 35 scheduled Senate elections
-- Reset: exact official popular vote and race-first chamber baselines
-- Composition batteries: bounded at 100%, with the latest edit receiving priority
-- Directionality: protected root variables do not receive reverse feedback
-- Standing bridge: presidential approval and direction of country reconcile reciprocally through one bounded pass using the regularized Approval → Direction coefficients; directly edited units always win
-- Translation: one reconciled national D–R swing is applied to race-level anchors
+The workbook stores some economic percentages as fractions and others as whole percentage points. Within the three economic composition batteries, the Scenario Lab now normalizes such values **per cell** rather than rescaling entire rows indiscriminately. Any observation exceeding a hard 100% composition constraint is projected to the feasible composition; the UI should not display an impossible battery.
 
-## Causal ordering
+**Race-specific scenario response:** National intervention logic produces a national two-party D−R margin impulse. Each of the 435 House races and 35 Senate races is then adjusted by its own geographical response factor, estimated from matched 2016/2020/2024 presidential vote margins and strongly ridge-shrunk toward a unit national response. House district and Senate state factors are fitted separately. The panel and exported CSV report the **actual per-race applied shift**, not the national impulse. At-large `-AL` IDs map to their `-01` equivalents in the historical source.
 
-The engine distinguishes observed fundamentals, perceptions, partisan structure, approval, and polling. Direct edits are fixed first; downstream controls are then reconciled in the serialized causal order. Approval and country direction receive one conditional reciprocal bridge, not an iterative feedback loop. The displayed relationship is a historically regularized association and should not be interpreted as a causal estimate.
+**Scientific limitation:** There are only two presidential-election transitions for fitting each local response. These are descriptive sensitivities, not validated causal impacts or a fully trained 470-target counterfactual. A shared national macro impulse can still move all local contests in the same direction: opposite signs are permitted by the formula if supported by evidence, not manufactured for visual variety. Other localized candidate shocks and geographically heterogeneous macro effects cannot be inferred rigorously from the five national midterm rows alone.
 
-## Incumbency
-
-Political and economic conditions are interpreted relative to the presidential incumbent party. Party-specific inputs—such as Democratic or Republican favorability and generic-ballot polling—retain their explicit partisan direction.
-
-## Senate structural races
-
-All 35 scheduled elections are visible. Monitored states use their official race-model anchor. For structurally safe states, numeric Scenario Lab values are scenario-only stress estimates built from the documented structural proxy; they are not official numeric forecasts.
-
-## Web parity
-
-The autonomous HTML owns the serialized Scenario Lab payload and the complete interactive interface. Render serves that file directly, so local HTML and the deployed application use the same baseline, interventions, constraints and race-first translations.
-
-## Interpretation
-
-Extreme slider positions can leave the historical support of the five-cycle training window. The interface reports that displacement. Use Scenario Lab to inspect direction, sensitivity, coherence and flip order—not as evidence that an extreme world is likely.
+**Hard requirements:** At zero interventions the Scenario Lab is identical to the official 2026 popular vote, House and Senate central result. Scenario adjustments never overwrite `Model.xlsx` or the official report and never change Monte Carlo probabilities. Each selected year and manual edit must preserve composition constraints. Render serves the HTML the notebook generates. The Python adapter in `dash_app/scenario_engine.py` reads the same serialized HTML contract.

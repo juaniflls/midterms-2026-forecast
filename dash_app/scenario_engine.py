@@ -20,7 +20,7 @@ import pandas as pd
 DASH_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = DASH_DIR.parent
 HTML_PATH = PROJECT_ROOT / "NUCLEUS42_v30_RaceCards.html"
-ENGINE_VERSION = "v30.7-directed-causal-race-first"
+ENGINE_VERSION = "v30.9-historical-local-response"
 
 
 def _payload() -> dict[str, Any]:
@@ -149,17 +149,19 @@ class NationalScenarioEngine:
                     values[i] /= total
         return values
 
-    def _reconcile(self, direct, order):
+    def _reconcile(self, direct, order, seed=None):
+        seed = list(self._baseline_values if seed is None else seed)
         if not direct:
-            return list(self._baseline_values), 0.0, set()
-        values = list(self._baseline_values)
+            distance = math.sqrt(sum(((v-b)/sd)**2 for v,b,sd in zip(seed,self._baseline_values,self._sds)))
+            return seed, distance, set()
+        values = list(seed)
         for name, value in direct.items():
             if name in self._index:
                 values[self._index[name]] = float(value) / 100.0
         last_changed = order[-1] if order else next(reversed(direct), None)
         values = self._project_batteries(values, direct, last_changed)
         touched = {CONTROL_TO_UNIT[n] for n in direct if n in CONTROL_TO_UNIT}
-        delta = [(v - b) / sd for v, b, sd in zip(values, self._baseline_values, self._sds)]
+        delta = [(v - b) / sd for v, b, sd in zip(values, seed, self._sds)]
         fixed = [c["unit"] in touched for c in self._controls]
         state = [delta[i] if fixed[i] else 0.0 for i in range(len(delta))]
         roots = set(self.payload.get("rootUnits", []))
@@ -173,7 +175,7 @@ class NationalScenarioEngine:
         reconciled = []
         for i, (value, c) in enumerate(zip(values, self._controls)):
             reconciled.append(value if fixed[i] else self._clamp(
-                self._baseline_values[i] + state[i] * self._sds[i],
+                seed[i] + state[i] * self._sds[i],
                 float(c["propagationLow"]) / 100.0,
                 float(c["propagationHigh"]) / 100.0,
             ))
@@ -198,11 +200,20 @@ class NationalScenarioEngine:
         state = state or {}
         direct = {str(k): float(v) for k, v in (state.get("values", {}) or {}).items() if k in self._index}
         order = [str(v) for v in (state.get("order", []) or []) if v in self._index]
-        values, distance, touched = self._reconcile(direct, order)
+        preset_year = str(state.get("presetYear", "") or "")
+        preset = next((p for p in self.payload.get("historicalPresets", []) if str(p.get("year")) == preset_year), None)
+        if preset_year and preset is None:
+            raise ValueError("Unknown Scenario Lab historical environment: " + preset_year)
+        seed = [float(preset["values"][c["name"]]) / 100.0 for c in self._controls] if preset else None
+        if seed is not None:
+            seed = self._project_batteries(seed, {}, None)
+        values, distance, touched = self._reconcile(direct, order, seed)
         dpp, rpp, other, swing = self._popular_vote(values)
         official = self.payload["official"]
-        house_d = sum(float(r["margin"]) + swing >= 0 for r in self.payload["house"])
-        senate_d = int(official["fixedSenateD"]) + sum(float(r["margin"]) + swing >= 0 for r in self.payload["senate"])
+        house_factors = self.payload.get("localResponses", {}).get("House", {})
+        senate_factors = self.payload.get("localResponses", {}).get("Senate", {})
+        house_d = sum(float(r["margin"]) + swing * float(house_factors.get(r["District ID"], 1.0)) >= 0 for r in self.payload["house"])
+        senate_d = int(official["fixedSenateD"]) + sum(float(r["margin"]) + swing * float(senate_factors.get(r["ABBR"], 1.0)) >= 0 for r in self.payload["senate"])
         headline = {
             "D Popular Vote (%)": dpp, "R Popular Vote (%)": rpp,
             "D House Seats": float(house_d), "R House Seats": float(435 - house_d),
