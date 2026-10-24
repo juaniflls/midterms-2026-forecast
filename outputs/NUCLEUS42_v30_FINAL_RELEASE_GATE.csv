@@ -1,9 +1,9 @@
 Gate,Passed,Detail
 "HTML contains 470 Race Cards, portraits and demographics",True,"{'House': 435, 'Senate': 35, 'photos': 1072, 'demographicDistricts': 435}"
 Popular vote incumbent preserved,True,ExpectedVoteAnchor
-House = 435 race-first districts,True,D232-R203
-Senate current contract = 12 monitored / 23 structural-only,True,structural gate=True
-Senate monitored method selected by OOF evidence,True,POLL_5B
+House = 435 race-first districts,True,D235-R200
+Senate current contract = 15 monitored / 20 structural-only,True,structural gate=True
+Recovered 5B method preserved; automatic blend disabled,True,POLL_5B
 Senate production promotion is explicit and gate-controlled,True,promoted=True
 Montana independent is retained explicitly,True,No silent Democratic reassignment
 Required House + Senate live sources present,True,OK

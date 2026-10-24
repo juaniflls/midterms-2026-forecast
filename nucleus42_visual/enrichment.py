@@ -24,6 +24,38 @@ def number(value, default=None):
     try:return float(value) if np.isfinite(float(value)) else default
     except (ValueError,TypeError):return default
 
+
+def _cached_numeric_cells(path, sheet_name, addresses):
+    """Read saved numeric values from one OOXML sheet without loading other tabs.
+
+    Like data_only=True, this does not calculate formulas or change the workbook.
+    """
+    import posixpath
+    from zipfile import ZipFile
+    from xml.etree import ElementTree as ET
+    ns={'m':'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
+    rel_ns='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
+    wanted=set(addresses); result={}
+    with ZipFile(path) as archive:
+        workbook=ET.fromstring(archive.read('xl/workbook.xml'))
+        sheet=next((x for x in workbook.findall('m:sheets/m:sheet',ns) if x.get('name')==sheet_name),None)
+        if sheet is None:raise KeyError(sheet_name)
+        relationships=ET.fromstring(archive.read('xl/_rels/workbook.xml.rels'))
+        rid=sheet.get('{'+rel_ns+'}id')
+        target=next(x.get('Target') for x in relationships if x.get('Id')==rid)
+        member=target.lstrip('/') if target.startswith('/') else posixpath.normpath(posixpath.join('xl',target))
+        with archive.open(member) as handle:
+            for _,cell in ET.iterparse(handle,events=('end',)):
+                if cell.tag=='{'+ns['m']+'}c':
+                    addr=cell.get('r')
+                    if addr in wanted:
+                        value=cell.find('m:v',ns)
+                        result[addr]=number(value.text) if value is not None and cell.get('t','n')=='n' else None
+                        if len(result)==len(wanted):break
+                    cell.clear()
+                elif cell.tag=='{'+ns['m']+'}row':cell.clear()
+    return {addr:result.get(addr) for addr in wanted}
+
 def build_racecards(root:Path, html_path:Path, report_path:Path):
     root=Path(root); ei=root/'data/race_assets'; out=root/'outputs/enrichment'; out.mkdir(parents=True,exist_ok=True)
     def read(name):return pd.read_csv(ei/(name+'.csv'))
@@ -37,17 +69,14 @@ def build_racecards(root:Path, html_path:Path, report_path:Path):
     poll_snapshot = {}
     workbook_path = Path(os.environ.get('MIDTERMS_MODEL_FILE') or (root/'Model.xlsx'))
     try:
-        from openpyxl import load_workbook
-        wb = load_workbook(workbook_path, read_only=True, data_only=True)
-        sp = wb['Senate Parser']
+        sp = _cached_numeric_cells(workbook_path, 'Senate Parser', ['M90','N90','O90','D13','E13'])
         for race, refs in {'MT-SEN':{'dem':'M90','rep':'N90','ind':'O90'},
                            'NE-SEN':{'ind':'D13','rep':'E13'}}.items():
             vals={}
             for party,addr in refs.items():
-                raw=number(sp[addr].value)
+                raw=number(sp[addr])
                 if raw is not None and 0 <= raw <= 1:vals[party] = round(raw*100, 3)
             if len(vals)==len(refs):poll_snapshot[race]=vals
-        wb.close()
     except (OSError, KeyError, ValueError) as exc:
         print(f'[display only] Candidate polling context unavailable: {type(exc).__name__}: {exc}')
     book=pd.ExcelFile(report_path)
@@ -80,12 +109,16 @@ def build_racecards(root:Path, html_path:Path, report_path:Path):
               'research/context: source observations; not newly activated as predictors')
         for col in df.columns:
             dictionaries.append({'file':path.name,'column':col,'dtype':str(df[col].dtype),'non_null':int(df[col].notna().sum()),'rows':len(df),'role':role})
+    def _identity_index(frame):
+        return {(row['race_code'],row['slot'],norm(row['name'])):row
+                for row in frame.to_dict('records')}
+    metadata_by_identity=_identity_index(metadata)
+    overrides_by_identity=_identity_index(overrides)
     def candidate(code, slot, name, party, cid='', status=''):
         if not name or str(name).startswith('('):return None
-        choices=metadata[(metadata.race_code.eq(code)) & metadata.slot.eq(slot) & metadata.name.map(norm).eq(norm(name))]
-        ov=overrides[(overrides.race_code.eq(code)) & overrides.slot.eq(slot) & overrides.name.map(norm).eq(norm(name))]
-        meta=choices.iloc[-1].to_dict() if len(choices) else {}
-        override=ov.iloc[-1].to_dict() if len(ov) else {}
+        key=(code,slot,norm(name))
+        meta=metadata_by_identity.get(key,{})
+        override=overrides_by_identity.get(key,{})
         picture=ei/'photos'/f'{code}-{slot}.jpg'; uri=None; photo_status='not supplied / identity not matched'
         if picture.exists() and (meta or override):
             with Image.open(picture) as im:
@@ -170,6 +203,7 @@ def build_racecards(root:Path, html_path:Path, report_path:Path):
                      'candidate_names':' / '.join(c['name'] for c in r['candidates']),'field_notes':' | '.join(r['notes']),'conflict_count':len(r['candidate_conflicts'])})
     pd.DataFrame(flat).to_csv(out/'RaceProfiles.csv',index=False)
     projection=pd.read_excel(book,'FinalProjection')
+    book.close()
     fixed_d=int(projection.loc[projection.Chamber.eq('Senate'),'Democratic Seats'].iloc[0])-int((senate['Projected Winner']=='D').sum())
     fixed_r=65-fixed_d
     payload={'races':enriched,'groups':group_specs,'sources':inventory,'fixedD':fixed_d,'fixedR':fixed_r,
