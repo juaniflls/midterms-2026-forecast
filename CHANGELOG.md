@@ -1,5 +1,15 @@
 # Changelog
 
+## Documentation and gallery refresh — 2026-10-24
+
+- Documented current Senate coverage: 15 monitored races and 20 structural-only races, including South Carolina, Florida and Minnesota.
+- Replaced Overview, House and Senate gallery exports; retained Race Card examples and the existing Scenario Lab overview.
+- Added the historical-environment and slider illustration.
+- Documented five workbook-backed environments, manual slider edits, coherence diagnostics, local race responses, CSV exports and exact Reset.
+- Corrected notebook links and current Scenario Lab contract references.
+- This commit updates documentation, screenshots and auxiliary interface wording; it does not modify forecasting equations, workbook data or generated forecasts.
+
+
 ## 30.11.1 — 2026-09-28
 
 Focused web and Scenario Lab patch; official forecast outputs are unchanged.
@@ -13,7 +23,7 @@ Focused web and Scenario Lab patch; official forecast outputs are unchanged.
 
 Final v30 publication release.
 
-- Established one unified 35-race Senate architecture: 12 monitored races and 23 structural races.
+- Established one unified 35-race Senate architecture: an initial monitored subset and its structural complement.
 - Preserved the validated national popular-vote and House race-first architecture.
 - Added explicit Montana independent-share handling.
 - Promoted Scenario Lab to `v30.7-directed-causal-race-first`.
@@ -27,3 +37,4 @@ Final v30 publication release.
 ## Historical development
 
 Earlier releases iterated on the national model, House uncertainty, Senate polling, visual presentation, and Scenario Lab. They remain part of repository history, but v30.11 is the current public contract.
+

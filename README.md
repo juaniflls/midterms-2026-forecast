@@ -5,6 +5,7 @@
 <p align="center">
   <img alt="Release v30.11" src="https://img.shields.io/badge/release-v30.11-7C3AED?style=flat-square">
   <img alt="House 435" src="https://img.shields.io/badge/House-435%20districts-0B67C2?style=flat-square">
+  <img alt="Senate coverage: 15 monitored, 20 structural" src="https://img.shields.io/badge/Senate%20coverage-15%20monitored%20%C2%B7%2020%20structural-7C3AED?style=flat-square">
   <img alt="Senate 35" src="https://img.shields.io/badge/Senate-35%20elections-C91224?style=flat-square">
   <img alt="National targets 42" src="https://img.shields.io/badge/national%20targets-42-8B5CF6?style=flat-square">
   <img alt="Monte Carlo 50000" src="https://img.shields.io/badge/Monte%20Carlo-50%2C000-111827?style=flat-square">
@@ -38,9 +39,9 @@ Screenshots illustrate particular model runs. Their numbers are examples of exec
 |---|---|
 | National model | 42 targets covering voting intentions, political context, ideology, partisanship, presidential approval, and economic perceptions |
 | House forecast | 435 voting districts, with margins, winners, ratings, probabilities, holds, flips, a geographic map, and a cartogram |
-| Senate forecast | 35 scheduled elections, combining monitored races and structural estimates |
+| Senate forecast | 35 scheduled elections: **15 monitored polling races + 20 structural-only races** |
 | Uncertainty | 50,000 complete simulated elections and chamber-control distributions |
-| Scenario Lab | 31 controls in 14 intervention units, with constrained reconciliation and race-level effects |
+| Scenario Lab | 31 sliders in 14 intervention units; five historical environments; constrained reconciliation and race-specific responses |
 | Race Cards | 470 race profiles with candidate identities, portraits, forecast results, presidential history, and demographic context |
 | Publication | A self-contained HTML file for local viewing and web hosting |
 
@@ -48,7 +49,7 @@ Screenshots illustrate particular model runs. Their numbers are examples of exec
 
 | Resource | Purpose |
 |---|---|
-| [Forecast notebook](NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb) | Runs the complete modeling and publication pipeline |
+| [Forecast notebook](NUCLEUS42_v30.ipynb) | Runs the complete modeling and publication pipeline |
 | [Interactive forecast](NUCLEUS42_v30_RaceCards.html) | Generated HTML with forecasts, maps, Race Cards, and Scenario Lab |
 | [Input workbook](Model.xlsx) | Canonical source workbook |
 | [Consolidated report](outputs/Election_Model_Final_Report_v30.xlsx) | Model outputs, race detail, validation, and audits |
@@ -115,7 +116,9 @@ The interface provides geographic and cartogram views, margins, win probabilitie
   <img src="assets/readme/v30-senate.png" alt="NUCLEUS 42 Senate forecast" width="86%">
 </p>
 
-The Senate forecast covers all 35 scheduled elections. Monitored races use the model's selected polling engine where applicable; other races use structural estimates.
+The Senate forecast covers **all 35 scheduled elections: 15 monitored races and 20 structural-only races**. The monitored set includes **South Carolina, Florida, and Minnesota**, alongside the previously monitored states. Minnesota is now included in the polling layer as part of the expanded competitive-race coverage.
+
+Each monitored state uses the established polling engine; the other 20 races retain structural estimates. Adding a monitored state updates that race's input coverage. It does not introduce a new forecast method for the other states. Strong outlines identify monitored states on the Senate map.
 
 The chamber balance combines projected winners in these elections with seats that are not up for election.
 
@@ -173,7 +176,28 @@ It begins at the official forecast baseline. Changes pass through historically s
 
 Composition controls remain coherent, protected exogenous inputs do not receive reverse feedback, and political and economic effects are interpreted relative to the presidential incumbent party.
 
-Scenario Lab uses the `v30.8-reciprocal-standing-race-first` engine. Presidential approval and direction-of-country measures reconcile through a bounded, historically regularized bridge.
+#### Sliders and historical environments
+
+**31 sliders, 14 intervention units, five historical presets.** Adjust approval, direction of country, ideology, party identification, partisan lean, party favorability, unemployment, inflation, economic perceptions, job-market perceptions, the previous presidential result, and generic-ballot polling.
+
+| Control | What it does |
+|---|---|
+| **Historical environment** | Loads the observed starting conditions for **2006, 2010, 2014, 2018, or 2022**, directly from the workbook's historical `Model` rows |
+| **Sliders** | Allow manual changes after loading a historical environment; the interface identifies the selected environment and manual edits |
+| **Reconciliation** | Keeps composition batteries feasible, respects direct edits, and protects exogenous inputs from reverse feedback |
+| **Local race response** | Translates the national two-party impulse into regularized district- and state-specific shifts across 435 House and 35 Senate races |
+| **Coherence diagnostic** | Shows how far the constructed environment departs from the observed historical reference |
+| **Exports and Reset** | Downloads the scenario view or race CSV; Reset restores the exact official 2026 baseline |
+
+<p align="center">
+  <img src="assets/readme/scenario-historical-environments.png" alt="Scenario Lab historical environment selector and national intervention sliders" width="86%">
+</p>
+
+Selecting **2006**, for example, applies that year's observed national conditions hypothetically to the **2026 races and candidates**. It does not rerun or predict the 2006 election. You can then edit individual sliders to explore a different environment.
+
+Scenario Lab uses the `v30.9-historical-local-response` contract. Approval and direction of country retain their bounded reciprocal bridge; local House and Senate responses are estimated separately and strongly regularized. The race CSV reports the actual shift applied to each race.
+
+These are exploratory sensitivities. Moving a slider does not retrain the forecast, change the input workbook, or recompute official Monte Carlo win probabilities. See the [Scenario Lab guide](docs/SCENARIO_LAB.md) for assumptions and limitations.
 
 > [!NOTE]
 > Scenario Lab results are exploratory scenarios. They do not replace the official forecast or update the source workbook.
@@ -219,14 +243,14 @@ Run these commands from the repository root:
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter lab NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb
+jupyter lab NUCLEUS42_v30.ipynb
 ```
 
 Before executing the notebook:
 
 1. Place the intended input workbook at `Model.xlsx`.
 2. Keep the notebook, scripts, and visual resources together in the project folder.
-3. Confirm that the notebook's project root points to that folder.
+3. Confirm that the notebook's project root points to that folder. On macOS with iCloud Drive, keep the project folder downloaded locally so portrait loading does not wait for cloud downloads.
 4. Restart the kernel and select **Run All**.
 5. Wait for the final validation block to complete.
 
@@ -257,7 +281,7 @@ python dash_app/check_setup.py
 
 | Location | Contents |
 |---|---|
-| `NUCLEUS42_v30_11_3_FINAL_MARGIN_RATINGS.ipynb` | Modeling and publication notebook |
+| `NUCLEUS42_v30.ipynb` | Modeling and publication notebook |
 | `NUCLEUS42_v30_RaceCards.html` | Generated interactive publication |
 | `Model.xlsx` | Canonical input workbook |
 | `outputs/` | Reports, model outputs, and audits |

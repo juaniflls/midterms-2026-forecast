@@ -6,7 +6,9 @@
 
 The workbook combines national indicators, historical election results, generic-ballot and race polling, ratings, candidate/incumbency information, district and state fundamentals, and source-control metadata. Each sheet has a defined modeling or audit role; retired aggregate result buckets are not allowed to re-enter production predictors.
 
-Senate polling sources are included through the Senate parser/source controls when active in the workbook. A retired third-party API is not equivalent to retiring the Senate polling parser itself.
+Senate polling sources are included through the Senate parser/source controls when active in the workbook. The current coverage is 15 monitored races and 20 structural-only races; South Carolina, Florida, and Minnesota are connected to the same polling layer. A retired third-party API is not equivalent to retiring the Senate polling parser itself.
+
+Historical environment presets use the five completed midterm rows (2006, 2010, 2014, 2018, 2022) in the `Model` sheet. They seed Scenario Lab controls and do not replace current forecast inputs.
 
 ## Refresh rules
 
@@ -17,3 +19,4 @@ Senate polling sources are included through the Senate parser/source controls wh
 5. Publish the notebook, consolidated report, HTML and workbook together.
 
 The repository does not contain credentials. Do not commit private API keys, service-account files, browser sessions or unpublished personal data.
+

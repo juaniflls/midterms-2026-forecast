@@ -1,5 +1,7 @@
 # Nucleus 42 v30.11.1
 
+> Historical release notes for the September 28 patch. For the current 15 monitored / 20 structural-only coverage and Scenario Lab v30.9 interface, see the [README](README.md), [Scenario Lab guide](docs/SCENARIO_LAB.md), and [changelog](CHANGELOG.md).
+
 Focused Scenario Lab and web-delivery patch. The official forecast, workbook,
 race baselines, chamber totals, Monte Carlo outputs and validation report are
 unchanged from v30.11.0.
@@ -28,3 +30,4 @@ unchanged from v30.11.0.
 - Publication setup checks: 24/24 passed.
 - Repository contract checks: 37/37 passed.
 - JavaScript syntax and both directions of the standing bridge were exercised.
+

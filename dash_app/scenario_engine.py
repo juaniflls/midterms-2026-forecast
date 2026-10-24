@@ -1,6 +1,6 @@
 """Native Dash adapter for the canonical Nucleus 42 v30 Scenario Lab.
 
-The standalone publication HTML owns the serialized v30.7 directed-causal
+The standalone publication HTML owns the serialized v30.9 historical-local-response
 scenario contract. This module reads that exact payload and exposes the Python
 API used by the native Dash views. All-in-One and the independent Dash Scenario
 Lab therefore share one engine without touching the official forecast model.
@@ -268,3 +268,4 @@ OFFICIAL_BASELINE_HEADLINE = {
 @lru_cache(maxsize=2)
 def load_scenario_engine(model_path: str, model_mtime_ns: int | None = None):
     return NationalScenarioEngine(_PAYLOAD)
+

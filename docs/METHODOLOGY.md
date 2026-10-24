@@ -9,9 +9,9 @@ Nucleus 42 forecasts the 2026 national two-party environment, all 435 voting Hou
 1. `Model.xlsx` is validated as the release input snapshot.
 2. The national module estimates 42 political and economic targets with time-aware validation.
 3. The House module builds one tuple per district: margin, probability, rating, winner, hold/flip, and source diagnostics.
-4. The Senate module evaluates all scheduled races. Monitored states use the selected state specification; structural races remain explicit and auditable.
+4. The Senate module evaluates all scheduled races. The 15 monitored states use the established polling engine, including South Carolina, Florida, and Minnesota; the remaining 20 structural-only races remain explicit and auditable.
 5. Monte Carlo draws complete elections, preserving cross-race uncertainty, and estimates chamber-control probability.
-6. A coherent central configuration is selected and audited independently from the simulation mode.
+6. Each race winner follows the sign of its official point margin; those winners are summed and audited independently from the simulation mode.
 7. Release gates validate identities, isolation rules, row counts, probabilities, and publication consistency before the report and HTML are exported.
 
 ## Validation
@@ -27,10 +27,11 @@ The race point forecast, race win probability, chamber control probability, expe
 The canonical public snapshot consists of:
 
 - `Model.xlsx`
-- `NUCLEUS42_v30_11_FINAL_PUBLICATION_RELEASE.ipynb`
+- `NUCLEUS42_v30.ipynb`
 - `outputs/Election_Model_Final_Report_v30.xlsx`
 - `NUCLEUS42_v30_RaceCards.html`
 
 These files must be regenerated and published together. The Dash layer reads them; it does not retrain or mutate the model.
 
 For intended use and limitations, see [MODEL_CARD.md](../MODEL_CARD.md). For counterfactual behavior, see [SCENARIO_LAB.md](SCENARIO_LAB.md).
+

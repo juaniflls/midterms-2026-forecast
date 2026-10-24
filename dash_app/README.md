@@ -4,7 +4,7 @@ This is the interactive Render layer for the v30.11 release.
 
 - `All-in-One` embeds the autonomous notebook publication.
 - The remaining analytical tabs are native Dash views of `outputs/Election_Model_Final_Report_v30.xlsx`.
-- `Scenario Lab` reads the canonical v30.7 payload from the autonomous HTML and preserves the exact official race-first baseline.
+- `Scenario Lab` reads the canonical `v30.9-historical-local-response` payload from the autonomous HTML and preserves the exact official race-first baseline.
 - The app is read-only with respect to `Model.xlsx`, the notebook and generated outputs.
 
 Run locally from the repository root:
@@ -16,3 +16,4 @@ python dash_app/app.py
 ```
 
 Then open `http://127.0.0.1:8050`.
+

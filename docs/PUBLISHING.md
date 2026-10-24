@@ -13,7 +13,16 @@ python dash_app/check_setup.py
 python -m compileall -q dash_app
 ```
 
-5. Launch `python dash_app/app.py` and inspect the autonomous HTML application, Reset, maps, hovers and tables.
+5. Confirm the Senate coverage is 15 monitored / 20 structural-only in the workbook, report and HTML. Include South Carolina, Florida and Minnesota in the monitored layer.
+6. Launch `python dash_app/app.py` and inspect the autonomous HTML application, Reset, maps, hovers and tables.
+
+## Documentation and screenshot refresh
+
+- Replace `assets/readme/v30-overview.png`, `v30-house.png`, and `v30-senate.png` with exports from the same completed publication.
+- Keep Race Card examples and the existing Scenario Lab overview unless their interface changes.
+- Use `assets/readme/scenario-historical-environments.png` to illustrate the historical selector and sliders.
+- Describe functionality and coverage in the README; avoid hard-coding mutable forecast percentages or seat predictions in its prose.
+- Check every notebook link against the actual repository filename.
 
 ## GitHub release
 
@@ -31,3 +40,4 @@ After the commit is available on the configured branch, allow the Blueprint to r
 - a report and HTML generated from different workbooks;
 - credentials or private configuration;
 - cached environments, notebook checkpoints, or duplicate macOS metadata files.
+

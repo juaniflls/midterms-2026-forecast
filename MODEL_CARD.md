@@ -2,11 +2,12 @@
 
 ## Summary
 
-Nucleus 42 is a reproducible forecasting system for the 2026 U.S. midterm elections. It estimates the national political environment, all 435 voting House districts, and all 35 scheduled Senate elections; it also produces uncertainty distributions, validation artifacts, and an exploratory Scenario Lab.
+Nucleus 42 is a reproducible forecasting system for the 2026 U.S. midterm elections. It estimates the national political environment, all 435 voting House districts, and all 35 scheduled Senate elections (15 monitored and 20 structural-only); it also produces uncertainty distributions, validation artifacts, and an exploratory Scenario Lab.
 
 **Developer:** Juan Ignacio Garbanzo Fallas  
 **Release:** 30.11.0  
-**Publication date:** 2026-09-27  
+**Initial publication date:** 2026-09-27  
+**Documentation updated:** 2026-10-24  
 **License:** MIT
 
 ## Intended uses
@@ -29,6 +30,8 @@ Nucleus 42 is a reproducible forecasting system for the 2026 U.S. midterm electi
 
 The versioned `Model.xlsx` workbook contains current-cycle, historical, rating, polling, candidate, and control data. The executed notebook performs schema and provenance checks; national forecasting and nested temporal validation; constraint and sensitivity analysis; House and Senate race-level forecasting; complete-election Monte Carlo simulation; Scenario Lab serialization; report and HTML publication; and post-publication release gating.
 
+The monitored Senate set now includes South Carolina, Florida, and Minnesota. Polling coverage uses the existing monitored-race method; the other 20 races retain structural estimates.
+
 ## Validation
 
 National and race-level components use time-aware historical evaluation. The release contains out-of-fold diagnostics, probability scores, calibration summaries, feature and leakage contracts, covariance checks, central-forecast contracts, and a final publication gate.
@@ -37,7 +40,7 @@ The package validator confirms the expected v30 artifacts, 18 code cells, 435 Ho
 
 ## Scenario Lab
 
-Scenario Lab contains 31 controls organized into 14 intervention units. It preserves the exact official baseline at zero intervention. Composition batteries are constrained, protected exogenous variables do not receive reverse feedback, and the reconciled national state is translated into a common two-party swing before race-level winners are recomputed.
+Scenario Lab contains 31 controls organized into 14 intervention units, with historical starting environments for 2006, 2010, 2014, 2018, and 2022. These conditions are applied to the 2026 races; they are not forecasts of past elections. It preserves the exact official baseline at zero intervention. Composition batteries are constrained, protected exogenous variables do not receive reverse feedback, and the reconciled national state is translated into a national two-party impulse and regularized race-specific responses before race-level winners are recomputed.
 
 It is a counterfactual presentation/runtime layer. It does not overwrite the official forecast and does not rerun the full Monte Carlo distribution for every slider movement.
 
@@ -56,4 +59,5 @@ Forecasts are conditional on available inputs and modeling assumptions. Error ma
 ## Human oversight
 
 Source refreshes, mapping overrides, data exclusions, method promotion, and publication remain subject to documented human review. The model supports judgment; it does not eliminate it.
+
 

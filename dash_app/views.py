@@ -502,7 +502,7 @@ def senate_view(signature: str):
     states = senate.sort_values("D Win Probability", key=lambda x:(x-50).abs())["STATE"].astype(str).tolist() if not senate.empty else []
     return html.Div([
         html.Section([
-            section_header("Senate battlefield", "Explore the Senate, race by race", "Interactive state desk for the official v30 central pattern. Explore the 12 monitored state models, holds/flips and all 35 scheduled elections without changing the forecast."),
+            section_header("Senate battlefield", "Explore the Senate, race by race", "Interactive state desk for the official v30 central pattern. Explore the 15 monitored state models and 20 structural-only races, holds/flips and all 35 scheduled elections without changing the forecast."),
             chamber_control_hero(b, "Senate"),
             seat_change_strip(b, "Senate"),
             html.Div([
@@ -893,7 +893,7 @@ def scenario_view(signature: str):
             section_header(
                 "COUNTERFACTUAL DATA LAB",
                 "Scenario Lab",
-                f"Adjust the observed national snapshot and rerun the v30.7 directed-causal, race-first counterfactual across 42 synchronized outputs, all 435 House districts, and all 35 scheduled Senate elections. Reset is exactly the current official central forecast: House D{official_house_d}–R{official_house_r} · Senate D{official_senate_d}–R{official_senate_r}.",
+                f"Adjust the observed national snapshot and rerun the v30.9 historical-local-response, race-first counterfactual across 42 synchronized outputs, all 435 House districts, and all 35 scheduled Senate elections. Reset is exactly the current official central forecast: House D{official_house_d}–R{official_house_r} · Senate D{official_senate_d}–R{official_senate_r}.",
             ),
             html.Div([
                 html.Div("SCENARIO · NEVER OVERWRITES THE OFFICIAL FORECAST", className="scenario-warning"),
@@ -907,7 +907,7 @@ def scenario_view(signature: str):
                 html.Div([
                     html.Div("Build the counterfactual", className="panel-title"),
                     html.P(
-                        "Battery arithmetic is applied while dragging. On release, the same v30.7 directed-causal contract embedded in All-in-One reconciles the national state and applies one synchronized D−R swing to popular vote and both race-first maps.",
+                        "Battery arithmetic is applied while dragging. On release, the same v30.9 historical-local-response contract embedded in All-in-One reconciles the national state and applies one synchronized D−R swing to popular vote and both race-first maps.",
                         className="scenario-copy",
                     ),
                 ], className="scenario-slider-intro"),
@@ -992,3 +992,4 @@ def render_tab(tab: str, signature: str):
         "validation": validation_view,
         "scenario": scenario_view,
     }.get(tab, overview_view)(signature)
+
