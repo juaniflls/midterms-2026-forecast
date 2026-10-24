@@ -16,7 +16,7 @@ NOTEBOOK = ROOT / "NUCLEUS42_v30_SIN_FINANZAS_NI_POLLS_EXTERNOS.ipynb"
 HTML = ROOT / "NUCLEUS42_v30_RaceCards.html"
 MODEL = ROOT / "Model.xlsx"
 REPORT = ROOT / "outputs" / "Election_Model_Final_Report_v30.xlsx"
-V30_ORIGINAL_ENGINE_SHA256 = "fbe5f69839ae2562c6667c0eaa25a1fa536cfda472ac041edf96f5079f512452"
+V30_IMMUTABLE_STATISTICAL_SHA256 = "e0660c24c295b4f6fe268234081882c6d6f4b4607ee356afad4132d31ac44d7e"
 V30_SOURCE_BLOCK_SHA256 = "c1bc8cae187591e167ffb03dfc4e39d5799ca29134321a5f98d28f1d3c3e45f0"
 
 
@@ -38,8 +38,23 @@ if NOTEBOOK.is_file():
     checks["notebook format v4"] = nb.get("nbformat") == 4
     checks["notebook has 18 code cells"] = sum(c.get("cell_type") == "code" for c in nb.get("cells", [])) == 18
     blocks = ["".join(c.get("source", [])) for c in nb["cells"]]
-    original_engine = "".join(blocks[i] for i,c in enumerate(nb["cells"]) if c["cell_type"] == "code" and i not in (4,34,36))
-    checks["uploaded v30 statistical blocks preserved"] = hashlib.sha256(original_engine.encode()).hexdigest() == V30_ORIGINAL_ENGINE_SHA256
+    # The v30.9 update intentionally edits Block 6E (scenarios), Block 7
+    # (auxiliary report exports), and Block 8 (HTML). Keep the central
+    # statistical engine fingerprint anchored to the PRE-v30.9 notebook.
+    # Block 1 and 9 have separate guards below.
+    immutable_engine = "".join(
+        blocks[i] for i, c in enumerate(nb["cells"])
+        if c["cell_type"] == "code" and i not in (4, 30, 32, 34, 36)
+    )
+    checks["uploaded v30 statistical blocks preserved"] = (
+        hashlib.sha256(immutable_engine.encode()).hexdigest()
+        == V30_IMMUTABLE_STATISTICAL_SHA256
+    )
+    checks["Block 6E historical Scenario Lab v30.9"] = (
+        "v30.9" in blocks[30]
+        and all(str(year) in blocks[30] for year in (2006, 2010, 2014, 2018, 2022))
+    )
+    checks["Block 7 auxiliary report exporter preserved"] = "export_block45_reports" in blocks[32]
     # The project-root guard has evolved since the original v30 source hash.
     # Keep the engine hash above immutable, and validate the current manual
     # workbook/path contract directly rather than a stale route-specific hash.
@@ -76,7 +91,7 @@ if HTML.is_file():
         print("Visual validation:", exc)
     checks["470 race cards embedded"] = all(x in text for x in ("n42RaceData", "N42_RACECARDS_BEGIN", "n42-racecards-style"))
     checks["Race Card map hover/click bundle embedded"] = "interface" in text.lower() and "ID-SEN" in text
-    checks["HTML engine v30.8"] = "v30.8-reciprocal-standing-race-first" in text
+    checks["HTML engine v30.9"] = "v30.9-historical-local-response" in text
     checks["HTML reciprocal standing bridge"] = all(
         marker in text
         for marker in (

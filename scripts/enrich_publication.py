@@ -21,8 +21,17 @@ if str(ROOT) not in sys.path:
 def validate_publication(path):
     """Reject the old dashboard even when its title and file size look valid."""
     text = Path(path).read_text(encoding="utf-8")
-    from plotly.offline import get_plotlyjs
-    if get_plotlyjs() not in text:
+    # The published HTML embeds Plotly.js. Checking it must not depend on the
+    # separately installed Python plotly package or its exact JS version.
+    plotly_header = re.search(
+        r"<script\b[^>]*>\s*/\*\*\s*\*\s*plotly\.js v\d+\.\d+\.\d+",
+        text,
+        flags=re.I,
+    )
+    if not plotly_header:
+        raise ValueError("El HTML no contiene un paquete Plotly.js incrustado.")
+    plotly_end = text.find("</script>", plotly_header.end())
+    if plotly_end < 0 or plotly_end - plotly_header.start() < 2_000_000:
         raise ValueError("El código de Plotly está incompleto o fue alterado por una inserción HTML.")
     required = ("N42_RACECARDS_BEGIN", "N42_RACECARDS_END",
                 'id="n42-racecards-style"', 'id="n42RaceData"')
