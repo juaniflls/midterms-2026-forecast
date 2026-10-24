@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 HTML = ROOT / "NUCLEUS42_v30_RaceCards.html"
-NOTEBOOK = ROOT / "NUCLEUS42_v30_SIN_FINANZAS_NI_POLLS_EXTERNOS.ipynb"
+NOTEBOOK = ROOT / "NUCLEUS42_v30.ipynb"
 
 checks: dict[str, bool] = {
     "publication HTML exists": HTML.is_file() and HTML.stat().st_size > 1_000_000,
@@ -92,3 +92,4 @@ if failed:
     sys.exit(1)
 
 print(f"STATUS: OK ({len(checks)}/{len(checks)} checks)")
+

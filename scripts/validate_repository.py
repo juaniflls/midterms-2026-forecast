@@ -12,11 +12,13 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NOTEBOOK = ROOT / "NUCLEUS42_v30_SIN_FINANZAS_NI_POLLS_EXTERNOS.ipynb"
+NOTEBOOK = ROOT / "NUCLEUS42_v30.ipynb"
 HTML = ROOT / "NUCLEUS42_v30_RaceCards.html"
 MODEL = ROOT / "Model.xlsx"
 REPORT = ROOT / "outputs" / "Election_Model_Final_Report_v30.xlsx"
-V30_IMMUTABLE_STATISTICAL_SHA256 = "e0660c24c295b4f6fe268234081882c6d6f4b4607ee356afad4132d31ac44d7e"
+# Approved 15/20 statistical source from the author's c1652e2 release commit.
+# This reference is fixed; it must never be calculated from the file under test.
+V30_IMMUTABLE_STATISTICAL_SHA256 = "fc13e338429ae98eebf2bf176ed2a0ae51dc8307cfca447ee27825fda95623d6"
 V30_SOURCE_BLOCK_SHA256 = "c1bc8cae187591e167ffb03dfc4e39d5799ca29134321a5f98d28f1d3c3e45f0"
 
 
@@ -38,10 +40,9 @@ if NOTEBOOK.is_file():
     checks["notebook format v4"] = nb.get("nbformat") == 4
     checks["notebook has 18 code cells"] = sum(c.get("cell_type") == "code" for c in nb.get("cells", [])) == 18
     blocks = ["".join(c.get("source", [])) for c in nb["cells"]]
-    # The v30.9 update intentionally edits Block 6E (scenarios), Block 7
-    # (auxiliary report exports), and Block 8 (HTML). Keep the central
-    # statistical engine fingerprint anchored to the PRE-v30.9 notebook.
-    # Block 1 and 9 have separate guards below.
+    # Preserve the author's approved 15/20 release source. Scenario,
+    # export and HTML blocks have separate guards below; they are not
+    # part of this statistical fingerprint. No notebook is modified here.
     immutable_engine = "".join(
         blocks[i] for i, c in enumerate(nb["cells"])
         if c["cell_type"] == "code" and i not in (4, 30, 32, 34, 36)
@@ -73,6 +74,10 @@ if NOTEBOOK.is_file():
         and not any("audit_new_web_sources" in s or "N42_WEB_AUDIT" in s or "Model.automated.xlsx" in s for s in blocks)
     )
     checks["Block 9 rejects old dashboard"] = "_n42_publication.validate_publication(_html_path)" in blocks[36]
+    checks["notebook Senate coverage is 15 monitored / 20 structural-only"] = (
+        "15 monitored / 20 structural-only" in blocks[36]
+        and 'len(senate_parser)!=15' in blocks[16]
+    )
     checks["CSS inserted outside Plotly script"] = 'id="n42-v30-upgrade-style"' in blocks[34] and 'html.replace("</style>", N42_UPGRADE_CSS' not in blocks[34]
     checks["notebook stores no error output"] = not any(
         output.get("output_type") == "error"
@@ -110,6 +115,11 @@ if REPORT.is_file():
     senate = pd.read_excel(xls, "SenateRaceDetail")
     checks["House has 435 districts"] = len(house) == 435
     checks["Senate has 35 races"] = len(senate) == 35
+    checks["Senate report has 15 monitored and 20 structural-only races"] = (
+        "Monitored" in senate
+        and int(pd.to_numeric(senate["Monitored"], errors="coerce").fillna(0).sum()) == 15
+        and len(senate) == 35
+    )
     consistency = pd.read_excel(xls, "ConsistencyAudit")
     checks["consistency audit passes"] = "Passed" in consistency and consistency["Passed"].astype(bool).all()
     gate = pd.read_excel(xls, "V30ReleaseGate")
@@ -149,3 +159,4 @@ if failed:
     print(f"STATUS: FAIL ({len(failed)} checks)")
     sys.exit(1)
 print(f"STATUS: OK ({len(checks)}/{len(checks)} checks)")
+
